@@ -1,8 +1,8 @@
-Matches saved 2021-06-27, status: c:181/181 m:881/881 f:910/910 ma:1467/1467, input files:
+Matches saved 2021-06-27, status: c:181/181 m:880/881 f:910/910 ma:1466/1467, input files:
 	a:
-		291588	ew6Jxfj3U3ShVNyjVtFFY9pjiLM9j0aHlG2isMshmnA=	minecraft-c0.30-2.jar
+		291582	WNuEv3qpvLX0vdwRKnee64hcXk+nodAeVv2Fkh1Q3ss=	minecraft-c0.30-s.jar
 	b:
-		297776	O/qpzsz9SfYtTBhj1c1WXCTeH4O6uYKjjkgRrDaZk6U=	minecraft-c0.30-c-renew.jar
+		291588	ew6Jxfj3U3ShVNyjVtFFY9pjiLM9j0aHlG2isMshmnA=	minecraft-c0.30-c.jar
 	cp:
 		27583	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
 		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
@@ -829,8 +829,6 @@ c	Lcom/mojang/minecraft/c;	Lcom/mojang/minecraft/c;
 	f	c;;Lcom/mojang/minecraft/l;	c;;Lcom/mojang/minecraft/l;
 	f	a;;Z	a;;Z
 c	Lcom/mojang/minecraft/d/a;	Lcom/mojang/minecraft/d/a;
-	m	<init>(Lcom/mojang/minecraft/l;)V	<init>(Lcom/mojang/minecraft/l;)V
-		ma	0	0
 	m	a()V	a()V
 	m	a(Lcom/mojang/minecraft/level/Level;)V	a(Lcom/mojang/minecraft/level/Level;)V
 		ma	0	0
@@ -876,6 +874,7 @@ c	Lcom/mojang/minecraft/d/b;	Lcom/mojang/minecraft/d/b;
 	f	a;;Lcom/mojang/minecraft/l;	a;;Lcom/mojang/minecraft/l;
 	f	b;;Z	b;;Z
 c	Lcom/mojang/minecraft/d/c;	Lcom/mojang/minecraft/d/c;
+	mu	a	<init>(Lcom/mojang/minecraft/l;)V
 	m	b(Lcom/mojang/minecraft/player/Player;)V	b(Lcom/mojang/minecraft/player/Player;)V
 		ma	0	0
 	m	b(III)V	b(III)V
