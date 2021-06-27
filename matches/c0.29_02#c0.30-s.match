@@ -1,8 +1,8 @@
-Matches saved 2021-06-27, status: c:181/181 m:880/881 f:910/910 ma:1466/1467, input files:
+Matches saved 2021-06-27, status: c:178/178 m:853/854 f:896/896 ma:1419/1423, input files:
 	a:
-		291582	WNuEv3qpvLX0vdwRKnee64hcXk+nodAeVv2Fkh1Q3ss=	minecraft-c0.30-1.jar
+		285563	2tD9HePOjnoM/9KiBvd1FMJlRkZfK3hgLEfgO3Ub4Jk=	minecraft-c0.29_02.jar
 	b:
-		291588	ew6Jxfj3U3ShVNyjVtFFY9pjiLM9j0aHlG2isMshmnA=	minecraft-c0.30-2.jar
+		291582	WNuEv3qpvLX0vdwRKnee64hcXk+nodAeVv2Fkh1Q3ss=	minecraft-c0.30-s.jar
 	cp:
 		27583	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
 		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
@@ -451,7 +451,6 @@ c	Lcom/mojang/minecraft/a;	Lcom/mojang/minecraft/a;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
 	f	c;;Ljava/lang/String;	c;;Ljava/lang/String;
 	f	d;;Ljava/lang/String;	d;;Ljava/lang/String;
-	f	e;;Z	e;;Z
 c	Lcom/mojang/minecraft/b/a/a;	Lcom/mojang/minecraft/b/a/a;
 	m	<init>()V	<init>()V
 	m	a()V	a()V
@@ -874,7 +873,6 @@ c	Lcom/mojang/minecraft/d/b;	Lcom/mojang/minecraft/d/b;
 	f	a;;Lcom/mojang/minecraft/l;	a;;Lcom/mojang/minecraft/l;
 	f	b;;Z	b;;Z
 c	Lcom/mojang/minecraft/d/c;	Lcom/mojang/minecraft/d/c;
-	mu	a	<init>(Lcom/mojang/minecraft/l;)V
 	m	b(Lcom/mojang/minecraft/player/Player;)V	b(Lcom/mojang/minecraft/player/Player;)V
 		ma	0	0
 	m	b(III)V	b(III)V
@@ -1094,11 +1092,6 @@ c	Lcom/mojang/minecraft/e/k;	Lcom/mojang/minecraft/e/k;
 	m	a()V	a()V
 	m	a([Ljava/lang/String;)V	a([Ljava/lang/String;)V
 		ma	0	0
-	m	a(II)V	a(II)V
-		ma	0	0
-		ma	1	1
-	m	a(Ljava/io/File;)V	a(Ljava/io/File;)V
-		ma	0	0
 	m	a(I)V	a(I)V
 		ma	0	0
 c	Lcom/mojang/minecraft/e/l;	Lcom/mojang/minecraft/e/l;
@@ -1186,12 +1179,7 @@ c	Lcom/mojang/minecraft/e/o;	Lcom/mojang/minecraft/e/o;
 	f	d;;Ljava/util/List;	d;;Ljava/util/List;
 	f	e;;Z	e;;Z
 	f	f;;Lcom/mojang/minecraft/e/l;	f;;Lcom/mojang/minecraft/e/l;
-c	Lcom/mojang/minecraft/e/p;	Lcom/mojang/minecraft/e/p;
-	m	<init>(Lcom/mojang/minecraft/e/q;)V	<init>(Lcom/mojang/minecraft/e/q;)V
-		ma	0	0
-	m	run()V	run()V
-	f	a;;Lcom/mojang/minecraft/e/q;	a;;Lcom/mojang/minecraft/e/q;
-c	Lcom/mojang/minecraft/e/q;	Lcom/mojang/minecraft/e/q;
+c	Lcom/mojang/minecraft/e/p;	Lcom/mojang/minecraft/e/q;
 	m	<init>(Lcom/mojang/minecraft/e/o;)V	<init>(Lcom/mojang/minecraft/e/o;)V
 		ma	0	0
 	m	run()V	run()V
@@ -1200,26 +1188,19 @@ c	Lcom/mojang/minecraft/e/q;	Lcom/mojang/minecraft/e/q;
 	m	a()V	a()V
 	m	a(Lcom/mojang/minecraft/e/e;)V	a(Lcom/mojang/minecraft/e/e;)V
 		ma	0	0
-	m	a(Ljava/io/File;)V	a(Ljava/io/File;)V
-		ma	0	0
 	m	a(I)V	a(I)V
 		ma	0	0
 	m	a(II)V	a(II)V
 		ma	0	0
 		ma	1	1
-	m	b()V	b()V
-	m	c()V	c()V
-	f	g;;Lcom/mojang/minecraft/e/o;	g;;Lcom/mojang/minecraft/e/o;
-	f	n;;Z	n;;Z
-	f	o;;Z	o;;Z
-	f	p;;[Ljava/lang/String;	p;;[Ljava/lang/String;
-	f	q;;Ljava/lang/String;	q;;Ljava/lang/String;
-	f	h;;Ljava/lang/String;	h;;Ljava/lang/String;
-	f	j;;Z	j;;Z
-	f	k;;Ljavax/swing/JFileChooser;	k;;Ljavax/swing/JFileChooser;
-	f	l;;Z	l;;Z
-	f	m;;Ljava/io/File;	m;;Ljava/io/File;
-c	Lcom/mojang/minecraft/e/r;	Lcom/mojang/minecraft/e/r;
+	f	h;;Lcom/mojang/minecraft/e/o;	g;;Lcom/mojang/minecraft/e/o;
+	f	j;;Z	n;;Z
+	f	k;;Z	o;;Z
+	f	l;;[Ljava/lang/String;	p;;[Ljava/lang/String;
+	f	m;;Ljava/lang/String;	q;;Ljava/lang/String;
+	f	g;;Ljava/lang/String;	h;;Ljava/lang/String;
+	f	n;;Z	j;;Z
+c	Lcom/mojang/minecraft/e/q;	Lcom/mojang/minecraft/e/r;
 	m	<init>()V	<init>()V
 	m	a()V	a()V
 	m	a(Lcom/mojang/minecraft/e/e;)V	a(Lcom/mojang/minecraft/e/e;)V
@@ -1257,7 +1238,6 @@ c	Lcom/mojang/minecraft/h;	Lcom/mojang/minecraft/h;
 	f	a;;Lcom/mojang/minecraft/l;	a;;Lcom/mojang/minecraft/l;
 c	Lcom/mojang/minecraft/i;	Lcom/mojang/minecraft/i;
 	m	<init>(Lcom/mojang/minecraft/l;)V	<init>(Lcom/mojang/minecraft/l;)V
-		ma	0	0
 	m	a(Ljava/lang/String;)V	a(Ljava/lang/String;)V
 		ma	0	0
 	m	b(Ljava/lang/String;)V	b(Ljava/lang/String;)V
@@ -1267,7 +1247,6 @@ c	Lcom/mojang/minecraft/i;	Lcom/mojang/minecraft/i;
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;Lcom/mojang/minecraft/l;	b;;Lcom/mojang/minecraft/l;
 	f	c;;Ljava/lang/String;	c;;Ljava/lang/String;
-	f	d;;J	d;;J
 c	Lcom/mojang/minecraft/item/Arrow;	Lcom/mojang/minecraft/item/Arrow;
 	m	<init>(Lcom/mojang/minecraft/level/Level;Lcom/mojang/minecraft/Entity;FFFFFF)V	<init>(Lcom/mojang/minecraft/level/Level;Lcom/mojang/minecraft/Entity;FFFFFF)V
 		ma	0	0
@@ -1327,28 +1306,6 @@ c	Lcom/mojang/minecraft/item/Item;	Lcom/mojang/minecraft/item/Item;
 	f	resource;;I	resource;;I
 	f	tickCount;;I	tickCount;;I
 	f	age;;I	age;;I
-c	Lcom/mojang/minecraft/item/PrimedTnt;	Lcom/mojang/minecraft/item/PrimedTnt;
-	m	<init>(Lcom/mojang/minecraft/level/Level;FFF)V	<init>(Lcom/mojang/minecraft/level/Level;FFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	hurt(Lcom/mojang/minecraft/Entity;I)V	hurt(Lcom/mojang/minecraft/Entity;I)V
-		ma	0	0
-		ma	1	1
-	m	isPickable()Z	isPickable()Z
-	m	tick()V	tick()V
-	m	playerTouch(Lcom/mojang/minecraft/Entity;)V	playerTouch(Lcom/mojang/minecraft/Entity;)V
-		ma	0	0
-	m	render$2a8c5a(Lcom/mojang/minecraft/b/a;F)V	render$2a8c5a(Lcom/mojang/minecraft/b/a;F)V
-		ma	0	0
-		ma	1	1
-	f	serialVersionUID;;J	serialVersionUID;;J
-	f	xd;;F	xd;;F
-	f	yd;;F	yd;;F
-	f	zd;;F	zd;;F
-	f	life;;I	life;;I
-	f	defused;;Z	defused;;Z
 c	Lcom/mojang/minecraft/item/TakeEntityAnim;	Lcom/mojang/minecraft/item/TakeEntityAnim;
 	m	<init>(Lcom/mojang/minecraft/level/Level;Lcom/mojang/minecraft/Entity;Lcom/mojang/minecraft/Entity;)V	<init>(Lcom/mojang/minecraft/level/Level;Lcom/mojang/minecraft/Entity;Lcom/mojang/minecraft/Entity;)V
 		ma	0	0
@@ -1476,13 +1433,12 @@ c	Lcom/mojang/minecraft/l;	Lcom/mojang/minecraft/l;
 	f	z;;Lcom/mojang/minecraft/c/i;	z;;Lcom/mojang/minecraft/c/i;
 	f	A;;Lcom/mojang/minecraft/g;	A;;Lcom/mojang/minecraft/g;
 	f	B;;Lcom/mojang/minecraft/k;	B;;Lcom/mojang/minecraft/k;
-	f	O;;Lcom/mojang/minecraft/MinecraftApplet;	O;;Lcom/mojang/minecraft/MinecraftApplet;
 	f	C;;Ljava/lang/String;	C;;Ljava/lang/String;
 	f	D;;I	D;;I
 	f	E;;Z	E;;Z
 	f	F;;Ljava/lang/String;	F;;Ljava/lang/String;
 	f	G;;Z	G;;Z
-	f	P;;I	P;;I
+	f	O;;I	P;;I
 	f	H;;Z	H;;Z
 c	Lcom/mojang/minecraft/level/BlockMap$Slot;	Lcom/mojang/minecraft/level/BlockMap$Slot;
 	m	<init>(Lcom/mojang/minecraft/level/BlockMap;)V	<init>(Lcom/mojang/minecraft/level/BlockMap;)V
@@ -1848,11 +1804,6 @@ c	Lcom/mojang/minecraft/level/a/a;	Lcom/mojang/minecraft/level/a/a;
 c	Lcom/mojang/minecraft/level/a;	Lcom/mojang/minecraft/level/a;
 	m	<init>(Lcom/mojang/minecraft/i;)V	<init>(Lcom/mojang/minecraft/i;)V
 		ma	0	0
-	m	a(Lcom/mojang/minecraft/level/Level;Ljava/io/File;)Z	a(Lcom/mojang/minecraft/level/Level;Ljava/io/File;)Z
-		ma	0	0
-		ma	1	1
-	m	a(Ljava/io/File;)Lcom/mojang/minecraft/level/Level;	a(Ljava/io/File;)Lcom/mojang/minecraft/level/Level;
-		ma	0	0
 	m	a(Lcom/mojang/minecraft/level/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Z	a(Lcom/mojang/minecraft/level/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Z
 		ma	0	0
 		ma	1	1
@@ -2039,22 +1990,16 @@ c	Lcom/mojang/minecraft/level/tile/a;	Lcom/mojang/minecraft/level/tile/a;
 		ma	2	2
 		ma	3	3
 	m	f()I	f()I
-	m	g()I	g()I
-	m	h()I	h()I
+	m	g()I	h()I
 	m	e(Lcom/mojang/minecraft/level/Level;III)V	e(Lcom/mojang/minecraft/level/Level;III)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	a(Lcom/mojang/minecraft/level/Level;IIIF)V	a(Lcom/mojang/minecraft/level/Level;IIIF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
+	m	a(F)V	a(Lcom/mojang/minecraft/level/Level;IIIF)V
 	m	b(Lcom/mojang/minecraft/b/c;)V	b(Lcom/mojang/minecraft/b/c;)V
 		ma	0	0
-	m	i()Z	i()Z
+	m	h()Z	i()Z
 	m	a(IIILcom/mojang/minecraft/a/c;Lcom/mojang/minecraft/a/c;)Lcom/mojang/minecraft/g;	a(IIILcom/mojang/minecraft/a/c;Lcom/mojang/minecraft/a/c;)Lcom/mojang/minecraft/g;
 		ma	0	0
 		ma	1	1
@@ -2067,18 +2012,13 @@ c	Lcom/mojang/minecraft/level/tile/a;	Lcom/mojang/minecraft/level/tile/a;
 		ma	0	0
 	m	c(Lcom/mojang/minecraft/a/c;)Z	c(Lcom/mojang/minecraft/a/c;)Z
 		ma	0	0
-	m	f(Lcom/mojang/minecraft/level/Level;III)V	f(Lcom/mojang/minecraft/level/Level;III)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
 	m	a(Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/b/c;)Z	a(Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/b/c;)Z
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	m	j()I	j()I
+	m	i()I	j()I
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/Random;	a;;Ljava/util/Random;
 	f	b;;[Lcom/mojang/minecraft/level/tile/a;	b;;[Lcom/mojang/minecraft/level/tile/a;
@@ -2176,21 +2116,18 @@ c	Lcom/mojang/minecraft/level/tile/e;	Lcom/mojang/minecraft/level/tile/e;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
 	m	f()I	f()I
-	m	g()I	g()I
 	m	b(I)I	b(I)I
 		ma	0	0
 c	Lcom/mojang/minecraft/level/tile/f;	Lcom/mojang/minecraft/level/tile/f;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
 		ma	1	1
-	m	g()I	g()I
 	m	f()I	f()I
 c	Lcom/mojang/minecraft/level/tile/g;	Lcom/mojang/minecraft/level/tile/g;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
 		ma	1	1
 	m	f()I	f()I
-	m	g()I	g()I
 c	Lcom/mojang/minecraft/level/tile/h;	Lcom/mojang/minecraft/level/tile/h;
 	m	<init>(IIZ)V	<init>(IIZ)V
 		ma	0	0
@@ -2221,12 +2158,12 @@ c	Lcom/mojang/minecraft/level/tile/i;	Lcom/mojang/minecraft/level/tile/i;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	m	g(Lcom/mojang/minecraft/level/Level;III)Z	g(Lcom/mojang/minecraft/level/Level;III)Z
+	m	f(Lcom/mojang/minecraft/level/Level;III)Z	g(Lcom/mojang/minecraft/level/Level;III)Z
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	h(Lcom/mojang/minecraft/level/Level;III)Z	h(Lcom/mojang/minecraft/level/Level;III)Z
+	m	g(Lcom/mojang/minecraft/level/Level;III)Z	h(Lcom/mojang/minecraft/level/Level;III)Z
 		ma	0	0
 		ma	1	1
 		ma	2	2
@@ -2262,19 +2199,15 @@ c	Lcom/mojang/minecraft/level/tile/i;	Lcom/mojang/minecraft/level/tile/i;
 		ma	3	3
 		ma	4	4
 	m	e()I	e()I
-	m	a(Lcom/mojang/minecraft/level/Level;IIIF)V	a(Lcom/mojang/minecraft/level/Level;IIIF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
+	m	a(F)V	a(Lcom/mojang/minecraft/level/Level;IIIF)V
+		ma	0	4
 	m	e(Lcom/mojang/minecraft/level/Level;III)V	e(Lcom/mojang/minecraft/level/Level;III)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
 	m	f()I	f()I
-	m	j()I	j()I
+	m	i()I	j()I
 	f	al;;Lcom/mojang/minecraft/level/b/a;	al;;Lcom/mojang/minecraft/level/b/a;
 	f	am;;I	am;;I
 	f	an;;I	an;;I
@@ -2285,22 +2218,15 @@ c	Lcom/mojang/minecraft/level/tile/j;	Lcom/mojang/minecraft/level/tile/j;
 	m	b(I)I	b(I)I
 		ma	0	0
 	m	f()I	f()I
-	m	f(Lcom/mojang/minecraft/level/Level;III)V	f(Lcom/mojang/minecraft/level/Level;III)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
 	m	a(Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/particle/a;)V	a(Lcom/mojang/minecraft/level/Level;IIILcom/mojang/minecraft/particle/a;)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
-		ma	4	4
 c	Lcom/mojang/minecraft/level/tile/k;	Lcom/mojang/minecraft/level/tile/k;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
 		ma	1	1
-	m	g()I	g()I
 c	Lcom/mojang/minecraft/level/tile/l;	Lcom/mojang/minecraft/level/tile/l;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
@@ -2316,7 +2242,7 @@ c	Lcom/mojang/minecraft/level/tile/l;	Lcom/mojang/minecraft/level/tile/l;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	m	g(Lcom/mojang/minecraft/level/Level;III)V	g(Lcom/mojang/minecraft/level/Level;III)V
+	m	f(Lcom/mojang/minecraft/level/Level;III)V	g(Lcom/mojang/minecraft/level/Level;III)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
@@ -2372,7 +2298,6 @@ c	Lcom/mojang/minecraft/level/tile/p;	Lcom/mojang/minecraft/level/tile/p;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	g()I	g()I
 	m	a()Z	a()Z
 	m	a(Lcom/mojang/minecraft/level/Level;IIII)Z	a(Lcom/mojang/minecraft/level/Level;IIII)Z
 		ma	0	0
@@ -2392,7 +2317,6 @@ c	Lcom/mojang/minecraft/level/tile/q;	Lcom/mojang/minecraft/level/tile/q;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	m	g()I	g()I
 c	Lcom/mojang/minecraft/level/tile/r;	Lcom/mojang/minecraft/level/tile/r;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
@@ -2861,22 +2785,6 @@ c	Lcom/mojang/minecraft/particle/Particle;	Lcom/mojang/minecraft/particle/Partic
 	f	rCol;;F	rCol;;F
 	f	gCol;;F	gCol;;F
 	f	bCol;;F	bCol;;F
-c	Lcom/mojang/minecraft/particle/SmokeParticle;	Lcom/mojang/minecraft/particle/SmokeParticle;
-	m	<init>(Lcom/mojang/minecraft/level/Level;FFF)V	<init>(Lcom/mojang/minecraft/level/Level;FFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	render$12562f50(Lcom/mojang/minecraft/b/c;FFFFFF)V	render$12562f50(Lcom/mojang/minecraft/b/c;FFFFFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-		ma	6	6
-	m	tick()V	tick()V
-	f	serialVersionUID;;J	serialVersionUID;;J
 c	Lcom/mojang/minecraft/particle/TerrainParticle;	Lcom/mojang/minecraft/particle/TerrainParticle;
 	m	<init>(Lcom/mojang/minecraft/level/Level;FFFFFFLcom/mojang/minecraft/level/tile/a;)V	<init>(Lcom/mojang/minecraft/level/Level;FFFFFFLcom/mojang/minecraft/level/tile/a;)V
 		ma	0	0
