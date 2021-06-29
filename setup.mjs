@@ -3,6 +3,7 @@ import path from 'path'
 import fetch from 'node-fetch'
 
 const versionDataDir = path.resolve('mc-versions', 'data')
+const versionDir = path.resolve(versionDataDir, 'version')
 
 ;(async () => {
     const manifest = JSON.parse(fs.readFileSync(path.resolve(versionDataDir, 'version_manifest.json')))
@@ -10,14 +11,23 @@ const versionDataDir = path.resolve('mc-versions', 'data')
         await setupMatchEnv(manifest, process.argv[2], process.argv[3])
     } else {
         const next = process.argv.length > 2 && process.argv[2] === 'next'
-        const versions = manifest.versions
-        for (let i = versions.length - 1; i > 1; i--) {
-            if (await setupMatchEnv(manifest, versions[i].omniId, versions[i - 1].omniId) && next) {
-                break
-            }
-        }
+        const first = manifest.versions[manifest.versions.length - 1].omniId
+        await setupWalkGraph(manifest, first, next)
     }
 })()
+
+async function setupWalkGraph(manifest, version, next) {
+    const data = JSON.parse(fs.readFileSync(path.resolve(versionDir, `${version}.json`)))
+    let anyChanged = false
+    for (const nextVersion of data.next) {
+        const changed = await setupMatchEnv(manifest, version, nextVersion) || await setupWalkGraph(manifest, nextVersion)
+        if (changed && next) {
+            return true
+        }
+        anyChanged = anyChanged || changed
+    }
+    return anyChanged
+}
 
 async function setupMatchEnv(manifest, versionA, versionB) {
     const infoA = await getVersionInfo(manifest, versionA)
