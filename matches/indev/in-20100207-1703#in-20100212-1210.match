@@ -15,6 +15,10 @@ Matches saved 2021-09-05, status: c:287/287 m:2058/2074 f:1508/1512 ma:3388/3435
 		173338	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
 	cp a:
 	cp b:
+	non-obf cls a	paulscode|jcraft
+	non-obf cls b	paulscode|jcraft
+	non-obf mem a	paulscode|jcraft
+	non-obf mem b	paulscode|jcraft
 c	La/a;	La/a;
 	m	<init>()V	<init>()V
 	m	a(F)F	a(F)F

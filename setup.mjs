@@ -70,6 +70,9 @@ async function setupMatchEnv(manifest, versionA, versionB) {
         for (const cp of libsA) lines.push(`\t\t${path.basename(cp)}`)
         lines.push('\tcp b:')
         for (const cp of libsB) lines.push(`\t\t${path.basename(cp)}`)
+        for (const type of ['cls', 'mem']) for (const side of ['a', 'b']) {
+            lines.push(`\tnon-obf ${type} ${side}\tpaulscode|jcraft`)
+        }
         lines.push('c\tLdummy;\tLdummy;', '')
         fs.writeFileSync(matchFile, lines.join('\n'))
         return true

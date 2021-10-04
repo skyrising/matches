@@ -15,6 +15,10 @@ Matches saved 2021-10-04, status: c:400/400 m:3125/3128 f:1995/1995 ma:5656/5656
 	cp a:
 	cp b:
 		27787	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
+	non-obf cls a	paulscode|jcraft
+	non-obf cls b	paulscode|jcraft
+	non-obf mem a	paulscode|jcraft
+	non-obf mem b	paulscode|jcraft
 c	La;	La;
 	m	<init>(III)V	<init>(III)V
 		ma	0	0
