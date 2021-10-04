@@ -29,6 +29,22 @@ async function setupWalkGraph(manifest, version, next) {
     return anyChanged
 }
 
+const ERAS = {
+    inf: 'infdev',
+    in: 'indev',
+    a: 'alpha',
+    b: 'beta',
+    c: 'classic',
+    rd: 'pre-classic'
+}
+
+function getEra(version) {
+    for (const key in ERAS) {
+        if (version.startsWith(key)) return ERAS[key]
+    }
+    return
+}
+
 async function setupMatchEnv(manifest, versionA, versionB) {
     const infoA = await getVersionInfo(manifest, versionA)
     const mainJarA = await getMainJar(infoA, versionA)
@@ -40,7 +56,10 @@ async function setupMatchEnv(manifest, versionA, versionB) {
     console.log(mainJarA, libsA)
     console.log(mainJarB, libsB)
     console.log(shared)
-    const matchFile = path.resolve('matches', `${versionA}#${versionB}.match`)
+    const eraA = getEra(versionA)
+    const eraB = getEra(versionB)
+    const matchDir = eraA === eraB && eraA ? path.resolve('matches', eraA) : path.resolve('matches')
+    const matchFile = path.resolve(matchDir, `${versionA}#${versionB}.match`)
     if (!fs.existsSync(matchFile)) {
         const lines = ['Matches saved auto-generated']
         lines.push('\ta:', `\t\t${path.basename(mainJarA)}`)
