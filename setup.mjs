@@ -42,7 +42,13 @@ function getEra(version) {
     for (const key in ERAS) {
         if (version.startsWith(key)) return ERAS[key]
     }
-    return
+    const releaseTarget = getVersionDetails(version).releaseTarget
+    console.log(releaseTarget)
+    if (releaseTarget && /^\d+\.\d+/.test(releaseTarget)) {
+        const [, era] = releaseTarget.match(/^(\d+\.\d+)/)
+        return era
+    }
+    return releaseTarget
 }
 
 async function setupMatchEnv(manifest, versionA, versionB) {
@@ -56,9 +62,8 @@ async function setupMatchEnv(manifest, versionA, versionB) {
     console.log(mainJarA, libsA)
     console.log(mainJarB, libsB)
     console.log(shared)
-    const eraA = getEra(versionA)
     const eraB = getEra(versionB)
-    const matchDir = eraA === eraB && eraA ? path.resolve('matches', eraA) : path.resolve('matches')
+    const matchDir = eraB ? path.resolve('matches', eraB) : path.resolve('matches')
     const matchFile = path.resolve(matchDir, `${versionA}#${versionB}.match`)
     if (!fs.existsSync(matchFile)) {
         const lines = ['Matches saved auto-generated']
@@ -74,6 +79,7 @@ async function setupMatchEnv(manifest, versionA, versionB) {
             lines.push(`\tnon-obf ${type} ${side}\tpaulscode|jcraft`)
         }
         lines.push('c\tLdummy;\tLdummy;', '')
+        mkdirp(path.dirname(matchFile))
         fs.writeFileSync(matchFile, lines.join('\n'))
         return true
     }
@@ -87,6 +93,10 @@ async function getVersionInfo(manifest, id) {
         return
     }
     return JSON.parse(fs.readFileSync(path.resolve(versionDataDir, info.url)))
+}
+
+function getVersionDetails(id) {
+    return JSON.parse(fs.readFileSync(path.resolve(versionDataDir, 'version', id + '.json')))
 }
 
 async function getMainJar(version, id) {
