@@ -5,6 +5,15 @@ import fetch from 'node-fetch'
 const versionDataDir = path.resolve('mc-versions', 'data')
 const versionDir = path.resolve(versionDataDir, 'version')
 
+const ERAS = {
+    inf: 'infdev',
+    in: 'indev',
+    a: 'alpha',
+    b: 'beta',
+    c: 'classic',
+    rd: 'pre-classic'
+}
+
 ;(async () => {
     const manifest = JSON.parse(fs.readFileSync(path.resolve(versionDataDir, 'version_manifest.json')))
     if (process.argv.length > 3) {
@@ -29,15 +38,6 @@ async function setupWalkGraph(manifest, version, next) {
     return anyChanged
 }
 
-const ERAS = {
-    inf: 'infdev',
-    in: 'indev',
-    a: 'alpha',
-    b: 'beta',
-    c: 'classic',
-    rd: 'pre-classic'
-}
-
 function getEra(version) {
     for (const key in ERAS) {
         if (version.startsWith(key)) return ERAS[key]
@@ -52,20 +52,20 @@ function getEra(version) {
 }
 
 async function setupMatchEnv(manifest, versionA, versionB) {
-    const infoA = await getVersionInfo(manifest, versionA)
-    const mainJarA = await getMainJar(infoA, versionA)
-    const librariesA = new Set(await getLibraries(infoA))
-    const infoB = await getVersionInfo(manifest, versionB)
-    const mainJarB = await getMainJar(infoB, versionB)
-    const librariesB = new Set(await getLibraries(infoB))
-    const [shared, libsA, libsB] = computeShared(librariesA, librariesB)
-    console.log(mainJarA, libsA)
-    console.log(mainJarB, libsB)
-    console.log(shared)
     const eraB = getEra(versionB)
     const matchDir = eraB ? path.resolve('matches', eraB) : path.resolve('matches')
     const matchFile = path.resolve(matchDir, `${versionA}#${versionB}.match`)
     if (!fs.existsSync(matchFile)) {
+        const infoA = await getVersionInfo(manifest, versionA)
+        const mainJarA = await getMainJar(infoA, versionA)
+        const librariesA = new Set(await getLibraries(infoA))
+        const infoB = await getVersionInfo(manifest, versionB)
+        const mainJarB = await getMainJar(infoB, versionB)
+        const librariesB = new Set(await getLibraries(infoB))
+        const [shared, libsA, libsB] = computeShared(librariesA, librariesB)
+        console.log(mainJarA, libsA)
+        console.log(mainJarB, libsB)
+        console.log(shared)
         const lines = ['Matches saved auto-generated']
         lines.push('\ta:', `\t\t${path.basename(mainJarA)}`)
         lines.push('\tb:', `\t\t${path.basename(mainJarB)}`)
