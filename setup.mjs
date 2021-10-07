@@ -101,25 +101,31 @@ function getVersionDetails(id) {
 
 async function getMainJar(version, id) {
     const dir = path.resolve('versions', id)
-    const files = []
+    const files = {}
     for (const key in version.downloads) {
         const download = version.downloads[key]
         if (!download.url.endsWith('.jar')) continue
+        if (key !== 'client' && key !== 'server') {
+            throw Error(`Unexpected jar download '${key}'`)
+        }
         const file = path.resolve(dir, key + '.jar')
-        files.push(file)
+        files[key] = file
         await downloadFile(download.url, file)
     }
-    if (files.length > 2) throw Error('More than 2 jar downloads, that\'s unexpected')
-    if (files.length === 0) throw Error('Expected at least one jar')
-    const merged = path.resolve(`libraries/com/mojang/minecraft/${id}/minecraft-${id}.jar`)
-    if (fs.existsSync(merged)) return merged
-    mkdirp(path.dirname(merged))
-    if (files.length === 2) {
+    if (!files.client && !files.server) throw Error('Expected at least one jar')
+    let name = 'minecraft'
+    if (files.server && !files.client) name = 'minecraft-server'
+    const dest = path.resolve(`libraries/com/mojang/${name}/${id}/${name}-${id}.jar`)
+    if (fs.existsSync(dest)) return dest
+    mkdirp(path.dirname(dest))
+    if (files.client && files.server && version.releaseTime > '2012-05-03') {
         throw Error('TODO: merge jars')
+    } else if (files.client) {
+        fs.linkSync(files.client, dest)
     } else {
-        fs.linkSync(files[0], merged)
+        fs.linkSync(files.server, dest)
     }
-    return merged
+    return dest
 }
 
 async function downloadFile(url, file) {
