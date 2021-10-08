@@ -1,9 +1,12 @@
 import fs from 'fs'
 import path from 'path'
 import fetch from 'node-fetch'
+import cp from 'child_process'
 
 const versionDataDir = path.resolve('mc-versions', 'data')
 const versionDir = path.resolve(versionDataDir, 'version')
+
+const STITCH = {maven: 'https://maven.fabricmc.net/', group: 'net.fabricmc', artifact: 'stitch', version: '0.6.1', classifier: 'all'}
 
 const ERAS = {
     inf: 'infdev',
@@ -43,7 +46,6 @@ function getEra(version) {
         if (version.startsWith(key)) return ERAS[key]
     }
     const releaseTarget = getVersionDetails(version).releaseTarget
-    console.log(releaseTarget)
     if (releaseTarget && /^\d+\.\d+/.test(releaseTarget)) {
         const [, era] = releaseTarget.match(/^(\d+\.\d+)/)
         return era
@@ -118,8 +120,8 @@ async function getMainJar(version, id) {
     const dest = path.resolve(`libraries/com/mojang/${name}/${id}/${name}-${id}.jar`)
     if (fs.existsSync(dest)) return dest
     mkdirp(path.dirname(dest))
-    if (files.client && files.server && version.releaseTime > '2012-05-03') {
-        throw Error('TODO: merge jars')
+    if (files.client && files.server && version.releaseTime > '2012-05-24') {
+        await mergeJars(files.client, files.server, dest)
     } else if (files.client) {
         fs.linkSync(files.client, dest)
     } else {
@@ -193,4 +195,36 @@ function promisifiedPipe(input, output) {
             if (end()) reject(err)
         })
     })
+}
+
+async function getTool(tool) {
+    const toolPath = `${tool.group.replace('.', '/')}/${tool.artifact}/${tool.version}/${tool.artifact}-${tool.version}${tool.classifier ? '-' + tool.classifier : ''}.jar`
+    const url = new URL(toolPath, tool.maven)
+    const file = path.resolve('libraries', toolPath)
+    await downloadFile(url, file)
+    return file
+}
+
+function spawn(program, args, opts) {
+  return new Promise((resolve, reject) => {
+    const c = cp.spawn(program, args, opts)
+    c.on('exit', code => {
+      if (code) reject(code)
+      else resolve(code)
+    })
+  })
+}
+
+function java(args, opts) {
+    const JAVA_HOME = process.env['JAVA_HOME']
+    const java = JAVA_HOME ? path.resolve(JAVA_HOME, 'bin/java') : 'java'
+    return spawn(java, args, opts)
+}
+
+async function stitch(...args) {
+    return java(['-jar', await getTool(STITCH), ...args], {stdio: 'inherit'})
+}
+
+function mergeJars(client, server, merged) {
+    return stitch('mergeJar', client, server, merged, '--removeSnowman', '--syntheticparams')
 }
