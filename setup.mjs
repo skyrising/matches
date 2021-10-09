@@ -32,7 +32,7 @@ async function setupWalkGraph(manifest, version, next) {
     const data = JSON.parse(fs.readFileSync(path.resolve(versionDir, `${version}.json`)))
     let anyChanged = false
     for (const nextVersion of data.next) {
-        const changed = await setupMatchEnv(manifest, version, nextVersion) || await setupWalkGraph(manifest, nextVersion)
+        const changed = await setupMatchEnv(manifest, version, nextVersion) || await setupWalkGraph(manifest, nextVersion, next)
         if (changed && next) {
             return true
         }
