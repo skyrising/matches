@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import fetch from 'node-fetch'
-import cp from 'child_process'
+import {spawn} from './utils.mjs'
 
 const versionDataDir = path.resolve('mc-versions', 'data')
 const versionDir = path.resolve(versionDataDir, 'version')
@@ -204,16 +204,6 @@ async function getTool(tool) {
     const file = path.resolve('libraries', toolPath)
     await downloadFile(url, file)
     return file
-}
-
-function spawn(program, args, opts) {
-  return new Promise((resolve, reject) => {
-    const c = cp.spawn(program, args, opts)
-    c.on('exit', code => {
-      if (code) reject(code)
-      else resolve(code)
-    })
-  })
 }
 
 function java(args, opts) {
