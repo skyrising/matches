@@ -11,6 +11,7 @@ const STITCH = {maven: 'https://maven.fabricmc.net/', group: 'net.fabricmc', art
 const ERAS = {
     inf: 'infdev',
     in: 'indev',
+    af: 'april-fools',
     a: 'alpha',
     b: 'beta',
     c: 'classic',
