@@ -244,6 +244,7 @@ digraph {
   }
   subgraph cluster_april_fools {
     label="april-fools";
+    af_2013_blue[label="af-2013-blue",href="https://skyrising.github.io/mc-versions/version/af-2013-blue.json"];
     af_2013_purple[label="af-2013-purple",href="https://skyrising.github.io/mc-versions/version/af-2013-purple.json"];
     af_2013_red[label="af-2013-red",href="https://skyrising.github.io/mc-versions/version/af-2013-red.json"];
   }
@@ -451,7 +452,9 @@ digraph {
   a1_2_4_01 -> a1_2_5[href="alpha/a1.2.4_01%23a1.2.5.match"];
   a1_2_5 -> a1_2_6[href="alpha/a1.2.5%23a1.2.6.match"];
   inf_20100630_1835 -> a1_0_1_01[href="alpha/inf-20100630-1835%23a1.0.1_01.match"];
+  v1_5 -> af_2013_blue[href="april-fools/1.5%23af-2013-blue.match"];
   v1_5 -> af_2013_purple[href="april-fools/1.5%23af-2013-purple.match"];
+  v1_5_1 -> af_2013_blue[href="april-fools/1.5.1%23af-2013-blue.match"];
   v1_5_1 -> af_2013_red[href="april-fools/1.5.1%23af-2013-red.match"];
   af_2013_red -> af_2013_purple[href="april-fools/af-2013-red%23af-2013-purple.match"];
   a1_2_6 -> b1_0[href="beta/a1.2.6%23b1.0.match"];
