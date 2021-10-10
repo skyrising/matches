@@ -79,6 +79,8 @@ async function setupMatchEnv(manifest, versionA, versionB) {
         lines.push('\tcp b:')
         for (const cp of libsB) lines.push(`\t\t${path.basename(cp)}`)
         for (const type of ['cls', 'mem']) for (const side of ['a', 'b']) {
+            const info = ({a: infoA, b: infoB})[side]
+            if (info.releaseTime > '2013-04-18' && !info.id.startsWith('1.5')) continue
             lines.push(`\tnon-obf ${type} ${side}\tpaulscode|jcraft`)
         }
         lines.push('c\tLdummy;\tLdummy;', '')
