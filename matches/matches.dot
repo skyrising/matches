@@ -456,6 +456,7 @@ digraph {
   v1_5 -> af_2013_purple[href="april-fools/1.5%23af-2013-purple.match"];
   v1_5_1 -> af_2013_blue[href="april-fools/1.5.1%23af-2013-blue.match"];
   v1_5_1 -> af_2013_red[href="april-fools/1.5.1%23af-2013-red.match"];
+  af_2013_blue -> af_2013_purple[href="april-fools/af-2013-blue%23af-2013-purple.match"];
   af_2013_red -> af_2013_purple[href="april-fools/af-2013-red%23af-2013-purple.match"];
   a1_2_6 -> b1_0[href="beta/a1.2.6%23b1.0.match"];
   b1_0 -> b1_0_01[href="beta/b1.0%23b1.0_01.match"];
