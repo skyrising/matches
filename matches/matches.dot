@@ -167,6 +167,7 @@ digraph {
     v1_6_pre_06251516[label="1.6-pre-06251516",href="https://skyrising.github.io/mc-versions/version/1.6-pre-06251516.json"];
     v1_6_2_091847[label="1.6.2-091847",href="https://skyrising.github.io/mc-versions/version/1.6.2-091847.json"];
     v1_6_3_pre_171231[label="1.6.3-pre-171231",href="https://skyrising.github.io/mc-versions/version/1.6.3-pre-171231.json"];
+    v1_6_4[label="1.6.4",href="https://skyrising.github.io/mc-versions/version/1.6.4.json"];
     v13w16b_04232151[label="13w16b-04232151",href="https://skyrising.github.io/mc-versions/version/13w16b-04232151.json"];
     v13w17a[label="13w17a",href="https://skyrising.github.io/mc-versions/version/13w17a.json"];
     v13w18a[label="13w18a",href="https://skyrising.github.io/mc-versions/version/13w18a.json"];
@@ -441,6 +442,7 @@ digraph {
   v1_6_pre_06251516 -> v1_6_1[href="1.6/1.6-pre-06251516%231.6.1.match"];
   v1_6_1 -> v1_6_2_091847[href="1.6/1.6.1%231.6.2-091847.match"];
   v1_6_2_091847 -> v1_6_3_pre_171231[href="1.6/1.6.2-091847%231.6.3-pre-171231.match"];
+  v1_6_3_pre_171231 -> v1_6_4[href="1.6/1.6.3-pre-171231%231.6.4.match"];
   v13w16a_04192037 -> v13w16b_04232151[href="1.6/13w16a-04192037%2313w16b-04232151.match"];
   v13w16b_04232151 -> v13w17a[href="1.6/13w16b-04232151%2313w17a.match"];
   v13w17a -> v13w18a[href="1.6/13w17a%2313w18a.match"];
