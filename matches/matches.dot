@@ -166,6 +166,7 @@ digraph {
     v1_6_1[label="1.6.1",href="https://skyrising.github.io/mc-versions/version/1.6.1.json"];
     v1_6_pre_06251516[label="1.6-pre-06251516",href="https://skyrising.github.io/mc-versions/version/1.6-pre-06251516.json"];
     v1_6_2_091847[label="1.6.2-091847",href="https://skyrising.github.io/mc-versions/version/1.6.2-091847.json"];
+    v1_6_3_pre_171231[label="1.6.3-pre-171231",href="https://skyrising.github.io/mc-versions/version/1.6.3-pre-171231.json"];
     v13w16b_04232151[label="13w16b-04232151",href="https://skyrising.github.io/mc-versions/version/13w16b-04232151.json"];
     v13w17a[label="13w17a",href="https://skyrising.github.io/mc-versions/version/13w17a.json"];
     v13w18a[label="13w18a",href="https://skyrising.github.io/mc-versions/version/13w18a.json"];
@@ -188,6 +189,7 @@ digraph {
     label="1.7";
     v13w36a_09051446[label="13w36a-09051446",href="https://skyrising.github.io/mc-versions/version/13w36a-09051446.json"];
     v13w36b_09061310[label="13w36b-09061310",href="https://skyrising.github.io/mc-versions/version/13w36b-09061310.json"];
+    v13w37a[label="13w37a",href="https://skyrising.github.io/mc-versions/version/13w37a.json"];
   }
   subgraph cluster_alpha {
     label="alpha";
@@ -438,6 +440,7 @@ digraph {
   v1_5_1 -> v13w16a_04192037[href="1.6/1.5.1%2313w16a-04192037.match"];
   v1_6_pre_06251516 -> v1_6_1[href="1.6/1.6-pre-06251516%231.6.1.match"];
   v1_6_1 -> v1_6_2_091847[href="1.6/1.6.1%231.6.2-091847.match"];
+  v1_6_2_091847 -> v1_6_3_pre_171231[href="1.6/1.6.2-091847%231.6.3-pre-171231.match"];
   v13w16a_04192037 -> v13w16b_04232151[href="1.6/13w16a-04192037%2313w16b-04232151.match"];
   v13w16b_04232151 -> v13w17a[href="1.6/13w16b-04232151%2313w17a.match"];
   v13w17a -> v13w18a[href="1.6/13w17a%2313w18a.match"];
@@ -458,6 +461,7 @@ digraph {
   v13w26a -> v1_6_pre_06251516[href="1.6/13w26a%231.6-pre-06251516.match"];
   v1_6_2_091847 -> v13w36a_09051446[href="1.7/1.6.2-091847%2313w36a-09051446.match"];
   v13w36a_09051446 -> v13w36b_09061310[href="1.7/13w36a-09051446%2313w36b-09061310.match"];
+  v13w36b_09061310 -> v13w37a[href="1.7/13w36b-09061310%2313w37a.match"];
   a1_0_10 -> a1_0_11[href="alpha/a1.0.10%23a1.0.11.match"];
   a1_0_11 -> a1_0_12[href="alpha/a1.0.11%23a1.0.12.match"];
   a1_0_12 -> a1_0_13[href="alpha/a1.0.12%23a1.0.13.match"];
