@@ -34,7 +34,8 @@ function dumpGraph() {
         'digraph {',
         '  fontname="sans-serif";',
         '  concentrate=true;',
-        '  node[shape="box",fontname="sans-serif"];'
+        '  node[shape="box",fontname="sans-serif"];',
+        '  edge[fontname="sans-serif"];'
     ]
     for (const era in versionsByEra) {
         lines.push(`  subgraph cluster_${era.replace(/[-.~]/g, '_')} {`)
@@ -46,7 +47,18 @@ function dumpGraph() {
         lines.push('  }')
     }
     for (const {a, b, file} of matches) {
-        lines.push(`  ${versions[a].id} -> ${versions[b].id}[href="${path.relative(MATCHES_DIR, file).replace('#', '%23')}"];`)
+        let label = ''
+        const status = fs.readFileSync(file, 'utf8').split('\n')[0]
+        const matched = status.match(/c:(\d+)\/(\d+) m:(\d+)\/(\d+) f:(\d+)\/(\d+) ma:(\d+)\/(\d+)/)
+        if (matched) {
+            const c = +matched[1]/+matched[2]
+            const m = +matched[3]/+matched[4]
+            const f = +matched[5]/+matched[6]
+            const ma = +matched[7]/+matched[8]
+            const mean = Math.pow(c * m * f * ma, 1 / 4)
+            label = (Math.round(mean * 1e4) / 1e2) + '%'
+        }
+        lines.push(`  ${versions[a].id} -> ${versions[b].id}[label="${label}",href="${path.relative(MATCHES_DIR, file).replace('#', '%23')}"];`)
     }
     lines.push('}')
     fs.writeFileSync(path.resolve(MATCHES_DIR, 'matches.dot'), lines.join('\n') + '\n')
