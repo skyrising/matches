@@ -194,6 +194,8 @@ digraph {
     v1_7_pre[label="1.7-pre",href="https://skyrising.github.io/mc-versions/version/1.7-pre.json"];
     v1_7_2[label="1.7.2",href="https://skyrising.github.io/mc-versions/version/1.7.2.json"];
     v13w47a[label="13w47a",href="https://skyrising.github.io/mc-versions/version/13w47a.json"];
+    v1_7_4[label="1.7.4",href="https://skyrising.github.io/mc-versions/version/1.7.4.json"];
+    v1_7_3_pre[label="1.7.3-pre",href="https://skyrising.github.io/mc-versions/version/1.7.3-pre.json"];
     v13w36b_09061310[label="13w36b-09061310",href="https://skyrising.github.io/mc-versions/version/13w36b-09061310.json"];
     v13w37a[label="13w37a",href="https://skyrising.github.io/mc-versions/version/13w37a.json"];
     v13w37b[label="13w37b",href="https://skyrising.github.io/mc-versions/version/13w37b.json"];
@@ -214,7 +216,6 @@ digraph {
     v13w48a[label="13w48a",href="https://skyrising.github.io/mc-versions/version/13w48a.json"];
     v13w48b[label="13w48b",href="https://skyrising.github.io/mc-versions/version/13w48b.json"];
     v13w49a[label="13w49a",href="https://skyrising.github.io/mc-versions/version/13w49a.json"];
-    v1_7_3_pre[label="1.7.3-pre",href="https://skyrising.github.io/mc-versions/version/1.7.3-pre.json"];
   }
   subgraph cluster_alpha {
     label="alpha";
@@ -489,6 +490,7 @@ digraph {
   v1_7_pre -> v1_7_1_pre[label="100%",href="1.7/1.7-pre%231.7.1-pre.match"];
   v1_7_1_pre -> v1_7_2[label="100%",href="1.7/1.7.1-pre%231.7.2.match"];
   v1_7_2 -> v13w47a[label="99.88%",href="1.7/1.7.2%2313w47a.match"];
+  v1_7_3_pre -> v1_7_4[label="100%",href="1.7/1.7.3-pre%231.7.4.match"];
   v13w36a_09051446 -> v13w36b_09061310[label="99.94%",href="1.7/13w36a-09051446%2313w36b-09061310.match"];
   v13w36b_09061310 -> v13w37a[label="99.93%",href="1.7/13w36b-09061310%2313w37a.match"];
   v13w37a -> v13w37b[label="99.91%",href="1.7/13w37a%2313w37b.match"];
