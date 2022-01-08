@@ -55,13 +55,23 @@ function dumpGraph() {
             const m = +matched[3]/+matched[4]
             const f = +matched[5]/+matched[6]
             const ma = +matched[7]/+matched[8]
-            const mean = Math.pow(c * m * f * ma, 1 / 4)
+            const mean = weightedGeoMean([c, m, f, ma], [2, 1, 1, 0.25])
             label = (Math.round(mean * 1e4) / 1e2) + '%'
         }
         lines.push(`  ${versions[a].id} -> ${versions[b].id}[label="${label}",href="${path.relative(MATCHES_DIR, file).replace('#', '%23')}"];`)
     }
     lines.push('}')
     fs.writeFileSync(path.resolve(MATCHES_DIR, 'matches.dot'), lines.join('\n') + '\n')
+}
+
+function weightedGeoMean(values, weights) {
+    let product = 1
+    let weightSum = 0
+    for (let i = 0; i < values.length; i++) {
+        product *= values[i] ** weights[i]
+        weightSum += weights[i]
+    }
+    return product ** (1 / weightSum)
 }
 
 dumpGraph()
