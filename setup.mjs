@@ -123,9 +123,9 @@ async function getMainJar(version, id) {
     const dest = path.resolve(`libraries/com/mojang/${name}/${id}/${name}-${id}.jar`)
     if (fs.existsSync(dest)) return dest
     mkdirp(path.dirname(dest))
-    // client and server use the same mappings since 12w30a
-    if (files.client && files.server && version.releaseTime > '2012-07-23') {
+    if (files.client && files.server && version.sharedMappings) {
         await mergeJars(files.client, files.server, dest)
+        // TODO: map both client and server separately for non-shared mappings
     } else if (files.client) {
         fs.linkSync(files.client, dest)
     } else {
