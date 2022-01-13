@@ -276,6 +276,7 @@ digraph {
     v14w32b[label="14w32b",href="https://skyrising.github.io/mc-versions/version/14w32b.json"];
     v14w32c[label="14w32c",href="https://skyrising.github.io/mc-versions/version/14w32c.json"];
     v14w32d[label="14w32d",href="https://skyrising.github.io/mc-versions/version/14w32d.json"];
+    v14w33a[label="14w33a",href="https://skyrising.github.io/mc-versions/version/14w33a.json"];
   }
   subgraph cluster_alpha {
     label="alpha";
@@ -631,6 +632,7 @@ digraph {
   v14w32a -> v14w32b[label="99.98%",href="1.8/14w32a%2314w32b.match"];
   v14w32b -> v14w32c[label="99.99%",href="1.8/14w32b%2314w32c.match"];
   v14w32c -> v14w32d[label="100%",href="1.8/14w32c%2314w32d.match"];
+  v14w32d -> v14w33a[label="99.99%",href="1.8/14w32d%2314w33a.match"];
   a1_0_10 -> a1_0_11[label="99.93%",href="alpha/a1.0.10%23a1.0.11.match"];
   a1_0_11 -> a1_0_12[label="99.98%",href="alpha/a1.0.11%23a1.0.12.match"];
   a1_0_12 -> a1_0_13[label="99.9%",href="alpha/a1.0.12%23a1.0.13.match"];
