@@ -193,6 +193,8 @@ digraph {
     v1_7_1_pre[label="1.7.1-pre",href="https://skyrising.github.io/mc-versions/version/1.7.1-pre.json"];
     v1_7_pre[label="1.7-pre",href="https://skyrising.github.io/mc-versions/version/1.7-pre.json"];
     v1_7_2[label="1.7.2",href="https://skyrising.github.io/mc-versions/version/1.7.2.json"];
+    v1_7_10_pre2[label="1.7.10-pre2",href="https://skyrising.github.io/mc-versions/version/1.7.10-pre2.json"];
+    v1_7_10_pre1[label="1.7.10-pre1",href="https://skyrising.github.io/mc-versions/version/1.7.10-pre1.json"];
     v13w47a[label="13w47a",href="https://skyrising.github.io/mc-versions/version/13w47a.json"];
     v1_7_4[label="1.7.4",href="https://skyrising.github.io/mc-versions/version/1.7.4.json"];
     v1_7_3_pre[label="1.7.3-pre",href="https://skyrising.github.io/mc-versions/version/1.7.3-pre.json"];
@@ -203,7 +205,6 @@ digraph {
     v1_7_6_pre2[label="1.7.6-pre2",href="https://skyrising.github.io/mc-versions/version/1.7.6-pre2.json"];
     v1_7_8[label="1.7.8",href="https://skyrising.github.io/mc-versions/version/1.7.8.json"];
     v1_7_9[label="1.7.9",href="https://skyrising.github.io/mc-versions/version/1.7.9.json"];
-    v1_7_10_pre1[label="1.7.10-pre1",href="https://skyrising.github.io/mc-versions/version/1.7.10-pre1.json"];
     v13w36b_09061310[label="13w36b-09061310",href="https://skyrising.github.io/mc-versions/version/13w36b-09061310.json"];
     v13w37a[label="13w37a",href="https://skyrising.github.io/mc-versions/version/13w37a.json"];
     v13w37b[label="13w37b",href="https://skyrising.github.io/mc-versions/version/13w37b.json"];
@@ -535,6 +536,7 @@ digraph {
   v1_6_2_091847 -> v13w36a_09051446[label="97.62%",href="1.7/1.6.2-091847%2313w36a-09051446.match"];
   v1_7_pre -> v1_7_1_pre[label="100%",href="1.7/1.7-pre%231.7.1-pre.match"];
   v1_7_1_pre -> v1_7_2[label="100%",href="1.7/1.7.1-pre%231.7.2.match"];
+  v1_7_10_pre1 -> v1_7_10_pre2[label="100%",href="1.7/1.7.10-pre1%231.7.10-pre2.match"];
   v1_7_2 -> v13w47a[label="99.9%",href="1.7/1.7.2%2313w47a.match"];
   v1_7_3_pre -> v1_7_4[label="100%",href="1.7/1.7.3-pre%231.7.4.match"];
   v1_7_4 -> v1_7_5[label="99.75%",href="1.7/1.7.4%231.7.5.match"];
