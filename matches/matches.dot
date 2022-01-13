@@ -266,6 +266,7 @@ digraph {
     v14w27b_07021646[label="14w27b-07021646",href="https://skyrising.github.io/mc-versions/version/14w27b-07021646.json"];
     v14w28a[label="14w28a",href="https://skyrising.github.io/mc-versions/version/14w28a.json"];
     v14w28b[label="14w28b",href="https://skyrising.github.io/mc-versions/version/14w28b.json"];
+    v14w29a[label="14w29a",href="https://skyrising.github.io/mc-versions/version/14w29a.json"];
   }
   subgraph cluster_alpha {
     label="alpha";
@@ -362,8 +363,8 @@ digraph {
     c0_0_12a_03[label="c0.0.12a_03",href="https://skyrising.github.io/mc-versions/version/c0.0.12a_03.json"];
     c0_0_11a_launcher[label="c0.0.11a-launcher",href="https://skyrising.github.io/mc-versions/version/c0.0.11a-launcher.json"];
     c0_0_13a_launcher[label="c0.0.13a-launcher",href="https://skyrising.github.io/mc-versions/version/c0.0.13a-launcher.json"];
-    c0_0_14a_08[label="c0.0.14a_08",href="https://skyrising.github.io/mc-versions/version/c0.0.14a_08.json"];
     c0_0_13a_03_launcher[label="c0.0.13a_03-launcher",href="https://skyrising.github.io/mc-versions/version/c0.0.13a_03-launcher.json"];
+    c0_0_14a_08[label="c0.0.14a_08",href="https://skyrising.github.io/mc-versions/version/c0.0.14a_08.json"];
     c0_0_16a_02[label="c0.0.16a_02",href="https://skyrising.github.io/mc-versions/version/c0.0.16a_02.json"];
     c0_0_17a[label="c0.0.17a",href="https://skyrising.github.io/mc-versions/version/c0.0.17a.json"];
     c0_0_18a_02[label="c0.0.18a_02",href="https://skyrising.github.io/mc-versions/version/c0.0.18a_02.json"];
@@ -611,6 +612,7 @@ digraph {
   v14w27a -> v14w27b_07021646[label="99.98%",href="1.8/14w27a%2314w27b-07021646.match"];
   v14w27b_07021646 -> v14w28a[label="99.7%",href="1.8/14w27b-07021646%2314w28a.match"];
   v14w28a -> v14w28b[label="96.87%",href="1.8/14w28a%2314w28b.match"];
+  v14w28b -> v14w29a[label="99.65%",href="1.8/14w28b%2314w29a.match"];
   a1_0_10 -> a1_0_11[label="99.93%",href="alpha/a1.0.10%23a1.0.11.match"];
   a1_0_11 -> a1_0_12[label="99.98%",href="alpha/a1.0.11%23a1.0.12.match"];
   a1_0_12 -> a1_0_13[label="99.9%",href="alpha/a1.0.12%23a1.0.13.match"];
@@ -713,6 +715,8 @@ digraph {
   b1_9_pre5 -> b1_9_pre6[label="99.89%",href="beta/b1.9-pre5%23b1.9-pre6.match"];
   c0_0_11a_launcher -> c0_0_12a_03[label="72.21%",href="classic/c0.0.11a-launcher%23c0.0.12a_03.match"];
   c0_0_11a_launcher -> c0_0_13a_launcher[label="96.62%",href="classic/c0.0.11a-launcher%23c0.0.13a-launcher.match"];
+  c0_0_12a_03 -> c0_0_13a_launcher[label="",href="classic/c0.0.12a_03%23c0.0.13a-launcher.match"];
+  c0_0_13a_launcher -> c0_0_13a_03_launcher[label="",href="classic/c0.0.13a-launcher%23c0.0.13a_03-launcher.match"];
   c0_0_13a_03_launcher -> c0_0_14a_08[label="98.02%",href="classic/c0.0.13a_03-launcher%23c0.0.14a_08.match"];
   c0_0_14a_08 -> c0_0_16a_02[label="99.78%",href="classic/c0.0.14a_08%23c0.0.16a_02.match"];
   c0_0_16a_02 -> c0_0_17a[label="99.48%",href="classic/c0.0.16a_02%23c0.0.17a.match"];
