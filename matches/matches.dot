@@ -235,6 +235,7 @@ digraph {
     v1_8_pre2[label="1.8-pre2",href="https://skyrising.github.io/mc-versions/version/1.8-pre2.json"];
     v1_8_pre1[label="1.8-pre1",href="https://skyrising.github.io/mc-versions/version/1.8-pre1.json"];
     v1_8_pre3[label="1.8-pre3",href="https://skyrising.github.io/mc-versions/version/1.8-pre3.json"];
+    v1_8[label="1.8",href="https://skyrising.github.io/mc-versions/version/1.8.json"];
     v14w02b[label="14w02b",href="https://skyrising.github.io/mc-versions/version/14w02b.json"];
     v14w02c[label="14w02c",href="https://skyrising.github.io/mc-versions/version/14w02c.json"];
     v14w03a[label="14w03a",href="https://skyrising.github.io/mc-versions/version/14w03a.json"];
@@ -598,6 +599,7 @@ digraph {
   v1_7_4 -> v14w02a[label="97.73%",href="1.8/1.7.4%2314w02a.match"];
   v1_8_pre1 -> v1_8_pre2[label="99.86%",href="1.8/1.8-pre1%231.8-pre2.match"];
   v1_8_pre2 -> v1_8_pre3[label="100%",href="1.8/1.8-pre2%231.8-pre3.match"];
+  v1_8_pre3 -> v1_8[label="100%",href="1.8/1.8-pre3%231.8.match"];
   v14w02a -> v14w02b[label="100%",href="1.8/14w02a%2314w02b.match"];
   v14w02b -> v14w02c[label="100%",href="1.8/14w02b%2314w02c.match"];
   v14w02c -> v14w03a[label="99.78%",href="1.8/14w02c%2314w03a.match"];
