@@ -392,6 +392,7 @@ digraph {
     af_2013_blue[label="af-2013-blue",href="https://skyrising.github.io/mc-versions/version/af-2013-blue.json"];
     af_2013_purple[label="af-2013-purple",href="https://skyrising.github.io/mc-versions/version/af-2013-purple.json"];
     af_2013_red[label="af-2013-red",href="https://skyrising.github.io/mc-versions/version/af-2013-red.json"];
+    af_2015[label="af-2015",href="https://skyrising.github.io/mc-versions/version/af-2015.json"];
   }
   subgraph cluster_classic {
     label="classic";
@@ -738,6 +739,7 @@ digraph {
   v1_5 -> af_2013_purple[label="99.99%",href="april-fools/1.5%23af-2013-purple.match"];
   v1_5_1 -> af_2013_blue[label="99.49%",href="april-fools/1.5.1%23af-2013-blue.match"];
   v1_5_1 -> af_2013_red[label="100%",href="april-fools/1.5.1%23af-2013-red.match"];
+  v1_8_3 -> af_2015[label="99.53%",href="april-fools/1.8.3%23af-2015.match"];
   af_2013_blue -> af_2013_purple[label="100%",href="april-fools/af-2013-blue%23af-2013-purple.match"];
   af_2013_red -> af_2013_purple[label="99.7%",href="april-fools/af-2013-red%23af-2013-purple.match"];
   a1_2_6 -> b1_0[label="98.99%",href="beta/a1.2.6%23b1.0.match"];
