@@ -1,23 +1,13 @@
 import fs from 'fs'
 import path from 'path'
 import fetch from 'node-fetch'
-import {spawn} from './utils.mjs'
+import {spawn, getEra, getVersionDetails} from './utils.mjs'
 
 const versionDataDir = path.resolve('mc-versions', 'data')
 const versionDir = path.resolve(versionDataDir, 'version')
 
 const STITCH = {maven: 'https://maven.fabricmc.net/', group: 'net.fabricmc', artifact: 'stitch', version: '0.6.1', classifier: 'all'}
 const MATCHES_DIR = 'matches'
-
-const ERAS = {
-    inf: 'infdev',
-    in: 'indev',
-    af: 'april-fools',
-    a: 'alpha',
-    b: 'beta',
-    c: 'classic',
-    rd: 'pre-classic'
-}
 
 ;(async () => {
     const manifest = JSON.parse(fs.readFileSync(path.resolve(versionDataDir, 'version_manifest.json')))
@@ -46,18 +36,6 @@ async function setupWalkGraph(manifest, version, next) {
         anyChanged = anyChanged || changed
     }
     return anyChanged
-}
-
-function getEra(version) {
-    for (const key in ERAS) {
-        if (version.startsWith(key)) return ERAS[key]
-    }
-    const releaseTarget = getVersionDetails(version).releaseTarget
-    if (releaseTarget && /^\d+\.\d+/.test(releaseTarget)) {
-        const [, era] = releaseTarget.match(/^(\d+\.\d+)/)
-        return era
-    }
-    return releaseTarget
 }
 
 async function setupMatchEnv(manifest, versionA, versionB) {
@@ -131,10 +109,6 @@ async function getVersionInfo(manifest, id) {
         return
     }
     return JSON.parse(fs.readFileSync(path.resolve(versionDataDir, info.url)))
-}
-
-function getVersionDetails(id) {
-    return JSON.parse(fs.readFileSync(path.resolve(versionDataDir, 'version', id + '.json')))
 }
 
 async function getMainJar(version, id) {

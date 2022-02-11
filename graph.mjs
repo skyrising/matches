@@ -1,28 +1,27 @@
 import fs from 'fs'
 import path from 'path'
-import {spawn} from './utils.mjs'
+import {getEra, spawnText} from './utils.mjs'
 
 const MATCHES_DIR = 'matches'
 
-function dumpGraph() {
+async function dumpGraph() {
     const matchEras = fs.readdirSync(MATCHES_DIR)
     const matches = []
     const versions = {}
-    for (const era of matchEras) {
-        const eraDir = path.resolve(MATCHES_DIR, era)
-        if (!fs.statSync(eraDir).isDirectory()) continue
-        for (const matchFile of fs.readdirSync(eraDir)) {
-            if (!matchFile.endsWith('.match')) continue
-            const [a, b] = matchFile.slice(0, matchFile.length - 6).split('#')
-            matches.push({a, b, file: path.resolve(eraDir, matchFile)})
-            let id = b.replace(/[-.~]/g, '_')
-            if (/^\d/.test(id)) id = 'v' + id
-            versions[b] = {id, era}
-            if (!versions[a]) {
-                let aId = a.replace(/[-.~]/g, '_')
-                if (/^\d/.test(id)) aId = 'v' + aId
-                versions[a] = {id: aId, era}
-            }
+    const files = (await spawnText('git', ['ls-files', '-z', '*.match'])).split('\0')
+    files.sort()
+    for (const file of files) {
+        if (!file.startsWith(MATCHES_DIR + '/')) continue
+        const era = path.basename(path.dirname(file))
+        const [a, b] = path.basename(file, '.match').split('#')
+        matches.push({a, b, file})
+        let id = b.replace(/[-.~]/g, '_')
+        if (/^\d/.test(id)) id = 'v' + id
+        versions[b] = {id, era: await getEra(b)}
+        if (!versions[a]) {
+            let aId = a.replace(/[-.~]/g, '_')
+            if (/^\d/.test(aId)) aId = 'v' + aId
+            versions[a] = {id: aId, era: await getEra(a)}
         }
     }
     const versionsByEra = {}
@@ -46,9 +45,13 @@ function dumpGraph() {
         }
         lines.push('  }')
     }
+    const statusByFile = {}
+    await Promise.all(matches.map(async ({file}) => {
+        statusByFile[file] = (await spawnText('git', ['show', `HEAD:${file}`])).split('\n')[0]
+    }))
     for (const {a, b, file} of matches) {
         let label = ''
-        const status = fs.readFileSync(file, 'utf8').split('\n')[0]
+        const status = statusByFile[file]
         const matched = status.match(/c:(\d+)\/(\d+) m:(\d+)\/(\d+) f:(\d+)\/(\d+) ma:(\d+)\/(\d+)/)
         if (matched) {
             const c = +matched[1]/+matched[2]
