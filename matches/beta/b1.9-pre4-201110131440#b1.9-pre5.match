@@ -1,4 +1,4 @@
-Matches saved 2022-02-06T01:08:24.425084+01:00[Europe/Paris], input files:
+Matches saved 2022-02-11, status: c:657/658 m:4919/4927 f:2394/2400 ma:8275/8276, input files:
 	a:
 		731348	eoehNkVc4MlYe1v3Ns22ZgwifwtJ276kJBIxv3yev6Q=	minecraft-server-b1.9-pre4-201110131440.jar
 	b:
@@ -2434,6 +2434,7 @@ c	Lf;	Lf;
 		ma	3	3
 		ma	4	4
 	m	d(Lfh;III)V	d(Lfh;III)V
+		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
@@ -4775,6 +4776,7 @@ c	Lha;	Lgz;
 		ma	0	0
 		ma	1	1
 	m	c(Lrm;)Z	c(Lrk;)Z
+		ma	0	0
 	m	a(Lrm;F)V	a(Lrk;F)V
 		ma	0	0
 		ma	1	1
@@ -5088,8 +5090,9 @@ c	Lhr;	Lhq;
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;Z	b;;Z
 c	Lhs;	Lhr;
-	mu	a	<init>()V
+	m	<init>()V	<init>(Ljava/lang/String;)V
 	m	<init>([B)V	<init>(Ljava/lang/String;[B)V
+		ma	0	1
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
 		ma	0	0
 	m	a(Ljava/io/DataInput;)V	a(Ljava/io/DataInput;)V
@@ -7335,6 +7338,7 @@ c	Lks;	Lkr;
 	m	a(Loq;)V	a(Loo;)V
 		ma	0	0
 	m	a(Ldy;)V	a(Ldy;)V
+		ma	0	0
 	m	a(Lnv;)V	a(Lns;)V
 		ma	0	0
 	m	a(Ltc;)V	a(Lta;)V
@@ -7959,6 +7963,10 @@ c	Llh;	Llg;
 c	Lli;	Llh;
 	m	<init>(Ljd;Llo;III)V	<init>(Ljc;Lgx;Lln;III)V
 		ma	0	0
+		ma	1	2
+		ma	2	3
+		ma	3	4
+		ma	4	5
 	m	a(Lja;)Z	a(Liz;)Z
 		ma	0	0
 	m	a()I	a()I
@@ -8346,6 +8354,7 @@ c	Llv;	Llu;
 c	Llw;	Llv;
 	mu	a	<init>()V
 	m	<init>(J)V	<init>(Ljava/lang/String;J)V
+		ma	0	1
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
 		ma	0	0
 	m	a(Ljava/io/DataInput;)V	a(Ljava/io/DataInput;)V
@@ -9602,6 +9611,7 @@ c	Lnx;	Lnv;
 		ma	0	0
 		ma	1	1
 	m	i(Lfh;III)V	i(Lfh;III)V
+		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
@@ -10308,6 +10318,7 @@ c	Low;	Lou;
 c	Lox;	Lov;
 	mu	a	<init>()V
 	m	<init>(I)V	<init>(Ljava/lang/String;I)V
+		ma	0	1
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
 		ma	0	0
 	m	a(Ljava/io/DataInput;)V	a(Ljava/io/DataInput;)V
@@ -10792,6 +10803,7 @@ c	Lpr;	Lpp;
 c	Lps;	Lpq;
 	mu	a	<init>()V
 	m	<init>(B)V	<init>(Ljava/lang/String;B)V
+		ma	0	1
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
 		ma	0	0
 	m	a(Ljava/io/DataInput;)V	a(Ljava/io/DataInput;)V
@@ -10951,6 +10963,7 @@ c	Lpz;	Lpx;
 c	Lq;	Lq;
 	mu	a	<init>()V
 	m	<init>(F)V	<init>(Ljava/lang/String;F)V
+		ma	0	1
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
 		ma	0	0
 	m	a(Ljava/io/DataInput;)V	a(Ljava/io/DataInput;)V
@@ -12206,6 +12219,7 @@ c	Lrt;	Lrr;
 c	Lru;	Lrs;
 	mu	a	<init>()V
 	m	<init>(D)V	<init>(Ljava/lang/String;D)V
+		ma	0	1
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
 		ma	0	0
 	m	a(Ljava/io/DataInput;)V	a(Ljava/io/DataInput;)V
@@ -13100,6 +13114,7 @@ c	Lte;	Ltc;
 c	Ltf;	Ltd;
 	mu	a	<init>()V
 	m	<init>(S)V	<init>(Ljava/lang/String;S)V
+		ma	0	1
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
 		ma	0	0
 	m	a(Ljava/io/DataInput;)V	a(Ljava/io/DataInput;)V
@@ -13477,6 +13492,7 @@ c	Ltk;	Lti;
 	m	e()V	f()V
 	m	a(Lfh;Lgx;IIII)V	a(Lfh;Lgx;IIII)V
 		ma	0	0
+		ma	1	1
 		ma	2	2
 		ma	3	3
 		ma	4	4
