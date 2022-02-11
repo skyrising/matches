@@ -7,6 +7,7 @@ const versionDataDir = path.resolve('mc-versions', 'data')
 const versionDir = path.resolve(versionDataDir, 'version')
 
 const STITCH = {maven: 'https://maven.fabricmc.net/', group: 'net.fabricmc', artifact: 'stitch', version: '0.6.1', classifier: 'all'}
+const MATCHES_DIR = 'matches'
 
 const ERAS = {
     inf: 'infdev',
@@ -23,7 +24,12 @@ const ERAS = {
     if (process.argv.length > 3) {
         await setupMatchEnv(manifest, process.argv[2], process.argv[3])
     } else {
-        const next = process.argv.length > 2 && process.argv[2] === 'next'
+        const arg = process.argv[2]
+        if (arg === 'refresh') {
+            await refresh(manifest)
+            return
+        }
+        const next = arg === 'next'
         const first = manifest.versions[manifest.versions.length - 1].omniId
         await setupWalkGraph(manifest, first, next)
     }
@@ -56,7 +62,7 @@ function getEra(version) {
 
 async function setupMatchEnv(manifest, versionA, versionB) {
     const eraB = getEra(versionB)
-    const matchDir = eraB ? path.resolve('matches', eraB) : path.resolve('matches')
+    const matchDir = eraB ? path.resolve(MATCHES_DIR, eraB) : path.resolve(MATCHES_DIR)
     const matchFile = path.resolve(matchDir, `${versionA}#${versionB}.match`)
     if (!fs.existsSync(matchFile)) {
         const infoA = await getVersionInfo(manifest, versionA)
@@ -89,6 +95,33 @@ async function setupMatchEnv(manifest, versionA, versionB) {
         return true
     }
     return false
+}
+
+async function refresh(manifest) {
+    const versions = new Set()
+    for (const era of fs.readdirSync(MATCHES_DIR)) {
+        const eraDir = path.resolve(MATCHES_DIR, era)
+        if (!fs.statSync(eraDir).isDirectory()) {
+            if (!eraDir.endsWith('.match')) continue
+            const [versionA, versionB] = path.basename(eraDir, '.match').split('#')
+            versions.add(versionA)
+            versions.add(versionB)
+            continue
+        }
+        for (const name of fs.readdirSync(eraDir)) {
+            const matchFile = path.resolve(eraDir, name)
+            if (!matchFile.endsWith('.match')) continue
+            const [versionA, versionB] = path.basename(matchFile, '.match').split('#')
+            versions.add(versionA)
+            versions.add(versionB)
+        }
+    }
+    for (const version of versions) {
+        const info = await getVersionInfo(manifest, version)
+        const mainJar = await getMainJar(info, version)
+        await getLibraries(info)
+        console.log(mainJar)
+    }
 }
 
 async function getVersionInfo(manifest, id) {
