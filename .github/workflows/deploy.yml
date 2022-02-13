@@ -6,15 +6,15 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    container:
-      image: minidocks/graphviz
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      
+      - name: Setup Graphviz
+        run: sudo apt-get update && sudo apt-get install -y graphviz
 
       - name: Build
-        run: |
-          mkdir -p dist && dot matches/matches.dot -Tsvg > dist/matches.svg
+        run: mkdir -p dist && dot matches/matches.dot -Tsvg > dist/matches.svg && cat dist/matches.svg
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
