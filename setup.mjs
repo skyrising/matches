@@ -70,6 +70,7 @@ async function setupMatchEnv(manifest, versionA, versionB) {
         lines.push('c\tLdummy;\tLdummy;', '')
         mkdirp(path.dirname(matchFile))
         fs.writeFileSync(matchFile, lines.join('\n'))
+        fs.writeFileSync('current.txt', `Current Match: ${versionA} \u2192 ${versionB}`)
         return true
     }
     return false

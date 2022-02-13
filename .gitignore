@@ -2,3 +2,5 @@ node_modules/
 versions/
 libraries/
 mappings/mcp/
+current.txt
+.idea/
