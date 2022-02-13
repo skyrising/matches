@@ -77,4 +77,4 @@ function weightedGeoMean(values, weights) {
     return product ** (1 / weightSum)
 }
 
-dumpGraph()
+dumpGraph().catch(console.error)
