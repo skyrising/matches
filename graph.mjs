@@ -3,6 +3,7 @@ import path from 'path'
 import {getEra, spawnText} from './utils.mjs'
 
 const MATCHES_DIR = 'matches'
+const DIST_DIR = 'dist'
 
 async function dumpGraph() {
     const matchEras = fs.readdirSync(MATCHES_DIR)
@@ -64,7 +65,7 @@ async function dumpGraph() {
         lines.push(`  ${versions[a].id} -> ${versions[b].id}[label="${label}",href="${path.relative(MATCHES_DIR, file).replace('#', '%23')}"];`)
     }
     lines.push('}')
-    fs.writeFileSync(path.resolve(MATCHES_DIR, 'matches.dot'), lines.join('\n') + '\n')
+    fs.writeFileSync(path.resolve(DIST_DIR, 'matches.dot'), lines.join('\n') + '\n')
 }
 
 function weightedGeoMean(values, weights) {
