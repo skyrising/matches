@@ -9,13 +9,28 @@ const versionDir = path.resolve(versionDataDir, 'version')
 const STITCH = {maven: 'https://maven.fabricmc.net/', group: 'net.fabricmc', artifact: 'stitch', version: '0.6.1', classifier: 'all'}
 const MATCHES_DIR = 'matches'
 
+const ANY_MATCH_TYPES = [
+    ['merged', 'merged'],
+    ['client', 'merged'],
+    ['client', 'client'],
+    ['server', 'merged'],
+    ['server', 'server']
+]
+
 ;(async () => {
     const manifest = JSON.parse(fs.readFileSync(path.resolve(versionDataDir, 'version_manifest.json')))
     if (process.argv.length > 3) {
-        await setupMatchEnv(manifest, process.argv[2], process.argv[3])
+        if (process.argv.length > 5) {
+            // setup <typeA> <versionA> <typeB> <versionB>
+            await setupMatchEnv(manifest, process.argv[3], process.argv[2], process.argv[5], process.argv[4])
+        } else {
+            // setup <versionA> <versionB>
+            await setupAnyMatchEnv(manifest, process.argv[2], process.argv[3])
+        }
     } else {
         const arg = process.argv[2]
         if (arg === 'refresh') {
+            // setup refresh
             await refresh(manifest)
             return
         }
@@ -29,7 +44,7 @@ async function setupWalkGraph(manifest, version, next) {
     const data = JSON.parse(fs.readFileSync(path.resolve(versionDir, `${version}.json`)))
     let anyChanged = false
     for (const nextVersion of data.next) {
-        const changed = await setupMatchEnv(manifest, version, nextVersion) || await setupWalkGraph(manifest, nextVersion, next)
+        const changed = await setupAnyMatchEnv(manifest, version, nextVersion) || await setupWalkGraph(manifest, nextVersion, next)
         if (changed && next) {
             return true
         }
@@ -38,17 +53,33 @@ async function setupWalkGraph(manifest, version, next) {
     return anyChanged
 }
 
-async function setupMatchEnv(manifest, versionA, versionB) {
+async function setupAnyMatchEnv(manifest, versionA, versionB) {
+    for (const [typeA, typeB] of ANY_MATCH_TYPES) {
+        if (await setupMatchEnv(manifest, versionA, typeA, versionB, typeB)) {
+            return true
+        }
+    }
+    return false
+}
+
+async function setupMatchEnv(manifest, versionA, typeA, versionB, typeB) {
+    const type = typeA === typeB ? typeA : 'cross'
+    const prefixA = type === 'cross' ? typeA + '-' : ''
+    const prefixB = type === 'cross' ? typeB + '-' : ''
+    const typeDir = path.resolve(MATCHES_DIR, type)
     const eraB = getEra(versionB)
-    const matchDir = eraB ? path.resolve(MATCHES_DIR, eraB) : path.resolve(MATCHES_DIR)
-    const matchFile = path.resolve(matchDir, `${versionA}#${versionB}.match`)
+    const matchDir = eraB ? path.resolve(typeDir, eraB) : type
+    const matchFile = path.resolve(matchDir, `${prefixA}${versionA}#${prefixB}${versionB}.match`)
     if (!fs.existsSync(matchFile)) {
         const infoA = await getVersionInfo(manifest, versionA)
-        const mainJarA = await getMainJar(infoA, versionA)
-        const librariesA = new Set(await getLibraries(infoA))
         const infoB = await getVersionInfo(manifest, versionB)
-        const mainJarB = await getMainJar(infoB, versionB)
-        const librariesB = new Set(await getLibraries(infoB))
+        const mainJarA = await getMainJar(infoA, versionA, typeA)
+        const mainJarB = await getMainJar(infoB, versionB, typeB)
+        if (!mainJarA || !mainJarB) {
+            return false
+        }
+        const librariesA = typeA === 'server' ? new Set() : new Set(await getLibraries(infoA))
+        const librariesB = typeB === 'server' ? new Set() : new Set(await getLibraries(infoB))
         const [shared, libsA, libsB] = computeShared(librariesA, librariesB)
         console.log(mainJarA, libsA)
         console.log(mainJarB, libsB)
@@ -78,29 +109,38 @@ async function setupMatchEnv(manifest, versionA, versionB) {
 
 async function refresh(manifest) {
     const versions = new Set()
-    for (const era of fs.readdirSync(MATCHES_DIR)) {
-        const eraDir = path.resolve(MATCHES_DIR, era)
-        if (!fs.statSync(eraDir).isDirectory()) {
-            if (!eraDir.endsWith('.match')) continue
-            const [versionA, versionB] = path.basename(eraDir, '.match').split('#')
-            versions.add(versionA)
-            versions.add(versionB)
-            continue
-        }
-        for (const name of fs.readdirSync(eraDir)) {
-            const matchFile = path.resolve(eraDir, name)
-            if (!matchFile.endsWith('.match')) continue
-            const [versionA, versionB] = path.basename(matchFile, '.match').split('#')
-            versions.add(versionA)
-            versions.add(versionB)
+    for (const matchType of fs.readdirSync(MATCHES_DIR)) {
+        const matchTypeDir = path.resolve(MATCHES_DIR, matchType)
+        const prefix = matchType === 'cross' ? '' : matchType + '-'
+        for (const era of fs.readdirSync(matchTypeDir)) {
+            const eraDir = path.resolve(matchTypeDir, era)
+            if (!fs.statSync(eraDir).isDirectory()) {
+                if (!eraDir.endsWith('.match')) continue
+                const [versionA, versionB] = path.basename(eraDir, '.match').split('#')
+                versions.add(prefix + versionA)
+                versions.add(prefix + versionB)
+                continue
+            }
+            for (const name of fs.readdirSync(eraDir)) {
+                const matchFile = path.resolve(eraDir, name)
+                if (!matchFile.endsWith('.match')) continue
+                const [versionA, versionB] = path.basename(matchFile, '.match').split('#')
+                versions.add(prefix + versionA)
+                versions.add(prefix + versionB)
+            }
         }
     }
-    for (const version of versions) {
+    for (let version of versions) {
+        const type = version.slice(0, version.indexOf('-'))
+        version = version.slice(type.length + 1)
+        console.log(version, type)
         const info = await getVersionInfo(manifest, version)
-        const mainJar = await getMainJar(info, version)
-        await getLibraries(info)
+        const mainJar = await getMainJar(info, version, type)
+        if (type !== 'server') {
+            await getLibraries(info)
+        }
         console.log(mainJar)
-    }
+    } 
 }
 
 async function getVersionInfo(manifest, id) {
@@ -112,7 +152,7 @@ async function getVersionInfo(manifest, id) {
     return JSON.parse(fs.readFileSync(path.resolve(versionDataDir, info.url)))
 }
 
-async function getMainJar(version, id) {
+async function getMainJar(version, id, type) {
     const dir = path.resolve('versions', id)
     const files = {}
     for (const key in version.downloads) {
@@ -126,18 +166,17 @@ async function getMainJar(version, id) {
         await downloadFile(download.url, file)
     }
     if (!files.client && !files.server) throw Error('Expected at least one jar')
-    let name = 'minecraft'
-    if (files.server && !files.client) name = 'minecraft-server'
+    const name = 'minecraft-' + type
     const dest = path.resolve(`libraries/com/mojang/${name}/${id}/${name}-${id}.jar`)
     if (fs.existsSync(dest)) return dest
-    mkdirp(path.dirname(dest))
-    if (files.client && files.server && getVersionDetails(id).sharedMappings) {
+    if (type === 'merged') {
+        if (!files.client || !files.client || !getVersionDetails(id).sharedMappings) return null
+        mkdirp(path.dirname(dest))
         await mergeJars(files.client, files.server, dest)
-        // TODO: map both client and server separately for non-shared mappings
-    } else if (files.client) {
-        fs.linkSync(files.client, dest)
     } else {
-        fs.linkSync(files.server, dest)
+        if (!files[type]) return null
+        mkdirp(path.dirname(dest))
+        fs.linkSync(files[type], dest)
     }
     return dest
 }

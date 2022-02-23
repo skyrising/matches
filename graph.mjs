@@ -5,24 +5,34 @@ import {getEra, spawnText} from './utils.mjs'
 const MATCHES_DIR = 'matches'
 const DIST_DIR = 'dist'
 
+const COLORS = {
+    'cm': '#008800',
+    'mc': '#880000',
+    'sm': '#0088ff',
+    'ms': '#8800ff',
+    'cs': '#888800',
+    'sc': '#8888ff',
+    'ss': '#0000aa'
+}
+
 async function dumpGraph() {
-    const matchEras = fs.readdirSync(MATCHES_DIR)
     const matches = []
     const versions = {}
     const files = (await spawnText('git', ['ls-files', '-z', '*.match'])).split('\0')
     files.sort()
     for (const file of files) {
         if (!file.startsWith(MATCHES_DIR + '/')) continue
-        const era = path.basename(path.dirname(file))
         const [a, b] = path.basename(file, '.match').split('#')
         matches.push({a, b, file})
-        let id = b.replace(/[-.~]/g, '_')
+        const [typeA, versionA] = splitVersionAndType(a)
+        const [typeB, versionB] = splitVersionAndType(b)
+        let id = versionB.replace(/[-.~]/g, '_')
         if (/^\d/.test(id)) id = 'v' + id
-        versions[b] = {id, era: await getEra(b)}
-        if (!versions[a]) {
-            let aId = a.replace(/[-.~]/g, '_')
+        versions[versionB] = {id, era: await getEra(versionB)}
+        if (!versions[versionA]) {
+            let aId = versionA.replace(/[-.~]/g, '_')
             if (/^\d/.test(aId)) aId = 'v' + aId
-            versions[a] = {id: aId, era: await getEra(a)}
+            versions[versionA] = {id: aId, era: await getEra(versionA)}
         }
     }
     const versionsByEra = {}
@@ -62,10 +72,33 @@ async function dumpGraph() {
             const mean = weightedGeoMean([c, m, f, ma], [2, 1, 1, 0.25])
             label = (Math.round(mean * 1e4) / 1e2) + '%'
         }
-        lines.push(`  ${versions[a].id} -> ${versions[b].id}[label="${label}",href="${path.relative(MATCHES_DIR, file).replace('#', '%23')}"];`)
+        let [typeA, versionA] = splitVersionAndType(a)
+        let [typeB, versionB] = splitVersionAndType(b)
+        const rel = path.relative(MATCHES_DIR, file)
+        if (!typeA && !typeB) {
+            typeA = typeB = rel.slice(0, rel.indexOf('/'))
+        }
+        const color = typeA && typeB ? COLORS[typeA[0] + typeB[0]] : undefined
+        const attr = {
+            label,
+            color,
+            href: rel.replace('#', '%23')
+        }
+        const attrStr = Object.keys(attr)
+            .map(k => attr[k] && (k + '="' + attr[k] + '"'))
+            .filter(Boolean)
+            .join(',')
+        lines.push(`  ${versions[versionA].id} -> ${versions[versionB].id}[${attrStr}];`)
     }
     lines.push('}')
     fs.writeFileSync(path.resolve(DIST_DIR, 'matches.dot'), lines.join('\n') + '\n')
+}
+
+function splitVersionAndType(id) {
+    if (id.startsWith('client-')) return ['client', id.slice(7)]
+    if (id.startsWith('server-')) return ['server', id.slice(7)]
+    if (id.startsWith('merged-')) return ['merged', id.slice(7)]
+    return [undefined, id]
 }
 
 function weightedGeoMean(values, weights) {
