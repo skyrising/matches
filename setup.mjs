@@ -71,15 +71,13 @@ async function setupMatchEnv(manifest, versionA, typeA, versionB, typeB) {
     const matchDir = eraB ? path.resolve(typeDir, eraB) : type
     const matchFile = path.resolve(matchDir, `${prefixA}${versionA}#${prefixB}${versionB}.match`)
     if (!fs.existsSync(matchFile)) {
-        const infoA = await getVersionInfo(manifest, versionA)
-        const infoB = await getVersionInfo(manifest, versionB)
-        const mainJarA = await getMainJar(infoA, versionA, typeA)
-        const mainJarB = await getMainJar(infoB, versionB, typeB)
+        const mainJarA = await getMainJar(versionA, typeA)
+        const mainJarB = await getMainJar(versionB, typeB)
         if (!mainJarA || !mainJarB) {
             return false
         }
-        const librariesA = typeA === 'server' ? new Set() : new Set(await getLibraries(infoA))
-        const librariesB = typeB === 'server' ? new Set() : new Set(await getLibraries(infoB))
+        const librariesA = typeA === 'server' ? new Set() : new Set(await getLibraries(await getVersionInfo(manifest, versionA)))
+        const librariesB = typeB === 'server' ? new Set() : new Set(await getLibraries(await getVersionInfo(manifest, versionB)))
         const [shared, libsA, libsB] = computeShared(librariesA, librariesB)
         console.log(mainJarA, libsA)
         console.log(mainJarB, libsB)
@@ -94,7 +92,7 @@ async function setupMatchEnv(manifest, versionA, typeA, versionB, typeB) {
         lines.push('\tcp b:')
         for (const cp of libsB) lines.push(`\t\t${path.basename(cp)}`)
         for (const type of ['cls', 'mem']) for (const side of ['a', 'b']) {
-            const info = ({a: infoA, b: infoB})[side]
+            const info = ({a: getVersionDetails(versionA), b: getVersionDetails(versionB)})[side]
             if (info.releaseTime > '2013-04-18' && !info.id.startsWith('1.5')) continue
             lines.push(`\tnon-obf ${type} ${side}\tpaulscode|jcraft`)
         }
@@ -135,7 +133,7 @@ async function refresh(manifest) {
         version = version.slice(type.length + 1)
         console.log(version, type)
         const info = await getVersionInfo(manifest, version)
-        const mainJar = await getMainJar(info, version, type)
+        const mainJar = await getMainJar(version, type)
         if (type !== 'server') {
             await getLibraries(info)
         }
@@ -152,11 +150,12 @@ async function getVersionInfo(manifest, id) {
     return JSON.parse(fs.readFileSync(path.resolve(versionDataDir, info.url)))
 }
 
-async function getMainJar(version, id, type) {
+async function getMainJar(id, type) {
+    const details = getVersionDetails(id)
     const dir = path.resolve('versions', id)
     const files = {}
-    for (const key in version.downloads) {
-        const download = version.downloads[key]
+    for (const key in details.downloads) {
+        const download = details.downloads[key]
         if (!download.url.endsWith('.jar')) continue
         if (key !== 'client' && key !== 'server') {
             throw Error(`Unexpected jar download '${key}'`)
@@ -170,7 +169,7 @@ async function getMainJar(version, id, type) {
     const dest = path.resolve(`libraries/com/mojang/${name}/${id}/${name}-${id}.jar`)
     if (fs.existsSync(dest)) return dest
     if (type === 'merged') {
-        if (!files.client || !files.client || !getVersionDetails(id).sharedMappings) return null
+        if (!files.client || !files.client || !details.sharedMappings) return null
         mkdirp(path.dirname(dest))
         await mergeJars(files.client, files.server, dest)
     } else {
