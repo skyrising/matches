@@ -23,16 +23,22 @@ async function dumpGraph() {
     for (const file of files) {
         if (!file.startsWith(MATCHES_DIR + '/')) continue
         const [a, b] = path.basename(file, '.match').split('#')
-        matches.push({a, b, file})
-        const [typeA, versionA] = splitVersionAndType(a)
-        const [typeB, versionB] = splitVersionAndType(b)
-        let id = versionB.replace(/[-.~]/g, '_')
+        let [typeA, versionA] = splitVersionAndType(a)
+        let [typeB, versionB] = splitVersionAndType(b)
+        let rel = path.relative(MATCHES_DIR, file)
+        if (!typeA && !typeB) {
+            typeA = typeB = rel.slice(0, rel.indexOf('/'))
+        }
+        const keyA = typeA + '-' + versionA
+        const keyB = typeB + '-' + versionB
+        matches.push({a: keyA, b: keyB, file})
+        let id = keyB.replace(/[-.~]/g, '_')
         if (/^\d/.test(id)) id = 'v' + id
-        versions[versionB] = {id, era: await getEra(versionB)}
-        if (!versions[versionA]) {
-            let aId = versionA.replace(/[-.~]/g, '_')
+        versions[keyB] = {id, type: typeB, version: versionB, era: await getEra(versionB)}
+        if (!versions[keyA]) {
+            let aId = keyA.replace(/[-.~]/g, '_')
             if (/^\d/.test(aId)) aId = 'v' + aId
-            versions[versionA] = {id: aId, era: await getEra(versionA)}
+            versions[keyA] = {id: aId, type: typeA, version: versionA, era: await getEra(versionA)}
         }
     }
     const versionsByEra = {}
@@ -50,9 +56,10 @@ async function dumpGraph() {
     for (const era in versionsByEra) {
         lines.push(`  subgraph cluster_${era.replace(/[-.~]/g, '_')} {`)
         lines.push(`    label="${era}";`)
-        for (const version of versionsByEra[era]) {
-            const {id} = versions[version]
-            lines.push(`    ${id}[label="${version}",href="https://skyrising.github.io/mc-versions/version/${version}.json"];`)
+        for (const key of versionsByEra[era]) {
+            const {id, type, version} = versions[key]
+            const typePrefix = type === 'merged' ? '' : type[0].toUpperCase() + type.slice(1) + ' '
+            lines.push(`    ${id}[label="${typePrefix}${version}",href="https://skyrising.github.io/mc-versions/version/${version}.json"];`)
         }
         lines.push('  }')
     }
@@ -72,23 +79,19 @@ async function dumpGraph() {
             const mean = weightedGeoMean([c, m, f, ma], [2, 1, 1, 0.25])
             label = (Math.round(mean * 1e4) / 1e2) + '%'
         }
-        let [typeA, versionA] = splitVersionAndType(a)
-        let [typeB, versionB] = splitVersionAndType(b)
-        const rel = path.relative(MATCHES_DIR, file)
-        if (!typeA && !typeB) {
-            typeA = typeB = rel.slice(0, rel.indexOf('/'))
-        }
+        const typeA = versions[a].type
+        const typeB = versions[b].type
         const color = typeA && typeB ? COLORS[typeA[0] + typeB[0]] : undefined
         const attr = {
             label,
             color,
-            href: rel.replace('#', '%23')
+            href: path.relative(MATCHES_DIR, file).replace('#', '%23')
         }
         const attrStr = Object.keys(attr)
             .map(k => attr[k] && (k + '="' + attr[k] + '"'))
             .filter(Boolean)
             .join(',')
-        lines.push(`  ${versions[versionA].id} -> ${versions[versionB].id}[${attrStr}];`)
+        lines.push(`  ${versions[a].id} -> ${versions[b].id}[${attrStr}];`)
     }
     lines.push('}')
     fs.writeFileSync(path.resolve(DIST_DIR, 'matches.dot'), lines.join('\n') + '\n')
