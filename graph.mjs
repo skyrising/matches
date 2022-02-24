@@ -28,6 +28,9 @@ async function dumpGraph() {
         let rel = path.relative(MATCHES_DIR, file)
         if (!typeA && !typeB) {
             typeA = typeB = rel.slice(0, rel.indexOf('/'))
+        } else {
+            typeA = typeA || typeB
+            typeB = typeB || typeA
         }
         const keyA = typeA + '-' + versionA
         const keyB = typeB + '-' + versionB
