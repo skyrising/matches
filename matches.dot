@@ -239,6 +239,12 @@ digraph {
     client_a1_2_6[label="Client a1.2.6",href="https://skyrising.github.io/mc-versions/version/a1.2.6.json"];
     server_a0_1_2_01[label="Server a0.1.2_01",href="https://skyrising.github.io/mc-versions/version/a0.1.2_01.json"];
     server_a0_1_0[label="Server a0.1.0",href="https://skyrising.github.io/mc-versions/version/a0.1.0.json"];
+    server_a0_1_3[label="Server a0.1.3",href="https://skyrising.github.io/mc-versions/version/a0.1.3.json"];
+    server_a0_1_4[label="Server a0.1.4",href="https://skyrising.github.io/mc-versions/version/a0.1.4.json"];
+    server_a0_2_0[label="Server a0.2.0",href="https://skyrising.github.io/mc-versions/version/a0.2.0.json"];
+    server_a0_2_0_01[label="Server a0.2.0_01",href="https://skyrising.github.io/mc-versions/version/a0.2.0_01.json"];
+    server_a0_2_1[label="Server a0.2.1",href="https://skyrising.github.io/mc-versions/version/a0.2.1.json"];
+    server_a0_2_2[label="Server a0.2.2",href="https://skyrising.github.io/mc-versions/version/a0.2.2.json"];
   }
   subgraph cluster_infdev {
     label="infdev";
@@ -1001,6 +1007,12 @@ digraph {
   server_12w25a -> server_12w26a[label="100%",color="#0000aa",href="server/1.3/12w25a%2312w26a.match"];
   server_12w26a -> server_12w27a[label="99.96%",color="#0000aa",href="server/1.3/12w26a%2312w27a.match"];
   server_a0_1_0 -> server_a0_1_2_01[label="99.98%",color="#0000aa",href="server/alpha/server-a0.1.0%23server-a0.1.2_01.match"];
+  server_a0_1_2_01 -> server_a0_1_3[label="99.92%",color="#0000aa",href="server/alpha/server-a0.1.2_01%23server-a0.1.3.match"];
+  server_a0_1_3 -> server_a0_1_4[label="100%",color="#0000aa",href="server/alpha/server-a0.1.3%23server-a0.1.4.match"];
+  server_a0_1_4 -> server_a0_2_0[label="99.72%",color="#0000aa",href="server/alpha/server-a0.1.4%23server-a0.2.0.match"];
+  server_a0_2_0 -> server_a0_2_0_01[label="100%",color="#0000aa",href="server/alpha/server-a0.2.0%23server-a0.2.0_01.match"];
+  server_a0_2_0_01 -> server_a0_2_1[label="100%",color="#0000aa",href="server/alpha/server-a0.2.0_01%23server-a0.2.1.match"];
+  server_a0_2_1 -> server_a0_2_2[label="99.11%",color="#0000aa",href="server/alpha/server-a0.2.1%23server-a0.2.2.match"];
   server_b1_0 -> server_b1_0_01[label="100%",color="#0000aa",href="server/beta/b1.0%23b1.0_01.match"];
   server_b1_0_01 -> server_b1_1_1245[label="99.95%",color="#0000aa",href="server/beta/b1.0_01%23b1.1-1245.match"];
   server_b1_0_01 -> server_b1_1_01[label="99.95%",color="#0000aa",href="server/beta/b1.0_01%23b1.1_01.match"];
