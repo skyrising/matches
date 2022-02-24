@@ -19,7 +19,7 @@ const ANY_MATCH_TYPES = [
 
 ;(async () => {
     const manifest = JSON.parse(fs.readFileSync(path.resolve(versionDataDir, 'version_manifest.json')))
-    if (process.argv.length > 3) {
+    if (process.argv.length > 3 && process.argv[2] !== 'next') {
         if (process.argv.length > 5) {
             // setup <typeA> <versionA> <typeB> <versionB>
             await setupMatchEnv(manifest, process.argv[3], process.argv[2], process.argv[5], process.argv[4])
@@ -34,20 +34,23 @@ const ANY_MATCH_TYPES = [
             await refresh(manifest)
             return
         } else if (arg === 'next') {
-            await setupNext(manifest)
+            await setupNext(manifest, process.argv[3])
         }
     }
 })()
 
-async function setupNext(manifest) {
+async function setupNext(manifest, era) {
+    const handled = new Set()
     const queue = new Set(['rd-132211-launcher', 'server-c1.2'])
     while (queue.size) {
         const current = queue.values().next().value
         queue.delete(current)
+        if (handled.has(current)) continue
+        handled.add(current)
         const details = getVersionDetails(current)
         for (const next of details.next || []) {
             try {
-                if (await setupAnyMatchEnv(manifest, current, next)) return true
+                if (await setupAnyMatchEnv(manifest, current, next, era)) return true
             } catch (e) {
                 // Ignore errors for classic servers for now
                 // TODO: handle `server_zip`
@@ -58,21 +61,22 @@ async function setupNext(manifest) {
     return false
 }
 
-async function setupAnyMatchEnv(manifest, versionA, versionB) {
+async function setupAnyMatchEnv(manifest, versionA, versionB, era) {
     for (const [typeA, typeB] of ANY_MATCH_TYPES) {
-        const [canCreate, didCreate] = await setupMatchEnv(manifest, versionA, typeA, versionB, typeB)
+        const [canCreate, didCreate] = await setupMatchEnv(manifest, versionA, typeA, versionB, typeB, era)
         if (didCreate) return true
         if (canCreate) break
     }
     return false
 }
 
-async function setupMatchEnv(manifest, versionA, typeA, versionB, typeB) {
+async function setupMatchEnv(manifest, versionA, typeA, versionB, typeB, era) {
     const type = typeA === typeB ? typeA : 'cross'
     const prefixA = type === 'cross' ? typeA + '-' : ''
     const prefixB = type === 'cross' ? typeB + '-' : ''
     const typeDir = path.resolve(MATCHES_DIR, type)
     const eraB = getEra(versionB)
+    if (era && era !== eraB) return [true, false]
     const matchDir = eraB ? path.resolve(typeDir, eraB) : typeDir
     const matchFile = path.resolve(matchDir, `${prefixA}${versionA}#${prefixB}${versionB}.match`)
     if (!fs.existsSync(matchFile)) {
