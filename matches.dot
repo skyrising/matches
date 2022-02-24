@@ -563,6 +563,7 @@ digraph {
     merged_15w34b[label="15w34b",href="https://skyrising.github.io/mc-versions/version/15w34b.json"];
     merged_15w34c[label="15w34c",href="https://skyrising.github.io/mc-versions/version/15w34c.json"];
     merged_15w34d[label="15w34d",href="https://skyrising.github.io/mc-versions/version/15w34d.json"];
+    merged_15w35a[label="15w35a",href="https://skyrising.github.io/mc-versions/version/15w35a.json"];
   }
   subgraph cluster_april_fools {
     label="april-fools";
@@ -997,6 +998,7 @@ digraph {
   merged_15w34a -> merged_15w34b[label="99.98%",href="merged/1.9/15w34a%2315w34b.match"];
   merged_15w34b -> merged_15w34c[label="99.96%",href="merged/1.9/15w34b%2315w34c.match"];
   merged_15w34c -> merged_15w34d[label="100%",href="merged/1.9/15w34c%2315w34d.match"];
+  merged_15w34d -> merged_15w35a[label="99.94%",href="merged/1.9/15w34d%2315w35a.match"];
   merged_1_5 -> merged_af_2013_blue[label="99.99%",href="merged/april-fools/1.5%23af-2013-blue.match"];
   merged_1_5 -> merged_af_2013_purple[label="99.99%",href="merged/april-fools/1.5%23af-2013-purple.match"];
   merged_1_5_1 -> merged_af_2013_blue[label="99.49%",href="merged/april-fools/1.5.1%23af-2013-blue.match"];
