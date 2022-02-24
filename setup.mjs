@@ -55,9 +55,9 @@ async function setupWalkGraph(manifest, version, next) {
 
 async function setupAnyMatchEnv(manifest, versionA, versionB) {
     for (const [typeA, typeB] of ANY_MATCH_TYPES) {
-        if (await setupMatchEnv(manifest, versionA, typeA, versionB, typeB)) {
-            return true
-        }
+        const [canCreate, didCreate] = await setupMatchEnv(manifest, versionA, typeA, versionB, typeB)
+        if (didCreate) return true
+        if (canCreate) break
     }
     return false
 }
@@ -74,7 +74,7 @@ async function setupMatchEnv(manifest, versionA, typeA, versionB, typeB) {
         const mainJarA = await getMainJar(versionA, typeA)
         const mainJarB = await getMainJar(versionB, typeB)
         if (!mainJarA || !mainJarB) {
-            return false
+            return [false, false]
         }
         const librariesA = typeA === 'server' ? new Set() : new Set(await getLibraries(await getVersionInfo(manifest, versionA)))
         const librariesB = typeB === 'server' ? new Set() : new Set(await getLibraries(await getVersionInfo(manifest, versionB)))
@@ -100,9 +100,9 @@ async function setupMatchEnv(manifest, versionA, typeA, versionB, typeB) {
         mkdirp(path.dirname(matchFile))
         fs.writeFileSync(matchFile, lines.join('\n'))
         fs.writeFileSync('current.txt', `Current Match: ${versionA} \u2192 ${versionB}`)
-        return true
+        return [true, true]
     }
-    return false
+    return [true, false]
 }
 
 async function refresh(manifest) {
