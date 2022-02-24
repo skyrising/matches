@@ -108,6 +108,11 @@ digraph {
     client_12w01a[label="Client 12w01a",href="https://skyrising.github.io/mc-versions/version/12w01a.json"];
     client_1_1[label="Client 1.1",href="https://skyrising.github.io/mc-versions/version/1.1.json"];
     server_11w47a[label="Server 11w47a",href="https://skyrising.github.io/mc-versions/version/11w47a.json"];
+    server_11w48a[label="Server 11w48a",href="https://skyrising.github.io/mc-versions/version/11w48a.json"];
+    server_11w49a[label="Server 11w49a",href="https://skyrising.github.io/mc-versions/version/11w49a.json"];
+    server_11w50a[label="Server 11w50a",href="https://skyrising.github.io/mc-versions/version/11w50a.json"];
+    server_12w01a[label="Server 12w01a",href="https://skyrising.github.io/mc-versions/version/12w01a.json"];
+    server_1_1[label="Server 1.1",href="https://skyrising.github.io/mc-versions/version/1.1.json"];
   }
   subgraph cluster_1_2 {
     label="1.2";
@@ -125,6 +130,20 @@ digraph {
     client_12w07a[label="Client 12w07a",href="https://skyrising.github.io/mc-versions/version/12w07a.json"];
     client_12w07b[label="Client 12w07b",href="https://skyrising.github.io/mc-versions/version/12w07b.json"];
     client_12w08a[label="Client 12w08a",href="https://skyrising.github.io/mc-versions/version/12w08a.json"];
+    server_12w03a[label="Server 12w03a",href="https://skyrising.github.io/mc-versions/version/12w03a.json"];
+    server_1_2_1[label="Server 1.2.1",href="https://skyrising.github.io/mc-versions/version/1.2.1.json"];
+    server_1_2[label="Server 1.2",href="https://skyrising.github.io/mc-versions/version/1.2.json"];
+    server_1_2_2[label="Server 1.2.2",href="https://skyrising.github.io/mc-versions/version/1.2.2.json"];
+    server_1_2_3[label="Server 1.2.3",href="https://skyrising.github.io/mc-versions/version/1.2.3.json"];
+    server_1_2_4[label="Server 1.2.4",href="https://skyrising.github.io/mc-versions/version/1.2.4.json"];
+    server_1_2_5[label="Server 1.2.5",href="https://skyrising.github.io/mc-versions/version/1.2.5.json"];
+    server_12w04a[label="Server 12w04a",href="https://skyrising.github.io/mc-versions/version/12w04a.json"];
+    server_12w05a[label="Server 12w05a",href="https://skyrising.github.io/mc-versions/version/12w05a.json"];
+    server_12w05b[label="Server 12w05b",href="https://skyrising.github.io/mc-versions/version/12w05b.json"];
+    server_12w06a[label="Server 12w06a",href="https://skyrising.github.io/mc-versions/version/12w06a.json"];
+    server_12w07a[label="Server 12w07a",href="https://skyrising.github.io/mc-versions/version/12w07a.json"];
+    server_12w07b[label="Server 12w07b",href="https://skyrising.github.io/mc-versions/version/12w07b.json"];
+    server_12w08a[label="Server 12w08a",href="https://skyrising.github.io/mc-versions/version/12w08a.json"];
   }
   subgraph cluster_1_3 {
     label="1.3";
@@ -150,6 +169,9 @@ digraph {
     merged_12w30c[label="12w30c",href="https://skyrising.github.io/mc-versions/version/12w30c.json"];
     merged_12w30d[label="12w30d",href="https://skyrising.github.io/mc-versions/version/12w30d.json"];
     merged_12w30e[label="12w30e",href="https://skyrising.github.io/mc-versions/version/12w30e.json"];
+    server_12w15a[label="Server 12w15a",href="https://skyrising.github.io/mc-versions/version/12w15a.json"];
+    server_12w16a[label="Server 12w16a",href="https://skyrising.github.io/mc-versions/version/12w16a.json"];
+    server_12w17a[label="Server 12w17a",href="https://skyrising.github.io/mc-versions/version/12w17a.json"];
   }
   subgraph cluster_alpha {
     label="alpha";
@@ -931,6 +953,28 @@ digraph {
   server_1_0_0_rc2_3 -> server_1_0_0[label="100%",color="#0000aa",href="server/1.0/1.0.0-rc2-3%231.0.0.match"];
   server_b1_9_pre6 -> server_1_0_0_rc2_3[label="100%",color="#0000aa",href="server/1.0/b1.9-pre6%231.0.0-rc2-3.match"];
   server_1_0_1 -> server_11w47a[label="100%",color="#0000aa",href="server/1.1/1.0.1%2311w47a.match"];
+  server_11w47a -> server_11w48a[label="99.99%",color="#0000aa",href="server/1.1/11w47a%2311w48a.match"];
+  server_11w48a -> server_11w49a[label="99.99%",color="#0000aa",href="server/1.1/11w48a%2311w49a.match"];
+  server_11w49a -> server_11w50a[label="100%",color="#0000aa",href="server/1.1/11w49a%2311w50a.match"];
+  server_11w50a -> server_12w01a[label="100%",color="#0000aa",href="server/1.1/11w50a%2312w01a.match"];
+  server_12w01a -> server_1_1[label="99.7%",color="#0000aa",href="server/1.1/12w01a%231.1.match"];
+  server_1_1 -> server_12w03a[label="99.96%",color="#0000aa",href="server/1.2/1.1%2312w03a.match"];
+  server_1_2 -> server_1_2_1[label="100%",color="#0000aa",href="server/1.2/1.2%231.2.1.match"];
+  server_1_2_1 -> server_1_2_2[label="100%",color="#0000aa",href="server/1.2/1.2.1%231.2.2.match"];
+  server_1_2_2 -> server_1_2_3[label="100%",color="#0000aa",href="server/1.2/1.2.2%231.2.3.match"];
+  server_1_2_3 -> server_1_2_4[label="100%",color="#0000aa",href="server/1.2/1.2.3%231.2.4.match"];
+  server_1_2_4 -> server_1_2_5[label="100%",color="#0000aa",href="server/1.2/1.2.4%231.2.5.match"];
+  server_12w03a -> server_12w04a[label="99.98%",color="#0000aa",href="server/1.2/12w03a%2312w04a.match"];
+  server_12w04a -> server_12w05a[label="99.89%",color="#0000aa",href="server/1.2/12w04a%2312w05a.match"];
+  server_12w05a -> server_12w05b[label="100%",color="#0000aa",href="server/1.2/12w05a%2312w05b.match"];
+  server_12w05b -> server_12w06a[label="99.29%",color="#0000aa",href="server/1.2/12w05b%2312w06a.match"];
+  server_12w06a -> server_12w07a[label="98.45%",color="#0000aa",href="server/1.2/12w06a%2312w07a.match"];
+  server_12w07a -> server_12w07b[label="100%",color="#0000aa",href="server/1.2/12w07a%2312w07b.match"];
+  server_12w07b -> server_12w08a[label="99.95%",color="#0000aa",href="server/1.2/12w07b%2312w08a.match"];
+  server_12w08a -> server_1_2[label="99.98%",color="#0000aa",href="server/1.2/12w08a%231.2.match"];
+  server_1_2_5 -> server_12w15a[label="99.51%",color="#0000aa",href="server/1.3/1.2.5%2312w15a.match"];
+  server_12w15a -> server_12w16a[label="99.84%",color="#0000aa",href="server/1.3/12w15a%2312w16a.match"];
+  server_12w16a -> server_12w17a[label="99.89%",color="#0000aa",href="server/1.3/12w16a%2312w17a.match"];
   server_b1_0 -> server_b1_0_01[label="100%",color="#0000aa",href="server/beta/b1.0%23b1.0_01.match"];
   server_b1_0_01 -> server_b1_1_1245[label="99.95%",color="#0000aa",href="server/beta/b1.0_01%23b1.1-1245.match"];
   server_b1_0_01 -> server_b1_1_01[label="99.95%",color="#0000aa",href="server/beta/b1.0_01%23b1.1_01.match"];
