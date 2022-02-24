@@ -253,6 +253,10 @@ digraph {
     server_a0_2_5_01[label="Server a0.2.5_01",href="https://skyrising.github.io/mc-versions/version/a0.2.5_01.json"];
     server_a0_2_5_02[label="Server a0.2.5_02",href="https://skyrising.github.io/mc-versions/version/a0.2.5_02.json"];
     server_a0_2_6[label="Server a0.2.6",href="https://skyrising.github.io/mc-versions/version/a0.2.6.json"];
+    server_a0_2_6_01[label="Server a0.2.6_01",href="https://skyrising.github.io/mc-versions/version/a0.2.6_01.json"];
+    server_a0_2_6_02[label="Server a0.2.6_02",href="https://skyrising.github.io/mc-versions/version/a0.2.6_02.json"];
+    server_a0_2_7[label="Server a0.2.7",href="https://skyrising.github.io/mc-versions/version/a0.2.7.json"];
+    server_a0_2_8[label="Server a0.2.8",href="https://skyrising.github.io/mc-versions/version/a0.2.8.json"];
   }
   subgraph cluster_infdev {
     label="infdev";
@@ -1029,6 +1033,10 @@ digraph {
   server_a0_2_5_1004 -> server_a0_2_5_01[label="99.98%",color="#0000aa",href="server/alpha/server-a0.2.5-1004%23server-a0.2.5_01.match"];
   server_a0_2_5_01 -> server_a0_2_5_02[label="99.99%",color="#0000aa",href="server/alpha/server-a0.2.5_01%23server-a0.2.5_02.match"];
   server_a0_2_5_02 -> server_a0_2_6[label="99.99%",color="#0000aa",href="server/alpha/server-a0.2.5_02%23server-a0.2.6.match"];
+  server_a0_2_6 -> server_a0_2_6_01[label="100%",color="#0000aa",href="server/alpha/server-a0.2.6%23server-a0.2.6_01.match"];
+  server_a0_2_6_01 -> server_a0_2_6_02[label="100%",color="#0000aa",href="server/alpha/server-a0.2.6_01%23server-a0.2.6_02.match"];
+  server_a0_2_6_02 -> server_a0_2_7[label="100%",color="#0000aa",href="server/alpha/server-a0.2.6_02%23server-a0.2.7.match"];
+  server_a0_2_7 -> server_a0_2_8[label="100%",color="#0000aa",href="server/alpha/server-a0.2.7%23server-a0.2.8.match"];
   server_b1_0 -> server_b1_0_01[label="100%",color="#0000aa",href="server/beta/b1.0%23b1.0_01.match"];
   server_b1_0_01 -> server_b1_1_1245[label="99.95%",color="#0000aa",href="server/beta/b1.0_01%23b1.1-1245.match"];
   server_b1_0_01 -> server_b1_1_01[label="99.95%",color="#0000aa",href="server/beta/b1.0_01%23b1.1_01.match"];
@@ -1069,4 +1077,5 @@ digraph {
   server_b1_9_pre4_201110131434 -> server_b1_9_pre4_201110131440[label="100%",color="#0000aa",href="server/beta/b1.9-pre4-201110131434%23b1.9-pre4-201110131440.match"];
   server_b1_9_pre4_201110131440 -> server_b1_9_pre5[label="99.83%",color="#0000aa",href="server/beta/b1.9-pre4-201110131440%23b1.9-pre5.match"];
   server_b1_9_pre5 -> server_b1_9_pre6[label="99.86%",color="#0000aa",href="server/beta/b1.9-pre5%23b1.9-pre6.match"];
+  server_a0_2_8 -> server_b1_0[color="#0000aa",href="server/beta/server-a0.2.8%23b1.0.match"];
 }
