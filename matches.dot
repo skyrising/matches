@@ -245,6 +245,14 @@ digraph {
     server_a0_2_0_01[label="Server a0.2.0_01",href="https://skyrising.github.io/mc-versions/version/a0.2.0_01.json"];
     server_a0_2_1[label="Server a0.2.1",href="https://skyrising.github.io/mc-versions/version/a0.2.1.json"];
     server_a0_2_2[label="Server a0.2.2",href="https://skyrising.github.io/mc-versions/version/a0.2.2.json"];
+    server_a0_2_2_01[label="Server a0.2.2_01",href="https://skyrising.github.io/mc-versions/version/a0.2.2_01.json"];
+    server_a0_2_3[label="Server a0.2.3",href="https://skyrising.github.io/mc-versions/version/a0.2.3.json"];
+    server_a0_2_4[label="Server a0.2.4",href="https://skyrising.github.io/mc-versions/version/a0.2.4.json"];
+    server_a0_2_5_0923[label="Server a0.2.5-0923",href="https://skyrising.github.io/mc-versions/version/a0.2.5-0923.json"];
+    server_a0_2_5_1004[label="Server a0.2.5-1004",href="https://skyrising.github.io/mc-versions/version/a0.2.5-1004.json"];
+    server_a0_2_5_01[label="Server a0.2.5_01",href="https://skyrising.github.io/mc-versions/version/a0.2.5_01.json"];
+    server_a0_2_5_02[label="Server a0.2.5_02",href="https://skyrising.github.io/mc-versions/version/a0.2.5_02.json"];
+    server_a0_2_6[label="Server a0.2.6",href="https://skyrising.github.io/mc-versions/version/a0.2.6.json"];
   }
   subgraph cluster_infdev {
     label="infdev";
@@ -1013,6 +1021,14 @@ digraph {
   server_a0_2_0 -> server_a0_2_0_01[label="100%",color="#0000aa",href="server/alpha/server-a0.2.0%23server-a0.2.0_01.match"];
   server_a0_2_0_01 -> server_a0_2_1[label="100%",color="#0000aa",href="server/alpha/server-a0.2.0_01%23server-a0.2.1.match"];
   server_a0_2_1 -> server_a0_2_2[label="99.11%",color="#0000aa",href="server/alpha/server-a0.2.1%23server-a0.2.2.match"];
+  server_a0_2_2 -> server_a0_2_2_01[label="100%",color="#0000aa",href="server/alpha/server-a0.2.2%23server-a0.2.2_01.match"];
+  server_a0_2_2_01 -> server_a0_2_3[label="100%",color="#0000aa",href="server/alpha/server-a0.2.2_01%23server-a0.2.3.match"];
+  server_a0_2_3 -> server_a0_2_4[label="99.5%",color="#0000aa",href="server/alpha/server-a0.2.3%23server-a0.2.4.match"];
+  server_a0_2_4 -> server_a0_2_5_0923[label="99.97%",color="#0000aa",href="server/alpha/server-a0.2.4%23server-a0.2.5-0923.match"];
+  server_a0_2_5_0923 -> server_a0_2_5_1004[label="100%",color="#0000aa",href="server/alpha/server-a0.2.5-0923%23server-a0.2.5-1004.match"];
+  server_a0_2_5_1004 -> server_a0_2_5_01[label="99.98%",color="#0000aa",href="server/alpha/server-a0.2.5-1004%23server-a0.2.5_01.match"];
+  server_a0_2_5_01 -> server_a0_2_5_02[label="99.99%",color="#0000aa",href="server/alpha/server-a0.2.5_01%23server-a0.2.5_02.match"];
+  server_a0_2_5_02 -> server_a0_2_6[label="99.99%",color="#0000aa",href="server/alpha/server-a0.2.5_02%23server-a0.2.6.match"];
   server_b1_0 -> server_b1_0_01[label="100%",color="#0000aa",href="server/beta/b1.0%23b1.0_01.match"];
   server_b1_0_01 -> server_b1_1_1245[label="99.95%",color="#0000aa",href="server/beta/b1.0_01%23b1.1-1245.match"];
   server_b1_0_01 -> server_b1_1_01[label="99.95%",color="#0000aa",href="server/beta/b1.0_01%23b1.1_01.match"];
