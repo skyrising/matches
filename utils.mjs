@@ -3,7 +3,6 @@ import path from 'path'
 import cp from 'child_process'
 
 const versionDataDir = path.resolve('mc-versions', 'data')
-const versionDir = path.resolve(versionDataDir, 'version')
 
 export function spawn(program, args, opts) {
     return new Promise((resolve, reject) => {
@@ -32,8 +31,10 @@ const ERAS = {
     in: 'indev',
     af: 'april-fools',
     a: 'alpha',
+    'server-a': 'alpha',
     b: 'beta',
     c: 'classic',
+    'server-c': 'classic',
     rd: 'pre-classic'
 }
 
