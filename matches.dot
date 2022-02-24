@@ -172,6 +172,7 @@ digraph {
     server_12w15a[label="Server 12w15a",href="https://skyrising.github.io/mc-versions/version/12w15a.json"];
     server_12w16a[label="Server 12w16a",href="https://skyrising.github.io/mc-versions/version/12w16a.json"];
     server_12w17a[label="Server 12w17a",href="https://skyrising.github.io/mc-versions/version/12w17a.json"];
+    server_12w18a[label="Server 12w18a",href="https://skyrising.github.io/mc-versions/version/12w18a.json"];
   }
   subgraph cluster_alpha {
     label="alpha";
@@ -975,6 +976,7 @@ digraph {
   server_1_2_5 -> server_12w15a[label="99.51%",color="#0000aa",href="server/1.3/1.2.5%2312w15a.match"];
   server_12w15a -> server_12w16a[label="99.84%",color="#0000aa",href="server/1.3/12w15a%2312w16a.match"];
   server_12w16a -> server_12w17a[label="99.89%",color="#0000aa",href="server/1.3/12w16a%2312w17a.match"];
+  server_12w17a -> server_12w18a[label="99.01%",color="#0000aa",href="server/1.3/12w17a%2312w18a.match"];
   server_b1_0 -> server_b1_0_01[label="100%",color="#0000aa",href="server/beta/b1.0%23b1.0_01.match"];
   server_b1_0_01 -> server_b1_1_1245[label="99.95%",color="#0000aa",href="server/beta/b1.0_01%23b1.1-1245.match"];
   server_b1_0_01 -> server_b1_1_01[label="99.95%",color="#0000aa",href="server/beta/b1.0_01%23b1.1_01.match"];
