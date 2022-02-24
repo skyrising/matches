@@ -33,24 +33,29 @@ const ANY_MATCH_TYPES = [
             // setup refresh
             await refresh(manifest)
             return
+        } else if (arg === 'next') {
+            await setupNext(manifest)
         }
-        const next = arg === 'next'
-        const first = manifest.versions[manifest.versions.length - 1].omniId
-        await setupWalkGraph(manifest, first, next)
     }
 })()
 
-async function setupWalkGraph(manifest, version, next) {
-    const data = JSON.parse(fs.readFileSync(path.resolve(versionDir, `${version}.json`)))
-    let anyChanged = false
-    for (const nextVersion of data.next) {
-        const changed = await setupAnyMatchEnv(manifest, version, nextVersion) || await setupWalkGraph(manifest, nextVersion, next)
-        if (changed && next) {
-            return true
+async function setupNext(manifest) {
+    const queue = new Set(['rd-132211-launcher', 'server-c1.2'])
+    while (queue.size) {
+        const current = queue.values().next().value
+        queue.delete(current)
+        const details = getVersionDetails(current)
+        for (const next of details.next || []) {
+            try {
+                if (await setupAnyMatchEnv(manifest, current, next)) return true
+            } catch (e) {
+                // Ignore errors for classic servers for now
+                // TODO: handle `server_zip`
+            }
+            queue.add(next)
         }
-        anyChanged = anyChanged || changed
     }
-    return anyChanged
+    return false
 }
 
 async function setupAnyMatchEnv(manifest, versionA, versionB) {
@@ -68,7 +73,7 @@ async function setupMatchEnv(manifest, versionA, typeA, versionB, typeB) {
     const prefixB = type === 'cross' ? typeB + '-' : ''
     const typeDir = path.resolve(MATCHES_DIR, type)
     const eraB = getEra(versionB)
-    const matchDir = eraB ? path.resolve(typeDir, eraB) : type
+    const matchDir = eraB ? path.resolve(typeDir, eraB) : typeDir
     const matchFile = path.resolve(matchDir, `${prefixA}${versionA}#${prefixB}${versionB}.match`)
     if (!fs.existsSync(matchFile)) {
         const mainJarA = await getMainJar(versionA, typeA)
@@ -164,7 +169,7 @@ async function getMainJar(id, type) {
         files[key] = file
         await downloadFile(download.url, file)
     }
-    if (!files.client && !files.server) throw Error('Expected at least one jar')
+    if (!files.client && !files.server) throw Error('Expected at least one jar for ' + id)
     const name = 'minecraft-' + type
     const dest = path.resolve(`libraries/com/mojang/${name}/${id}/${name}-${id}.jar`)
     if (fs.existsSync(dest)) return dest
