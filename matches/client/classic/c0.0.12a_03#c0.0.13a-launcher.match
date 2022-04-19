@@ -1,4 +1,4 @@
-Matches saved 2022-02-17, status: c:32/33 m:155/162 f:199/206 ma:317/332, input files:
+Matches saved 2022-04-19, status: c:32/33 m:155/162 f:200/206 ma:314/332, input files:
 	a:
 		46554	SHA256	RLUfVJPGdrsr3/o8UrJtQmozB5ReME233QxZ8052e+k=	minecraft-client-c0.0.12a_03.jar
 	b:
@@ -278,14 +278,15 @@ c	Lcom/mojang/minecraft/a/c;	Lcom/mojang/minecraft/level/Chunk;
 	f	c;;I	updates;;I
 	f	q;;J	totalTime;;J
 	f	r;;I	totalUpdates;;I
-c	Lcom/mojang/minecraft/a/d;	Lcom/mojang/minecraft/level/Coord;
-	m	<init>(III)V	<init>(III)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	f	a;;I	x;;I
-	f	b;;I	y;;I
-	f	c;;I	z;;I
+c	Lcom/mojang/minecraft/a/d;	Lcom/mojang/minecraft/level/levelgen/LevelGen;
+	m	<init>(III)V	<init>(Lcom/mojang/minecraft/level/LevelLoaderListener;)V
+		mau	a	0
+		mau	a	1
+		mau	a	2
+	f	a;;I	width;;I
+	f	b;;I	height;;I
+	f	c;;I	depth;;I
+	f	d;;Ljava/util/Random;	random;;Ljava/util/Random;
 c	Lcom/mojang/minecraft/a/e;	Lcom/mojang/minecraft/level/DistanceSorter;
 	m	<init>(Lcom/mojang/minecraft/d;)V	<init>(Lcom/mojang/minecraft/Player;)V
 		ma	0	0
@@ -516,7 +517,7 @@ c	Lcom/mojang/minecraft/c;	Lcom/mojang/minecraft/Minecraft;
 	f	g;;Ljava/nio/FloatBuffer;	fogColor0;;Ljava/nio/FloatBuffer;
 	f	h;;Ljava/nio/FloatBuffer;	fogColor1;;Ljava/nio/FloatBuffer;
 	f	i;;Lcom/mojang/minecraft/a;	timer;;Lcom/mojang/minecraft/Timer;
-	f	j;;Lcom/mojang/minecraft/a/g;	levelGen;;Lcom/mojang/minecraft/level/levelgen/LevelGen;
+	f	j;;Lcom/mojang/minecraft/a/g;	level;;Lcom/mojang/minecraft/level/Level;
 	f	k;;Lcom/mojang/minecraft/a/f;	levelRenderer;;Lcom/mojang/minecraft/level/LevelRenderer;
 	f	l;;Lcom/mojang/minecraft/d;	player;;Lcom/mojang/minecraft/Player;
 	f	m;;I	paintTexture;;I

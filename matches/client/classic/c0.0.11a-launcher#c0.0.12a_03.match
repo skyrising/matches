@@ -1,18 +1,18 @@
-Matches saved 2021-06-26, status: c:29/37 m:124/208 f:176/231 ma:233/358, input files:
+Matches saved 2022-04-19, status: c:29/37 m:122/208 f:176/231 ma:232/358, input files:
 	a:
-		67430	LKE7Q+o+/AOIxcHUYThU9kEvl9TAL0sYcp9kjkbwLR8=	minecraft-client-c0.0.11a-launcher.jar
+		67430	SHA256	LKE7Q+o+/AOIxcHUYThU9kEvl9TAL0sYcp9kjkbwLR8=	minecraft-client-c0.0.11a-launcher.jar
 	b:
-		46554	RLUfVJPGdrsr3/o8UrJtQmozB5ReME233QxZ8052e+k=	minecraft-client-c0.0.12a_03.jar
+		46554	SHA256	RLUfVJPGdrsr3/o8UrJtQmozB5ReME233QxZ8052e+k=	minecraft-client-c0.0.12a_03.jar
 	cp:
-		27583	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		214592	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		994633	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		27583	SHA256	CvzDjDSFVvn/0P04U9Y4Nm1r3rDzPWh36LmQlyRJWvc=	launchwrapper-1.6.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		214592	SHA256	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
+		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
+		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
+		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
 	cp a:
 	cp b:
 c	Lcom/mojang/minecraft/Entity;	Lcom/mojang/minecraft/f;
@@ -199,7 +199,7 @@ c	Lcom/mojang/minecraft/character/Cube;	Lcom/mojang/minecraft/d/b;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	render()V	a()V
+	mu	a	render()V
 	mu	a	compile()V
 	f	vertices;;[Lcom/mojang/minecraft/character/Vertex;	d;;[Lcom/mojang/minecraft/d/e;
 	f	polygons;;[Lcom/mojang/minecraft/character/Polygon;	e;;[Lcom/mojang/minecraft/d/d;
@@ -358,8 +358,7 @@ c	Lcom/mojang/minecraft/level/Level;	Lcom/mojang/minecraft/a/g;
 	mu	a	addListener(Lcom/mojang/minecraft/level/LevelListener;)V
 	mu	a	removeListener(Lcom/mojang/minecraft/level/LevelListener;)V
 	mu	a	isLightBlocker(III)Z
-	m	getCubes(Lcom/mojang/minecraft/phys/AABB;)Ljava/util/ArrayList;	a(Lcom/mojang/minecraft/f/a;I)Z
-		ma	0	0
+	mu	a	getCubes(Lcom/mojang/minecraft/phys/AABB;)Ljava/util/ArrayList;
 	m	setTile(IIII)Z	a(IIII)Z
 		ma	0	0
 		ma	1	1
