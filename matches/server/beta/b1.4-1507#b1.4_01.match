@@ -1,4 +1,4 @@
-Matches saved 2022-02-23, status: c:402/402 m:3009/3011 f:1554/1554 ma:4852/4857, input files:
+Matches saved 2022-05-06, status: c:402/402 m:3008/3011 f:1554/1554 ma:4848/4857, input files:
 	a:
 		446482	SHA256	WVcuYea/hGaVJfE0xbFOdKyL3WR6sJom1fbGcWRkBT4=	minecraft-server-b1.4-1507.jar
 	b:
@@ -4058,11 +4058,7 @@ c	Lga;	Lga;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	g(Lcw;III)Z	a(Lcw;IIILjava/util/Random;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
+	mu	a	g(Lcw;III)Z
 c	Lgb;	Lgb;
 	m	<init>(Lcw;Lai;Lbc;)V	<init>(Lcw;Lai;Lbc;)V
 		ma	0	0

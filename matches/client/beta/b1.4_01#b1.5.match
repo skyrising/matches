@@ -1,18 +1,18 @@
-Matches saved 2021-10-05, status: c:630/635 m:4974/4994 f:2985/3004 ma:8346/8384, input files:
+Matches saved 2022-05-06, status: c:630/635 m:4973/4994 f:2985/3004 ma:8346/8384, input files:
 	a:
-		1306747	NhcOYaLOnctt2lr2NEAHDRutgsCEbXefJcL7C9wUmS4=	minecraft-client-b1.4_01.jar
+		1306747	SHA256	NhcOYaLOnctt2lr2NEAHDRutgsCEbXefJcL7C9wUmS4=	minecraft-client-b1.4_01.jar
 	b:
-		1377412	2Zy6hnrMWqvzg/glLwR9XR6a+09THJtyBdG4Rc1Pp/A=	minecraft-client-b1.5.jar
+		1377412	SHA256	2Zy6hnrMWqvzg/glLwR9XR6a+09THJtyBdG4Rc1Pp/A=	minecraft-client-b1.5.jar
 	cp:
-		27787	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		214592	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		994633	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		27787	SHA256	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		214592	SHA256	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
+		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
+		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
+		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
 	cp a:
 	cp b:
 	non-obf cls a	paulscode|jcraft
@@ -8672,12 +8672,7 @@ c	Lku;	Lmm;
 		ma	0	0
 		ma	1	1
 	m	g()I	g()I
-	m	b(Leb;IIII)V	a(Let;IIIIF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
+	mu	a	b(Leb;IIII)V
 	m	a(ILjava/util/Random;)I	a(ILjava/util/Random;)I
 		ma	0	0
 		ma	1	1
@@ -13093,7 +13088,7 @@ c	Lpb;	Lrj;
 		ma	0	0
 	m	b(F)V	b(F)V
 		ma	0	0
-	m	k_()Z	ag()Z
+	m	k_()Z	j_()Z
 	m	a(Ljh;)Z	a(Lkr;)Z
 		ma	0	0
 	m	w()F	x()F
@@ -16217,7 +16212,6 @@ c	Lto;	Lwj;
 	m	p()V	q()V
 	m	a(Lfm;)Z	a(Lgh;)Z
 		ma	0	0
-	m	k_()Z	ag()Z
 	m	n()V	o()V
 	m	a_(FF)V	a_(FF)V
 		ma	0	0

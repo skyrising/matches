@@ -1,6 +1,6 @@
-Matches saved 2022-02-23, status: c:319/580 m:2306/4499 f:1225/2694 ma:3937/7723, input files:
+Matches saved 2022-05-06, status: c:319/580 m:2248/4499 f:1225/2694 ma:3937/7723, input files:
 	a:
-		1182073	SHA256	dGdvRyAxiB0S+Ghdl84d5nIgLbirXTRgZuGvw9gIJsM=	minecraft-b1.2_02.jar
+		1182073	SHA256	dGdvRyAxiB0S+Ghdl84d5nIgLbirXTRgZuGvw9gIJsM=	minecraft-client-b1.2_02.jar
 	b:
 		410614	SHA256	g6h9816/3+2oU7lHqeXbrwk0AWnNbp0Atlm7bm8fHP8=	minecraft-server-b1.3-1647.jar
 	cp:
@@ -19,8 +19,6 @@ Matches saved 2022-02-23, status: c:319/580 m:2306/4499 f:1225/2694 ma:3937/7723
 	non-obf mem a	paulscode|jcraft
 	non-obf mem b	paulscode|jcraft
 c	La;	La;
-	m	<init>()V	<init>()V
-	m	<init>(III)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -115,7 +113,6 @@ c	Lad;	Lx;
 	f	b;;D	b;;D
 	f	c;;D	c;;D
 c	Lae;	Ly;
-	m	<init>()V	<init>()V
 	m	a()Z	a()Z
 	m	b()Z	b()Z
 	m	c()Z	c()Z
@@ -152,7 +149,6 @@ c	Laj;	Lac;
 	m	<clinit>()V	<clinit>()V
 	f	bg;;[Lpj;	bi;;[Llc;
 c	Lak;	Lad;
-	m	<init>()V	<init>()V
 	m	a()I	m_()I
 	m	c_(I)Lgm;	c_(I)Ley;
 		ma	0	0
@@ -692,7 +688,6 @@ c	Lbn;	Lba;
 	m	n()Z	m()Z
 cu	a	Lbo;
 c	Lbp;	Lbb;
-	m	<init>()V	<init>()V
 	m	a(Ldn;II)Lqj;	a(Lcp;II)Lly;
 		ma	0	0
 		ma	1	1
@@ -736,7 +731,6 @@ c	Lbs;	Lbg;
 		ma	2	2
 cu	a	Lbt;
 c	Lbu;	Lbi;
-	m	<init>()V	<init>()V
 	m	a(Ljava/lang/String;)V	a(Ljava/lang/String;)V
 		ma	0	0
 	m	b()Z	a()Z
@@ -855,7 +849,6 @@ c	Lca;	Lbk;
 		ma	0	0
 	m	a()Z	a()Z
 c	Lcb;	Lbl;
-	m	<init>()V	<init>()V
 c	Lcc;	Lbm;
 	m	<init>([Lb;)V	<init>([Lb;)V
 		ma	0	0
@@ -868,7 +861,6 @@ c	Lcc;	Lbm;
 	f	c;;I	c;;I
 cu	a	Lcd;
 c	Lce;	Lbn;
-	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -1092,7 +1084,6 @@ c	Lcu;	Lbz;
 	m	d(I)I	d(I)I
 		ma	0	0
 c	Lcv;	Lca;
-	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -1113,7 +1104,6 @@ cu	a	Lcx;
 cu	a	Lcy;
 cu	a	Lcz;
 c	Ld;	Ld;
-	m	<init>()V	<init>()V
 	m	a(Ljava/util/Random;)Lkz;	a(Ljava/util/Random;)Lia;
 		ma	0	0
 c	Lda;	Lcf;
@@ -1861,9 +1851,7 @@ cu	a	Ldz;
 cu	a	Le;
 cu	a	Lea;
 c	Leb;	Ldb;
-	m	<init>()V	<init>()V
 c	Lec;	Ldd;
-	m	<init>()V	<init>()V
 	m	a(Lbm;Ldn;II[B)V	a(Lay;Lcp;II[B)V
 		ma	0	0
 		ma	1	1
@@ -1935,7 +1923,6 @@ c	Led;	Lde;
 	f	c;;Lhc;	c;;Lfk;
 	f	d;;[Lb;	d;;[Lb;
 c	Lee;	Ldf;
-	m	<init>()V	<init>()V
 	m	a(Ldn;Ljava/util/Random;III)Z	a(Lcp;Ljava/util/Random;III)Z
 		ma	0	0
 		ma	1	1
@@ -2007,7 +1994,6 @@ c	Leh;	Ldh;
 cu	a	Lei;
 cu	a	Lej;
 c	Lek;	Ldi;
-	m	<init>()V	<init>()V
 	m	a(Ldn;Ljava/util/Random;III)Z	a(Lcp;Ljava/util/Random;III)Z
 		ma	0	0
 		ma	1	1
@@ -2397,7 +2383,6 @@ c	Ley;	Lds;
 	m	c()Z	b()Z
 	f	c;;I	c;;I
 c	Lez;	Ldt;
-	m	<init>()V	<init>()V
 	m	a(Lfg;)V	a(Leb;)V
 		ma	0	0
 	f	a;;[[Ljava/lang/String;	a;;[[Ljava/lang/String;
@@ -2536,6 +2521,7 @@ c	Lfi;	Lec;
 	f	a;;[B	a;;[B
 c	Lfj;	Lee;
 	m	<init>()V	<init>()V
+	m	<init>(I)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -2546,7 +2532,6 @@ c	Lfj;	Lee;
 	f	a;;I	a;;I
 cu	a	Lfk;
 c	Lfl;	Lef;
-	m	<init>()V	<init>()V
 	m	a(Lod;)V	a(Lkj;)V
 		ma	0	0
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
@@ -2609,7 +2594,6 @@ c	Lfw;	Len;
 	f	h;;Z	h;;Z
 	f	i;;Z	i;;Z
 c	Lfx;	Leo;
-	m	<init>()V	<init>()V
 	m	a()V	a()V
 	m	a(IIIFBI)V	a(IIIFBI)V
 		ma	0	0
@@ -2826,7 +2810,6 @@ c	Lgj;	Lev;
 	f	e;;Lgm;	e;;Ley;
 	f	a;;I	a;;I
 c	Lgk;	Lew;
-	m	<init>()V	<init>()V
 	m	a(Lod;)V	a(Lkj;)V
 		ma	0	0
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
@@ -3022,7 +3005,6 @@ c	Lgq;	Lfb;
 cu	a	Lgr;
 cu	a	Lgs;
 c	Lgt;	Lfd;
-	m	<init>()V	<init>()V
 	m	<init>(Lig;)V	<init>(Lgh;)V
 		ma	0	0
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
@@ -3149,6 +3131,7 @@ c	Lgz;	Lfh;
 cu	a	Lh;
 c	Lha;	Lfi;
 	m	<init>()V	<init>()V
+	m	<init>(IIIII)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -3174,7 +3157,6 @@ c	Lhb;	Lfj;
 	mu	a	b()Z
 	mu	a	g()I
 c	Lhc;	Lfk;
-	m	<init>()V	<init>()V
 	m	e(I)I	g(I)I
 		ma	0	0
 	m	a(II)I	a(II)I
@@ -3222,7 +3204,6 @@ c	Lhe;	Lfn;
 	f	a;;I	a;;I
 	f	b;;[Lgm;	b;;[Ley;
 c	Lhf;	Lfo;
-	m	<init>()V	<init>()V
 	m	a()V	a()V
 	m	a(Ljava/util/Random;)Lkz;	a(Ljava/util/Random;)Lia;
 		ma	0	0
@@ -3445,7 +3426,6 @@ c	Lhv;	Lfx;
 		ma	2	2
 		ma	3	3
 c	Lhw;	Lfy;
-	m	<init>()V	<init>()V
 	m	a(Lb;)Lb;	a(Lb;)Lb;
 		ma	0	0
 	m	a()V	a()V
@@ -3744,7 +3724,6 @@ c	Lib;	Lgd;
 	f	q;;Z	q;;Z
 	f	r;;J	r;;J
 c	Lic;	Lge;
-	m	<init>()V	<init>()V
 	m	d()Z	d()Z
 	m	a()Z	a()Z
 	m	b()Z	b()Z
@@ -3909,7 +3888,6 @@ c	Lig;	Lgh;
 	f	b;;Lnl;	b;;Ljw;
 	f	c;;I	c;;I
 c	Lih;	Lgi;
-	m	<init>()V	<init>()V
 	m	a()Z	a()Z
 	m	b()Z	b()Z
 	m	c()Z	c()Z
@@ -4053,7 +4031,6 @@ cu	a	Liv;
 cu	a	Liw;
 cu	a	Lix;
 c	Liy;	Lgr;
-	m	<init>()V	<init>()V
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
 	m	a(Lod;)V	a(Lkj;)V
@@ -4072,7 +4049,6 @@ c	Liz;	Lgs;
 		ma	1	1
 		ma	2	2
 c	Lj;	Lh;
-	m	<init>()V	<init>()V
 	m	<init>(F)V	<init>(F)V
 		ma	0	0
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
@@ -4250,7 +4226,6 @@ c	Ljn;	Lhd;
 		ma	3	3
 		ma	4	4
 c	Ljo;	Lhf;
-	m	<init>()V	<init>()V
 	m	<init>(Lnl;I)V	<init>(Ljw;I)V
 		ma	0	0
 		ma	1	1
@@ -4282,7 +4257,6 @@ c	Ljr;	Lhg;
 cu	a	Ljs;
 cu	a	Ljt;
 c	Lju;	Lhh;
-	m	<init>()V	<init>()V
 	m	a()I	a()I
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
@@ -4428,7 +4402,6 @@ c	Lka;	Lhm;
 	f	e;;B	e;;B
 cu	a	Lkb;
 c	Lkc;	Lho;
-	m	<init>()V	<init>()V
 	m	a(Lfg;)V	a(Leb;)V
 		ma	0	0
 c	Lkd;	Lhp;
@@ -4655,7 +4628,6 @@ c	Lkm;	Lhu;
 cu	a	Lkn;
 cu	a	Lko;
 c	Lkp;	Lhv;
-	m	<init>()V	<init>()V
 	m	a(Ljava/lang/Class;Ljava/lang/String;)V	a(Ljava/lang/Class;Ljava/lang/String;)V
 		ma	0	0
 		ma	1	1
@@ -4805,7 +4777,6 @@ c	Lky;	Lhy;
 	m	a()I	a()I
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 c	Lkz;	Lia;
-	m	<init>()V	<init>()V
 	m	a(Ldn;Ljava/util/Random;III)Z	a(Lcp;Ljava/util/Random;III)Z
 		ma	0	0
 		ma	1	1
@@ -4819,7 +4790,6 @@ c	Lkz;	Lia;
 cu	a	Ll;
 cu	a	Lla;
 c	Llb;	Lib;
-	m	<init>()V	<init>()V
 	m	a(II[BDDD)V	a(II[BDDD)V
 		ma	0	0
 		ma	1	1
@@ -5053,7 +5023,6 @@ c	Llt;	Lim;
 	f	g;;[D	g;;[D
 cu	a	Llu;
 c	Llv;	Lin;
-	m	<init>()V	<init>()V
 	m	<init>(B)V	<init>(B)V
 		ma	0	0
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
@@ -5193,11 +5162,9 @@ c	Lme;	Liu;
 		ma	2	2
 cu	a	Lmf;
 c	Lmg;	Liv;
-	m	<init>()V	<init>()V
 	m	a(Ljava/util/Random;)Lkz;	a(Ljava/util/Random;)Lia;
 		ma	0	0
 c	Lmh;	Liw;
-	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -5216,7 +5183,6 @@ c	Lmi;	Lix;
 cu	a	Lmj;
 cu	a	Lmk;
 c	Lml;	Liy;
-	m	<init>()V	<init>()V
 	m	<init>(Lnl;)V	<init>(Ljw;)V
 		ma	0	0
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
@@ -5459,7 +5425,6 @@ c	Lmy;	Ljn;
 		ma	0	0
 		ma	1	1
 c	Lmz;	Ljo;
-	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -5526,7 +5491,6 @@ c	Lnf;	Ljs;
 cu	a	Lng;
 cu	a	Lnh;
 c	Lni;	Ljt;
-	m	<init>()V	<init>()V
 	m	a()I	m_()I
 	m	c_(I)Lgm;	c_(I)Ley;
 		ma	0	0
@@ -5902,7 +5866,6 @@ c	Lnm;	Ljy;
 	f	d;;I	d;;I
 	f	e;;I	e;;I
 c	Lnn;	Ljx;
-	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
 		ma	0	0
 	m	a(Ljava/io/DataInput;)V	a(Ljava/io/DataInput;)V
@@ -5917,7 +5880,6 @@ c	Lnn;	Ljx;
 	f	a;;Ljava/util/List;	a;;Ljava/util/List;
 	f	b;;B	b;;B
 c	Lno;	Ljz;
-	m	<init>()V	<init>()V
 	m	a(II[BDDD)V	a(II[BDDD)V
 		ma	0	0
 		ma	1	1
@@ -6096,7 +6058,6 @@ c	Lnr;	Lkb;
 	f	f;;I	f;;I
 	f	g;;I	g;;I
 c	Lns;	Lkc;
-	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -6105,7 +6066,6 @@ c	Lns;	Lkc;
 cu	a	Lnt;
 cu	a	Lnu;
 c	Lnv;	Lkd;
-	m	<init>()V	<init>()V
 	m	<init>(D)V	<init>(D)V
 		ma	0	0
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
@@ -6163,13 +6123,10 @@ c	Lny;	Lkf;
 	f	a;;Z	a;;Z
 cu	a	Lnz;
 c	Lo;	Lj;
-	m	<init>()V	<init>()V
 c	Loa;	Lkg;
-	m	<init>()V	<init>()V
 cu	a	Lob;
 cu	a	Loc;
 c	Lod;	Lkj;
-	m	<init>()V	<init>()V
 	m	a(Lcv;)V	a(Lca;)V
 		ma	0	0
 	m	b(Lhj;)V	a(Lfp;)V
@@ -6276,7 +6233,6 @@ c	Log;	Lkk;
 		ma	3	3
 cu	a	Loh;
 c	Loi;	Lkl;
-	m	<init>()V	<init>()V
 	m	b(Ljw;)V	b(Lhj;)V
 		ma	0	0
 	m	a(Ljw;)V	a(Lhj;)V
@@ -6348,6 +6304,7 @@ c	Lom;	Lkq;
 	f	b;;Ljava/util/List;	b;;Ljava/util/List;
 c	Lon;	Lkr;
 	m	<init>()V	<init>()V
+	m	<init>(Lnl;I)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -6358,7 +6315,6 @@ c	Lon;	Lkr;
 	f	a;;I	a;;I
 	f	b;;I	b;;I
 c	Loo;	Lks;
-	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -6528,7 +6484,7 @@ cu	a	Lorg/lwjgl/opengl/MouseEventQueue;
 cu	a	Lorg/lwjgl/opengl/OpenGLException;
 cu	a	Lorg/lwjgl/opengl/PeerInfo;
 cu	a	Lorg/lwjgl/opengl/PixelFormat;
-c	Lorg/lwjgl/opengl/PixelFormatLWJGL;	Lq;
+cu	a	Lorg/lwjgl/opengl/PixelFormatLWJGL;
 cu	a	Lorg/lwjgl/opengl/References;
 cu	a	Lorg/lwjgl/opengl/ReferencesStack;
 cu	a	Lorg/lwjgl/opengl/StateStack;
@@ -6683,7 +6639,6 @@ c	Lox;	Lkv;
 	f	a;;[Lbf;	a;;[Lau;
 	f	b;;I	b;;I
 c	Loy;	Lkw;
-	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -6699,7 +6654,6 @@ c	Loy;	Lkw;
 	f	f;;B	f;;B
 	f	g;;Z	g;;Z
 c	Loz;	Lkx;
-	m	<init>()V	<init>()V
 	m	<init>(III[Ljava/lang/String;)V	<init>(III[Ljava/lang/String;)V
 		ma	0	0
 		ma	1	1
@@ -7218,7 +7172,6 @@ c	Lpl;	Lld;
 	f	d;;I	d;;I
 	f	c;;I	c;;I
 c	Lpm;	Lle;
-	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -7626,7 +7579,6 @@ c	Lql;	Lma;
 	m	a()Z	a()Z
 	f	a;;[B	a;;[B
 c	Lqm;	Lmb;
-	m	<init>()V	<init>()V
 	m	a()I	m_()I
 	m	c_(I)Lgm;	c_(I)Ley;
 		ma	0	0
@@ -7726,7 +7678,6 @@ c	Lqt;	Lml;
 	f	f;;I	f;;I
 cu	a	Lqu;
 c	Lqv;	Lmm;
-	m	<init>()V	<init>()V
 	m	a(Ldn;Ljava/util/Random;III)Z	a(Lcp;Ljava/util/Random;III)Z
 		ma	0	0
 		ma	1	1
@@ -7735,7 +7686,6 @@ c	Lqv;	Lmm;
 		ma	4	4
 cu	a	Lqw;
 c	Lqx;	Lmn;
-	m	<init>()V	<init>()V
 	m	a(Ldn;)V	a(Lcp;)V
 		ma	0	0
 	m	b()V	b()V
@@ -7758,13 +7708,11 @@ c	Lqx;	Lmn;
 	f	g;;I	g;;I
 	f	h;;[F	h;;[F
 c	Lqy;	Lmo;
-	m	<init>()V	<init>()V
 	m	a(Lfg;)V	a(Leb;)V
 		ma	0	0
 	f	a;;[[Ljava/lang/String;	a;;[[Ljava/lang/String;
 	f	b;;[[Ljava/lang/Object;	b;;[[Ljava/lang/Object;
 c	Lqz;	Lmp;
-	m	<init>()V	<init>()V
 	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
@@ -7955,7 +7903,6 @@ c	Lrk;	Lmy;
 		ma	4	4
 	m	e()Z	c()Z
 c	Lrl;	Lmz;
-	m	<init>()V	<init>()V
 	m	a(Ldn;Ljava/util/Random;III)Z	a(Lcp;Ljava/util/Random;III)Z
 		ma	0	0
 		ma	1	1
@@ -8008,7 +7955,6 @@ c	Lrn;	Lnb;
 	f	c;;I	c;;I
 	f	d;;J	d;;J
 c	Lro;	Lnc;
-	m	<init>()V	<init>()V
 	m	<init>(Ldn;)V	<init>(Lcp;)V
 		ma	0	0
 	m	a(Lsn;)Lhf;	a(Lnt;)Lfo;
@@ -8151,7 +8097,6 @@ c	Lrx;	Lng;
 	f	w;;[D	w;;[D
 cu	a	Lry;
 c	Lrz;	Lnh;
-	m	<init>()V	<init>()V
 	m	a(Ldn;Ljava/util/Random;III)Z	a(Lcp;Ljava/util/Random;III)Z
 		ma	0	0
 		ma	1	1
@@ -8159,7 +8104,6 @@ c	Lrz;	Lnh;
 		ma	3	3
 		ma	4	4
 c	Ls;	Lk;
-	m	<init>()V	<init>()V
 	m	a(Lfg;)V	a(Leb;)V
 		ma	0	0
 	f	a;;[[Ljava/lang/String;	a;;[[Ljava/lang/String;
@@ -8334,7 +8278,6 @@ c	Lsh;	Lnn;
 	f	a;;[I	a;;[I
 	f	b;;[I	b;;[I
 c	Lsi;	Lnp;
-	m	<init>()V	<init>()V
 	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
 		ma	0	0
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
@@ -8431,7 +8374,6 @@ c	Lv;	Ln;
 		ma	4	4
 cu	a	Lw;
 c	Lx;	Lr;
-	m	<init>()V	<init>()V
 	m	<init>(DDDDZ)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0

@@ -1,8 +1,8 @@
-Matches saved 2022-02-23, status: c:347/385 m:2508/2866 f:1299/1486 ma:4220/4715, input files:
+Matches saved 2022-05-06, status: c:346/385 m:2510/2866 f:1299/1486 ma:4220/4715, input files:
 	a:
 		410516	SHA256	TKwgcgC9BYtu7p2rb/xQzitkzaM60qZSMbKmjq71Nvg=	minecraft-server-b1.3-1731.jar
 	b:
-		1250116	SHA256	6ZO3id1FDhU4Zn3vZE4Tdr1wL+Ju6+wxl1mNUVcEJoQ=	minecraft-b1.3_01.jar
+		1250116	SHA256	6ZO3id1FDhU4Zn3vZE4Tdr1wL+Ju6+wxl1mNUVcEJoQ=	minecraft-client-b1.3_01.jar
 	cp:
 	cp a:
 	cp b:
@@ -763,6 +763,7 @@ c	Lbm;	Lch;
 	f	c;;I	c;;I
 c	Lbn;	Lci;
 	m	<init>()V	<init>()V
+	m	<init>(II)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -976,6 +977,7 @@ c	Lc;	Lc;
 	f	a;;Ljava/util/Random;	a;;Ljava/util/Random;
 c	Lca;	Lda;
 	m	<init>()V	<init>()V
+	m	<init>(IIIIIILcp;)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -2506,6 +2508,7 @@ c	Lee;	Ldl;
 	f	a;;I	a;;I
 c	Lef;	Lfw;
 	m	<init>()V	<init>()V
+	m	<init>(IILey;)V	<init>()V
 	m	a(Lkj;)V	a(Lpe;)V
 		ma	0	0
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
@@ -4260,6 +4263,7 @@ c	Lhg;	Lkn;
 	f	b;;Z	b;;Z
 c	Lhh;	Lkq;
 	m	<init>()V	<init>()V
+	m	<init>(Ljw;Ljw;)V	<init>()V
 	m	a()I	a()I
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
@@ -5230,7 +5234,6 @@ c	Liv;	Lne;
 		ma	0	0
 c	Liw;	Lnf;
 	m	<init>()V	<init>()V
-	m	<init>(III)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -5250,7 +5253,6 @@ c	Liy;	Lnj;
 	m	<init>()V	<init>()V
 	m	<init>(Ljw;)V	<init>(Lom;)V
 		ma	0	0
-	m	<init>(IIIIBB)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -5355,6 +5357,7 @@ c	Ljc;	Lnn;
 	f	a;;I	a;;I
 c	Ljd;	Lno;
 	m	<init>()V	<init>()V
+	m	<init>(DDDFLjava/util/Set;)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -5469,6 +5472,7 @@ c	Ljh;	Lnu;
 	f	d;;[Ljh;	d;;[Lnu;
 c	Lji;	Lnv;
 	m	<init>()V	<init>()V
+	m	<init>(I)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -5520,7 +5524,6 @@ c	Ljn;	Lnz;
 		ma	1	1
 c	Ljo;	Loa;
 	m	<init>()V	<init>()V
-	m	<init>(IBB)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -5920,7 +5923,6 @@ c	Ljx;	Loo;
 	f	b;;B	b;;B
 c	Ljy;	Lon;
 	m	<init>()V	<init>()V
-	m	<init>(Ljw;I)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -6486,6 +6488,7 @@ c	Lkv;	Lpy;
 	f	b;;I	b;;I
 c	Lkw;	Lpz;
 	m	<init>()V	<init>()V
+	m	<init>(I)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -7311,7 +7314,6 @@ c	Lls;	Lrd;
 	f	i;;I	i;;I
 c	Llt;	Lre;
 	m	<init>()V	<init>()V
-	m	<init>(IIIII)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -8308,7 +8310,7 @@ c	Lnt;	Ltt;
 	f	b;;I	b;;I
 cu	a	Lo;
 cu	a	Lp;
-c	Lq;	Lorg/lwjgl/opengl/PixelFormatLWJGL;
+cu	a	Lq;
 c	Lr;	Lx;
 	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V

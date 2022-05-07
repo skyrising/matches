@@ -1,18 +1,18 @@
-Matches saved 2021-10-04, status: c:634/635 m:4991/5004 f:3003/3005 ma:8382/8399, input files:
+Matches saved 2022-05-06, status: c:634/635 m:4990/5004 f:3003/3005 ma:8378/8399, input files:
 	a:
-		1309277	xIxDDLYNMZfKS5wKozgh6lb6EO26WhCka3eqRog6aQg=	minecraft-client-b1.4-1634.jar
+		1309277	SHA256	xIxDDLYNMZfKS5wKozgh6lb6EO26WhCka3eqRog6aQg=	minecraft-client-b1.4-1634.jar
 	b:
-		1306747	NhcOYaLOnctt2lr2NEAHDRutgsCEbXefJcL7C9wUmS4=	minecraft-client-b1.4_01.jar
+		1306747	SHA256	NhcOYaLOnctt2lr2NEAHDRutgsCEbXefJcL7C9wUmS4=	minecraft-client-b1.4_01.jar
 	cp:
-		27787	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		214592	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		994633	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		27787	SHA256	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		214592	SHA256	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
+		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
+		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
+		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
 	cp a:
 	cp b:
 	non-obf cls a	paulscode|jcraft
@@ -7137,12 +7137,7 @@ c	Liq;	Liq;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	h(Leb;III)Z	a(Leb;IIILjava/util/Random;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	mu	a	a(Leb;IIILfm;)Z
+	mu	a	h(Leb;III)Z
 c	Lir;	Lir;
 	m	<init>(Lnet/minecraft/client/Minecraft;)V	<init>(Lnet/minecraft/client/Minecraft;)V
 		ma	0	0

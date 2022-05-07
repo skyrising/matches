@@ -1,18 +1,18 @@
-Matches saved 2021-10-08, status: c:1095/1095 m:8613/8618 f:4638/4640 ma:14537/14548, input files:
+Matches saved 2022-05-06, status: c:1095/1095 m:8612/8618 f:4638/4640 ma:14537/14548, input files:
 	a:
-		3988921	6hWmBhT5amu5rs+GXeITY1xi1mQSQJLYS84kBiLEqdM=	minecraft-client-1.2.3.jar
+		3988921	SHA256	6hWmBhT5amu5rs+GXeITY1xi1mQSQJLYS84kBiLEqdM=	minecraft-client-1.2.3.jar
 	b:
-		4005025	7OBQtiXRg2oDUZftMS3FnK8mQp9LOGyBvdhM3/PKgMs=	minecraft-client-1.2.4.jar
+		4005025	SHA256	7OBQtiXRg2oDUZftMS3FnK8mQp9LOGyBvdhM3/PKgMs=	minecraft-client-1.2.4.jar
 	cp:
-		27787	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		214592	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		994633	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		27787	SHA256	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		214592	SHA256	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
+		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
+		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
+		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
 	cp a:
 	cp b:
 	non-obf cls a	paulscode|jcraft
@@ -11310,7 +11310,7 @@ c	Lea;	Led;
 		ma	0	0
 	m	a(Ladt;)V	a(Lady;)V
 		ma	0	0
-	m	af()V	v_()Ljava/lang/String;
+	mu	a	af()V
 	m	d_()Z	c_()Z
 	m	c_()Ljava/lang/String;	m()Ljava/lang/String;
 	m	m()Ljava/lang/String;	n()Ljava/lang/String;
