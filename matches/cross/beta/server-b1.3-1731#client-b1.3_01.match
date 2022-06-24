@@ -1,4 +1,4 @@
-Matches saved 2022-05-06, status: c:346/385 m:2510/2866 f:1299/1486 ma:4220/4715, input files:
+Matches saved 2022-05-13, status: c:345/385 m:2505/2866 f:1298/1486 ma:4219/4715, input files:
 	a:
 		410516	SHA256	TKwgcgC9BYtu7p2rb/xQzitkzaM60qZSMbKmjq71Nvg=	minecraft-server-b1.3-1731.jar
 	b:
@@ -638,11 +638,7 @@ c	Lbe;	Lps;
 		ma	0	0
 	m	run()V	run()V
 	f	a;;Lnet/minecraft/server/MinecraftServer;	a;;Lan;
-c	Lbf;	Lhx;
-	m	<init>(Lnet/minecraft/server/MinecraftServer;)V	<init>(Lnet/minecraft/client/Minecraft;Ljava/lang/String;)V
-		ma	0	0
-	m	run()V	run()V
-	f	a;;Lnet/minecraft/server/MinecraftServer;	a;;Lnet/minecraft/client/Minecraft;
+cu	a	Lbf;
 c	Lbg;	Lbv;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
@@ -977,7 +973,6 @@ c	Lc;	Lc;
 	f	a;;Ljava/util/Random;	a;;Ljava/util/Random;
 c	Lca;	Lda;
 	m	<init>()V	<init>()V
-	m	<init>(IIIIIILcp;)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -2395,6 +2390,7 @@ c	Ldw;	Lfm;
 cu	a	Ldx;
 c	Ldy;	Lfn;
 	m	<init>()V	<init>()V
+	m	<init>(J)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -2508,7 +2504,6 @@ c	Lee;	Ldl;
 	f	a;;I	a;;I
 c	Lef;	Lfw;
 	m	<init>()V	<init>()V
-	m	<init>(IILey;)V	<init>()V
 	m	a(Lkj;)V	a(Lpe;)V
 		ma	0	0
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
@@ -2782,7 +2777,6 @@ c	Lev;	Lgv;
 	f	a;;I	a;;I
 c	Lew;	Lgx;
 	m	<init>()V	<init>()V
-	m	<init>(IILjava/lang/String;I)V	<init>()V
 	m	a(Lkj;)V	a(Lpe;)V
 		ma	0	0
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
@@ -2954,7 +2948,6 @@ c	Lez;	Lha;
 cu	a	Lf;
 c	Lfa;	Lhc;
 	m	<init>()V	<init>()V
-	m	<init>(IB)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -3184,7 +3177,6 @@ c	Lfm;	Lht;
 	f	e;;I	e;;I
 c	Lfn;	Lhu;
 	m	<init>()V	<init>()V
-	m	<init>(ILjava/util/List;)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -4105,6 +4097,7 @@ c	Lgw;	Ljx;
 		ma	0	0
 c	Lgx;	Lka;
 	m	<init>()V	<init>()V
+	m	<init>(III)V	<init>()V
 	m	a(Lkj;)V	a(Lpe;)V
 		ma	0	0
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
@@ -4778,6 +4771,7 @@ c	Lhz;	Llt;
 	f	w;;I	w;;I
 c	Li;	Lm;
 	m	<init>()V	<init>()V
+	m	<init>(IILey;)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -4937,6 +4931,7 @@ c	Lig;	Lmg;
 		ma	4	4
 c	Lih;	Lmj;
 	m	<init>()V	<init>()V
+	m	<init>(IBBBBB)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -5234,6 +5229,7 @@ c	Liv;	Lne;
 		ma	0	0
 c	Liw;	Lnf;
 	m	<init>()V	<init>()V
+	m	<init>(III)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -5531,7 +5527,6 @@ c	Ljo;	Loa;
 	m	a()I	a()I
 c	Ljp;	Lod;
 	m	<init>()V	<init>()V
-	m	<init>(IIZ)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -6119,7 +6114,6 @@ c	Lkb;	Los;
 	f	g;;I	g;;I
 c	Lkc;	Lot;
 	m	<init>()V	<init>()V
-	m	<init>(IBBB)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -6393,7 +6387,6 @@ c	Lkr;	Lpo;
 	f	b;;I	b;;I
 c	Lks;	Lpq;
 	m	<init>()V	<init>()V
-	m	<init>(IIILcp;)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -7001,6 +6994,7 @@ c	Lld;	Lqm;
 	f	c;;I	c;;I
 c	Lle;	Lqn;
 	m	<init>()V	<init>()V
+	m	<init>(ILkt;)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
@@ -7620,7 +7614,6 @@ c	Lmk;	Lrx;
 	f	i;;I	i;;I
 c	Lml;	Lry;
 	m	<init>()V	<init>()V
-	m	<init>(II[SILcp;)V	<init>()V
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
 	m	a(Ljava/io/DataOutputStream;)V	a(Ljava/io/DataOutputStream;)V
