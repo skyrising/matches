@@ -97,15 +97,15 @@ digraph {
     client_a1_0_2_01[label="Client a1.0.2_01",href="https://skyrising.github.io/mc-versions/version/a1.0.2_01.json"];
     client_a1_0_2_02[label="Client a1.0.2_02",href="https://skyrising.github.io/mc-versions/version/a1.0.2_02.json"];
     client_a1_0_3[label="Client a1.0.3",href="https://skyrising.github.io/mc-versions/version/a1.0.3.json"];
-    client_a1_0_4[label="Client a1.0.4",href="https://skyrising.github.io/mc-versions/version/a1.0.4.json"];
     client_a1_0_4_launcher[label="Client a1.0.4-launcher",href="https://skyrising.github.io/mc-versions/version/a1.0.4-launcher.json"];
+    client_a1_0_4[label="Client a1.0.4",href="https://skyrising.github.io/mc-versions/version/a1.0.4.json"];
     client_a1_0_5_2149[label="Client a1.0.5-2149",href="https://skyrising.github.io/mc-versions/version/a1.0.5-2149.json"];
     client_a1_0_5_01[label="Client a1.0.5_01",href="https://skyrising.github.io/mc-versions/version/a1.0.5_01.json"];
     client_a1_0_6[label="Client a1.0.6",href="https://skyrising.github.io/mc-versions/version/a1.0.6.json"];
-    client_a1_0_6_03[label="Client a1.0.6_03",href="https://skyrising.github.io/mc-versions/version/a1.0.6_03.json"];
     client_a1_0_6_01[label="Client a1.0.6_01",href="https://skyrising.github.io/mc-versions/version/a1.0.6_01.json"];
-    client_a1_0_8_01[label="Client a1.0.8_01",href="https://skyrising.github.io/mc-versions/version/a1.0.8_01.json"];
+    client_a1_0_6_03[label="Client a1.0.6_03",href="https://skyrising.github.io/mc-versions/version/a1.0.6_03.json"];
     client_a1_0_7[label="Client a1.0.7",href="https://skyrising.github.io/mc-versions/version/a1.0.7.json"];
+    client_a1_0_8_01[label="Client a1.0.8_01",href="https://skyrising.github.io/mc-versions/version/a1.0.8_01.json"];
     client_a1_0_9[label="Client a1.0.9",href="https://skyrising.github.io/mc-versions/version/a1.0.9.json"];
     client_a1_0_10[label="Client a1.0.10",href="https://skyrising.github.io/mc-versions/version/a1.0.10.json"];
     client_a1_0_11[label="Client a1.0.11",href="https://skyrising.github.io/mc-versions/version/a1.0.11.json"];
@@ -113,9 +113,9 @@ digraph {
     client_a1_0_13[label="Client a1.0.13",href="https://skyrising.github.io/mc-versions/version/a1.0.13.json"];
     client_a1_0_13_01_1038[label="Client a1.0.13_01-1038",href="https://skyrising.github.io/mc-versions/version/a1.0.13_01-1038.json"];
     client_a1_0_13_01_1444[label="Client a1.0.13_01-1444",href="https://skyrising.github.io/mc-versions/version/a1.0.13_01-1444.json"];
-    client_a1_0_14_1603[label="Client a1.0.14-1603",href="https://skyrising.github.io/mc-versions/version/a1.0.14-1603.json"];
-    client_a1_0_14_1659_launcher[label="Client a1.0.14-1659-launcher",href="https://skyrising.github.io/mc-versions/version/a1.0.14-1659-launcher.json"];
     client_a1_0_14_1659[label="Client a1.0.14-1659",href="https://skyrising.github.io/mc-versions/version/a1.0.14-1659.json"];
+    client_a1_0_14_1659_launcher[label="Client a1.0.14-1659-launcher",href="https://skyrising.github.io/mc-versions/version/a1.0.14-1659-launcher.json"];
+    client_a1_0_14_1603[label="Client a1.0.14-1603",href="https://skyrising.github.io/mc-versions/version/a1.0.14-1603.json"];
     client_a1_0_15[label="Client a1.0.15",href="https://skyrising.github.io/mc-versions/version/a1.0.15.json"];
     server_server_a0_1_0[label="Server server-a0.1.0",href="https://skyrising.github.io/mc-versions/version/server-a0.1.0.json"];
     client_a1_0_16[label="Client a1.0.16",href="https://skyrising.github.io/mc-versions/version/a1.0.16.json"];
@@ -128,8 +128,8 @@ digraph {
     client_a1_0_17_03[label="Client a1.0.17_03",href="https://skyrising.github.io/mc-versions/version/a1.0.17_03.json"];
     client_a1_0_17_04[label="Client a1.0.17_04",href="https://skyrising.github.io/mc-versions/version/a1.0.17_04.json"];
     server_server_a0_2_0[label="Server server-a0.2.0",href="https://skyrising.github.io/mc-versions/version/server-a0.2.0.json"];
-    client_a1_1_0_101847_launcher[label="Client a1.1.0-101847-launcher",href="https://skyrising.github.io/mc-versions/version/a1.1.0-101847-launcher.json"];
     client_a1_1_0_101847[label="Client a1.1.0-101847",href="https://skyrising.github.io/mc-versions/version/a1.1.0-101847.json"];
+    client_a1_1_0_101847_launcher[label="Client a1.1.0-101847-launcher",href="https://skyrising.github.io/mc-versions/version/a1.1.0-101847-launcher.json"];
     server_server_a0_2_0_01[label="Server server-a0.2.0_01",href="https://skyrising.github.io/mc-versions/version/server-a0.2.0_01.json"];
     client_a1_1_0_131933[label="Client a1.1.0-131933",href="https://skyrising.github.io/mc-versions/version/a1.1.0-131933.json"];
     client_a1_1_1[label="Client a1.1.1",href="https://skyrising.github.io/mc-versions/version/a1.1.1.json"];
@@ -140,8 +140,8 @@ digraph {
     client_a1_2_0[label="Client a1.2.0",href="https://skyrising.github.io/mc-versions/version/a1.2.0.json"];
     server_server_a0_2_2_01[label="Server server-a0.2.2_01",href="https://skyrising.github.io/mc-versions/version/server-a0.2.2_01.json"];
     client_a1_2_0_01[label="Client a1.2.0_01",href="https://skyrising.github.io/mc-versions/version/a1.2.0_01.json"];
-    client_a1_2_0_02[label="Client a1.2.0_02",href="https://skyrising.github.io/mc-versions/version/a1.2.0_02.json"];
     client_a1_2_0_02_launcher[label="Client a1.2.0_02-launcher",href="https://skyrising.github.io/mc-versions/version/a1.2.0_02-launcher.json"];
+    client_a1_2_0_02[label="Client a1.2.0_02",href="https://skyrising.github.io/mc-versions/version/a1.2.0_02.json"];
     client_a1_2_1_01[label="Client a1.2.1_01",href="https://skyrising.github.io/mc-versions/version/a1.2.1_01.json"];
     server_server_a0_2_3[label="Server server-a0.2.3",href="https://skyrising.github.io/mc-versions/version/server-a0.2.3.json"];
     server_server_a0_2_4[label="Server server-a0.2.4",href="https://skyrising.github.io/mc-versions/version/server-a0.2.4.json"];
@@ -162,8 +162,8 @@ digraph {
     client_a1_2_4_01[label="Client a1.2.4_01",href="https://skyrising.github.io/mc-versions/version/a1.2.4_01.json"];
     client_a1_2_5[label="Client a1.2.5",href="https://skyrising.github.io/mc-versions/version/a1.2.5.json"];
     server_server_a0_2_7[label="Server server-a0.2.7",href="https://skyrising.github.io/mc-versions/version/server-a0.2.7.json"];
-    client_a1_2_6[label="Client a1.2.6",href="https://skyrising.github.io/mc-versions/version/a1.2.6.json"];
     server_server_a0_2_8[label="Server server-a0.2.8",href="https://skyrising.github.io/mc-versions/version/server-a0.2.8.json"];
+    client_a1_2_6[label="Client a1.2.6",href="https://skyrising.github.io/mc-versions/version/a1.2.6.json"];
   }
   subgraph cluster_beta {
     label="beta";
@@ -635,6 +635,11 @@ digraph {
   }
   subgraph cluster_1_13 {
     label="1.13";
+    merged_17w43a[label="17w43a",href="https://skyrising.github.io/mc-versions/version/17w43a.json"];
+    merged_17w43b[label="17w43b",href="https://skyrising.github.io/mc-versions/version/17w43b.json"];
+    merged_17w45a[label="17w45a",href="https://skyrising.github.io/mc-versions/version/17w45a.json"];
+    merged_17w45b[label="17w45b",href="https://skyrising.github.io/mc-versions/version/17w45b.json"];
+    merged_17w46a[label="17w46a",href="https://skyrising.github.io/mc-versions/version/17w46a.json"];
   }
   subgraph cluster_1_14 {
     label="1.14";
@@ -912,6 +917,11 @@ digraph {
   merged_17w18a -> merged_17w18b[label="99.98%",href="merged/1.12/17w18a%2317w18b.match"];
   merged_17w18b -> merged_1_12_pre1[label="99.98%",href="merged/1.12/17w18b%231.12-pre1.match"];
   merged_17w31a -> merged_1_12_1_pre1[label="100%",href="merged/1.12/17w31a%231.12.1-pre1.match"];
+  merged_1_12_2 -> merged_17w43a[label="98.65%",href="merged/1.13/1.12.2%2317w43a.match"];
+  merged_17w43a -> merged_17w43b[label="99.98%",href="merged/1.13/17w43a%2317w43b.match"];
+  merged_17w43b -> merged_17w45a[label="97.8%",href="merged/1.13/17w43b%2317w45a.match"];
+  merged_17w45a -> merged_17w45b[label="99.97%",href="merged/1.13/17w45a%2317w45b.match"];
+  merged_17w45b -> merged_17w46a[label="99.99%",href="merged/1.13/17w45b%2317w46a.match"];
   merged_1_3_pre_07261249 -> merged_1_3_1[label="94.21%",href="merged/1.3/1.3-pre-07261249%231.3.1.match"];
   merged_1_3_1 -> merged_1_3_2[label="100%",href="merged/1.3/1.3.1%231.3.2.match"];
   merged_12w32a -> merged_1_3_2[label="98.27%",href="merged/1.3/12w32a%231.3.2.match"];
