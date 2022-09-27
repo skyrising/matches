@@ -1809,9 +1809,9 @@
 </g>
 </g>
 <!-- client_a1_0_2_01 -->
-<g id="node78" class="node">
+<g id="node79" class="node">
 <title>client_a1_0_2_01</title>
-<g id="a_node78"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.2_01.json" xlink:title="Client a1.0.2_01">
+<g id="a_node79"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.2_01.json" xlink:title="Client a1.0.2_01">
 <polygon fill="none" stroke="black" points="529,-38407 399,-38407 399,-38371 529,-38371 529,-38407"/>
 <text text-anchor="middle" x="464" y="-38385.3" font-family="sans-serif" font-size="14.00">Client a1.0.2_01</text>
 </a>
@@ -1831,24 +1831,11 @@
 </g>
 </g>
 <!-- client_a1_0_2_02 -->
-<g id="node79" class="node">
+<g id="node78" class="node">
 <title>client_a1_0_2_02</title>
-<g id="a_node79"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.2_02.json" xlink:title="Client a1.0.2_02">
+<g id="a_node78"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.2_02.json" xlink:title="Client a1.0.2_02">
 <polygon fill="none" stroke="black" points="529,-38320 399,-38320 399,-38284 529,-38284 529,-38320"/>
 <text text-anchor="middle" x="464" y="-38298.3" font-family="sans-serif" font-size="14.00">Client a1.0.2_02</text>
-</a>
-</g>
-</g>
-<!-- client_a1_0_2_01&#45;&gt;client_a1_0_2_02 -->
-<g id="edge62" class="edge">
-<title>client_a1_0_2_01&#45;&gt;client_a1_0_2_02</title>
-<g id="a_edge62"><a xlink:href="client/alpha/a1.0.2_01%23a1.0.2_02.match" xlink:title="100%">
-<path fill="none" stroke="black" d="M464,-38370.8C464,-38359.16 464,-38343.55 464,-38330.24"/>
-<polygon fill="black" stroke="black" points="467.5,-38330.18 464,-38320.18 460.5,-38330.18 467.5,-38330.18"/>
-</a>
-</g>
-<g id="a_edge62&#45;label"><a xlink:href="client/alpha/a1.0.2_01%23a1.0.2_02.match" xlink:title="100%">
-<text text-anchor="middle" x="484.5" y="-38341.8" font-family="sans-serif" font-size="14.00">100%</text>
 </a>
 </g>
 </g>
@@ -1871,6 +1858,19 @@
 </g>
 <g id="a_edge63&#45;label"><a xlink:href="client/alpha/a1.0.2_02%23a1.0.3.match" xlink:title="99.96%">
 <text text-anchor="middle" x="491.5" y="-38254.8" font-family="sans-serif" font-size="14.00">99.96%</text>
+</a>
+</g>
+</g>
+<!-- client_a1_0_2_01&#45;&gt;client_a1_0_2_02 -->
+<g id="edge62" class="edge">
+<title>client_a1_0_2_01&#45;&gt;client_a1_0_2_02</title>
+<g id="a_edge62"><a xlink:href="client/alpha/a1.0.2_01%23a1.0.2_02.match" xlink:title="100%">
+<path fill="none" stroke="black" d="M464,-38370.8C464,-38359.16 464,-38343.55 464,-38330.24"/>
+<polygon fill="black" stroke="black" points="467.5,-38330.18 464,-38320.18 460.5,-38330.18 467.5,-38330.18"/>
+</a>
+</g>
+<g id="a_edge62&#45;label"><a xlink:href="client/alpha/a1.0.2_01%23a1.0.2_02.match" xlink:title="100%">
+<text text-anchor="middle" x="484.5" y="-38341.8" font-family="sans-serif" font-size="14.00">100%</text>
 </a>
 </g>
 </g>
@@ -1906,9 +1906,9 @@
 </g>
 </g>
 <!-- client_a1_0_5_2149 -->
-<g id="node83" class="node">
+<g id="node84" class="node">
 <title>client_a1_0_5_2149</title>
-<g id="a_node83"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.5-2149.json" xlink:title="Client a1.0.5&#45;2149">
+<g id="a_node84"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.5-2149.json" xlink:title="Client a1.0.5&#45;2149">
 <polygon fill="none" stroke="black" points="540,-37972 394,-37972 394,-37936 540,-37936 540,-37972"/>
 <text text-anchor="middle" x="467" y="-37950.3" font-family="sans-serif" font-size="14.00">Client a1.0.5&#45;2149</text>
 </a>
@@ -1941,24 +1941,11 @@
 </g>
 </g>
 <!-- client_a1_0_5_01 -->
-<g id="node84" class="node">
+<g id="node83" class="node">
 <title>client_a1_0_5_01</title>
-<g id="a_node84"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.5_01.json" xlink:title="Client a1.0.5_01">
+<g id="a_node83"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.5_01.json" xlink:title="Client a1.0.5_01">
 <polygon fill="none" stroke="black" points="533,-37885 403,-37885 403,-37849 533,-37849 533,-37885"/>
 <text text-anchor="middle" x="468" y="-37863.3" font-family="sans-serif" font-size="14.00">Client a1.0.5_01</text>
-</a>
-</g>
-</g>
-<!-- client_a1_0_5_2149&#45;&gt;client_a1_0_5_01 -->
-<g id="edge67" class="edge">
-<title>client_a1_0_5_2149&#45;&gt;client_a1_0_5_01</title>
-<g id="a_edge67"><a xlink:href="client/alpha/a1.0.5-2149%23a1.0.5_01.match" xlink:title="99.98%">
-<path fill="none" stroke="black" d="M467.2,-37935.8C467.34,-37924.16 467.52,-37908.55 467.68,-37895.24"/>
-<polygon fill="black" stroke="black" points="471.18,-37895.22 467.8,-37885.18 464.18,-37895.13 471.18,-37895.22"/>
-</a>
-</g>
-<g id="a_edge67&#45;label"><a xlink:href="client/alpha/a1.0.5-2149%23a1.0.5_01.match" xlink:title="99.98%">
-<text text-anchor="middle" x="494.5" y="-37906.8" font-family="sans-serif" font-size="14.00">99.98%</text>
 </a>
 </g>
 </g>
@@ -1981,6 +1968,19 @@
 </g>
 <g id="a_edge68&#45;label"><a xlink:href="client/alpha/a1.0.5_01%23a1.0.6.match" xlink:title="99.95%">
 <text text-anchor="middle" x="495.5" y="-37819.8" font-family="sans-serif" font-size="14.00">99.95%</text>
+</a>
+</g>
+</g>
+<!-- client_a1_0_5_2149&#45;&gt;client_a1_0_5_01 -->
+<g id="edge67" class="edge">
+<title>client_a1_0_5_2149&#45;&gt;client_a1_0_5_01</title>
+<g id="a_edge67"><a xlink:href="client/alpha/a1.0.5-2149%23a1.0.5_01.match" xlink:title="99.98%">
+<path fill="none" stroke="black" d="M467.2,-37935.8C467.34,-37924.16 467.52,-37908.55 467.68,-37895.24"/>
+<polygon fill="black" stroke="black" points="471.18,-37895.22 467.8,-37885.18 464.18,-37895.13 471.18,-37895.22"/>
+</a>
+</g>
+<g id="a_edge67&#45;label"><a xlink:href="client/alpha/a1.0.5-2149%23a1.0.5_01.match" xlink:title="99.98%">
+<text text-anchor="middle" x="494.5" y="-37906.8" font-family="sans-serif" font-size="14.00">99.98%</text>
 </a>
 </g>
 </g>
@@ -2029,9 +2029,9 @@
 </g>
 </g>
 <!-- client_a1_0_7 -->
-<g id="node88" class="node">
+<g id="node89" class="node">
 <title>client_a1_0_7</title>
-<g id="a_node88"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.7.json" xlink:title="Client a1.0.7">
+<g id="a_node89"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.7.json" xlink:title="Client a1.0.7">
 <polygon fill="none" stroke="black" points="520.5,-37537 415.5,-37537 415.5,-37501 520.5,-37501 520.5,-37537"/>
 <text text-anchor="middle" x="468" y="-37515.3" font-family="sans-serif" font-size="14.00">Client a1.0.7</text>
 </a>
@@ -2051,24 +2051,11 @@
 </g>
 </g>
 <!-- client_a1_0_8_01 -->
-<g id="node89" class="node">
+<g id="node88" class="node">
 <title>client_a1_0_8_01</title>
-<g id="a_node89"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.8_01.json" xlink:title="Client a1.0.8_01">
+<g id="a_node88"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.8_01.json" xlink:title="Client a1.0.8_01">
 <polygon fill="none" stroke="black" points="533,-37450 403,-37450 403,-37414 533,-37414 533,-37450"/>
 <text text-anchor="middle" x="468" y="-37428.3" font-family="sans-serif" font-size="14.00">Client a1.0.8_01</text>
-</a>
-</g>
-</g>
-<!-- client_a1_0_7&#45;&gt;client_a1_0_8_01 -->
-<g id="edge72" class="edge">
-<title>client_a1_0_7&#45;&gt;client_a1_0_8_01</title>
-<g id="a_edge72"><a xlink:href="client/alpha/a1.0.7%23a1.0.8_01.match" xlink:title="100%">
-<path fill="none" stroke="black" d="M468,-37500.8C468,-37489.16 468,-37473.55 468,-37460.24"/>
-<polygon fill="black" stroke="black" points="471.5,-37460.18 468,-37450.18 464.5,-37460.18 471.5,-37460.18"/>
-</a>
-</g>
-<g id="a_edge72&#45;label"><a xlink:href="client/alpha/a1.0.7%23a1.0.8_01.match" xlink:title="100%">
-<text text-anchor="middle" x="488.5" y="-37471.8" font-family="sans-serif" font-size="14.00">100%</text>
 </a>
 </g>
 </g>
@@ -2091,6 +2078,19 @@
 </g>
 <g id="a_edge73&#45;label"><a xlink:href="client/alpha/a1.0.8_01%23a1.0.9.match" xlink:title="100%">
 <text text-anchor="middle" x="488.5" y="-37384.8" font-family="sans-serif" font-size="14.00">100%</text>
+</a>
+</g>
+</g>
+<!-- client_a1_0_7&#45;&gt;client_a1_0_8_01 -->
+<g id="edge72" class="edge">
+<title>client_a1_0_7&#45;&gt;client_a1_0_8_01</title>
+<g id="a_edge72"><a xlink:href="client/alpha/a1.0.7%23a1.0.8_01.match" xlink:title="100%">
+<path fill="none" stroke="black" d="M468,-37500.8C468,-37489.16 468,-37473.55 468,-37460.24"/>
+<polygon fill="black" stroke="black" points="471.5,-37460.18 468,-37450.18 464.5,-37460.18 471.5,-37460.18"/>
+</a>
+</g>
+<g id="a_edge72&#45;label"><a xlink:href="client/alpha/a1.0.7%23a1.0.8_01.match" xlink:title="100%">
+<text text-anchor="middle" x="488.5" y="-37471.8" font-family="sans-serif" font-size="14.00">100%</text>
 </a>
 </g>
 </g>
@@ -2248,12 +2248,34 @@
 </a>
 </g>
 </g>
-<!-- client_a1_0_14_1659 -->
+<!-- client_a1_0_14_1659_launcher -->
 <g id="node97" class="node">
+<title>client_a1_0_14_1659_launcher</title>
+<g id="a_node97"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.14-1659-launcher.json" xlink:title="Client a1.0.14&#45;1659&#45;launcher">
+<polygon fill="none" stroke="black" points="599.5,-36667 378.5,-36667 378.5,-36631 599.5,-36631 599.5,-36667"/>
+<text text-anchor="middle" x="489" y="-36645.3" font-family="sans-serif" font-size="14.00">Client a1.0.14&#45;1659&#45;launcher</text>
+</a>
+</g>
+</g>
+<!-- client_a1_0_14_1659 -->
+<g id="node98" class="node">
 <title>client_a1_0_14_1659</title>
-<g id="a_node97"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.14-1659.json" xlink:title="Client a1.0.14&#45;1659">
+<g id="a_node98"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.14-1659.json" xlink:title="Client a1.0.14&#45;1659">
 <polygon fill="none" stroke="black" points="567.5,-36580 412.5,-36580 412.5,-36544 567.5,-36544 567.5,-36580"/>
 <text text-anchor="middle" x="490" y="-36558.3" font-family="sans-serif" font-size="14.00">Client a1.0.14&#45;1659</text>
+</a>
+</g>
+</g>
+<!-- client_a1_0_14_1659_launcher&#45;&gt;client_a1_0_14_1659 -->
+<g id="edge53" class="edge">
+<title>client_a1_0_14_1659_launcher&#45;&gt;client_a1_0_14_1659</title>
+<g id="a_edge53"><a xlink:href="client/alpha/a1.0.14-1659-launcher%23a1.0.14-1659.match" xlink:title="100%">
+<path fill="none" stroke="black" d="M489.2,-36630.8C489.34,-36619.16 489.52,-36603.55 489.68,-36590.24"/>
+<polygon fill="black" stroke="black" points="493.18,-36590.22 489.8,-36580.18 486.18,-36590.13 493.18,-36590.22"/>
+</a>
+</g>
+<g id="a_edge53&#45;label"><a xlink:href="client/alpha/a1.0.14-1659-launcher%23a1.0.14-1659.match" xlink:title="100%">
+<text text-anchor="middle" x="509.5" y="-36601.8" font-family="sans-serif" font-size="14.00">100%</text>
 </a>
 </g>
 </g>
@@ -2276,28 +2298,6 @@
 </g>
 <g id="a_edge52&#45;label"><a xlink:href="client/alpha/a1.0.14-1659%23a1.0.15.match" xlink:title="99.9%">
 <text text-anchor="middle" x="513" y="-36514.8" font-family="sans-serif" font-size="14.00">99.9%</text>
-</a>
-</g>
-</g>
-<!-- client_a1_0_14_1659_launcher -->
-<g id="node98" class="node">
-<title>client_a1_0_14_1659_launcher</title>
-<g id="a_node98"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.14-1659-launcher.json" xlink:title="Client a1.0.14&#45;1659&#45;launcher">
-<polygon fill="none" stroke="black" points="599.5,-36667 378.5,-36667 378.5,-36631 599.5,-36631 599.5,-36667"/>
-<text text-anchor="middle" x="489" y="-36645.3" font-family="sans-serif" font-size="14.00">Client a1.0.14&#45;1659&#45;launcher</text>
-</a>
-</g>
-</g>
-<!-- client_a1_0_14_1659_launcher&#45;&gt;client_a1_0_14_1659 -->
-<g id="edge53" class="edge">
-<title>client_a1_0_14_1659_launcher&#45;&gt;client_a1_0_14_1659</title>
-<g id="a_edge53"><a xlink:href="client/alpha/a1.0.14-1659-launcher%23a1.0.14-1659.match" xlink:title="100%">
-<path fill="none" stroke="black" d="M489.2,-36630.8C489.34,-36619.16 489.52,-36603.55 489.68,-36590.24"/>
-<polygon fill="black" stroke="black" points="493.18,-36590.22 489.8,-36580.18 486.18,-36590.13 493.18,-36590.22"/>
-</a>
-</g>
-<g id="a_edge53&#45;label"><a xlink:href="client/alpha/a1.0.14-1659-launcher%23a1.0.14-1659.match" xlink:title="100%">
-<text text-anchor="middle" x="509.5" y="-36601.8" font-family="sans-serif" font-size="14.00">100%</text>
 </a>
 </g>
 </g>
@@ -2368,9 +2368,9 @@
 </g>
 </g>
 <!-- client_a1_0_16_01 -->
-<g id="node104" class="node">
+<g id="node105" class="node">
 <title>client_a1_0_16_01</title>
-<g id="a_node104"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.16_01.json" xlink:title="Client a1.0.16_01">
+<g id="a_node105"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.16_01.json" xlink:title="Client a1.0.16_01">
 <polygon fill="none" stroke="black" points="560.5,-36319 421.5,-36319 421.5,-36283 560.5,-36283 560.5,-36319"/>
 <text text-anchor="middle" x="491" y="-36297.3" font-family="sans-serif" font-size="14.00">Client a1.0.16_01</text>
 </a>
@@ -2412,24 +2412,11 @@
 </g>
 </g>
 <!-- client_a1_0_16_02 -->
-<g id="node105" class="node">
+<g id="node104" class="node">
 <title>client_a1_0_16_02</title>
-<g id="a_node105"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.16_02.json" xlink:title="Client a1.0.16_02">
+<g id="a_node104"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.0.16_02.json" xlink:title="Client a1.0.16_02">
 <polygon fill="none" stroke="black" points="560.5,-36232 421.5,-36232 421.5,-36196 560.5,-36196 560.5,-36232"/>
 <text text-anchor="middle" x="491" y="-36210.3" font-family="sans-serif" font-size="14.00">Client a1.0.16_02</text>
-</a>
-</g>
-</g>
-<!-- client_a1_0_16_01&#45;&gt;client_a1_0_16_02 -->
-<g id="edge56" class="edge">
-<title>client_a1_0_16_01&#45;&gt;client_a1_0_16_02</title>
-<g id="a_edge56"><a xlink:href="client/alpha/a1.0.16_01%23a1.0.16_02.match" xlink:title="100%">
-<path fill="none" stroke="black" d="M491,-36282.8C491,-36271.16 491,-36255.55 491,-36242.24"/>
-<polygon fill="black" stroke="black" points="494.5,-36242.18 491,-36232.18 487.5,-36242.18 494.5,-36242.18"/>
-</a>
-</g>
-<g id="a_edge56&#45;label"><a xlink:href="client/alpha/a1.0.16_01%23a1.0.16_02.match" xlink:title="100%">
-<text text-anchor="middle" x="511.5" y="-36253.8" font-family="sans-serif" font-size="14.00">100%</text>
 </a>
 </g>
 </g>
@@ -2452,6 +2439,19 @@
 </g>
 <g id="a_edge57&#45;label"><a xlink:href="client/alpha/a1.0.16_02%23a1.0.17_02.match" xlink:title="99.81%">
 <text text-anchor="middle" x="518.5" y="-36166.8" font-family="sans-serif" font-size="14.00">99.81%</text>
+</a>
+</g>
+</g>
+<!-- client_a1_0_16_01&#45;&gt;client_a1_0_16_02 -->
+<g id="edge56" class="edge">
+<title>client_a1_0_16_01&#45;&gt;client_a1_0_16_02</title>
+<g id="a_edge56"><a xlink:href="client/alpha/a1.0.16_01%23a1.0.16_02.match" xlink:title="100%">
+<path fill="none" stroke="black" d="M491,-36282.8C491,-36271.16 491,-36255.55 491,-36242.24"/>
+<polygon fill="black" stroke="black" points="494.5,-36242.18 491,-36232.18 487.5,-36242.18 494.5,-36242.18"/>
+</a>
+</g>
+<g id="a_edge56&#45;label"><a xlink:href="client/alpha/a1.0.16_01%23a1.0.16_02.match" xlink:title="100%">
+<text text-anchor="middle" x="511.5" y="-36253.8" font-family="sans-serif" font-size="14.00">100%</text>
 </a>
 </g>
 </g>
@@ -2544,9 +2544,9 @@
 </g>
 </g>
 <!-- client_a1_1_0_101847 -->
-<g id="node112" class="node">
+<g id="node113" class="node">
 <title>client_a1_1_0_101847</title>
-<g id="a_node112"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.1.0-101847.json" xlink:title="Client a1.1.0&#45;101847">
+<g id="a_node113"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.1.0-101847.json" xlink:title="Client a1.1.0&#45;101847">
 <polygon fill="none" stroke="black" points="573,-35884 409,-35884 409,-35848 573,-35848 573,-35884"/>
 <text text-anchor="middle" x="491" y="-35862.3" font-family="sans-serif" font-size="14.00">Client a1.1.0&#45;101847</text>
 </a>
@@ -2588,24 +2588,11 @@
 </g>
 </g>
 <!-- client_a1_1_0_101847_launcher -->
-<g id="node113" class="node">
+<g id="node112" class="node">
 <title>client_a1_1_0_101847_launcher</title>
-<g id="a_node113"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.1.0-101847-launcher.json" xlink:title="Client a1.1.0&#45;101847&#45;launcher">
+<g id="a_node112"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.1.0-101847-launcher.json" xlink:title="Client a1.1.0&#45;101847&#45;launcher">
 <polygon fill="none" stroke="black" points="608,-35797 378,-35797 378,-35761 608,-35761 608,-35797"/>
 <text text-anchor="middle" x="493" y="-35775.3" font-family="sans-serif" font-size="14.00">Client a1.1.0&#45;101847&#45;launcher</text>
-</a>
-</g>
-</g>
-<!-- client_a1_1_0_101847&#45;&gt;client_a1_1_0_101847_launcher -->
-<g id="edge75" class="edge">
-<title>client_a1_1_0_101847&#45;&gt;client_a1_1_0_101847_launcher</title>
-<g id="a_edge75"><a xlink:href="client/alpha/a1.1.0-101847%23a1.1.0-101847-launcher.match" xlink:title="100%">
-<path fill="none" stroke="black" d="M491.4,-35847.8C491.68,-35836.16 492.05,-35820.55 492.36,-35807.24"/>
-<polygon fill="black" stroke="black" points="495.86,-35807.26 492.6,-35797.18 488.86,-35807.09 495.86,-35807.26"/>
-</a>
-</g>
-<g id="a_edge75&#45;label"><a xlink:href="client/alpha/a1.1.0-101847%23a1.1.0-101847-launcher.match" xlink:title="100%">
-<text text-anchor="middle" x="512.5" y="-35818.8" font-family="sans-serif" font-size="14.00">100%</text>
 </a>
 </g>
 </g>
@@ -2628,6 +2615,19 @@
 </g>
 <g id="a_edge76&#45;label"><a xlink:href="client/alpha/a1.1.0-101847-launcher%23a1.1.0-131933.match" xlink:title="100%">
 <text text-anchor="middle" x="513.5" y="-35731.8" font-family="sans-serif" font-size="14.00">100%</text>
+</a>
+</g>
+</g>
+<!-- client_a1_1_0_101847&#45;&gt;client_a1_1_0_101847_launcher -->
+<g id="edge75" class="edge">
+<title>client_a1_1_0_101847&#45;&gt;client_a1_1_0_101847_launcher</title>
+<g id="a_edge75"><a xlink:href="client/alpha/a1.1.0-101847%23a1.1.0-101847-launcher.match" xlink:title="100%">
+<path fill="none" stroke="black" d="M491.4,-35847.8C491.68,-35836.16 492.05,-35820.55 492.36,-35807.24"/>
+<polygon fill="black" stroke="black" points="495.86,-35807.26 492.6,-35797.18 488.86,-35807.09 495.86,-35807.26"/>
+</a>
+</g>
+<g id="a_edge75&#45;label"><a xlink:href="client/alpha/a1.1.0-101847%23a1.1.0-101847-launcher.match" xlink:title="100%">
+<text text-anchor="middle" x="512.5" y="-35818.8" font-family="sans-serif" font-size="14.00">100%</text>
 </a>
 </g>
 </g>
@@ -3292,9 +3292,9 @@
 </g>
 </g>
 <!-- client_a1_2_6 -->
-<g id="node147" class="node">
+<g id="node146" class="node">
 <title>client_a1_2_6</title>
-<g id="a_node147"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.2.6.json" xlink:title="Client a1.2.6">
+<g id="a_node146"><a xlink:href="https://skyrising.github.io/mc-versions/version/a1.2.6.json" xlink:title="Client a1.2.6">
 <polygon fill="none" stroke="black" points="545.5,-34144 440.5,-34144 440.5,-34108 545.5,-34108 545.5,-34144"/>
 <text text-anchor="middle" x="493" y="-34122.3" font-family="sans-serif" font-size="14.00">Client a1.2.6</text>
 </a>
@@ -3314,9 +3314,9 @@
 </g>
 </g>
 <!-- server_server_a0_2_8 -->
-<g id="node146" class="node">
+<g id="node147" class="node">
 <title>server_server_a0_2_8</title>
-<g id="a_node146"><a xlink:href="https://skyrising.github.io/mc-versions/version/server-a0.2.8.json" xlink:title="Server server&#45;a0.2.8">
+<g id="a_node147"><a xlink:href="https://skyrising.github.io/mc-versions/version/server-a0.2.8.json" xlink:title="Server server&#45;a0.2.8">
 <polygon fill="none" stroke="black" points="735.5,-36841 576.5,-36841 576.5,-36805 735.5,-36805 735.5,-36841"/>
 <text text-anchor="middle" x="656" y="-36819.3" font-family="sans-serif" font-size="14.00">Server server&#45;a0.2.8</text>
 </a>
@@ -3332,28 +3332,6 @@
 </g>
 <g id="a_edge613&#45;label"><a xlink:href="server/alpha/server-a0.2.7%23server-a0.2.8.match" xlink:title="100%">
 <text text-anchor="middle" x="676.5" y="-36862.8" font-family="sans-serif" font-size="14.00">100%</text>
-</a>
-</g>
-</g>
-<!-- server_b1_0 -->
-<g id="node149" class="node">
-<title>server_b1_0</title>
-<g id="a_node149"><a xlink:href="https://skyrising.github.io/mc-versions/version/b1.0.json" xlink:title="Server b1.0">
-<polygon fill="none" stroke="black" points="705,-33688 607,-33688 607,-33652 705,-33652 705,-33688"/>
-<text text-anchor="middle" x="656" y="-33666.3" font-family="sans-serif" font-size="14.00">Server b1.0</text>
-</a>
-</g>
-</g>
-<!-- server_server_a0_2_8&#45;&gt;server_b1_0 -->
-<g id="edge654" class="edge">
-<title>server_server_a0_2_8&#45;&gt;server_b1_0</title>
-<g id="a_edge654"><a xlink:href="server/beta/server-a0.2.8%23b1.0.match" xlink:title="99.12%">
-<path fill="none" stroke="#0000aa" d="M656,-36804.74C656,-36787.57 656,-36760.46 656,-36737 656,-36737 656,-36737 656,-33756 656,-33736.75 656,-33715.05 656,-33698.4"/>
-<polygon fill="#0000aa" stroke="#0000aa" points="659.5,-33698.26 656,-33688.26 652.5,-33698.26 659.5,-33698.26"/>
-</a>
-</g>
-<g id="a_edge654&#45;label"><a xlink:href="server/beta/server-a0.2.8%23b1.0.match" xlink:title="99.12%">
-<text text-anchor="middle" x="683.5" y="-35253.3" font-family="sans-serif" font-size="14.00">99.12%</text>
 </a>
 </g>
 </g>
@@ -3376,6 +3354,28 @@
 </g>
 <g id="a_edge96&#45;label"><a xlink:href="client/beta/a1.2.6%23b1.0.match" xlink:title="98.99%">
 <text text-anchor="middle" x="520.5" y="-34078.8" font-family="sans-serif" font-size="14.00">98.99%</text>
+</a>
+</g>
+</g>
+<!-- server_b1_0 -->
+<g id="node149" class="node">
+<title>server_b1_0</title>
+<g id="a_node149"><a xlink:href="https://skyrising.github.io/mc-versions/version/b1.0.json" xlink:title="Server b1.0">
+<polygon fill="none" stroke="black" points="705,-33688 607,-33688 607,-33652 705,-33652 705,-33688"/>
+<text text-anchor="middle" x="656" y="-33666.3" font-family="sans-serif" font-size="14.00">Server b1.0</text>
+</a>
+</g>
+</g>
+<!-- server_server_a0_2_8&#45;&gt;server_b1_0 -->
+<g id="edge654" class="edge">
+<title>server_server_a0_2_8&#45;&gt;server_b1_0</title>
+<g id="a_edge654"><a xlink:href="server/beta/server-a0.2.8%23b1.0.match" xlink:title="99.12%">
+<path fill="none" stroke="#0000aa" d="M656,-36804.74C656,-36787.57 656,-36760.46 656,-36737 656,-36737 656,-36737 656,-33756 656,-33736.75 656,-33715.05 656,-33698.4"/>
+<polygon fill="#0000aa" stroke="#0000aa" points="659.5,-33698.26 656,-33688.26 652.5,-33698.26 659.5,-33698.26"/>
+</a>
+</g>
+<g id="a_edge654&#45;label"><a xlink:href="server/beta/server-a0.2.8%23b1.0.match" xlink:title="99.12%">
+<text text-anchor="middle" x="683.5" y="-35253.3" font-family="sans-serif" font-size="14.00">99.12%</text>
 </a>
 </g>
 </g>
