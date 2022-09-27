@@ -1,4 +1,4 @@
-Matches saved 2022-09-15, status: c:2871/2873 m:21979/22036 f:10388/10400 ma:29603/29651, input files:
+Matches saved 2022-09-27, status: c:2871/2873 m:21977/22036 f:10388/10400 ma:29599/29651, input files:
 	a:
 		9220741	SHA256	bCXYMmCEQLoC1JsQtVzi+mcyV96fCLdQ+MnJGhhvBdo=	minecraft-merged-15w43b.jar
 	b:
@@ -76717,7 +76717,7 @@ c	Lrw;	Lrw;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(ZI)V	b(ZI)V
+	m	a(ZI)V	a(ZI)V
 		ma	0	0
 		ma	1	1
 	m	a(Lrn;FDD)V	a(Lrn;FDD)V
@@ -76730,7 +76730,7 @@ c	Lrw;	Lrw;
 	m	bI()Lng;	bI()Lng;
 	m	i(I)Lng;	i(I)Lng;
 		ma	0	0
-	m	b(ZI)V	a(ZI)V
+	m	b(ZI)V	b(ZI)V
 		ma	0	0
 		ma	1	1
 	m	m_()Z	m_()Z
@@ -77124,12 +77124,12 @@ c	Lrx;	Lrx;
 		ma	1	1
 	m	F()Lng;	F()Lng;
 	m	G()Ladg;	G()Ladg;
-	m	b(ZI)V	a(ZI)V
+	m	b(ZI)V	b(ZI)V
 		ma	0	0
 		ma	1	1
-		mvu	a	0
-		mvu	a	1
-		mvu	a	2
+		mv	0	0
+		mv	1	1
+		mv	2	2
 	m	b(Ldn;)V	b(Ldn;)V
 		ma	0	0
 		mv	0	0
@@ -77233,18 +77233,18 @@ c	Lrx;	Lrx;
 	m	a(Lrs;Ladi;)V	a(Lrs;Ladi;)V
 		ma	0	0
 		ma	1	1
-	m	a(ZI)V	b(ZI)V
+	m	a(ZI)V	a(ZI)V
 		ma	0	0
 		ma	1	1
-		mvu	a	0
+		mv	0	0
 		mv	1	1
 		mv	2	2
-		mvu	a	3
-		mvu	a	4
-		mvu	a	5
-		mvu	a	6
-		mvu	a	7
-		mvu	a	8
+		mv	3	3
+		mv	4	4
+		mv	5	5
+		mv	6	6
+		mv	7	7
+		mv	8	8
 	m	a(Lqi;)V	a(Lqi;)V
 		ma	0	0
 		mv	0	0
@@ -80042,9 +80042,6 @@ c	Lvx;	Lvx;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	b(ZI)V	a(ZI)V
-		ma	0	0
-		ma	1	1
 	m	H()Lkl;	H()Lkl;
 	m	cU()Z	cT()Z
 	m	n(Z)V	n(Z)V
@@ -83869,10 +83866,6 @@ c	Lyo;	Lyo;
 	m	F()Lng;	F()Lng;
 	m	bH()Lng;	bH()Lng;
 	m	bI()Lng;	bI()Lng;
-	m	b(ZI)V	a(ZI)V
-		ma	0	0
-		ma	1	1
-		mv	3	0
 	m	H()Lkl;	H()Lkl;
 	m	a(Laqr;)V	a(Laqr;)V
 		ma	0	0
