@@ -1,12 +1,31 @@
-import fs from 'fs'
-import path from 'path'
-import fetch from 'node-fetch'
-import {spawn, getEra, getVersionDetails} from './utils.mjs'
+#!/usr/bin/env -S deno run --allow-net --allow-env --allow-read --allow-write --allow-run
+
+import './mc-versions/types.d.ts'
+import * as path from 'https://deno.land/std@0.159.0/path/mod.ts'
+import {spawn, getEra, getVersionDetails, exists} from './utils.ts'
+
+type VersionManifest = BaseVersionManifest & {
+    libraries: {
+        downloads?: {
+            artifact: {
+                url: string
+                path: string
+            }
+        }
+    }[]
+}
 
 const versionDataDir = path.resolve('mc-versions', 'data')
-const versionDir = path.resolve(versionDataDir, 'version')
 
-const STITCH = {maven: 'https://maven.fabricmc.net/', group: 'net.fabricmc', artifact: 'stitch', version: '0.6.1', classifier: 'all'}
+interface Tool {
+    maven: string
+    group: string
+    artifact: string
+    version: string
+    classifier?: string
+}
+
+const STITCH: Tool = {maven: 'https://maven.fabricmc.net/', group: 'net.fabricmc', artifact: 'stitch', version: '0.6.1', classifier: 'all'}
 const MATCHES_DIR = 'matches'
 
 const ANY_MATCH_TYPES = [
@@ -17,29 +36,26 @@ const ANY_MATCH_TYPES = [
     ['server', 'server']
 ]
 
-;(async () => {
-    const manifest = JSON.parse(fs.readFileSync(path.resolve(versionDataDir, 'version_manifest.json')))
-    if (process.argv.length > 3 && process.argv[2] !== 'next') {
-        if (process.argv.length > 5) {
-            // setup <typeA> <versionA> <typeB> <versionB>
-            await setupMatchEnv(manifest, process.argv[3], process.argv[2], process.argv[5], process.argv[4])
-        } else {
-            // setup <versionA> <versionB>
-            await setupAnyMatchEnv(manifest, process.argv[2], process.argv[3])
-        }
+const manifest: MainManifest = JSON.parse(await Deno.readTextFile(path.resolve(versionDataDir, 'version_manifest.json')))
+if (Deno.args.length > 1 && Deno.args[0] !== 'next') {
+    if (Deno.args.length > 3) {
+        // setup <typeA> <versionA> <typeB> <versionB>
+        await setupMatchEnv(manifest, Deno.args[1], Deno.args[0], Deno.args[3], Deno.args[2])
     } else {
-        const arg = process.argv[2]
-        if (arg === 'refresh') {
-            // setup refresh
-            await refresh(manifest)
-            return
-        } else if (arg === 'next') {
-            await setupNext(manifest, process.argv[3])
-        }
+        // setup <versionA> <versionB>
+        await setupAnyMatchEnv(manifest, Deno.args[0], Deno.args[1])
     }
-})()
+} else {
+    const arg = Deno.args[0]
+    if (arg === 'refresh') {
+        // setup refresh
+        await refresh(manifest)
+    } else if (arg === 'next') {
+        await setupNext(manifest, Deno.args[1])
+    }
+}
 
-async function setupNext(manifest, era) {
+async function setupNext(manifest: MainManifest, era?: string) {
     const handled = new Set()
     const queue = new Set(['rd-132211-launcher', 'server-c1.2'])
     while (queue.size) {
@@ -47,13 +63,14 @@ async function setupNext(manifest, era) {
         queue.delete(current)
         if (handled.has(current)) continue
         handled.add(current)
-        const details = getVersionDetails(current)
+        const details = await getVersionDetails(current)
         for (const next of details.next || []) {
             try {
                 if (await setupAnyMatchEnv(manifest, current, next, era)) return true
             } catch (e) {
                 // Ignore errors for classic servers for now
                 // TODO: handle `server_zip`
+                console.error(e)
             }
             queue.add(next)
         }
@@ -61,7 +78,7 @@ async function setupNext(manifest, era) {
     return false
 }
 
-async function setupAnyMatchEnv(manifest, versionA, versionB, era) {
+async function setupAnyMatchEnv(manifest: MainManifest, versionA: string, versionB: string, era?: string) {
     for (const [typeA, typeB] of ANY_MATCH_TYPES) {
         const [canCreate, didCreate] = await setupMatchEnv(manifest, versionA, typeA, versionB, typeB, era)
         if (didCreate) return true
@@ -70,23 +87,23 @@ async function setupAnyMatchEnv(manifest, versionA, versionB, era) {
     return false
 }
 
-async function setupMatchEnv(manifest, versionA, typeA, versionB, typeB, era) {
+async function setupMatchEnv(manifest: MainManifest, versionA: string, typeA: string, versionB: string, typeB: string, era?: string) {
     const type = typeA === typeB ? typeA : 'cross'
     const prefixA = type === 'cross' ? typeA + '-' : ''
     const prefixB = type === 'cross' ? typeB + '-' : ''
     const typeDir = path.resolve(MATCHES_DIR, type)
-    const eraB = getEra(versionB)
+    const eraB = await getEra(versionB)
     if (era && era !== eraB) return [true, false]
     const matchDir = eraB ? path.resolve(typeDir, eraB) : typeDir
     const matchFile = path.resolve(matchDir, `${prefixA}${versionA}#${prefixB}${versionB}.match`)
-    if (!fs.existsSync(matchFile)) {
+    if (!(await exists(matchFile))) {
         const mainJarA = await getMainJar(versionA, typeA)
         const mainJarB = await getMainJar(versionB, typeB)
-        if (!mainJarA || !mainJarB) {
-            return [false, false]
-        }
-        const librariesA = typeA === 'server' ? new Set() : new Set(await getLibraries(await getVersionInfo(manifest, versionA)))
-        const librariesB = typeB === 'server' ? new Set() : new Set(await getLibraries(await getVersionInfo(manifest, versionB)))
+        const infoA = await getVersionInfo(manifest, versionA)
+        const infoB = await getVersionInfo(manifest, versionB)
+        if (!mainJarA || !mainJarB || !infoA || !infoB) return [false, false]
+        const librariesA: Set<string> = typeA === 'server' ? new Set() : new Set(await getLibraries(infoA))
+        const librariesB: Set<string> = typeB === 'server' ? new Set() : new Set(await getLibraries(infoB))
         const [shared, libsA, libsB] = computeShared(librariesA, librariesB)
         console.log(mainJarA, libsA)
         console.log(mainJarB, libsB)
@@ -101,35 +118,43 @@ async function setupMatchEnv(manifest, versionA, typeA, versionB, typeB, era) {
         lines.push('\tcp b:')
         for (const cp of libsB) lines.push(`\t\t${path.basename(cp)}`)
         for (const type of ['cls', 'mem']) for (const side of ['a', 'b']) {
-            const info = ({a: getVersionDetails(versionA), b: getVersionDetails(versionB)})[side]
+            const info = await getVersionDetails(({a: versionA, b: versionB})[side]!)
             if (info.releaseTime > '2013-04-18' && !info.id.startsWith('1.5')) continue
             lines.push(`\tnon-obf ${type} ${side}\tpaulscode|jcraft`)
         }
         lines.push('c\tLdummy;\tLdummy;', '')
-        mkdirp(path.dirname(matchFile))
-        fs.writeFileSync(matchFile, lines.join('\n'))
-        fs.writeFileSync('current.txt', `Current Match: ${versionA} \u2192 ${versionB}`)
+        await Deno.mkdir(path.dirname(matchFile), {recursive: true})
+        await Deno.writeTextFile(matchFile, lines.join('\n'))
+        await Deno.writeTextFile('current.txt', `Current Match: ${versionA} \u2192 ${versionB}`)
         return [true, true]
     }
     return [true, false]
 }
 
-async function refresh(manifest) {
-    const versions = new Set()
-    for (const matchType of fs.readdirSync(MATCHES_DIR)) {
+async function sortedReadDir(path: string) {
+    const entries = []
+    for await (const entry of Deno.readDir(path)) {
+        entries.push(entry.name)
+    }
+    return entries.sort()
+}
+
+async function refresh(manifest: MainManifest) {
+    const versions: Set<string> = new Set()
+    for (const matchType of await sortedReadDir(MATCHES_DIR)) {
         const matchTypeDir = path.resolve(MATCHES_DIR, matchType)
         const prefix = matchType === 'cross' ? '' : matchType + '-'
-        for (const era of fs.readdirSync(matchTypeDir)) {
+        for (const era of await sortedReadDir(matchTypeDir)) {
             const eraDir = path.resolve(matchTypeDir, era)
-            if (!fs.statSync(eraDir).isDirectory()) {
+            if (!(await Deno.stat(eraDir)).isDirectory) {
                 if (!eraDir.endsWith('.match')) continue
                 const [versionA, versionB] = path.basename(eraDir, '.match').split('#')
                 versions.add(prefix + versionA)
                 versions.add(prefix + versionB)
                 continue
             }
-            for (const name of fs.readdirSync(eraDir)) {
-                const matchFile = path.resolve(eraDir, name)
+            for await (const entry of Deno.readDir(eraDir)) {
+                const matchFile = path.resolve(eraDir, entry.name)
                 if (!matchFile.endsWith('.match')) continue
                 const [versionA, versionB] = path.basename(matchFile, '.match').split('#')
                 versions.add(prefix + versionA)
@@ -142,27 +167,27 @@ async function refresh(manifest) {
         version = version.slice(type.length + 1)
         console.log(version, type)
         const info = await getVersionInfo(manifest, version)
-        const mainJar = await getMainJar(version, type)
+        if (!info) continue
+        await getMainJar(version, type)
         if (type !== 'server') {
             await getLibraries(info)
         }
-        console.log(mainJar)
     } 
 }
 
-async function getVersionInfo(manifest, id) {
+async function getVersionInfo(manifest: MainManifest, id: string) {
     const info = manifest.versions.find(v => v.omniId === id)
     if (!info) {
         console.error(`${id} not found`)
         return
     }
-    return JSON.parse(fs.readFileSync(path.resolve(versionDataDir, info.url)))
+    return JSON.parse(await Deno.readTextFile(path.resolve(versionDataDir, info.url))) as VersionManifest
 }
 
-async function getMainJar(id, type) {
-    const details = getVersionDetails(id)
+async function getMainJar(id: string, type: string) {
+    const details = await getVersionDetails(id)
     const dir = path.resolve('versions', id)
-    const files = {}
+    const files: Record<string, string> = {}
     for (const key in details.downloads) {
         const download = details.downloads[key]
         if (!download.url.endsWith('.jar')) continue
@@ -176,33 +201,29 @@ async function getMainJar(id, type) {
     if (!files.client && !files.server) throw Error('Expected at least one jar for ' + id)
     const name = 'minecraft-' + type
     const dest = path.resolve(`libraries/com/mojang/${name}/${id}/${name}-${id}.jar`)
-    if (fs.existsSync(dest)) return dest
+    if (await exists(dest)) return dest
     if (type === 'merged') {
         if (!files.client || !files.client || !details.sharedMappings) return null
-        mkdirp(path.dirname(dest))
+        await Deno.mkdir(path.dirname(dest), {recursive: true})
         await mergeJars(files.client, files.server, dest)
     } else {
         if (!files[type]) return null
-        mkdirp(path.dirname(dest))
-        fs.linkSync(files[type], dest)
+        await Deno.mkdir(path.dirname(dest), {recursive: true})
+        await Deno.link(files[type], dest)
     }
     return dest
 }
 
-async function downloadFile(url, file) {
-    if (fs.existsSync(file)) return
+async function downloadFile(url: URL|string, file: string) {
+    if (await exists(file)) return
     console.log(`Downloading ${url}`)
-    mkdirp(path.dirname(file))
-    await fetch(url).then(res => promisifiedPipe(res.body, fs.createWriteStream(file)))
+    await Deno.mkdir(path.dirname(file), {recursive: true})
+    const res = await fetch(url)
+    const fd = await Deno.open(file, {write: true, createNew: true})
+    await res.body?.pipeTo(fd.writable)
 }
 
-function mkdirp(dir) {
-    if (fs.existsSync(dir)) return
-    mkdirp(path.dirname(dir))
-    fs.mkdirSync(dir)
-}
-
-async function getLibraries(version) {
+async function getLibraries(version: VersionManifest) {
     const files = []
     for (const lib of Object.values(version.libraries)) {
         if (!lib.downloads) continue
@@ -215,7 +236,7 @@ async function getLibraries(version) {
     return files
 }
 
-function computeShared(a, b) {
+function computeShared<T>(a: Set<T>, b: Set<T>): [T[], T[], T[]] {
     const combined = new Set([...a, ...b])
     const resultA = []
     const resultB = []
@@ -228,35 +249,7 @@ function computeShared(a, b) {
     return [shared, resultA, resultB]
 }
 
-function promisifiedPipe(input, output) {
-    let ended = false
-    function end() {
-        if (!ended) {
-            ended = true
-            output.close && output.close()
-            input.close && input.close()
-            return true
-        }
-    }
-
-    return new Promise((resolve, reject) => {
-        input.pipe(output)
-        output.on('finish', () => {
-            if (end()) resolve()
-        })
-        output.on('end', () => {
-            if (end()) resolve()
-        })
-        input.on('error', err => {
-            if (end()) reject(err)
-        })
-        output.on('error', err => {
-            if (end()) reject(err)
-        })
-    })
-}
-
-async function getTool(tool) {
+async function getTool(tool: Tool) {
     const toolPath = `${tool.group.replace('.', '/')}/${tool.artifact}/${tool.version}/${tool.artifact}-${tool.version}${tool.classifier ? '-' + tool.classifier : ''}.jar`
     const url = new URL(toolPath, tool.maven)
     const file = path.resolve('libraries', toolPath)
@@ -264,16 +257,16 @@ async function getTool(tool) {
     return file
 }
 
-function java(args, opts) {
-    const JAVA_HOME = process.env['JAVA_HOME']
+function java(args: string[], opts: Omit<Deno.RunOptions, 'cmd'> = {}) {
+    const JAVA_HOME = Deno.env.get('JAVA_HOME')
     const java = JAVA_HOME ? path.resolve(JAVA_HOME, 'bin/java') : 'java'
     return spawn(java, args, opts)
 }
 
-async function stitch(...args) {
-    return java(['-jar', await getTool(STITCH), ...args], {stdio: 'inherit'})
+async function stitch(...args: string[]) {
+    return java(['-jar', await getTool(STITCH), ...args])
 }
 
-function mergeJars(client, server, merged) {
+function mergeJars(client: string, server: string, merged: string) {
     return stitch('mergeJar', client, server, merged, '--removeSnowman', '--syntheticparams')
 }

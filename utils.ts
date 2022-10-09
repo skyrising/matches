@@ -4,6 +4,11 @@ import * as path from 'https://deno.land/std@0.113.0/path/mod.ts'
 
 const versionDataDir = path.resolve('mc-versions', 'data')
 
+export async function spawn(program: string, args: string[], opts: Omit<Deno.RunOptions, 'cmd'> = {}) {
+    const cp = Deno.run({...opts, cmd: [program, ...args]})
+    return await cp.status()
+}
+
 export async function spawnText(cmd: string[]) {
     const cp = Deno.run({cmd, stdout: 'piped'})
     const text = new TextDecoder().decode(await cp.output())
@@ -59,4 +64,14 @@ export function getOrPut<V>(map: Record<string, V>, k: string, v: V) {
     const prev = map[k]
     if (prev) return prev
     return map[k] = v
+}
+
+export async function exists(path: string) {
+    try {
+        await Deno.stat(path)
+        return true
+    } catch (e) {
+        if (e instanceof Deno.errors.NotFound) return false
+        throw e
+    }
 }
