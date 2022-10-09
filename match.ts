@@ -27,6 +27,7 @@ interface Tool {
 
 const STITCH: Tool = {maven: 'https://maven.fabricmc.net/', group: 'net.fabricmc', artifact: 'stitch', version: '0.6.1', classifier: 'all'}
 const MATCHES_DIR = 'matches'
+const COMMIT_MSG_FILE = '.git/COMMIT_MSG'
 
 const ANY_MATCH_TYPES = [
     ['merged', 'merged'],
@@ -36,23 +37,32 @@ const ANY_MATCH_TYPES = [
     ['server', 'server']
 ]
 
+type Command = (manifest: MainManifest, args: string[]) => Promise<void>
+
+const COMMANDS: Record<string, Command> = {
+    async next(manifest: MainManifest, args: string[]) {
+        await setupNext(manifest, args[0])
+    },
+    async refresh(manifest: MainManifest) {
+        await refresh(manifest)
+    },
+    async commit(_manifest: MainManifest, args: string[]) {
+        await generateCommitMessage(args)
+    }
+}
+
 const manifest: MainManifest = JSON.parse(await Deno.readTextFile(path.resolve(versionDataDir, 'version_manifest.json')))
-if (Deno.args.length > 1 && Deno.args[0] !== 'next') {
+const cmd = COMMANDS[Deno.args[0]]
+if (!cmd && Deno.args.length > 1) {
     if (Deno.args.length > 3) {
-        // setup <typeA> <versionA> <typeB> <versionB>
+        // <typeA> <versionA> <typeB> <versionB>
         await setupMatchEnv(manifest, Deno.args[1], Deno.args[0], Deno.args[3], Deno.args[2])
     } else {
-        // setup <versionA> <versionB>
+        // <versionA> <versionB>
         await setupAnyMatchEnv(manifest, Deno.args[0], Deno.args[1])
     }
 } else {
-    const arg = Deno.args[0]
-    if (arg === 'refresh') {
-        // setup refresh
-        await refresh(manifest)
-    } else if (arg === 'next') {
-        await setupNext(manifest, Deno.args[1])
-    }
+    await cmd(manifest, Deno.args.slice(1))
 }
 
 async function setupNext(manifest: MainManifest, era?: string) {
@@ -269,4 +279,45 @@ async function stitch(...args: string[]) {
 
 function mergeJars(client: string, server: string, merged: string) {
     return stitch('mergeJar', client, server, merged, '--removeSnowman', '--syntheticparams')
+}
+
+async function generateCommitMessage(args: string[]) {
+    const gitStatus = Deno.run({cmd: ['git', 'status', '--porcelain=v2'], stdout: 'piped'})
+    const {code} = await gitStatus.status()
+    if (code) return
+    const statusText = new TextDecoder().decode(await gitStatus.output())
+    const status = statusText.split('\n').filter(Boolean).map(line => {
+        const parts = line.split(' ')
+        if (parts[0] !== '1') return undefined
+        const [_type, xy, _sub, _modeHead, _modeIndex, _modeWorktree, _nameHead, _nameIndex, path] = parts
+        return {path, status: xy}
+    }).filter(Boolean) as {path: string, status: string}[]
+    const addedMatches = status.filter(file => file.path.startsWith('matches/') && file.status[0] === 'A').map(file => {
+        const parts = file.path.split('/')
+        let [versionA, versionB] = parts[3].slice(0, -6).split('#')
+        let [typeA, typeB] = [parts[1], parts[1]]
+        if (parts[1] === 'cross') {
+            const [va, ta] = versionA.split('-')
+            versionA = va
+            typeA = ta
+            const [vb, tb] = versionB.split('-')
+            versionB = vb
+            typeB = tb
+        }
+        const suffixA = typeA === typeB || versionA.includes(typeA) ? '' : ' (' + typeA + ')'
+        const suffixB = typeA === typeB || versionB.includes(typeB) ? '' : ' (' + typeB + ')'
+        const suffix = typeA === typeB && typeA !== 'merged' && !(versionA.includes(typeA) && versionB.includes(typeB))  ? ' (' + typeA + ')' : ''
+        return `${versionA}${suffixA} -> ${versionB}${suffixB}${suffix}`
+    })
+    if (!addedMatches.length) {
+        console.error('No matches added')
+        return
+    }
+    let message = addedMatches.join(', ')
+    const coAuthors = args.map(name => name.endsWith('>') ? name : `${name} <${name}@users.noreply.github.com>`)
+    if (coAuthors.length) {
+        message += '\n\n' + coAuthors.map(author => `Co-Authored-By: ${author}`).join('\n')
+    }
+    await Deno.writeTextFile(COMMIT_MSG_FILE, message)
+    await Deno.run({cmd: ['git', 'commit', '-F', COMMIT_MSG_FILE]}).status()
 }
