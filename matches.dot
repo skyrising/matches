@@ -709,6 +709,9 @@ digraph {
     merged_17w48a[label="17w48a",href="https://skyrising.github.io/mc-versions/version/17w48a.json"];
     merged_17w49a[label="17w49a",href="https://skyrising.github.io/mc-versions/version/17w49a.json"];
     merged_17w49b[label="17w49b",href="https://skyrising.github.io/mc-versions/version/17w49b.json"];
+    merged_17w50a[label="17w50a",href="https://skyrising.github.io/mc-versions/version/17w50a.json"];
+    merged_18w01a[label="18w01a",href="https://skyrising.github.io/mc-versions/version/18w01a.json"];
+    merged_18w02a[label="18w02a",href="https://skyrising.github.io/mc-versions/version/18w02a.json"];
   }
   subgraph cluster_1_14 {
     label="1.14";
@@ -1015,6 +1018,9 @@ digraph {
   merged_17w47b -> merged_17w48a[label="99.96%",href="merged/1.13/17w47b%2317w48a.match"];
   merged_17w48a -> merged_17w49a[label="99.93%",href="merged/1.13/17w48a%2317w49a.match"];
   merged_17w49a -> merged_17w49b[label="99.88%",href="merged/1.13/17w49a%2317w49b.match"];
+  merged_17w49b -> merged_17w50a[label="99.96%",href="merged/1.13/17w49b%2317w50a.match"];
+  merged_17w50a -> merged_18w01a[label="99.61%",href="merged/1.13/17w50a%2318w01a.match"];
+  merged_18w01a -> merged_18w02a[label="98.83%",href="merged/1.13/18w01a%2318w02a.match"];
   merged_1_3_pre_07261249 -> merged_1_3_1[label="94.21%",href="merged/1.3/1.3-pre-07261249%231.3.1.match"];
   merged_1_3_1 -> merged_1_3_2[label="100%",href="merged/1.3/1.3.1%231.3.2.match"];
   merged_12w32a -> merged_1_3_2[label="98.27%",href="merged/1.3/12w32a%231.3.2.match"];
