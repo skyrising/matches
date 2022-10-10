@@ -1,4 +1,4 @@
-Matches saved 2022-09-16, status: c:2907/2915 m:22207/22314 f:10500/10597 ma:29917/30094, input files:
+Matches saved 2022-10-10, status: c:2907/2915 m:22206/22314 f:10500/10597 ma:29917/30094, input files:
 	a:
 		8712151	SHA256	CNmNy5CCPRZ7HUw+KCxGi3ZeZqoElnrPwH8uYOxABes=	minecraft-merged-15w51b.jar
 	b:
@@ -59795,7 +59795,6 @@ c	Lbxv$a;	Lbyb;
 	mu	a	a(Ljava/lang/String;)V
 	mu	a	a(F)V
 	mu	a	b(F)V
-	m	d()I	e()I
 	mu	a	a(I)V
 	m	e()Lbxv$a$a;	g()Lbyb$a;
 	mu	a	a(Lbxv$a$a;)V
