@@ -1,4 +1,4 @@
-Matches saved 2022-09-16, status: c:2883/2884 m:22034/22056 f:10424/10430 ma:29690/29759, input files:
+Matches saved 2022-10-10, status: c:2883/2884 m:22033/22056 f:10424/10430 ma:29690/29759, input files:
 	a:
 		9210069	SHA256	FuTOAbdIo/6hNdQGXum92w3kvxHDwFTw0DTfalrEwCg=	minecraft-merged-15w44a.jar
 	b:
@@ -3877,8 +3877,6 @@ c	Ladq;	Ladq;
 	m	<init>()V	<init>()V
 	m	a(Ladl;)Ljava/lang/String;	a(Ladl;)Ljava/lang/String;
 		ma	0	0
-	m	a(Lri;)Ljava/lang/String;	a(Ladl;Lzo;Ljava/util/List;Z)V
-		mau	a	0
 	m	a(Ladl;Lahn;Lzo;Lqk;)Lqn;	a(Ladl;Laho;Lzo;Lqk;)Lqn;
 		ma	0	0
 		ma	1	1
