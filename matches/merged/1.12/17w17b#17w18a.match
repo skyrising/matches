@@ -1,4 +1,4 @@
-Matches saved 2022-09-27, status: c:3286/3290 m:25142/25190 f:11694/11721 ma:34045/34151, input files:
+Matches saved 2022-10-10, status: c:3286/3290 m:25141/25190 f:11694/11721 ma:34043/34151, input files:
 	a:
 		10021348	SHA256	TAcfoSyeuGC8zbllg33LsFZahzrpXvEbHIUKLm1we9U=	minecraft-merged-17w17b.jar
 	b:
@@ -22165,9 +22165,6 @@ c	Laqr;	Laqw;
 		ma	0	0
 	m	c(Lavu;)Z	c(Lavz;)Z
 		ma	0	0
-	m	a(Lalv;Lee;)Z	b(Lama;Lei;Lep;)Z
-		ma	0	0
-		ma	1	1
 	m	a(Lalv;Lee;Lel;FFFILut;)Lavu;	a(Lama;Lei;Lep;FFFILux;)Lavz;
 		ma	0	0
 		ma	1	1

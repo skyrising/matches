@@ -1,4 +1,4 @@
-Matches saved 2022-02-26, status: c:3328/3330 m:25351/25447 f:11808/11851 ma:34246/34453, input files:
+Matches saved 2022-10-10, status: c:3328/3330 m:25350/25447 f:11808/11851 ma:34245/34453, input files:
 	a:
 		10084178	SHA256	tpEF6YC3RPDAW1An1P+8x2B0Cs4QuUZ2H+aQGv5uVBg=	minecraft-merged-1.12-pre2.jar
 	b:
@@ -10402,10 +10402,6 @@ c	Laht;	Lahw;
 	m	a(Lalh;)Laik;	a(Lalk;)Lain;
 		ma	0	0
 		mv	0	0
-	m	a(Lale;Ljava/util/List;)V	a(Lahn;Lfi;)V
-		mau	a	0
-		ma	1	1
-		mv	0	1
 c	Lahu;	Lahx;
 	m	<init>()V	<init>()V
 	m	a(Ladz;Lamo;Let;Ltx;Lfa;FFF)Ltz;	a(Laeb;Lamr;Let;Ltz;Lfa;FFF)Lub;
