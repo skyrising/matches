@@ -1,4 +1,4 @@
-Matches saved 2022-11-13, status: c:4260/4260 m:31349/31349 f:14405/14406 ma:44904/44926, input files:
+Matches saved 2022-11-15, status: c:4260/4260 m:31349/31349 f:14405/14406 ma:44925/44926, input files:
 	a:
 		12495657	SHA256	TKKU0jmqr8IT9ieoKA58pD6CxV5qZhEKd/nUogUB6Ts=	minecraft-merged-18w20a.jar
 	b:
@@ -384,6 +384,8 @@ c	Laam;	Laam;
 		mv	4	4
 		mv	5	5
 		mv	6	6
+		mv	7	7
+		mv	8	8
 		mv	9	9
 		mv	10	10
 		mv	11	11
@@ -615,7 +617,10 @@ c	Laaz$d;	Laaz$d;
 		mv	14	14
 		mv	15	15
 		mv	16	16
+		mv	17	17
 		mv	18	18
+		mv	19	19
+		mv	20	20
 		mv	21	21
 		mv	22	22
 	m	a(Laax;Laev;Ljava/util/BitSet;Lxy;)Lxu;	a(Laax;Laev;Ljava/util/BitSet;Lxy;)Lxu;
@@ -3400,6 +3405,7 @@ c	Lafp;	Lafp;
 		ma	2	2
 		ma	3	3
 		mv	0	0
+		mv	1	1
 	m	a(Lafp;)Lafz;	a(Lafp;)Lafz;
 		ma	0	0
 	f	a;;Lafz;	a;;Lafz;
@@ -3616,6 +3622,7 @@ c	Lafs;	Lafs;
 		ma	2	2
 		ma	3	3
 		mv	0	0
+		mv	1	1
 	m	a(Lafs;)Lafz;	a(Lafs;)Lafz;
 		ma	0	0
 	f	a;;Lafz;	a;;Lafz;
@@ -5306,9 +5313,15 @@ c	Lahf;	Lahf;
 		mv	2	2
 		mv	3	3
 		mv	4	4
+		mv	5	5
 		mv	6	6
 		mv	7	7
+		mv	8	8
+		mv	9	9
 		mv	10	10
+		mv	11	11
+		mv	12	12
+		mv	13	13
 		mv	14	14
 	m	c()Laig;	c()Laig;
 		mv	0	0
@@ -6406,6 +6419,7 @@ c	Lahx;	Lahx;
 	m	bj()V	bj()V
 	m	bk()Ljava/lang/String;	bk()Ljava/lang/String;
 	m	N_()Lic;	N_()Lic;
+		mv	0	0
 	m	bl()[Lahx;	bl()[Lahx;
 	m	s(Lahx;)Z	s(Lahx;)Z
 		ma	0	0
@@ -7923,6 +7937,12 @@ c	Laih;	Laih;
 	m	c(ILawk;)Z	c(ILawk;)Z
 		ma	0	0
 		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
 		mv	6	6
 	m	bV()Z	bV()Z
 	m	b(Laic;Lawk;)Z	b(Laic;Lawk;)Z
@@ -13589,8 +13609,10 @@ c	Laoi;	Laoi;
 		mv	4	4
 		mv	5	5
 		mv	6	6
+		mv	7	7
 		mv	8	8
 		mv	9	9
+		mv	10	10
 		mv	11	11
 	m	a(Laoh;Lef;Lahg;)V	a(Laoh;Lef;Lahg;)V
 		ma	0	0
@@ -14227,6 +14249,12 @@ c	Lape;	Lape;
 	m	c(ILawk;)Z	c(ILawk;)Z
 		ma	0	0
 		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
 		mv	6	6
 	m	b(Lgu;)V	b(Lgu;)V
 		ma	0	0
@@ -18108,6 +18136,14 @@ c	Larl;	Larl;
 		mv	2	2
 		mv	3	3
 	m	dk()V	dk()V
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
+		mv	6	6
+		mv	7	7
 		mv	8	8
 		mv	9	9
 		mv	10	10
@@ -24470,8 +24506,12 @@ c	Lawr$1;	Lawr$1;
 		mv	5	5
 		mv	6	6
 		mv	7	7
+		mv	8	8
+		mv	9	9
 		mv	10	10
 		mv	11	11
+		mv	12	12
+		mv	13	13
 		mv	14	14
 		mv	15	15
 	m	a(Leg;)V	a(Leg;)V
@@ -44503,6 +44543,7 @@ c	Lbpk$1;	Lbpk$1;
 		ma	2	2
 		ma	3	3
 		ma	4	4
+		ma	5	6
 	m	a(Lbar;Ljava/util/function/BiConsumer;)V	a(Lbar;Ljava/util/function/BiConsumer;)V
 		ma	0	0
 		ma	1	1
@@ -44541,6 +44582,7 @@ c	Lbpk;	Lbpk;
 		ma	2	2
 		ma	3	3
 		ma	4	4
+		ma	5	6
 	m	b()Ljava/lang/String;	b()Ljava/lang/String;
 	m	a(Lbbb;Lbpf;Ljava/util/Map;II)Lbpe;	a(Lbbb;Lbpf;Ljava/util/Map;II)Lbpe;
 		ma	0	0
@@ -44571,6 +44613,8 @@ c	Lbpk;	Lbpk;
 		ma	2	2
 		ma	3	3
 		ma	4	4
+		ma	5	6
+		ma	6	7
 	m	<clinit>()V	<clinit>()V
 		mv	0	0
 	f	a;;Lbpk;	a;;Lbpk;
@@ -45388,6 +45432,7 @@ c	Lbpx;	Lbpx;
 		ma	1	1
 		ma	2	2
 	m	<init>(Lbar;Lbpz;)V	<init>(Lbar;Lbpz;)V
+		ma	0	0
 		ma	1	1
 	m	a([Lit/unimi/dsi/fastutil/shorts/ShortList;I)Lit/unimi/dsi/fastutil/shorts/ShortList;	a([Lit/unimi/dsi/fastutil/shorts/ShortList;I)Lit/unimi/dsi/fastutil/shorts/ShortList;
 		ma	0	0
@@ -49685,8 +49730,42 @@ c	Lbuj;	Lbuj;
 	m	a(Lbbc;Ljava/util/Random;Lef;Lbui;DDDDDDIIIII)Z	a(Lbbc;Ljava/util/Random;Lbui;DDDDDDIIIII)Z
 		ma	0	0
 		ma	1	1
+		mau	a	2
+		ma	3	2
+		ma	4	3
+		ma	5	4
+		ma	6	5
+		ma	7	6
+		ma	8	7
+		ma	9	8
+		ma	10	9
+		ma	11	10
+		ma	12	11
+		ma	13	12
+		ma	14	13
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	4
 		mv	4	5
+		mv	5	6
+		mv	6	7
+		mv	7	8
 		mv	8	9
+		mv	9	10
+		mv	10	22
+		mv	11	23
+		mv	12	24
+		mv	13	25
+		mv	14	26
+		mv	15	27
+		mv	16	28
+		mv	17	29
+		mv	18	30
+		mv	19	31
+		mv	20	32
+		mv	21	33
+		mv	22	34
 	m	a(Lbbc;Lbpf;Ljava/util/Random;Lef;Lbsu;)Z	a(Lbbc;Lbpf;Ljava/util/Random;Lef;Lbsu;)Z
 		ma	0	0
 		ma	1	1
@@ -53886,12 +53965,15 @@ c	Lbyx$h;	Lbyx$h;
 		mv	0	0
 		mv	1	1
 		mv	2	2
+		mv	3	3
 		mv	4	4
 		mv	5	5
 		mv	6	6
+		mv	7	7
 		mv	8	8
 		mv	9	9
 		mv	10	10
+		mv	11	11
 		mv	12	12
 		mv	13	13
 		mv	14	14
@@ -58197,6 +58279,8 @@ c	Lcat;	Lcat;
 		ma	1	1
 		ma	2	2
 	m	a(Lbap;Lef;)I	a(Lbap;Lef;)I
+		ma	0	0
+		ma	1	1
 	m	b(Lbap;Lef;)I	b(Lbap;Lef;)I
 		ma	0	0
 		ma	1	1
@@ -63830,6 +63914,8 @@ c	Lcgu;	Lcgu;
 		mv	3	3
 	m	a(ILit/unimi/dsi/fastutil/doubles/DoubleList;Lit/unimi/dsi/fastutil/doubles/DoubleList;ZZ)Lcgp;	a(ILit/unimi/dsi/fastutil/doubles/DoubleList;Lit/unimi/dsi/fastutil/doubles/DoubleList;ZZ)Lcgp;
 		ma	0	0
+		ma	1	1
+		ma	2	2
 		ma	3	3
 		ma	4	4
 		mv	0	0
@@ -65079,11 +65165,25 @@ c	Lcht;	Lcht;
 		mv	3	3
 		mv	4	4
 		mv	5	5
+		mv	6	6
+		mv	7	7
 		mv	8	8
 		mv	9	9
+		mv	10	10
+		mv	11	11
 		mv	12	12
+		mv	13	13
+		mv	14	14
+		mv	15	15
+		mv	16	16
+		mv	17	17
 		mv	18	18
+		mv	19	19
+		mv	20	20
+		mv	21	21
+		mv	22	22
 		mv	23	23
+		mv	24	24
 		mv	25	25
 		mv	26	26
 		mv	27	27
@@ -67550,6 +67650,11 @@ c	Lcjf;	Lcjf;
 		ma	1	1
 		ma	2	2
 		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
 		mv	6	6
 	f	o;;Z	o;;Z
 c	Lcjg$1;	Lcjg$1;
@@ -67815,6 +67920,11 @@ c	Lcjk;	Lcjk;
 		ma	2	2
 		ma	3	3
 		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
 		mv	6	6
 	m	a(Lcha;ILjava/lang/String;IILcso;)V	a(Lcha;ILjava/lang/String;IILcsn;)V
 		ma	0	0
@@ -68875,8 +68985,14 @@ c	Lcko;	Lckn;
 		mv	0	0
 		mv	1	1
 		mv	2	2
+		mv	3	3
+		mv	4	4
 		mv	5	5
+		mv	6	6
+		mv	7	7
 		mv	8	8
+		mv	9	9
+		mv	10	10
 		mv	11	11
 		mv	12	12
 		mv	13	13
@@ -74235,7 +74351,16 @@ c	Lcni;	Lcnh;
 		mv	8	8
 		mv	9	9
 		mv	10	10
+		mv	11	11
 		mv	12	12
+		mv	13	13
+		mv	14	14
+		mv	15	15
+		mv	16	16
+		mv	17	17
+		mv	18	18
+		mv	19	19
+		mv	20	20
 		mv	21	21
 		mv	22	22
 		mv	23	23
@@ -87053,6 +87178,9 @@ c	Lcxn;	Lcxm;
 		mv	4	4
 		mv	5	5
 		mv	6	6
+		mvu	a	7
+		mv	8	7
+		mv	9	8
 	m	a(Lbmf;DDDFI)V	a(Lbmf;DDDFI)V
 		ma	0	0
 		ma	1	1
@@ -87278,10 +87406,16 @@ c	Lcxu;	Lcxt;
 		mv	12	12
 		mv	13	13
 		mv	14	14
+		mv	15	15
+		mv	16	16
 		mv	17	17
 		mv	18	18
+		mv	19	19
+		mv	20	20
 		mv	21	21
 		mv	22	22
+		mv	23	23
+		mv	24	24
 		mv	25	25
 		mv	26	26
 		mv	27	27
@@ -87386,6 +87520,14 @@ c	Lcxw;	Lcxv;
 		mv	11	11
 	m	a(D)I	a(D)I
 		ma	0	0
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
+		mv	6	6
+		mv	7	7
 		mv	8	8
 	m	c()F	c()F
 	m	a(FFFF)Ljava/nio/FloatBuffer;	a(FFFF)Ljava/nio/FloatBuffer;
@@ -92013,7 +92155,9 @@ c	Ldcv;	Ldcu;
 		mv	1	1
 		mv	2	2
 		mv	3	3
+		mv	4	4
 		mv	5	5
+		mv	6	6
 		mv	7	7
 		mv	8	8
 		mv	9	9
@@ -101638,13 +101782,19 @@ c	Lic$a;	Lic$a;
 		ma	1	1
 		ma	2	2
 		mv	0	0
+		mv	1	1
 		mv	2	2
 		mv	3	3
 		mv	4	4
 		mv	5	5
 		mv	6	6
+		mv	7	7
+		mv	8	8
 		mv	9	9
 		mv	10	10
+		mv	11	11
+		mv	12	12
+		mv	13	13
 		mv	14	14
 		mv	15	15
 		mv	16	16
@@ -101738,9 +101888,12 @@ c	Lid;	Lid;
 		mv	6	6
 		mv	7	7
 		mv	8	8
+		mv	9	9
+		mv	10	10
 		mv	11	11
 		mv	12	12
 		mv	13	13
+		mv	14	14
 		mv	15	15
 		mv	16	16
 		mv	17	17
@@ -106231,6 +106384,8 @@ c	Lnet/minecraft/server/MinecraftServer;	Lnet/minecraft/server/MinecraftServer;
 		mv	7	7
 		mv	8	8
 		mv	9	9
+		mv	10	11
+		mv	11	12
 		mv	12	13
 		mv	13	14
 		mv	14	15
@@ -117844,6 +117999,21 @@ c	Lwx;	Lwx;
 		mv	5	5
 		mv	6	6
 		mv	7	7
+		mv	8	8
+		mv	9	9
+		mv	10	10
+		mv	11	11
+		mv	12	12
+		mv	13	13
+		mv	14	14
+		mv	15	15
+		mv	16	16
+		mv	17	17
+		mv	18	18
+		mv	19	19
+		mv	20	20
+		mv	21	21
+		mv	22	22
 		mv	23	23
 		mv	24	24
 		mv	25	25
