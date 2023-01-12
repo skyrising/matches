@@ -1,8 +1,8 @@
-Matches saved 2022-08-15, status: c:3318/3344 m:25091/25568 f:11733/11915 ma:33545/34606, input files:
+Matches saved 2023-01-12, status: c:3314/3344 m:25086/25568 f:11755/11915 ma:33693/34606, input files:
 	a:
-		10110776	SHA256	8A+1r84Ub+Gaau1JEuNytQ+f1Kuz02YXmEjNfaiksXE=	minecraft-merged-1.12.2.jar
+		10110776	SHA256	zYO9KwkFtzX4lXLbu+N5hLOrAZ+nlTmSaByc7nWOWnQ=	minecraft-merged-1.12.2.jar
 	b:
-		10288690	SHA256	/+ePRwVv3Otbixw8ADgD6u072ldq2gziddob4aDXbyY=	minecraft-merged-17w43a.jar
+		10288690	SHA256	6SL5TdnK1T5ujqHazdZRhpi0qeDtcnQnrDV9rHkim3s=	minecraft-merged-17w43a.jar
 	cp:
 		23581	SHA256	efWp2MeISJ0zdct3zIJqkF4mHlDSPzG5TC1fK5KtPcY=	patchy-1.3.9.jar
 		30973	SHA256	J5AeXU1g01AlcdXmNY/Inj/Ph0E4tp1JXRObzD4WlAQ=	oshi-core-1.1.jar
@@ -5902,6 +5902,8 @@ c	Laec;	Laff;
 		mv	1	1
 		mv	2	2
 		mv	3	3
+	m	f(I)V	a(D)V
+		ma	0	0
 	m	a(Lain;IILfy;)I	a(Lajq;IILfy;)I
 		ma	0	0
 		ma	1	1
@@ -13683,9 +13685,11 @@ c	Lakx;	Lama;
 	m	a(Lafy;Lamu;)Z	a(Lahb;Lanx;)Z
 		ma	0	0
 		ma	1	1
+		mv	0	0
 		mv	1	2
 		mv	2	3
 		mv	3	4
+		mv	5	1
 	m	a(Lafy;)Laip;	a(Lahb;)Lajs;
 		ma	0	0
 	m	a(Lcom/google/gson/JsonObject;)Lakx;	a(Lcom/google/gson/JsonObject;)Lama;
@@ -40506,19 +40510,44 @@ c	Lbcf;	Lbdi;
 	f	b;;Ljava/util/Random;	b;;Ljava/util/Random;
 c	Lbcg;	Lbdj;
 	m	<init>(Ljava/lang/String;Lry;)V	<init>(Lnet/minecraft/server/MinecraftServer;Ljava/io/File;Lta;)V
+		mau	a	0
 		ma	1	2
 	m	a(Lnet/minecraft/server/MinecraftServer;Lnf;)Lbcj;	a(Lnet/minecraft/server/MinecraftServer;Lnf;)Lbdm;
 		ma	0	0
 		ma	1	1
 		mv	0	0
 	m	b(Lnet/minecraft/server/MinecraftServer;Lnf;)Lbcj;	b(Lnet/minecraft/server/MinecraftServer;Lnf;)Lbdm;
+		ma	0	0
+		ma	1	1
+	m	a(Lnf;)Z	a(Lnf;)Z
+		ma	0	0
+		mvu	a	0
+		mvu	a	1
+		mvu	a	2
+		mv	3	1
+	m	c(Lnf;)Z	d(Lnf;)Z
+		ma	0	0
+		mv	0	0
+		mv	1	2
+		mv	2	1
+		mv	3	3
 	m	a(Ljava/lang/String;Ljava/io/InputStream;)V	a(Lnf;Ljava/io/InputStream;)V
+		ma	0	0
 		ma	1	1
 		mv	0	0
 		mv	1	1
+	m	c(Lnet/minecraft/server/MinecraftServer;Lnf;)Z	b(Lnf;)Z
+		ma	1	0
+		mv	1	1
+		mv	2	2
+		mv	3	0
+		mv	4	4
+		mv	5	3
+		mv	6	5
 	m	b(Lnf;)V	c(Lnf;)V
 		ma	0	0
 	f	a;;Ljava/util/Map;	b;;Ljava/util/Map;
+	fu	a	b;;Ljava/lang/String;
 	f	c;;Lry;	c;;Lta;
 c	Lbch;	Lbdk;
 	m	<init>()V	<init>()V
@@ -41225,7 +41254,9 @@ c	Lbda;	Lbed;
 	m	a(I)I	a(I)I
 		ma	0	0
 		mv	0	0
+		mv	1	3
 		mv	2	2
+		mv	3	1
 	m	a(Lahs;)Lbda;	a(Laiv;)Lbed;
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
@@ -42662,6 +42693,7 @@ c	Lbey;	Lbgb;
 	m	<init>(Ljava/io/File;Ljava/lang/String;ZLry;)V	<init>(Ljava/io/File;Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;Lta;)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 		ma	3	3
 	m	a(Laym;)Layf;	a(Lazp;)Lazi;
 		ma	0	0
@@ -42698,6 +42730,7 @@ c	Lbez;	Lbgc;
 	m	d()V	d()V
 	m	a(Ljava/lang/String;Z)Lbfe;	a(Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)Lbgh;
 		ma	0	0
+		ma	1	1
 	m	a(Ljava/lang/String;)Z	a(Ljava/lang/String;)Z
 		ma	0	0
 		mv	0	0
@@ -42834,7 +42867,7 @@ c	Lbfb;	Lbge;
 	m	<init>(Ljava/io/File;Ljava/lang/String;ZLry;)V	<init>(Ljava/io/File;Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;Lta;)V
 		ma	0	0
 		ma	1	1
-		mau	a	2
+		ma	2	2
 		ma	3	3
 	m	i()V	i()V
 		mv	0	0
@@ -42932,6 +42965,7 @@ c	Lbfc;	Lbgf;
 		mv	0	0
 	m	a(Ljava/lang/String;Z)Lbfe;	a(Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)Lbgh;
 		ma	0	0
+		mau	a	1
 	m	a(Ljava/lang/String;)Z	a(Ljava/lang/String;)Z
 		ma	0	0
 	m	b(Ljava/lang/String;)Z	b(Ljava/lang/String;)Z
@@ -43242,6 +43276,7 @@ c	Lbfg;	Lbgj;
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 	m	a(Ljava/lang/String;Z)Lbfe;	a(Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)Lbgh;
 		ma	0	0
+		mau	a	1
 	m	b()Ljava/util/List;	b()Ljava/util/List;
 	m	d()V	d()V
 	m	c(Ljava/lang/String;)Lbfd;	c(Ljava/lang/String;)Lbgg;
@@ -43779,11 +43814,18 @@ cu	a	Lbfv$1;
 cu	a	Lbfv$a;
 c	Lbfv;	Lbgy;
 	m	<init>(Ljava/io/File;)V	<init>(Lqb;)V
+		mau	a	0
 	m	a(Lnf;)Lbfs;	a(Lnf;)Lbgv;
 		ma	0	0
+	mu	a	a()V
+	mu	a	b()Lorg/apache/logging/log4j/Logger;
+	mu	a	a(Lbfv;)Ljava/io/File;
+	mu	a	c()Lcom/google/gson/Gson;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lorg/apache/logging/log4j/Logger;	c;;Lorg/apache/logging/log4j/Logger;
 	f	b;;Lcom/google/gson/Gson;	d;;Lcom/google/gson/Gson;
+	fu	a	c;;Lcom/google/common/cache/LoadingCache;
+	fu	a	d;;Ljava/io/File;
 c	Lbfw$a;	Lbgz$a;
 	m	<init>()V	<init>()V
 	m	a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbfw;	a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbgz;
@@ -45362,10 +45404,20 @@ c	Lbhx;	Lbjb;
 	f	b;;Lhh;	b;;Lhh;
 	f	c;;I	c;;I
 c	Lbhy;	Lbjd;
+	m	a(I)V	a(Lbjc$a;)V
+		mau	a	0
+		mv	0	0
+	m	a(IZ)V	a(Lbjc$a;Z)V
+		ma	0	0
+		ma	1	1
+		mv	0	0
+	m	a()V	a()V
+		mv	0	0
 	m	b()V	b()V
 		mv	0	0
 	m	c()V	c()V
 		mv	0	0
+	mu	a	d()Ljava/util/Set;
 	m	<init>(Ljava/lang/String;ILjava/lang/String;)V	<init>(Ljava/lang/String;ILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
@@ -45376,6 +45428,9 @@ c	Lbhy;	Lbjd;
 	m	k()V	n()V
 	m	h()Ljava/lang/String;	h()Ljava/lang/String;
 	m	i()I	i()Lbjc$a;
+	m	j()I	k()Ljava/lang/String;
+	m	b(I)V	b(Lbjc$a;)V
+		ma	0	0
 	m	a(Lbhy;)I	a(Lbjd;)I
 		ma	0	0
 	m	b(Ljava/lang/String;)Ljava/util/function/Supplier;	b(Ljava/lang/String;)Ljava/util/function/Supplier;
@@ -45383,14 +45438,19 @@ c	Lbhy;	Lbjd;
 		mv	0	0
 	m	compareTo(Ljava/lang/Object;)I	compareTo(Ljava/lang/Object;)I
 		ma	0	0
+	m	b(Lbhy;)Ljava/lang/String;	b(Lbjd;)Z
+		ma	0	0
 	m	c(Ljava/lang/String;)Ljava/lang/String;	c(Ljava/lang/String;)Ljava/lang/String;
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/Map;	a;;Ljava/util/Map;
+	f	b;;Lrg;	b;;Ljava/util/Map;
 	f	c;;Ljava/util/Set;	c;;Ljava/util/Set;
 	f	d;;Ljava/util/Map;	d;;Ljava/util/Map;
 	f	e;;Ljava/lang/String;	e;;Ljava/lang/String;
+	f	f;;I	f;;Lbjc$a;
 	f	g;;Ljava/lang/String;	g;;Ljava/lang/String;
+	f	h;;I	h;;Lbjc$a;
 	f	i;;Z	i;;Z
 	f	j;;I	j;;I
 c	Lbhz;	Lbjf;
@@ -45813,6 +45873,10 @@ c	Lbib;	Lbjh;
 		mv	1	1
 		mv	2	2
 		mv	3	3
+	mu	a	as()V
+	mu	a	at()V
+	mu	a	au()V
+	mu	a	av()V
 	m	aw()Z	am()Z
 		mv	0	0
 		mv	1	1
@@ -45832,6 +45896,8 @@ c	Lbib;	Lbjh;
 	m	f()V	f()V
 		mv	0	0
 		mv	2	1
+	mu	a	a(Ljava/io/InputStream;)Ljava/nio/ByteBuffer;
+	mu	a	ay()V
 	m	a(Lcdr;)V	a(Lcfg;)V
 		ma	0	0
 		mv	0	0
@@ -45863,7 +45929,13 @@ c	Lbib;	Lbjh;
 		mv	0	0
 		mv	1	1
 		mv	2	2
+	mu	a	a(Ljava/lang/String;)V
 	m	h()V	h()V
+	mu	a	az()V
+	mu	a	i()V
+	mu	a	j()V
+	mu	a	k()I
+	mu	a	l()Z
 	m	m()V	i()V
 	m	b(I)V	a(I)V
 		ma	0	0
@@ -45903,6 +45975,8 @@ c	Lbib;	Lbjh;
 		mv	28	28
 		mv	29	29
 	m	n()V	j()V
+	mu	a	o()V
+	mu	a	p()V
 	m	q()V	k()V
 	m	b(Z)V	c(Z)V
 		ma	0	0
@@ -45915,16 +45989,23 @@ c	Lbib;	Lbjh;
 		mv	2	2
 		mv	3	3
 		mv	4	4
-	m	aC()V	at()V
+	mu	a	r()V
+	mu	a	a(II)V
+	mu	a	aC()V
 	m	s()Lchl;	l()Lcig;
 	m	t()V	m()V
 		mv	6	0
+		mv	7	1
 		mv	8	2
+	mu	a	aD()V
+	mu	a	c(I)Z
 	m	aE()V	aq()V
 		mv	0	0
 		mv	1	1
 		mv	2	2
 		mv	3	3
+	mu	a	aG()V
+	mu	a	a(Ljava/lang/String;[Ljava/lang/Object;)V
 	m	a(Ljava/lang/String;Ljava/lang/String;Lamx;)V	a(Ljava/lang/String;Ljava/lang/String;Laoa;)V
 		ma	0	0
 		ma	1	1
@@ -45938,6 +46019,7 @@ c	Lbib;	Lbjh;
 		mv	6	6
 		mv	7	7
 		mv	8	8
+		mv	9	10
 		mv	10	12
 		mv	11	13
 	m	a(Lbsb;)V	a(Lbtp;)V
@@ -46010,6 +46092,7 @@ c	Lbib;	Lbjh;
 	m	aI()Ljava/lang/String;	as()Ljava/lang/String;
 	m	b(Lul;)V	b(Lvo;)V
 		ma	0	0
+		mv	0	0
 		mv	1	1
 	m	B()I	u()I
 		mv	0	0
@@ -46024,6 +46107,7 @@ c	Lbib;	Lbjh;
 	m	G()V	z()V
 		mv	0	0
 	m	H()Lul;	A()Lvo;
+	m	I()J	B()J
 	m	J()Z	aj()Z
 	m	K()Lbii;	C()Lbjo;
 	m	L()Lcom/mojang/authlib/properties/PropertyMap;	D()Lcom/mojang/authlib/properties/PropertyMap;
@@ -46038,6 +46122,7 @@ c	Lbib;	Lbjh;
 	m	T()Z	N()Z
 	m	U()Lcho;	O()Lcij;
 	m	V()Lchl$a;	P()Lcig$a;
+	mu	a	W()V
 	m	X()Lcom/mojang/authlib/minecraft/MinecraftSessionService;	Q()Lcom/mojang/authlib/minecraft/MinecraftSessionService;
 	m	Y()Lcex;	R()Lcfz;
 	m	aa()Lvg;	S()Lwj;
@@ -46093,6 +46178,8 @@ c	Lbib;	Lbjh;
 	f	K;;Lnf;	L;;Lnf;
 	f	a;;Z	a;;Z
 	f	b;;[B	b;;[B
+	fu	a	L;;Ljava/util/List;
+	fu	a	M;;Ljava/io/File;
 	f	N;;Lcom/mojang/authlib/properties/PropertyMap;	N;;Lcom/mojang/authlib/properties/PropertyMap;
 	f	O;;Lcom/mojang/authlib/properties/PropertyMap;	O;;Lcom/mojang/authlib/properties/PropertyMap;
 	f	P;;Lbse;	Q;;Lbts;
@@ -46100,8 +46187,12 @@ c	Lbib;	Lbjh;
 	f	R;;Lbib;	S;;Lbjh;
 	f	S;;Lry;	T;;Lta;
 	f	c;;Lbsa;	c;;Lbto;
+	fu	a	T;;Z
+	fu	a	U;;Z
 	f	V;;Z	V;;Z
 	f	W;;Lb;	W;;Lb;
+	fu	a	d;;I
+	fu	a	e;;I
 	f	X;;Z	X;;Z
 	f	Y;;Lbih;	Y;;Lbjn;
 	f	Z;;Lul;	Z;;Lvo;
@@ -46121,16 +46212,21 @@ c	Lbib;	Lbjh;
 	f	k;;Lbip;	j;;Lbjy;
 	f	l;;Lbip;	k;;Lbjy;
 	f	m;;Lblk;	l;;Lbna;
+	fu	a	n;;Lbie;
 	f	o;;Lbuq;	m;;Lbwe;
 	f	p;;Lbyg;	n;;Lbzt;
 	f	ai;;I	o;;I
+	fu	a	aj;;I
+	fu	a	ak;;I
 	f	al;;Lchd;	ai;;Lchw;
 	f	q;;Lbiq;	p;;Lbjz;
 	f	r;;Z	q;;Z
 	f	s;;Lbhc;	r;;Lbif;
 	f	t;;Lbid;	s;;Lbjk;
 	f	u;;Lbhw;	t;;Lbiz;
+	fu	a	v;;Lbic;
 	f	w;;Ljava/io/File;	w;;Ljava/io/File;
+	f	am;;Ljava/io/File;	aj;;Ljava/io/File;
 	f	an;;Ljava/lang/String;	ak;;Ljava/lang/String;
 	f	ao;;Ljava/lang/String;	al;;Ljava/lang/String;
 	f	ap;;Ljava/net/Proxy;	am;;Ljava/net/Proxy;
@@ -46139,16 +46235,22 @@ c	Lbib;	Lbjh;
 	f	as;;I	ap;;I
 	f	at;;Ljava/lang/String;	aq;;Ljava/lang/String;
 	f	au;;I	ar;;I
-	f	y;;J	x;;J
+	fu	a	x;;Z
+	fu	a	y;;J
 	f	av;;I	as;;I
 	f	z;;Lrb;	y;;Lsd;
-	f	A;;J	z;;J
+	fu	a	A;;J
 	f	aw;;Z	at;;Z
 	f	ax;;Z	au;;Z
 	f	ay;;Lgw;	av;;Lgw;
 	f	az;;Z	aw;;Z
 	f	B;;Lrl;	A;;Lsn;
+	fu	a	aA;;J
 	f	aB;;Lcen;	ax;;Lqb;
+	fu	a	aC;;Lcfg;
+	fu	a	aD;;Ljava/util/List;
+	fu	a	aE;;Lceg;
+	fu	a	aF;;Lceu;
 	f	aG;;Lcfa;	aA;;Lcgd;
 	f	aH;;Lbik;	aB;;Lbjt;
 	f	aI;;Lbin;	aC;;Lbjw;
@@ -46167,8 +46269,9 @@ c	Lbib;	Lbjh;
 	f	C;;Z	C;;Z
 	f	D;;Ljava/lang/String;	D;;Ljava/lang/String;
 	f	H;;Z	H;;Z
-	f	aV;;J	aO;;J
+	fu	a	aV;;J
 	f	aW;;I	aP;;I
+	fu	a	aX;;Z
 	f	aY;;Lchz;	aQ;;Lciv;
 	f	I;;J	J;;J
 	f	aZ;;Ljava/lang/String;	aR;;Ljava/lang/String;
@@ -46200,6 +46303,9 @@ c	Lbid$a;	Lbjk$a;
 		ma	2	2
 		ma	3	3
 		ma	4	4
+		ma	5	7
+		ma	6	6
+		ma	7	5
 	m	a()Z	a()Z
 	m	b()Z	b()Z
 	m	c()I	c()I
@@ -46207,6 +46313,14 @@ c	Lbid$a;	Lbjk$a;
 	m	e()F	e()D
 	m	f()F	f()D
 	m	a(F)V	a(F)V
+		ma	0	0
+	m	c(F)F	a(D)D
+		ma	0	0
+	m	d(F)F	b(D)D
+		ma	0	0
+	m	e(F)F	c(D)D
+		ma	0	0
+	m	f(F)F	d(D)D
 		ma	0	0
 	m	a(Lbid$a;)F	a(Lbjk$a;)D
 		ma	0	0
@@ -46220,6 +46334,7 @@ c	Lbid$a;	Lbjk$a;
 	f	e;;Lbid$a;	e;;Lbjk$a;
 	f	f;;Lbid$a;	f;;Lbjk$a;
 	f	g;;Lbid$a;	g;;Lbjk$a;
+	fu	a	h;;Lbid$a;
 	f	i;;Lbid$a;	h;;Lbjk$a;
 	f	j;;Lbid$a;	i;;Lbjk$a;
 	f	k;;Lbid$a;	j;;Lbjk$a;
@@ -46256,20 +46371,28 @@ c	Lbid$a;	Lbjk$a;
 	f	P;;Z	P;;Z
 	f	Q;;Ljava/lang/String;	Q;;Ljava/lang/String;
 	f	R;;F	R;;F
+	f	S;;F	S;;D
+	f	T;;F	T;;D
 	f	U;;[Lbid$a;	U;;[Lbjk$a;
 c	Lbid;	Lbjk;
 	m	<init>(Lbib;Ljava/io/File;)V	<init>(Lbjh;Ljava/io/File;)V
 		ma	0	0
 		ma	1	1
 	m	<init>()V	<init>()V
+	mu	a	a(I)Ljava/lang/String;
+	mu	a	a(Lbhy;)Z
 	m	a(Lbhy;I)V	a(Lbjd;Lbjc$a;)V
 		ma	0	0
+		ma	1	1
 	m	a(Lbid$a;F)V	a(Lbjk$a;D)V
 		ma	0	0
+		ma	1	1
 		mv	0	0
 	m	a(Lbid$a;I)V	a(Lbjk$a;I)V
 		ma	0	0
 		ma	1	1
+	m	a(Lbid$a;)F	a(Lbjk$a;)D
+		ma	0	0
 	m	b(Lbid$a;)Z	b(Lbjk$a;)Z
 		ma	0	0
 	m	a([Ljava/lang/String;I)Ljava/lang/String;	a([Ljava/lang/String;I)Ljava/lang/String;
@@ -46278,6 +46401,8 @@ c	Lbid;	Lbjk;
 	m	c(Lbid$a;)Ljava/lang/String;	c(Lbjk$a;)Ljava/lang/String;
 		ma	0	0
 		mv	0	0
+		mv	1	1
+		mv	2	2
 		mv	3	3
 		mv	4	4
 	m	a()V	a()V
@@ -46331,8 +46456,11 @@ c	Lbid;	Lbjk;
 	f	aR;;[Ljava/lang/String;	aR;;[Ljava/lang/String;
 	f	aS;;[Ljava/lang/String;	aS;;[Ljava/lang/String;
 	f	b;;[Ljava/lang/String;	b;;[Ljava/lang/String;
+	f	c;;F	c;;D
+	f	d;;Z	d;;Z
 	f	e;;I	e;;I
 	f	f;;Z	f;;Z
+	f	g;;Z	r;;D
 	f	h;;Z	g;;Z
 	f	i;;I	h;;I
 	f	j;;I	i;;I
@@ -46342,8 +46470,9 @@ c	Lbid;	Lbjk;
 	f	n;;Ljava/util/List;	m;;Ljava/util/List;
 	f	o;;Laed$b;	n;;Lafg$b;
 	f	p;;Z	o;;Z
-	f	q;;Z	q;;Z
-	f	r;;Z	p;;Z
+	f	q;;Z	p;;Z
+	f	r;;Z	q;;Z
+	fu	a	s;;F
 	f	t;;Z	s;;Z
 	f	u;;Z	t;;Z
 	f	v;;Z	v;;Z
@@ -46358,6 +46487,10 @@ c	Lbid;	Lbjk;
 	f	D;;I	D;;I
 	f	E;;I	E;;I
 	f	F;;Z	F;;Z
+	f	G;;F	G;;D
+	f	H;;F	H;;D
+	f	I;;F	I;;D
+	f	J;;F	J;;D
 	f	K;;I	K;;I
 	f	aU;;Ljava/util/Map;	aU;;Ljava/util/Map;
 	f	L;;Z	L;;Z
@@ -46405,6 +46538,8 @@ c	Lbid;	Lbjk;
 	f	aA;;Ljava/lang/String;	aA;;Ljava/lang/String;
 	f	aB;;Z	aB;;Z
 	f	aC;;Z	aC;;Z
+	f	aD;;F	aD;;D
+	f	aE;;F	aE;;D
 	f	aF;;F	aF;;F
 	f	aG;;I	aG;;I
 	f	aH;;I	aH;;I
@@ -46424,11 +46559,17 @@ c	Lbif;	Lbjl;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-		mv	0	1
-		mv	2	2
+		mv	0	2
+		mv	1	0
+		mv	2	1
 		mv	3	3
 		mv	4	4
 		mv	5	5
+	m	a(IILbvd;)Ljava/awt/image/BufferedImage;	a(IILbwq;)Lcez;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		mv	1	0
 	m	a(Ljava/io/File;)Ljava/io/File;	a(Ljava/io/File;)Ljava/io/File;
 		ma	0	0
 		mv	0	0
@@ -46437,7 +46578,7 @@ c	Lbif;	Lbjl;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
 	f	b;;Ljava/text/DateFormat;	b;;Ljava/text/DateFormat;
-cu	a	Lbig;
+c	Lbig;	Lbjm;
 c	Lbih;	Lbjn;
 	m	<init>(F)V	<init>(F)V
 		ma	0	0
@@ -46691,18 +46832,23 @@ c	Lbip;	Lbjy;
 	m	a(Lcep;)V	a(Lqd;)V
 		ma	0	0
 	m	c()V	c()V
-		mv	7	4
-		mv	8	5
-		mv	9	6
-		mv	10	7
-		mv	11	8
-		mv	12	9
-		mv	13	10
-		mv	14	11
-		mv	15	12
+		mv	0	6
+		mv	1	0
+		mv	2	16
+		mv	3	1
+		mv	4	2
+		mv	5	8
+		mv	6	7
+		mv	7	3
+		mv	8	4
+		mv	9	5
+		mv	10	10
+		mv	11	9
+		mv	12	11
+		mv	13	12
+		mv	14	14
+		mv	15	15
 		mv	16	13
-		mv	17	14
-		mv	18	15
 	m	d()V	d()V
 		mv	0	0
 		mv	1	1
@@ -47306,6 +47452,7 @@ c	Lbis$a;	Lbkb$a;
 		ma	0	0
 		ma	1	1
 	m	a()V	a()V
+		mv	0	0
 		mv	1	3
 	m	a(Z)V	a(Z)V
 		ma	0	0
@@ -47331,6 +47478,7 @@ c	Lbis$a;	Lbkb$a;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	b(Lbis$a;)Lnf;
 	m	c(Lbis$a;)Lbev;	b(Lbkb$a;)Lbfy;
 		ma	0	0
 	f	b;;Lbev;	b;;Lbfy;
@@ -47512,9 +47660,9 @@ c	Lbja;	Lbkj;
 		ma	0	0
 		mv	0	0
 	m	a(Lbib;IIF)V	a(IIF)V
-		ma	1	0
-		ma	2	1
-		ma	3	2
+		ma	0	0
+		ma	1	1
+		ma	2	2
 		mv	0	1
 		mv	1	2
 		mv	2	3
@@ -47522,9 +47670,7 @@ c	Lbja;	Lbkj;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(II)V	b(DD)V
-		ma	0	0
-		ma	1	1
+	mu	a	a(II)V
 	m	b(Lbib;II)Z	a(Lbjh;DD)Z
 		ma	0	0
 		ma	1	1
@@ -47559,19 +47705,21 @@ c	Lbjb;	Lbkk;
 		mv	2	2
 		mv	3	3
 		mv	4	4
-		mv	5	5
+		mv	5	12
 		mv	6	6
 		mv	7	7
 		mv	8	8
 		mv	9	9
 		mv	10	10
 		mv	11	11
+		mv	12	19
 		mv	13	13
 		mv	14	14
-		mv	15	15
+		mv	15	5
 		mv	16	16
-		mv	17	17
+		mv	17	15
 		mv	18	18
+		mv	19	17
 		mv	20	20
 		mv	21	21
 	m	a(Z)V	a(Z)V
@@ -47604,14 +47752,14 @@ c	Lbjb;	Lbkk;
 		ma	0	0
 		ma	1	1
 		mv	0	0
-		mv	1	1
-		mv	2	2
-		mv	3	3
-		mv	4	4
-		mv	5	5
-		mv	6	6
+		mv	1	2
+		mv	2	3
+		mv	3	1
+		mv	4	5
+		mv	5	6
+		mv	6	8
 		mv	7	7
-		mv	8	8
+		mv	8	4
 		mv	9	9
 	m	d()Z	d()Z
 	m	c(I)V	b(I)V
@@ -47758,8 +47906,7 @@ c	Lbje;	Lbkn;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	m	a(Lbjp$b;)V	a(Ljava/util/function/BiConsumer;)V
-		ma	0	0
+	mu	a	a(Lbjp$b;)V
 	m	a()V	a()V
 	m	a(Ljava/lang/String;)V	a(Ljava/lang/String;)V
 		ma	0	0
@@ -47811,14 +47958,8 @@ c	Lbje;	Lbkn;
 		mv	0	0
 	m	e()V	e()V
 	m	f()V	f()V
-	m	a(CI)Z	a(III)Z
-	m	a(III)Z	a(DDI)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		mv	0	0
-		mv	1	1
-		mv	2	2
+	mu	a	a(CI)Z
+	mu	a	a(III)Z
 	m	g()V	a(IIF)V
 		mv	0	0
 		mv	1	1
@@ -47890,12 +48031,13 @@ c	Lbje;	Lbkn;
 	f	u;;I	u;;I
 	f	v;;I	v;;I
 	f	w;;Z	w;;Z
-	f	x;;Lbjp$b;	x;;Ljava/util/function/BiConsumer;
+	fu	a	x;;Lbjp$b;
 	f	y;;Lcom/google/common/base/Predicate;	y;;Lcom/google/common/base/Predicate;
 c	Lbjf$a;	Lbko$a;
 	m	a(ILjava/lang/String;F)Ljava/lang/String;	a(ILjava/lang/String;D)Ljava/lang/String;
 		ma	0	0
 		ma	1	1
+		ma	2	2
 c	Lbjf;	Lbko;
 	m	<init>(Lbjp$b;IIILjava/lang/String;FFFLbjf$a;)V	<init>(Lbky$b;IIILjava/lang/String;DDDLbko$a;)V
 		ma	0	0
@@ -47921,7 +48063,9 @@ c	Lbjf;	Lbko;
 		ma	2	2
 	m	a(F)V	a_(D)V
 		ma	0	0
-	f	p;;F	o;;D
+	mu	a	a(II)V
+	fu	a	p;;F
+	f	o;;Z	o;;D
 	f	q;;Ljava/lang/String;	p;;Ljava/lang/String;
 	f	r;;F	q;;D
 	f	s;;F	r;;D
@@ -47942,9 +48086,9 @@ c	Lbjg;	Lbkp;
 		ma	0	0
 		ma	1	1
 	m	a(Lbib;IIF)V	a(IIF)V
-		ma	1	0
-		ma	2	1
-		ma	3	2
+		ma	0	0
+		ma	1	1
+		ma	2	2
 		mv	0	1
 		mv	1	2
 	f	o;;Lnf;	o;;Lnf;
@@ -47964,10 +48108,16 @@ c	Lbjh;	Lbkq;
 		ma	0	0
 	m	a()Lbjh;	a()Lbkq;
 	m	a(Lbib;II)V	a(IIF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
 		mv	0	0
 		mv	1	1
 		mv	2	2
 	m	b(Lbib;II)V	b(IIF)V
+		ma	0	2
+		ma	1	1
+		ma	2	0
 		mv	0	0
 		mv	1	1
 		mv	2	2
@@ -47993,9 +48143,9 @@ c	Lbji;	Lbkr;
 		ma	1	1
 		ma	2	2
 	m	a(Lbib;IIF)V	a(IIF)V
-		ma	1	0
-		ma	2	1
-		ma	3	2
+		ma	0	0
+		ma	1	1
+		ma	2	2
 		mv	0	0
 		mv	1	1
 c	Lbjj$1;	Lbks$1;
@@ -48057,10 +48207,15 @@ c	Lbjl;	Lbku;
 	m	b(Z)V	b(Z)V
 		ma	0	0
 	m	a(Lbib;IIF)V	a(IIF)V
-		ma	1	0
-		ma	2	1
-		ma	3	2
+		ma	0	0
+		ma	1	1
+		ma	2	2
 		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
 		mv	6	6
 	f	o;;Z	o;;Z
 cu	a	Lbjm$a;
@@ -48074,7 +48229,9 @@ c	Lbjm;	Lbkv;
 		ma	5	5
 	m	a(IZII)V	a(IIDD)Z
 		ma	0	0
-		ma	2	1
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	a(I)Z	a(I)Z
 		ma	0	0
 	m	a()V	a()V
@@ -48091,6 +48248,8 @@ c	Lbjm;	Lbkv;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	a(III)Z
+	mu	a	b(III)Z
 	mu	a	b(I)Lbjm$a;
 c	Lbjn;	Lbkw;
 	m	<init>(IIILjava/lang/String;)V	<init>(IIILjava/lang/String;)V
@@ -48114,15 +48273,28 @@ c	Lbjo$a;	Lbkx$a;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-		ma	6	3
-		ma	7	4
+		ma	3	3
+		ma	4	4
 		ma	8	5
 	m	a(IIIIII)Z	a(DDI)Z
+		mau	a	0
+		mau	a	1
+		mau	a	2
+		mau	a	3
+		ma	4	2
+		mau	a	5
+	m	b(IIIIII)V	b(DDI)Z
+		mau	a	0
+		mau	a	1
+		mau	a	2
+		mau	a	3
+		ma	4	2
+		mau	a	5
 	m	a(IIIF)V	a(F)V
 		ma	3	0
 	fu	a	a;;Lbib;
-	f	b;;Lbja;	e;;Lbkj;
-	f	c;;Lbja;	d;;Lbkj;
+	f	b;;Lbja;	d;;Lbkj;
+	f	c;;Lbja;	e;;Lbkj;
 c	Lbjo;	Lbkx;
 	m	<init>(Lbib;IIIII[Lbid$a;)V	<init>(Lbjh;IIIII[Lbjk$a;)V
 		ma	0	0
@@ -48135,7 +48307,8 @@ c	Lbjo;	Lbkx;
 		mv	0	0
 		mv	1	1
 		mv	2	2
-		mv	4	3
+		mv	3	3
+		mv	4	4
 	m	a(Lbib;IILbid$a;)Lbja;	a(Lbjh;IILbjk$a;)Lbkj;
 		ma	0	0
 		ma	1	1
@@ -48159,6 +48332,7 @@ c	Lbjp$b;	Lbky$b;
 		ma	1	1
 	m	a(IF)V	a(ID)V
 		ma	0	0
+		ma	1	1
 	m	a(ILjava/lang/String;)V	a(ILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
@@ -48172,16 +48346,19 @@ c	Lbjp$c;	Lbky$c;
 	f	a;;Lcom/google/common/base/Predicate;	a;;Lcom/google/common/base/Predicate;
 c	Lbjp$d;	Lbky$d;
 	m	<init>(Lbir;Lbir;)V	<init>(Lblh;Lblh;)V
+		ma	0	1
+		ma	1	0
 	m	a()Lbir;	e()Lblh;
 	m	b()Lbir;	f()Lblh;
 	m	a(IIIIIIIZF)V	a(IIIIZF)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
-		ma	6	3
-		ma	7	4
+		ma	3	3
+		ma	4	4
 		ma	8	5
 	m	a(Lbir;IIIZF)V	a(Lblh;IIIZF)V
+		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
@@ -48198,22 +48375,46 @@ c	Lbjp$d;	Lbky$d;
 		ma	0	0
 		ma	1	1
 		ma	2	4
-	m	a(Lbjh;IIIZ)V	a(Lbkq;IIIZF)V
+	mu	a	a(Lbjh;IIIZ)V
+	m	a(IIIF)V	a(F)V
+		ma	3	0
+	m	a(IIIIII)Z	a(DDI)Z
+		mau	a	0
+		mau	a	1
+		mau	a	2
+		mau	a	3
+		ma	4	2
+		mau	a	5
+	mu	a	a(Lbir;III)Z
+	mu	a	a(Lbja;III)Z
+	m	a(Lbje;III)V	a(Lbkq;IIIZF)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
-		ma	4	4
-	m	a(IIIF)V	a(F)V
-		ma	3	0
-	m	a(IIIIII)Z	a(DDI)Z
+	m	b(IIIIII)V	b(DDI)Z
+		mau	a	0
+		mau	a	1
+		mau	a	2
+		mau	a	3
+		ma	4	2
+		mau	a	5
+	m	b(Lbir;III)V	b(Lblh;DDI)Z
+		ma	0	0
+		ma	1	3
+		ma	2	2
+		ma	3	1
+	m	b(Lbja;III)V	a(Lblh;DDI)Z
+		ma	0	0
+		ma	1	3
+		ma	2	2
+		ma	3	1
 	m	a(Lbjp$d;)Lbir;	b(Lbky$d;)Lblh;
 		ma	0	0
 	m	b(Lbjp$d;)Lbir;	c(Lbky$d;)Lblh;
 		ma	0	0
 	m	c(Lbjp$d;)Lbir;	a(Lbky$d;)Lblh;
 		ma	0	0
-	fu	a	a;;Lbib;
 	f	b;;Lbir;	c;;Lblh;
 	f	c;;Lbir;	d;;Lblh;
 	f	d;;Lbir;	e;;Lblh;
@@ -48297,16 +48498,8 @@ c	Lbjp;	Lbky;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(Z)V	a(Z)V
-		ma	0	0
-		mv	0	0
-	m	a(III)Z	a(DDI)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		mv	0	0
-		mv	1	1
-		mv	2	2
+	mu	a	a(Z)V
+	mu	a	a(III)Z
 	m	a(IILbjp$g;)Lbjf;	a(IILbky$g;)Lbko;
 		ma	0	0
 		ma	1	1
@@ -48329,9 +48522,7 @@ c	Lbjp;	Lbky;
 		ma	3	3
 		mv	0	0
 		mv	1	1
-	m	a(CI)V	a(CI)Z
-		ma	0	0
-		ma	1	1
+	mu	a	a(CI)V
 	mu	a	e(I)Lbjp$d;
 	m	c()I	e()I
 	m	d()I	f()I
@@ -48472,7 +48663,9 @@ c	Lbjr;	Lbla;
 	m	b()I	d()I
 	m	a(IZII)V	a(IIDD)Z
 		ma	0	0
-		ma	2	1
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	a(I)Z	a(I)Z
 		ma	0	0
 	m	k()I	m()I
@@ -48501,16 +48694,21 @@ c	Lbjr;	Lbla;
 		ma	0	0
 		ma	1	1
 	m	c(II)I	a(DD)I
+		ma	0	0
+		ma	1	1
 		mv	0	0
 		mv	1	1
 		mv	2	2
 		mv	3	3
+	mu	a	d(II)V
 	m	l()V	n()V
 	m	m()I	o()I
 	m	n()I	p()I
 	m	g(I)Z	b(DD)Z
+		ma	0	0
 	m	h(I)V	e(I)V
 		ma	0	0
+	mu	a	a(Lbja;)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -48527,6 +48725,7 @@ c	Lbjr;	Lbla;
 		mv	9	9
 		mv	10	10
 	mu	a	p()V
+	mu	a	d(Z)V
 	m	q()Z	l()Z
 	m	c()I	e()I
 	m	a(IIIIF)V	a(IIIIF)V
@@ -48565,6 +48764,8 @@ c	Lbjr;	Lbla;
 	f	h;;I	l;;I
 	f	k;;Z	m;;Z
 	f	l;;I	n;;I
+	f	n;;F	o;;D
+	f	o;;I	p;;I
 	f	p;;J	q;;J
 	f	q;;Z	r;;Z
 	f	r;;Z	s;;Z
@@ -48582,6 +48783,8 @@ c	Lbjs;	Lblb;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+		ma	4	4
+		ma	5	5
 		mv	0	0
 	m	a(Z)I	a(Z)I
 		ma	0	0
@@ -48589,9 +48792,13 @@ c	Lbjs;	Lblb;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(II)V	b(DD)V
+		mv	0	0
+	mu	a	a(II)V
+	f	p;;F	p;;D
 	f	o;;Z	o;;Z
 	f	q;;Lbid$a;	q;;Lbjk$a;
+	f	r;;F	r;;D
+	f	s;;F	s;;D
 c	Lbjt;	Lblc;
 	m	<init>(IIIIIZ)V	<init>(IIIIIZ)V
 		ma	0	0
@@ -48613,8 +48820,8 @@ c	Lbjt;	Lblc;
 		ma	0	0
 		ma	1	1
 	m	a(Lbib;IIF)V	a(IIF)V
-		ma	1	0
-		ma	2	1
+		ma	0	0
+		ma	1	1
 		ma	3	2
 		mv	0	1
 		mv	1	2
@@ -48947,7 +49154,7 @@ c	Lbkg;	Lblv;
 		ma	0	0
 	m	b()I	b()I
 	m	e()I	e()I
-	m	a(II)V	b(DD)V
+	mu	a	a(II)V
 	m	a(Lbib;II)V	a(Lbjh;II)V
 		ma	0	0
 		ma	1	1
@@ -48970,7 +49177,9 @@ c	Lbkh;	Lblw;
 	m	b()I	d()I
 	m	a(IZII)V	a(IIDD)Z
 		ma	0	0
-		ma	2	1
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	a(I)Z	a(I)Z
 		ma	0	0
 	m	a()V	a()V
@@ -48982,7 +49191,9 @@ c	Lbkh;	Lblw;
 		ma	4	4
 		ma	5	5
 		ma	6	6
-	m	f()I	c()I
+	m	e()I	c()I
+	m	f()I	g()I
+	m	g()I	h()I
 	m	k()I	m()I
 	m	d()I	f()I
 	mu	a	p()V
@@ -49067,18 +49278,22 @@ c	Lbki;	Lbly;
 	mu	a	a(Lbja;)V
 	m	i()V	j()V
 	m	a(Lnet/minecraft/realms/RealmsButton;)V	a(Lnet/minecraft/realms/RealmsGuiEventListener;)V
+		ma	0	0
 	m	j()Ljava/util/List;	k()Ljava/util/List;
 		mv	0	0
 		mv	1	1
 	m	b(Lnet/minecraft/realms/RealmsButton;)V	a(Lnet/minecraft/realms/RealmsButton;)V
 		ma	0	0
-	m	a(III)V	a(DDI)Z
+	mu	a	a(III)V
+	mu	a	k()V
 	mu	a	l()V
-	m	b(III)V	b(DDI)Z
+	mu	a	b(III)V
 	m	a(IIIJ)V	a(DDIDD)Z
-	m	a(CI)V	a(CI)Z
-		ma	0	0
-		ma	1	1
+		ma	0	2
+		ma	1	3
+		ma	2	1
+		ma	3	4
+	mu	a	a(CI)V
 	m	a(ZI)V	a(ZI)V
 		ma	0	0
 		ma	1	1
@@ -49095,7 +49310,7 @@ c	Lbkj;	Lblz;
 	m	b()I	d()I
 	m	a(IZII)V	a(IIDD)Z
 		ma	0	0
-		mau	a	1
+		ma	1	1
 		ma	2	2
 		ma	3	3
 	m	a(I)Z	a(I)Z
@@ -49127,7 +49342,9 @@ c	Lbkk;	Lbma;
 	m	b()I	d()I
 	m	a(IZII)V	a(IIDD)Z
 		ma	0	0
-		ma	2	1
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	a(I)Z	a(I)Z
 		ma	0	0
 	m	a()V	a()V
@@ -49140,6 +49357,8 @@ c	Lbkk;	Lbma;
 		ma	5	5
 		ma	6	6
 	m	e()I	c()I
+	mu	a	f()I
+	mu	a	g()I
 	m	k()I	m()I
 	m	d()I	f()I
 	mu	a	p()V
@@ -49165,6 +49384,7 @@ c	Lbkm;	Lbmc;
 		mv	0	0
 		mv	1	1
 		mv	2	2
+	mu	a	a(CI)V
 	mu	a	a(Lbja;)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
@@ -49193,14 +49413,9 @@ c	Lbkn;	Lbmd;
 	m	b()V	c()V
 	m	m()V	l()V
 	m	e()V	f()V
-	m	a(CI)V	a(CI)Z
-		ma	0	0
-		ma	1	1
-	m	a(III)V	a(DDI)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		mv	0	0
+	mu	a	a(CI)V
+	mu	a	k()V
+	mu	a	a(III)V
 	m	a(Ljava/lang/String;Z)V	a(Ljava/lang/String;Z)V
 		ma	0	0
 		ma	1	1
@@ -49309,6 +49524,7 @@ c	Lbkr;	Lbmh;
 		ma	0	0
 		ma	1	1
 	m	e()V	f()V
+	mu	a	a(CI)V
 	m	b()V	c()V
 	mu	a	a(Lbja;)V
 	m	a(IIF)V	a(IIF)V
@@ -49355,7 +49571,9 @@ c	Lbks$a;	Lbmi$a;
 	m	b()I	d()I
 	m	a(IZII)V	a(IIDD)Z
 		ma	0	0
-		ma	2	1
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	a(I)Z	a(I)Z
 		ma	0	0
 	m	a()V	a()V
@@ -49387,6 +49605,7 @@ c	Lbks;	Lbmi;
 	m	a(Ljava/lang/String;)V	a(Ljava/lang/String;)V
 		ma	0	0
 	m	b()V	c()V
+	mu	a	k()V
 	mu	a	a(Lbja;)V
 	m	f()V	i()V
 		mv	0	0
@@ -49425,7 +49644,9 @@ c	Lbkt$b;	Lbmj$b;
 	m	b()I	d()I
 	m	a(IZII)V	a(IIDD)Z
 		ma	0	0
-		ma	2	1
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	a(I)Z	a(I)Z
 		ma	0	0
 	m	a()V	a()V
@@ -49454,7 +49675,10 @@ c	Lbkt;	Lbmj;
 	m	<init>(Lbku;)V	<init>(Lbmk;)V
 		ma	0	0
 	m	b()V	c()V
+	mu	a	k()V
 	m	m()V	l()V
+	mu	a	a(III)V
+	mu	a	a(CI)V
 	mu	a	a(Lbja;)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
@@ -49468,6 +49692,10 @@ c	Lbkt;	Lbmj;
 		ma	0	0
 	m	b(Lbkt;)Lbje;	a(Lbmj;)Lbkn;
 		ma	0	0
+	mu	a	a(Lbkt;IIII)V
+	mu	a	b(Lbkt;IIII)V
+	mu	a	c(Lbkt;IIII)V
+	mu	a	d(Lbkt;IIII)V
 	m	<clinit>()V	<clinit>()V
 		mv	0	0
 		mv	1	1
@@ -49495,6 +49723,7 @@ c	Lbku;	Lbmk;
 	m	b()V	c()V
 		mv	0	0
 		mv	1	1
+	mu	a	k()V
 	m	f()V	j()V
 		mv	0	0
 		mv	1	1
@@ -49514,8 +49743,10 @@ c	Lbku;	Lbmk;
 	m	a(ILjava/lang/String;F)Ljava/lang/String;	a(ILjava/lang/String;D)Ljava/lang/String;
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	b(IF)Ljava/lang/String;	b(ID)Ljava/lang/String;
 		ma	0	0
+		ma	1	1
 		mv	0	0
 		mv	1	1
 	m	a(IZ)V	a(IZ)V
@@ -49523,6 +49754,8 @@ c	Lbku;	Lbmk;
 		ma	1	1
 	m	a(IF)V	a(ID)V
 		ma	0	0
+		ma	1	1
+		mv	0	0
 	mu	a	a(Lbja;)V
 	m	g()V	k()V
 	m	b(I)V	b(I)V
@@ -49531,15 +49764,17 @@ c	Lbku;	Lbmk;
 	m	c(Z)V	c(Z)V
 		ma	0	0
 	m	i()V	r()V
+	mu	a	a(CI)V
 	m	a(F)V	a(F)V
 		ma	0	0
+		mv	0	0
 		mv	1	1
 		mv	2	2
 		mv	3	3
 		mv	4	4
 		mv	5	5
-	m	a(III)V	a(DDI)Z
-	m	b(III)V	b(DDI)Z
+	mu	a	a(III)V
+	mu	a	b(III)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -49575,6 +49810,7 @@ c	Lbkv;	Lbml;
 		ma	0	0
 	m	b()V	c()V
 		mv	0	5
+	mu	a	a(CI)V
 	mu	a	a(Lbja;)V
 	m	a(ZI)V	a(ZI)V
 		ma	0	0
@@ -49622,9 +49858,8 @@ c	Lbkx;	Lbmn;
 	m	b()V	c()V
 	m	m()V	l()V
 	mu	a	a(Lbja;)V
-	m	a(CI)V	a(CI)Z
-		ma	0	0
-		ma	1	1
+	mu	a	a(CI)V
+	mu	a	a(III)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -49637,6 +49872,7 @@ c	Lbky;	Lbmo;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	a(CI)V
 	m	b()V	c()V
 	mu	a	a(Lbja;)V
 	m	a(IIF)V	a(IIF)V
@@ -49669,6 +49905,8 @@ c	Lbkz;	Lbmp;
 	m	b()V	c()V
 	m	m()V	l()V
 	mu	a	a(Lbja;)V
+	mu	a	a(CI)V
+	mu	a	a(III)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -49699,12 +49937,14 @@ c	Lbla;	Lbmq;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	a(CI)V
 	mu	a	a(Lbja;)V
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	f;;Ljava/lang/String;	f;;Ljava/lang/String;
 c	Lblb;	Lbmr;
 	m	<init>()V	<init>()V
 	m	b()V	c()V
+	mu	a	a(CI)V
 	mu	a	a(Lbja;)V
 	m	a()V	h()V
 		mv	0	0
@@ -49716,7 +49956,9 @@ c	Lblc$a;	Lbms$a;
 	m	b()I	d()I
 	m	a(IZII)V	a(IIDD)Z
 		ma	0	0
-		ma	2	1
+		ma	1	1
+		ma	2	2
+		ma	3	3
 		mv	0	0
 	m	a(I)Z	a(I)Z
 		ma	0	0
@@ -49739,6 +49981,7 @@ c	Lblc;	Lbms;
 		ma	1	1
 		ma	2	2
 	m	b()V	c()V
+	mu	a	k()V
 	mu	a	a(Lbja;)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
@@ -49773,6 +50016,7 @@ c	Lble;	Lbmu;
 	m	a(ZI)V	a(ZI)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(CI)V
 	mu	a	a(Lbja;)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
@@ -49789,6 +50033,7 @@ c	Lblf;	Lbmv;
 	m	<init>()V	<init>()V
 	m	b()V	c()V
 	mu	a	a(Lbja;)V
+	mu	a	a(CI)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -49840,7 +50085,7 @@ c	Lblh$b;	Lbmx$b;
 	m	b()I	d()I
 	m	a(IZII)V	a(IIDD)Z
 		ma	0	0
-		mau	a	1
+		ma	1	1
 		ma	2	2
 		ma	3	3
 	m	a(I)Z	a(I)Z
@@ -49861,7 +50106,10 @@ c	Lblh;	Lbmx;
 	m	<init>(Lbks;)V	<init>(Lbmi;)V
 		ma	0	0
 	m	b()V	c()V
+	mu	a	k()V
 	m	m()V	l()V
+	mu	a	a(III)V
+	mu	a	a(CI)V
 	mu	a	a(Lbja;)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
@@ -49938,6 +50186,7 @@ c	Lblk;	Lbna;
 		ma	2	2
 		mv	0	0
 		mv	1	1
+	mu	a	a(CI)V
 	m	b(Lbja;)Lbja;	a(Lbkj;)Lbkj;
 		ma	0	0
 	mu	a	o()Ljava/lang/String;
@@ -49999,6 +50248,8 @@ c	Lblk;	Lbna;
 	m	b(Ljava/lang/String;Z)V	b(Ljava/lang/String;Z)V
 		ma	0	0
 		ma	1	1
+	mu	a	a(III)V
+	mu	a	b(III)V
 	mu	a	a(Lbja;)V
 	m	a(Lbib;II)V	a(Lbjh;II)V
 		ma	0	0
@@ -50007,7 +50258,7 @@ c	Lblk;	Lbna;
 	mu	a	a(II)V
 	m	b()V	c()V
 	mu	a	q()V
-	m	k()V	J_()V
+	mu	a	k()V
 	mu	a	l()V
 	m	e()V	f()V
 	m	m()V	l()V
@@ -50092,6 +50343,7 @@ c	Lblm$a;	Lbnc$a;
 		ma	5	5
 		ma	6	6
 		ma	7	7
+	mu	a	a(Lblm$a;)Laee;
 	f	p;;Laee;	p;;Lafh;
 	f	o;;Lblm;	o;;Lbnc;
 c	Lblm;	Lbnc;
@@ -50100,6 +50352,7 @@ c	Lblm;	Lbnc;
 	m	b()V	c()V
 		mv	0	0
 		mv	1	1
+	mu	a	a(CI)V
 	mu	a	a(Lbja;)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
@@ -50142,6 +50395,7 @@ c	Lbln;	Lbnd;
 		mv	3	3
 		mv	4	4
 		mv	5	5
+	mu	a	k()V
 	mu	a	a(Lbja;)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
@@ -50177,9 +50431,7 @@ c	Lblo$a;	Lbne$a;
 		ma	2	2
 	m	a(Lcho;)V	a(Lcij;)V
 		ma	0	0
-	m	a(II)V	b(DD)V
-		ma	0	0
-		ma	1	1
+	mu	a	a(II)V
 	f	r;;Lqg;	r;;Lri;
 	f	s;;Ljava/lang/String;	s;;Ljava/lang/String;
 	f	o;;F	o;;D
@@ -50192,6 +50444,7 @@ c	Lblo;	Lbne;
 	m	b()V	c()V
 		mv	0	0
 		mv	1	1
+	mu	a	a(CI)V
 	mu	a	a(Lbja;)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
@@ -50241,6 +50494,7 @@ c	Lblr;	Lbnh;
 	m	a()Z	h()Z
 	m	e()V	f()V
 	m	d()Z	e()Z
+	mu	a	a(CI)V
 	m	b()V	c()V
 		mv	0	0
 		mv	1	1
@@ -50305,11 +50559,7 @@ c	Lblr;	Lbnh;
 		mv	2	2
 		mv	3	3
 		mv	4	4
-	m	a(III)V	a(DDI)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		mv	0	0
+	mu	a	a(III)V
 	m	m()V	l()V
 	m	<clinit>()V	<clinit>()V
 	fu	a	f;;Lorg/apache/logging/log4j/Logger;
@@ -50348,18 +50598,11 @@ c	Lbls;	Lbni;
 		mv	0	0
 		mv	1	1
 		mv	2	2
-	m	k()V	J_()V
+	mu	a	k()V
+	mu	a	a(CI)V
 	mu	a	a(Lbja;)V
-	m	a(III)V	a(DDI)Z
-		mv	0	0
-		mv	1	1
-		mv	2	2
-		mv	3	3
-	m	b(III)V	b(DDI)Z
-		mv	0	0
-		mv	1	1
-		mv	2	2
-		mv	3	3
+	mu	a	a(III)V
+	mu	a	b(III)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -50368,6 +50611,7 @@ c	Lbls;	Lbni;
 	f	f;;Lblk;	f;;Lbna;
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	g;;Lbid;	g;;Lbjk;
+	f	h;;Lbjm;	h;;Lbkx;
 	f	i;;[Lbid$a;	i;;[Lbjk$a;
 c	Lblt;	Lbnj;
 	m	<init>(ZLjava/lang/Runnable;)V	<init>(ZLjava/lang/Runnable;)V
@@ -50375,6 +50619,7 @@ c	Lblt;	Lbnj;
 		ma	1	1
 	m	e()V	f()V
 		mv	0	0
+	mu	a	a(CI)V
 	m	a()V	h()V
 	m	b()V	c()V
 		mv	0	0
@@ -50633,6 +50878,7 @@ c	Lblu;	Lbnk;
 		ma	0	0
 		ma	1	1
 	m	b()V	c()V
+	mu	a	k()V
 	m	a()V	h()V
 	m	f()V	i()V
 		mv	0	0
@@ -50683,14 +50929,16 @@ c	Lblu;	Lbnk;
 		ma	0	0
 	m	g(Lblu;)Lbip;	l(Lbnk;)Lbjy;
 		ma	0	0
-	m	h(Lblu;)Lbip;	o(Lbnk;)Lbjy;
+	m	h(Lblu;)Lbip;	m(Lbnk;)Lbjy;
 		ma	0	0
 	m	i(Lblu;)Lbip;	n(Lbnk;)Lbjy;
 		ma	0	0
-	m	j(Lblu;)Lbip;	m(Lbnk;)Lbjy;
+	mu	a	a(Lblu;IIIIII)V
+	m	j(Lblu;)Lbip;	o(Lbnk;)Lbjy;
 		ma	0	0
 	m	k(Lblu;)Lbip;	p(Lbnk;)Lbjy;
 		ma	0	0
+	mu	a	b(Lblu;IIIIII)V
 	m	l(Lblu;)Lbip;	q(Lbnk;)Lbjy;
 		ma	0	0
 	m	a(Lblu;IILain;)V	a(Lbnk;IILajq;)V
@@ -50759,12 +51007,17 @@ c	Lblx;	Lbnn;
 	m	d(IIII)Z	a(IIDD)Z
 		ma	0	0
 		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	a(Lbib;Lbmb;ILi;)Lblx;	a(Lbjh;Lbnr;ILi;)Lbnn;
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
 		mv	0	0
+	m	a(II)V	a(DD)V
+		ma	0	0
+		ma	1	1
 	m	a(Li;)V	a(Li;)V
 		ma	0	0
 		mv	0	0
@@ -50789,6 +51042,8 @@ c	Lblx;	Lbnn;
 	f	l;;Ljava/lang/String;	l;;Ljava/lang/String;
 	f	m;;Lblz;	m;;Lbnp;
 	f	n;;Ljava/util/Map;	n;;Ljava/util/Map;
+	f	o;;I	o;;D
+	f	p;;I	p;;D
 	f	q;;I	q;;I
 	f	r;;I	r;;I
 	f	s;;I	s;;I
@@ -50835,6 +51090,8 @@ c	Lbly;	Lbno;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
+		ma	4	4
 		mv	0	0
 		mv	1	1
 	m	<clinit>()V	<clinit>()V
@@ -51055,10 +51312,8 @@ c	Lbmb;	Lbnr;
 	m	b()V	c()V
 	m	m()V	l()V
 		mv	0	0
-	m	a(III)V	a(DDI)Z
-		mv	0	0
-		mv	1	1
-		mv	2	2
+	mu	a	a(III)V
+	mu	a	a(CI)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -51112,6 +51367,7 @@ c	Lbmb;	Lbnr;
 	f	g;;Lbrw;	g;;Lbtk;
 	f	h;;Ljava/util/Map;	h;;Ljava/util/Map;
 	f	i;;Lblx;	i;;Lbnn;
+	f	u;;Z	s;;Z
 c	Lbmd$1;	Lbnt$1;
 c	Lbmd$a;	Lbnt$a;
 	m	<init>(Lbmd;Ljava/lang/String;)V	<init>(Lbnt;Ljava/lang/String;)V
@@ -51119,9 +51375,10 @@ c	Lbmd$a;	Lbnt$a;
 		ma	1	1
 	m	a(IIIIIIIZF)V	a(IIIIZF)V
 		ma	0	0
+		ma	1	1
 		ma	2	2
 		ma	3	3
-		ma	7	4
+		ma	4	4
 		ma	8	5
 	f	b;;Ljava/lang/String;	d;;Ljava/lang/String;
 	f	c;;I	e;;I
@@ -51133,12 +51390,27 @@ c	Lbmd$b;	Lbnt$c;
 	m	a(IIIIIIIZF)V	a(IIIIZF)V
 		ma	0	0
 		ma	1	1
-		ma	6	3
+		ma	2	2
+		ma	3	3
 		ma	7	4
 		ma	8	5
 		mv	0	2
 		mv	1	3
+		mv	2	4
 	m	a(IIIIII)Z	a(DDI)Z
+		mau	a	0
+		mau	a	1
+		mau	a	2
+		mau	a	3
+		ma	4	2
+		mau	a	5
+	m	b(IIIIII)V	b(DDI)Z
+		mau	a	0
+		mau	a	1
+		mau	a	2
+		mau	a	3
+		ma	4	2
+		mau	a	5
 	m	<init>(Lbmd;Lbhy;Lbmd$1;)V	<init>(Lbnt;Lbjd;Lbnt$1;)V
 		ma	0	0
 		ma	1	1
@@ -51153,10 +51425,10 @@ c	Lbmd;	Lbnt;
 		ma	0	0
 		ma	1	1
 		mv	0	0
+		mv	1	4
 		mv	2	1
 		mv	3	2
 		mv	4	3
-		mv	5	4
 	mu	a	b(I)Lbjm$a;
 	m	d()I	f()I
 	m	c()I	e()I
@@ -51176,12 +51448,11 @@ c	Lbme;	Lbnu;
 	m	b()V	c()V
 		mv	0	0
 		mv	1	1
+	mu	a	k()V
 	mu	a	a(Lbja;)V
-	m	a(III)V	a(DDI)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	b(III)V	b(DDI)Z
+	mu	a	a(III)V
+	mu	a	b(III)V
+	mu	a	a(CI)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -51258,40 +51529,36 @@ c	Lbmg;	Lbnx;
 		mv	4	4
 		mv	5	5
 	m	d(II)Lagr;	a(DD)Lahu;
+		ma	0	0
+		ma	1	1
 		mv	0	0
 		mv	1	1
-	m	a(III)V	a(DDI)Z
-		mv	0	0
-		mv	1	1
-		mv	2	2
-		mv	3	3
-		mv	4	4
-		mv	5	5
-		mv	6	6
-		mv	7	7
-		mv	8	8
+	mu	a	a(III)V
 	m	c(IIII)Z	a(DDIII)Z
+		ma	0	2
+		ma	1	3
+		ma	2	4
+		ma	3	1
 	m	a(IIIJ)V	a(DDIDD)Z
+		ma	0	2
+		ma	1	3
+		ma	2	1
+		ma	3	4
 		mv	0	0
 		mv	1	1
 		mv	2	2
-	m	b(III)V	b(DDI)Z
-		mv	0	0
-		mv	1	1
-		mv	2	2
-		mv	3	3
-		mv	4	4
-		mv	5	5
-		mv	6	6
-		mv	7	7
-		mv	8	8
+	mu	a	b(III)V
 	m	a(Lagr;II)Z	a(Lahu;DD)Z
 		ma	0	0
+		ma	1	1
+		ma	2	2
 	m	c(IIIIII)Z	a(IIIIDD)Z
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
+		ma	4	4
+		ma	5	5
 		mv	0	0
 		mv	1	1
 	m	a(Lagr;IILafw;)V	a(Lahu;IILagz;)V
@@ -51299,6 +51566,7 @@ c	Lbmg;	Lbnx;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	a(CI)V
 	m	b(I)Z	d(II)Z
 		ma	0	0
 		mv	0	0
@@ -51351,9 +51619,11 @@ c	Lbmh;	Lbny;
 		mv	3	3
 		mv	4	4
 		mv	5	5
+	mu	a	a(CI)V
 	m	a()V	h()V
 		mv	0	0
 		mv	1	1
+	mu	a	a(III)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -51415,6 +51685,8 @@ c	Lbmi$c;	Lbnz$c;
 		ma	0	0
 		ma	1	1
 		mv	0	0
+	mu	a	a(Lbmi$c;)Luz;
+	mu	a	b(Lbmi$c;)I
 	f	p;;Luz;	p;;Lwc;
 	f	q;;I	q;;I
 	f	o;;Lbmi;	o;;Lbnz;
@@ -51427,8 +51699,8 @@ c	Lbmi$d;	Lbnz$d;
 		ma	4	4
 		ma	5	5
 	m	a(Lbib;IIF)V	a(IIF)V
-		ma	1	0
-		ma	2	1
+		ma	0	0
+		ma	1	1
 		ma	3	2
 		mv	0	0
 		mv	1	1
@@ -51487,8 +51759,8 @@ c	Lbmj$a;	Lboa$a;
 		ma	2	2
 		ma	3	3
 	m	a(Lbib;IIF)V	a(IIF)V
-		ma	1	0
-		ma	2	1
+		ma	0	0
+		ma	1	1
 		ma	3	2
 		mv	0	0
 		mv	1	1
@@ -51514,12 +51786,14 @@ c	Lbmj;	Lboa;
 		mv	3	3
 	mu	a	a(Lbja;)V
 	m	g()V	j()V
-	m	a(CI)V	a(CI)Z
+	mu	a	a(CI)V
+	m	b(CI)V	b(III)Z
 		ma	0	0
 		ma	1	1
-	m	b(CI)V	b(III)Z
 		mv	0	0
 	m	c(CI)V	c(III)Z
+		ma	0	0
+		ma	1	1
 	m	h()Ljava/lang/String;	k()Ljava/lang/String;
 	m	a(Ljava/lang/String;)V	a(Ljava/lang/String;)V
 		ma	0	0
@@ -51551,8 +51825,7 @@ c	Lbmj;	Lboa;
 		mv	16	16
 		mv	17	17
 		mv	18	18
-	m	a(III)V	a(DDI)Z
-		mv	0	0
+	mu	a	a(III)V
 	m	a(Lhh;)Z	a(Lhh;)Z
 		ma	0	0
 		mv	0	0
@@ -51560,6 +51833,8 @@ c	Lbmj;	Lboa;
 		mv	2	2
 		mv	3	3
 	m	b(II)Lhh;	a(DD)Lhh;
+		ma	0	0
+		ma	1	1
 		mv	0	0
 		mv	1	1
 		mv	2	2
@@ -51618,7 +51893,13 @@ c	Lbmk;	Lbob;
 	f	w;;[I	w;;[I
 	f	x;;Laec;	x;;Laff;
 	f	y;;Ltv;	y;;Luy;
-cu	a	Lbml$1;
+c	Lbml$1;	Lboc$1;
+	m	<init>(Lbml;Lbje;ZLamj;)V	<init>(Lboc;IIIIILjava/lang/String;)V
+		ma	0	0
+		ma	1	1
+		ma	2	5
+		ma	3	3
+	f	h;;Lbml;	o;;Lboc;
 c	Lbml$2;	Lboc$4;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[I	a;;[I
@@ -51629,6 +51910,9 @@ c	Lbml;	Lboc;
 	m	a()V	r()V
 		mv	0	0
 	mu	a	a(Lbja;)V
+	mu	a	a(CI)V
+	mu	a	a(III)V
+	mu	a	f()V
 	m	g()V	u()V
 	m	h()V	v()V
 	m	i()V	w()V
@@ -51692,13 +51976,17 @@ c	Lbmn;	Lboe;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	a(III)V	a(DDI)Z
+		ma	4	4
+		ma	5	5
+	mu	a	a(III)V
 	m	c(IIII)Z	a(DDIII)Z
+		ma	0	2
+		ma	1	3
+		ma	2	4
+		ma	3	1
 		mv	0	0
 	mu	a	a(Lbja;)V
-	m	a(CI)V	a(CI)Z
-		ma	0	0
-		ma	1	1
+	mu	a	a(CI)V
 	m	a(Lagr;IILafw;)V	a(Lahu;IILagz;)V
 		ma	0	0
 		ma	1	1
@@ -51826,9 +52114,7 @@ c	Lbmp;	Lbog;
 	m	b()V	c()V
 		mv	0	0
 	m	m()V	l()V
-	m	a(CI)V	a(CI)Z
-		ma	0	0
-		ma	1	1
+	mu	a	a(CI)V
 	m	h()V	k()V
 		mv	0	0
 		mv	1	1
@@ -51836,10 +52122,8 @@ c	Lbmp;	Lbog;
 		ma	0	0
 		ma	1	1
 		mv	0	0
-	m	a(III)V	a(DDI)Z
-		mv	2	2
-	m	b(III)V	b(DDI)Z
-		mv	2	2
+	mu	a	a(III)V
+	mu	a	b(III)V
 	m	i()Z	m()Z
 	m	b(Lahp;)V	b(Lais;)V
 		ma	0	0
@@ -51860,6 +52144,7 @@ c	Lbmp;	Lbog;
 		mv	14	14
 		mv	15	15
 		mv	16	16
+	mu	a	k()V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -51893,9 +52178,11 @@ c	Lbmp;	Lbog;
 		mv	4	4
 	m	a(Lahp;II)Z	a(Lais;DD)Z
 		ma	0	0
-		mv	0	0
-		mv	1	1
-		mv	2	2
+		mau	a	1
+		mau	a	2
+		mvu	a	0
+		mvu	a	1
+		mvu	a	2
 	m	b(Lahp;II)Z	a(Lais;II)Z
 		ma	0	0
 		ma	1	1
@@ -52009,8 +52296,7 @@ c	Lbmt;	Lbok;
 		ma	0	0
 		ma	1	1
 	m	e()V	f()V
-	m	a(III)V	a(DDI)Z
-		mv	0	0
+	mu	a	a(III)V
 	m	a(FII)V	a(FII)V
 		ma	0	0
 		ma	1	1
@@ -52186,14 +52472,18 @@ c	Lbmx;	Lboo;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	a(III)V	a(DDI)Z
-	m	b(III)V	b(DDI)Z
+		ma	4	4
+		ma	5	5
+	mu	a	a(III)V
+	mu	a	b(III)V
 	m	c(IIII)Z	a(DDIII)Z
+		ma	0	2
+		ma	1	3
+		ma	2	4
+		ma	3	1
 		mv	0	0
 	mu	a	a(Lbja;)V
-	m	a(CI)V	a(CI)Z
-		ma	0	0
-		ma	1	1
+	mu	a	a(CI)V
 	m	a(Lagr;IILafw;)V	a(Lahu;IILagz;)V
 		ma	0	0
 		ma	1	1
@@ -52280,9 +52570,8 @@ c	Lbmz;	Lbnw;
 	m	b()V	c()V
 	m	m()V	l()V
 	mu	a	a(Lbja;)V
-	m	a(CI)V	a(CI)Z
-		ma	0	0
-		ma	1	1
+	mu	a	a(CI)V
+	mu	a	a(III)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -52292,8 +52581,11 @@ c	Lbmz;	Lbnw;
 	m	a()V	j()V
 	m	a([Ljava/lang/String;)V	a([Ljava/lang/String;)V
 		ma	0	0
+	mu	a	a(Lbmz;)Lamj;
 	f	a;;Lbje;	a;;Lbkn;
 	f	f;;Lbje;	f;;Lbkn;
+	f	h;;Lbja;	g;;Lbkj;
+	f	i;;Lbja;	h;;Lbkj;
 	f	s;;Lbja;	i;;Lbkj;
 	f	t;;Z	t;;Z
 	f	u;;Lblq;	s;;Lbng;
@@ -52343,10 +52635,7 @@ c	Lbnb;	Lbos;
 		mv	0	0
 	m	e()V	f()V
 	mu	a	a(Lbja;)V
-	m	a(CI)V	a(CI)Z
-		ma	0	0
-		ma	1	1
-		mv	0	0
+	mu	a	a(CI)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -52397,11 +52686,12 @@ c	Lbnc;	Lbot;
 	m	c(Ljava/lang/String;)I	c(Ljava/lang/String;)I
 		ma	0	0
 		mv	0	0
+	mu	a	a(CI)V
 	m	b(CI)Z	b(C)Z
 		ma	0	0
 		mv	0	0
 		mv	2	1
-	m	a(III)V	a(DDI)Z
+	mu	a	a(III)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -52457,6 +52747,7 @@ c	Lbnf;	Lbow;
 		ma	0	0
 	m	b()V	c()V
 		mv	0	0
+	mu	a	k()V
 	m	a()V	h()V
 	m	e()V	f()V
 		mv	0	0
@@ -52466,20 +52757,26 @@ c	Lbnf;	Lbow;
 	m	a(ZI)V	a(ZI)V
 		ma	0	0
 		ma	1	1
+		mv	0	0
 		mv	1	1
+	mu	a	a(CI)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
 	m	f()V	i()V
+		mv	0	0
 		mv	1	1
 	m	a(Lbse;)V	a(Lbts;)V
 		ma	0	0
 	m	b(I)V	b(I)V
 		ma	0	0
+		mv	0	0
 	m	g()Lbsg;	j()Lbtu;
 	m	a(Ljava/lang/String;)V	a(Ljava/lang/String;)V
 		ma	0	0
+	mu	a	a(III)V
+	mu	a	b(III)V
 	m	h()Lbsf;	k()Lbtt;
 	m	a(Lbni;I)Z	a(Lboz;I)Z
 		ma	0	0
@@ -52519,6 +52816,7 @@ c	Lbng;	Lbox;
 	m	<init>()V	<init>()V
 	m	a(IIIIIIIZF)V	a(IIIIZF)V
 		ma	0	0
+		ma	1	1
 		ma	2	2
 		ma	3	3
 		ma	7	4
@@ -52540,6 +52838,12 @@ c	Lbnh;	Lboy;
 		ma	7	4
 		ma	8	5
 	m	a(IIIIII)Z	a(DDI)Z
+		mau	a	0
+		mau	a	1
+		mau	a	2
+		mau	a	3
+		ma	4	2
+		mau	a	5
 	m	a()Lchf;	e()Lchy;
 	f	c;;Lbnf;	e;;Lbow;
 	f	a;;Lbib;	c;;Lbjh;
@@ -52557,8 +52861,10 @@ c	Lbni;	Lboz;
 		ma	0	0
 		ma	1	1
 	m	a(IIIIIIIZF)V	a(IIIIZF)V
+		ma	0	0
 		ma	1	1
-		ma	6	3
+		ma	2	2
+		ma	3	3
 		ma	7	4
 		ma	8	5
 		mv	0	2
@@ -52570,7 +52876,16 @@ c	Lbni;	Lboz;
 		mv	6	8
 		mv	7	9
 		mv	8	10
+		mv	9	11
 		mv	10	12
+		mv	11	13
+		mv	12	14
+		mv	13	15
+		mv	14	16
+		mv	15	17
+		mv	16	18
+		mv	17	19
+		mv	18	20
 		mv	19	21
 		mv	20	22
 		mv	21	23
@@ -52583,8 +52898,18 @@ c	Lbni;	Lboz;
 		ma	2	2
 	m	b()Z	f()Z
 	m	c()V	g()V
+		mvu	a	0
+		mvu	a	1
+		mvu	a	2
 		mv	3	4
+		mvu	a	4
 	m	a(IIIIII)Z	a(DDI)Z
+		mau	a	0
+		mau	a	1
+		mau	a	2
+		mau	a	3
+		ma	4	2
+		mau	a	5
 	m	a()Lbse;	e()Lbts;
 	m	a(Lbni;)Lbse;	a(Lboz;)Lbts;
 		ma	0	0
@@ -52733,6 +53058,7 @@ c	Lbnn;	Lbpe;
 		mv	15	15
 	m	a()Lbns;	a()Lbpj;
 	m	b()Lakt;	b()Lalw;
+	mu	a	a(III)Z
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -52839,13 +53165,17 @@ c	Lbno;	Lbpf;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	a(III)Z
 	m	c(IIIIII)Z	a(DDIIIII)Z
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+		ma	0	2
+		ma	1	6
+		ma	2	3
+		ma	3	4
+		ma	4	5
+		ma	5	1
 		mv	0	0
 		mv	1	1
+	mu	a	a(CI)Z
 	m	a(Ljava/lang/String;)V	a(Ljava/lang/String;)V
 		ma	0	0
 		mv	0	0
@@ -52932,10 +53262,13 @@ c	Lbnp;	Lbpg;
 	m	b()Lbns;	b()Lbpj;
 	m	c()V	c()V
 	m	a(IIIIIII)Z	a(DDIIIII)Z
-		ma	3	3
-		ma	4	4
-		ma	5	5
-		ma	6	6
+		ma	0	2
+		ma	1	3
+		ma	2	4
+		ma	3	5
+		ma	4	6
+		ma	5	1
+		ma	6	0
 		mv	0	0
 	m	a(Ljava/util/List;)V	a(Ljava/util/List;)V
 		ma	0	0
@@ -53066,16 +53399,29 @@ c	Lbnw;	Lbpn;
 	m	<init>(Lblk;)V	<init>(Lbna;)V
 		ma	0	0
 	m	b()V	c()V
+		mv	0	0
+		mv	1	3
+		mv	2	2
+		mv	3	1
+		mv	4	4
+	mu	a	k()V
 	m	a(Lbnx;)Z	c(Lbpo;)Z
 		ma	0	0
+	mu	a	b(Lbnx;)Ljava/util/List;
+	mu	a	a()Ljava/util/List;
+	mu	a	f()Ljava/util/List;
 	mu	a	a(Lbja;)V
+	mu	a	a(III)V
+	mu	a	b(III)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
 	m	g()V	h()V
 	f	a;;Lblk;	a;;Lbna;
-	f	h;;Lboc;	f;;Lbpq;
+	fu	a	f;;Ljava/util/List;
+	fu	a	g;;Ljava/util/List;
+	fu	a	h;;Lboc;
 	f	i;;Lboe;	g;;Lbps;
 	f	s;;Z	h;;Z
 c	Lbnx$1;	Lbpo$1;
@@ -53090,8 +53436,9 @@ c	Lbnx;	Lbpo;
 		ma	0	0
 	m	a(IIIIIIIZF)V	a(IIIIZF)V
 		ma	0	0
-		ma	5	2
-		ma	6	3
+		ma	1	1
+		ma	2	2
+		ma	3	3
 		ma	7	4
 		ma	8	5
 		mv	0	0
@@ -53102,22 +53449,44 @@ c	Lbnx;	Lbpo;
 		mv	5	7
 		mv	6	8
 		mv	7	9
-	m	f()Z	l()Z
-	m	h()Z	k()Z
+	mu	a	a()I
+	m	b()Ljava/lang/String;	g()Ljava/lang/String;
+	m	c()Ljava/lang/String;	h()Ljava/lang/String;
+	m	d()V	e()V
+	mu	a	e()Z
+	m	f()Z	k()Z
+	m	g()Z	l()Z
+	m	h()Z	m()Z
+		mv	0	0
+		mv	1	1
+	m	i()Z	n()Z
+		mv	0	0
+		mv	1	1
 	m	a(IIIIII)Z	a(DDI)Z
+		mau	a	0
+		mau	a	1
+		mau	a	2
+		mau	a	3
+		ma	4	2
+		mau	a	5
+		mv	0	6
+		mv	1	8
 		mv	2	3
-		mv	3	4
+		mv	3	2
 		mv	4	5
-		mv	5	6
+		mv	5	1
 		mv	6	7
-		mv	7	8
+		mv	7	4
+	mu	a	j()Z
 	m	<clinit>()V	<clinit>()V
 	f	c;;Lnf;	e;;Lnf;
 	f	d;;Lhh;	f;;Lhh;
+	f	e;;Lhh;	g;;Lhh;
+	fu	a	f;;Lhh;
 	f	a;;Lbib;	c;;Lbjh;
 	f	b;;Lbnw;	d;;Lbpn;
 cu	a	Lbny;
-c	Lbnz;	Lcfa$c;
+cu	a	Lbnz;
 c	Lbo;	Lbo;
 	m	<init>(Lbn;Lbhe;Let;Ljava/lang/Integer;Lvg;Ljava/lang/Boolean;)V	<init>(Lbn;Lbih;Let;Ljava/lang/Integer;Lwj;Ljava/lang/Boolean;)V
 		ma	0	0
@@ -53176,6 +53545,8 @@ c	Lbod;	Lbpr;
 		ma	2	2
 		mv	0	0
 	m	e()Ljava/lang/String;	g()Ljava/lang/String;
+	mu	a	f()Ljava/util/List;
+	mu	a	c(I)Lbnx;
 	m	c()I	e()I
 	m	d()I	f()I
 	mu	a	b(I)Lbjm$a;
@@ -53205,10 +53576,8 @@ c	Lboi;	Lbpw;
 	m	h()V	m()V
 	m	b(Z)V	b(Z)V
 		ma	0	0
-	m	a(CI)V	a(CI)Z
-		ma	0	0
-		ma	1	1
-	m	a(III)V	a(DDI)Z
+	mu	a	a(CI)V
+	mu	a	a(III)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -53255,9 +53624,8 @@ c	Lboj;	Lbpx;
 		mv	3	3
 	m	m()V	l()V
 	mu	a	a(Lbja;)V
-	m	a(CI)V	a(CI)Z
-		ma	0	0
-		ma	1	1
+	mu	a	a(CI)V
+	mu	a	a(III)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
@@ -53269,12 +53637,15 @@ c	Lbok;	Lbpy;
 	m	<init>(Lblk;)V	<init>(Lbna;)V
 		ma	0	0
 	m	b()V	c()V
+	mu	a	k()V
 	m	a()V	h()V
 	mu	a	a(Lbja;)V
 	m	a(IIF)V	a(IIF)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	a(III)V
+	mu	a	b(III)V
 	m	a(Ljava/lang/String;)V	a(Ljava/lang/String;)V
 		ma	0	0
 	m	a(Lbol;)V	a(Lbpz;)V
@@ -53313,6 +53684,7 @@ c	Lbol;	Lbpz;
 	m	a(IIIIIIIZF)V	a(IIIIZF)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 		ma	3	3
 		ma	7	4
 		ma	8	5
@@ -53323,6 +53695,12 @@ c	Lbol;	Lbpz;
 		mv	4	6
 		mv	5	7
 	m	a(IIIIII)Z	a(DDI)Z
+		mau	a	0
+		mau	a	1
+		mau	a	2
+		mau	a	3
+		ma	4	2
+		mau	a	5
 	m	a()V	e()V
 	m	b()V	f()V
 	m	c()V	g()V
@@ -53333,7 +53711,9 @@ c	Lbol;	Lbpz;
 	m	e()V	i()V
 	m	f()V	j()Lcet;
 		mv	0	0
+		mvu	a	1
 		mv	2	4
+		mvu	a	3
 	m	a(IIIF)V	a(F)V
 		ma	3	0
 	m	a(Lbol;)V	a(Lbpz;)V
@@ -53357,6 +53737,7 @@ c	Lbol;	Lbpz;
 	f	h;;Lnf;	j;;Lnf;
 	f	i;;Lbom;	k;;Lbqa;
 	f	j;;Ljava/io/File;	l;;Ljava/io/File;
+	f	k;;Lcdg;	m;;Lcet;
 	f	l;;J	n;;J
 c	Lbom;	Lbqa;
 	m	<init>(Lbok;Lbib;IIIII)V	<init>(Lbpy;Lbjh;IIIII)V
@@ -59963,6 +60344,8 @@ c	Lbuq;	Lbwe;
 	m	a(Lcep;)V	a(Lqd;)V
 		ma	0	0
 	m	e()V	e()V
+		mv	0	0
+		mv	3	1
 		mv	4	2
 	m	f()Lccy;	f()Lcel;
 	m	a(II)V	a(II)V
@@ -59994,6 +60377,7 @@ c	Lbuq;	Lbwe;
 		ma	0	0
 		ma	1	1
 		mv	0	0
+		mv	1	1
 		mv	2	2
 		mv	3	3
 	m	d(F)V	d(F)V
@@ -60035,8 +60419,9 @@ c	Lbuq;	Lbwe;
 		mv	21	21
 	m	a(FI)V	g(F)V
 		ma	0	0
+		mv	0	0
+		mv	1	2
 		mv	2	1
-		mv	3	2
 	m	b(FI)V	h(F)V
 		ma	0	0
 		mv	0	0
@@ -60050,6 +60435,7 @@ c	Lbuq;	Lbwe;
 		mv	0	0
 		mv	1	1
 		mv	2	2
+		mv	3	4
 		mv	4	5
 		mv	5	6
 		mv	6	7
@@ -60068,6 +60454,7 @@ c	Lbuq;	Lbwe;
 		mv	19	20
 		mv	20	21
 		mv	21	22
+		mv	22	23
 		mv	23	26
 		mv	24	25
 		mv	25	24
@@ -60091,10 +60478,12 @@ c	Lbuq;	Lbwe;
 		mv	17	10
 		mv	18	11
 	m	o()V	o()V
+		mv	0	0
 		mv	1	2
 		mv	2	3
 		mv	3	4
 		mv	4	5
+		mv	5	1
 		mv	7	6
 	m	b(F)V	b(F)V
 		ma	0	0
@@ -60220,6 +60609,7 @@ c	Lbuq;	Lbwe;
 		mv	22	22
 		mv	23	23
 		mv	24	24
+		mv	26	25
 	m	a(IF)V	a(IF)V
 		ma	0	0
 		ma	1	1
@@ -60282,9 +60672,10 @@ c	Lbuq;	Lbwe;
 	f	n;;Lvg;	l;;Lwj;
 	f	q;;F	m;;F
 	f	r;;F	n;;F
-	f	w;;F	r;;F
 	f	x;;F	o;;F
 	f	y;;F	p;;F
+	f	z;;F	q;;F
+	f	A;;F	r;;F
 	f	B;;Z	s;;Z
 	f	C;;Z	t;;Z
 	f	D;;Z	u;;Z
@@ -60292,6 +60683,7 @@ c	Lbuq;	Lbwe;
 	f	F;;J	w;;J
 	f	G;;J	x;;J
 	f	H;;Lcdg;	y;;Lcet;
+	f	I;;[I	z;;Lcez;
 	f	J;;Lnf;	A;;Lnf;
 	f	K;;Z	B;;Z
 	f	L;;F	C;;F
@@ -60772,6 +61164,7 @@ c	Lbus;	Lbwg;
 		ma	5	5
 		ma	6	6
 		ma	7	7
+		ma	8	8
 	m	a(IIIIIIII)V	a(IIIIIIII)V
 		ma	0	0
 		ma	1	1
@@ -60781,12 +61174,23 @@ c	Lbus;	Lbwg;
 		ma	5	5
 		ma	6	6
 		ma	7	7
+	m	a(IIIILjava/nio/IntBuffer;)V	a(IIIIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	B()V	B()V
 	m	C()V	C()V
 	m	j(I)V	j(I)V
 		ma	0	0
 	m	D()V	D()V
 	m	E()V	E()V
+	m	b(IIII)V	b(IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	a(ZZZZ)V	a(ZZZZ)V
 		ma	0	0
 		ma	1	1
@@ -60839,6 +61243,8 @@ c	Lbus;	Lbwg;
 		ma	2	2
 	m	a(Ljava/nio/FloatBuffer;)V	a(Ljava/nio/FloatBuffer;)V
 		ma	0	0
+	mu	a	a(Lorg/lwjgl/util/vector/Quaternion;)V
+	mu	a	a(Ljava/nio/FloatBuffer;Lorg/lwjgl/util/vector/Quaternion;)Ljava/nio/FloatBuffer;
 	m	c(FFFF)V	c(FFFF)V
 		ma	0	0
 		ma	1	1
@@ -60917,6 +61323,14 @@ c	Lbus;	Lbwg;
 	m	g(II)V	g(II)V
 		ma	0	0
 		ma	1	1
+	m	a(IIIIIILjava/nio/IntBuffer;)V	a(IIIIIIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
 	m	L()I	L()I
 	m	u(I)Ljava/lang/String;	u(I)Ljava/lang/String;
 		ma	0	0
@@ -60956,6 +61370,7 @@ c	Lbus;	Lbwg;
 	f	v;;Lbus$e;	v;;Lbwg$e;
 c	Lbut;	Lbwh;
 	m	a(Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;	a(Lcez;)Lcez;
+		ma	0	0
 	m	a()V	a()V
 c	Lbuu$1;	Lbwi$1;
 	m	<clinit>()V	<clinit>()V
@@ -61466,31 +61881,32 @@ c	Lbuy;	Lbwl;
 		mv	1	1
 		mv	2	2
 		mv	3	3
-		mv	7	4
-		mv	8	5
-		mv	9	6
-		mv	10	7
+		mv	4	4
 		mv	11	8
 		mv	12	9
-		mv	13	28
-		mv	16	10
-		mv	17	11
-		mv	18	12
-		mv	19	13
-		mv	20	14
+		mv	13	13
+		mv	14	12
+		mv	15	21
+		mv	16	11
+		mv	17	10
+		mv	18	14
+		mv	19	22
+		mv	20	23
 		mv	21	15
 		mv	22	16
 		mv	23	17
 		mv	24	18
 		mv	25	19
 		mv	26	20
-		mv	27	21
-		mv	28	22
-		mv	29	23
-		mv	30	24
+		mv	27	29
+		mv	28	24
+		mv	29	6
+		mv	30	5
 		mv	31	25
-		mv	33	27
-		mv	35	29
+		mv	32	27
+		mv	33	28
+		mv	34	26
+		mv	35	7
 	m	a(FIDDD)V	a(FDDD)V
 		ma	0	0
 		ma	2	1
@@ -61502,18 +61918,19 @@ c	Lbuy;	Lbwl;
 		mv	3	3
 		mv	4	4
 		mv	5	5
-		mv	6	6
-		mv	7	7
+		mv	6	14
+		mv	7	15
+		mv	8	8
+		mv	9	7
+		mv	10	16
+		mv	11	6
 		mv	12	9
 		mv	13	10
 		mv	14	11
 		mv	15	12
 		mv	16	13
-		mv	17	14
-		mv	18	15
-		mv	19	16
-		mv	20	17
-		mv	21	18
+		mv	17	17
+		mv	18	18
 	m	a(DDDF)Z	a(DDDF)Z
 		ma	0	0
 		ma	1	1
@@ -61527,6 +61944,7 @@ c	Lbuy;	Lbwl;
 		mv	0	0
 		mv	1	1
 		mv	2	3
+		mv	3	2
 		mv	4	4
 		mv	5	5
 		mv	6	6
@@ -61535,27 +61953,32 @@ c	Lbuy;	Lbwl;
 		mv	9	9
 		mv	10	10
 		mv	11	11
-		mv	12	12
-		mv	13	13
+		mv	12	18
+		mv	13	19
+		mv	14	15
+		mv	15	16
+		mv	16	17
 		mv	17	14
-		mv	21	18
-		mv	22	19
-		mv	23	20
-		mv	24	21
-		mv	25	22
-		mv	27	24
-		mv	28	25
-		mv	29	26
-		mv	30	27
+		mv	18	13
+		mv	19	12
+		mv	20	30
+		mv	21	20
+		mv	22	21
+		mv	23	22
+		mv	24	34
+		mv	25	23
+		mv	26	24
+		mv	27	25
+		mv	28	26
+		mv	29	27
+		mv	30	35
 		mv	31	29
 		mv	32	28
+		mv	33	36
 		mv	34	31
 		mv	35	32
 		mv	36	33
-		mv	37	34
-		mv	38	35
-		mv	39	36
-		mv	40	37
+		mv	37	37
 		mv	41	38
 		mv	42	39
 		mv	43	40
@@ -61948,7 +62371,27 @@ c	Lbuy;	Lbwl;
 c	Lbuz;	Lbwm;
 	m	<init>()V	<init>()V
 	m	a(Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;	a(Lcez;)Lcez;
+		ma	0	0
+		mv	0	1
+		mv	2	0
 	m	a()V	a()V
+	m	a(IIII)V	a(Lcez;IIII)V
+		ma	0	1
+		ma	1	2
+		ma	2	3
+		ma	3	4
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+	m	b(IIII)V	b(Lcez;IIII)V
+		ma	0	1
+		ma	1	2
+		ma	2	3
+		ma	3	4
+		mv	0	0
+		mv	1	1
 c	Lbv;	Lbv;
 	m	<init>()V	<init>()V
 	m	c()Ljava/lang/String;	c()Ljava/lang/String;
@@ -63039,6 +63482,9 @@ c	Lbvu;	Lbxh;
 		ma	0	0
 	m	b(Ljava/util/Map;)V	b(Ljava/util/Map;)V
 		ma	0	0
+		mvu	a	0
+		mv	1	1
+		mvu	a	2
 	m	<clinit>()V	<clinit>()V
 	f	f;;Lorg/apache/logging/log4j/Logger;	f;;Lorg/apache/logging/log4j/Logger;
 	f	a;;Lcom/google/gson/Gson;	a;;Lcom/google/gson/Gson;
@@ -63226,24 +63672,33 @@ c	Lbvx;	Lbxk;
 	m	a(Lorg/lwjgl/util/vector/Vector3f;Lbvs;)V	a(Lcjc;Lbxf;)V
 		ma	0	0
 		ma	1	1
+		mv	0	8
 		mv	1	7
 	m	a(Lorg/lwjgl/util/vector/Vector3f;Lfa;ILcfz;)I	a(Lcjc;Lfa;ILcgs;)I
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	m	a(Lorg/lwjgl/util/vector/Vector3f;Lorg/lwjgl/util/vector/Vector3f;Lorg/lwjgl/util/vector/Matrix4f;Lorg/lwjgl/util/vector/Vector3f;)V	a(Lcjc;Lcjc;Lcja;Lcjc;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		mv	0	0
 	m	a([I)Lfa;	a([I)Lfa;
 		ma	0	0
-		mv	0	3
+		mv	0	0
+		mv	1	1
 		mv	2	2
+		mv	3	3
 		mv	4	4
 		mv	5	5
+		mv	6	7
 		mv	7	6
-		mv	8	7
+		mv	8	11
 		mv	9	8
 		mv	10	9
 		mv	11	10
-		mv	12	11
 	m	a([ILfa;)V	a([ILfa;)V
 		ma	0	0
 		ma	1	1
@@ -63368,12 +63823,18 @@ c	Lbvy;	Lbxl;
 		mv	20	20
 	m	a(Lcdq;)Ljava/util/List;	a(Lcff;)Ljava/util/List;
 		ma	0	0
+		mv	0	0
+		mv	1	1
 		mv	2	2
 		mv	3	3
-		mv	5	5
+		mv	5	4
+		mv	6	5
+		mv	7	6
 	m	a(Lbvy$b;Ljava/util/List;[IIIIIZ)V	a(Lbxl$b;Ljava/util/List;Lcff;IIIIIZ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
+		ma	3	3
 		ma	4	5
 		ma	5	6
 		ma	6	7
@@ -63389,6 +63850,12 @@ c	Lbvy;	Lbxl;
 		mv	2	2
 		mv	3	3
 		mv	4	4
+	m	a([IIIII)Z	a(Lcff;IIIII)Z
+		ma	0	0
+		ma	1	2
+		ma	2	3
+		ma	3	4
+		ma	4	5
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/List;	a;;Ljava/util/List;
 c	Lbvz$a;	Lbxm$a;
@@ -66560,6 +67027,7 @@ c	Lbzm;	Lcaz;
 		mv	22	22
 		mv	23	23
 		mv	24	24
+		mv	25	25
 		mv	26	26
 		mv	27	27
 		mv	28	28
@@ -67568,6 +68036,7 @@ c	Lcaa;	Lcbn;
 		ma	4	4
 		ma	5	5
 	m	<clinit>()V	<clinit>()V
+		mv	0	0
 		mv	1	1
 	f	a;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
 	f	j;;Lcdg;	j;;Lcet;
@@ -69763,7 +70232,7 @@ c	Lccx;	Lcek;
 		mv	23	23
 		mv	24	24
 		mv	25	25
-	mu	a	a()V
+	m	a()V	close()V
 	m	b()V	a()V
 		mv	0	0
 	m	c()V	b()V
@@ -70045,6 +70514,8 @@ c	Lcda;	Lcen;
 		mv	0	0
 		mv	1	1
 		mv	2	2
+		mvu	a	3
+		mv	4	3
 		mv	5	5
 		mv	6	7
 		mv	7	8
@@ -70152,15 +70623,15 @@ c	Lcdg;	Lcet;
 		ma	0	0
 	m	d()V	d()V
 	m	e()[I	e()Lcez;
-	fu	a	f;;[I
-	fu	a	g;;I
-	fu	a	h;;I
+	f	f;;[I	f;;Lcez;
 c	Lcdh$1;	Lceu$1;
 	m	<init>(Lcdh;Ljava/lang/String;)V	<init>(Lceu;Ljava/lang/String;)V
 		ma	0	0
 		ma	1	1
 	m	run()V	run()V
 		mv	0	0
+		mv	1	1
+		mv	2	2
 		mv	3	3
 	f	a;;Lcdh;	a;;Lceu;
 c	Lcdh;	Lceu;
@@ -70169,6 +70640,9 @@ c	Lcdh;	Lceu;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+	mu	a	g()V
+	m	a(Ljava/awt/image/BufferedImage;)V	a(Lcez;)V
+		ma	0	0
 	m	a(Lcep;)V	a(Lqd;)V
 		ma	0	0
 		mv	0	1
@@ -70187,6 +70661,7 @@ c	Lcdh;	Lceu;
 	f	j;;Ljava/lang/String;	j;;Ljava/lang/String;
 	f	k;;Lbut;	k;;Lbwh;
 	f	m;;Ljava/lang/Thread;	l;;Ljava/lang/Thread;
+	f	n;;Z	m;;Z
 cu	a	Lcdi;
 c	Lcdj;	Lcew;
 	m	<init>(Lnf;Ljava/util/List;Ljava/util/List;)V	<init>(Lnf;Ljava/util/List;Ljava/util/List;)V
@@ -70194,13 +70669,22 @@ c	Lcdj;	Lcew;
 		ma	1	1
 		ma	2	2
 	m	a(Lcep;)V	a(Lqd;)V
-		mv	8	7
-		mv	10	8
+		ma	0	0
+		mv	0	0
+		mv	1	1
+		mv	2	3
+		mv	3	6
+		mv	4	2
+		mv	5	7
+		mv	6	5
+		mv	7	4
+		mv	8	10
+		mv	9	8
+		mv	10	11
 		mv	11	9
-		mv	12	10
-		mv	13	11
-		mv	14	12
-		mv	15	13
+		mv	13	12
+		mv	16	14
+		mv	17	13
 	m	<clinit>()V	<clinit>()V
 	f	f;;Lorg/apache/logging/log4j/Logger;	f;;Lorg/apache/logging/log4j/Logger;
 	f	g;;Lnf;	g;;Lnf;
@@ -70211,21 +70695,22 @@ c	Lcdk;	Lcex;
 		ma	0	0
 	m	a(Lcep;)V	a(Lqd;)V
 		ma	0	0
+		mv	0	0
+		mv	1	4
+		mv	2	2
+		mv	3	3
+		mv	4	9
 	m	<clinit>()V	<clinit>()V
 	f	g;;Lorg/apache/logging/log4j/Logger;	g;;Lorg/apache/logging/log4j/Logger;
 	f	f;;Ljava/util/List;	f;;Ljava/util/List;
-c	Lcdl;	Lcfa;
-	m	<init>(Ljava/io/InputStream;)V	<init>(Lqc;)V
-		mau	a	0
-		mvu	a	0
-	mu	a	a(Lceo;)Lcdl;
-	f	a;;I	a;;I
-	f	b;;I	b;;I
+cu	a	Lcdl;
 c	Lcdm;	Lcfb;
 	m	<init>(Lnf;)V	<init>(Lnf;)V
 		ma	0	0
 	m	a(Lcep;)V	a(Lqd;)V
 		ma	0	0
+		mv	0	0
+		mv	1	1
 		mv	2	2
 		mv	3	3
 		mv	4	4
@@ -70376,23 +70861,36 @@ c	Lcdp$3;	Lcfe$3;
 c	Lcdp;	Lcfe;
 	m	<init>(Ljava/lang/String;Lcdi;)V	<init>(Ljava/lang/String;)V
 		ma	0	0
+	mu	a	g()V
 	m	a(Lcep;)V	a(Lqd;)V
 		ma	0	0
+	m	a(Lcep;Lcdi;)V	a(Lqd;Ljava/lang/Iterable;)V
+		ma	0	0
+		ma	1	1
 	m	b(Lcep;)V	b(Lqd;)V
 		ma	0	0
 		mv	0	0
 		mv	1	1
 		mv	2	2
 		mv	3	3
+		mv	5	13
+		mv	6	5
 		mv	7	6
+		mv	8	20
+		mv	9	7
+		mv	10	11
+		mv	11	12
 		mv	12	14
 		mv	13	15
 		mv	14	16
 		mv	15	17
-		mv	17	18
-		mv	19	19
-		mv	20	20
-		mv	21	21
+		mv	16	18
+		mv	17	9
+		mv	18	19
+		mv	19	21
+		mv	20	8
+		mv	21	4
+		mv	22	10
 	m	a(Lcep;Lcdq;)Z	a(Lqd;Lcff;)Z
 		ma	0	0
 		ma	1	1
@@ -70403,25 +70901,42 @@ c	Lcdp;	Lcfe;
 		mv	4	4
 		mv	5	5
 		mv	6	6
+	m	a(Lcdq;)Lnf;	b(Lnf;)Lnf;
+		ma	0	0
+		mv	0	0
+	m	a(Ljava/lang/String;)Lcdq;	a(Ljava/lang/String;)Lcff;
+		ma	0	0
 	m	d()V	d()V
 		mv	0	0
+	m	a(Lnf;)Lcdq;	a(Lqd;Lnf;)V
+		ma	0	1
 	m	e()V	e()V
 	m	a(I)V	a(I)V
 		ma	0	0
+	mu	a	f()Lcdq;
 	m	<clinit>()V	<clinit>()V
 	f	h;;Lorg/apache/logging/log4j/Logger;	g;;Lorg/apache/logging/log4j/Logger;
+	fu	a	f;;Lnf;
 	f	g;;Lnf;	f;;Lnf;
 	f	i;;Ljava/util/List;	h;;Ljava/util/List;
+	fu	a	j;;Ljava/util/Map;
+	f	k;;Ljava/util/Map;	j;;Ljava/util/Map;
 	f	l;;Ljava/lang/String;	k;;Ljava/lang/String;
+	fu	a	m;;Lcdi;
 	f	n;;I	l;;I
+	f	o;;Lcdq;	m;;Lcff;
 c	Lcdq$1;	Lcff$1;
 	m	<init>(Lcdq;[[I)V	<init>(Lcff;)V
 		ma	0	0
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 		mv	0	0
+		mv	1	1
 	m	call()Ljava/lang/Object;	call()Ljava/lang/Object;
 	f	b;;Lcdq;	a;;Lcff;
 c	Lcdq;	Lcff;
+	m	<init>(Ljava/lang/String;)V	<init>(Lnf;II)V
+		ma	0	0
+	mu	a	a(Lnf;)Lcdq;
 	m	a(IIIIZ)V	a(IIIIZ)V
 		ma	0	0
 		ma	1	1
@@ -70430,6 +70945,9 @@ c	Lcdq;	Lcff;
 		ma	4	4
 		mv	0	0
 		mv	1	1
+	mu	a	a(Lcdq;)V
+	mu	a	a()I
+	mu	a	b()I
 	m	c()I	g()I
 	m	d()I	h()I
 	m	e()F	i()F
@@ -70458,7 +70976,11 @@ c	Lcdq;	Lcff;
 		mv	1	1
 		mv	2	2
 		mv	3	3
-		mv	7	9
+		mvu	a	4
+		mvu	a	5
+		mv	6	5
+		mv	7	8
+		mv	8	10
 		mv	9	11
 		mv	10	12
 		mv	11	13
@@ -70467,11 +70989,21 @@ c	Lcdq;	Lcff;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	a(I)[[I
 	m	k()I	o()I
+	mu	a	b(I)V
+	mu	a	c(I)V
+	mu	a	a(Lcdl;Z)V
 	m	a(Lceo;I)V	a(Lqc;I)V
+		ma	0	0
 		ma	1	1
+		mv	0	0
+		mv	1	1
+		mv	2	3
 		mv	3	2
 		mv	4	6
+		mv	5	9
+		mv	6	13
 	m	d(I)V	a(I)V
 		ma	0	0
 		mv	3	0
@@ -70480,12 +71012,21 @@ c	Lcdq;	Lcff;
 	m	e(I)V	d(I)V
 		ma	0	0
 		mv	0	0
+	mu	a	a([[IIII)[[I
+	m	l()V	q()V
 	m	m()Z	p()Z
+	mu	a	a(Ljava/util/List;)V
+	mu	a	o()V
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
+	f	j;;Ljava/lang/String;	l;;Lnf;
+	fu	a	a;;Ljava/util/List;
+	fu	a	b;;[[I
 	f	k;;Lcfi;	m;;Lcgh;
 	f	c;;Z	g;;Z
 	f	d;;I	h;;I
 	f	e;;I	i;;I
+	fu	a	f;;I
+	fu	a	g;;I
 	f	l;;F	n;;F
 	f	m;;F	o;;F
 	f	n;;F	p;;F
@@ -70550,27 +71091,7 @@ c	Lcds;	Lcfh;
 	m	a(Lcep;)V	a(Lqd;)V
 		ma	0	0
 	m	b()I	b()I
-c	Lcdt;	Lcfi;
-	m	a()I	a()I
-	m	a(I)V	a(I)V
-		ma	0	0
-	m	a(III)V	a(III)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	a(IIII)V	a(IIII)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		mv	0	0
-	m	b(I)V	b(I)V
-		ma	0	0
-	m	a(Lcep;Lnf;)[I	a(Lqd;Lnf;)[I
-		ma	0	0
-		ma	1	1
-	m	<clinit>()V	<clinit>()V
-	f	c;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
+cu	a	Lcdt;
 c	Lcdu;	Lcfj;
 	m	e()V	e()V
 c	Lcdv;	Lcfk;
@@ -70754,7 +71275,9 @@ c	Lced;	Lpg;
 		ma	0	0
 		ma	1	1
 	m	a(Lnf;)Ljava/io/InputStream;	a(Lpl;Lnf;)Ljava/io/InputStream;
+		ma	0	0
 	m	b(Lnf;)Z	b(Lpl;Lnf;)Z
+		ma	0	0
 	m	a(Ljava/lang/String;)Ljava/io/InputStream;	a(Ljava/lang/String;)Ljava/io/InputStream;
 		ma	0	0
 	m	b(Ljava/lang/String;)Z	c(Ljava/lang/String;)Z
@@ -70762,6 +71285,7 @@ c	Lced;	Lpg;
 	m	c(Ljava/lang/String;)V	d(Ljava/lang/String;)V
 		ma	0	0
 	mu	a	a(Lcfg;Ljava/lang/String;)Lcfe;
+	mu	a	a(Lcfg;Ljava/io/InputStream;Ljava/lang/String;)Lcfe;
 	mu	a	a()Ljava/awt/image/BufferedImage;
 	m	b()Ljava/lang/String;	a()Ljava/lang/String;
 	m	<clinit>()V	<clinit>()V
@@ -70811,14 +71335,18 @@ c	Lceg;	Lcfu;
 	m	<init>(Lcee;)V	<init>(Lcfs;)V
 		ma	0	0
 	m	a(Lnf;)Ljava/io/InputStream;	a(Lpl;Lnf;)Ljava/io/InputStream;
+		ma	0	1
+		mv	1	0
 	m	c(Lnf;)Ljava/io/InputStream;	a(Lnf;)Ljava/io/InputStream;
 		ma	0	0
 		mv	0	0
 	m	d(Lnf;)Ljava/io/InputStream;	c(Lpl;Lnf;)Ljava/io/InputStream;
+		ma	0	1
 		mv	0	0
 		mv	1	1
 		mv	2	2
 	m	b(Lnf;)Z	b(Lpl;Lnf;)Z
+		ma	0	1
 	m	c()Ljava/util/Set;	a(Lpl;)Ljava/util/Set;
 	mu	a	a(Lcfg;Ljava/lang/String;)Lcfe;
 	mu	a	a()Ljava/awt/image/BufferedImage;
@@ -70854,10 +71382,12 @@ c	Lcei;	Lqa;
 	m	a(Lnf;)Lceo;	a(Lnf;)Lqc;
 		ma	0	0
 		mv	0	0
+		mv	1	1
 		mv	2	2
 		mv	3	3
 		mv	4	4
 	m	a(Lnf;Lcer;)Ljava/io/InputStream;	a(Lnf;Lpk;)Ljava/io/InputStream;
+		ma	0	0
 		ma	1	1
 		mv	0	0
 	m	d(Lnf;)V	d(Lnf;)V
@@ -70865,6 +71395,7 @@ c	Lcei;	Lqa;
 	m	b(Lnf;)Ljava/util/List;	b(Lnf;)Ljava/util/List;
 		ma	0	0
 		mv	0	0
+		mv	1	1
 		mv	2	2
 		mv	3	3
 	m	c(Lnf;)Lnf;	c(Lnf;)Lnf;
@@ -70917,6 +71448,7 @@ c	Lcek;	Lpj;
 		mv	0	0
 	m	c()Ljava/util/Set;	a(Lpl;)Ljava/util/Set;
 		mv	0	0
+		mv	1	1
 		mv	2	3
 		mv	3	4
 	m	<clinit>()V	<clinit>()V
@@ -70943,7 +71475,8 @@ c	Lceo;	Lqc;
 	m	a()Lnf;	a()Lnf;
 	m	b()Ljava/io/InputStream;	b()Ljava/io/InputStream;
 	m	c()Z	c()Z
-	mu	a	a(Ljava/lang/String;)Lcfe;
+	m	a(Ljava/lang/String;)Lcfe;	a(Lpn;)Ljava/lang/Object;
+		ma	0	0
 	m	d()Ljava/lang/String;	d()Ljava/lang/String;
 c	Lcep;	Lqd;
 	m	a()Ljava/util/Set;	a()Ljava/util/Set;
@@ -70988,9 +71521,19 @@ c	Lceu$3;	Lcft$1;
 cu	a	Lceu$a;
 c	Lceu;	Lcft;
 	m	<init>(Ljava/io/File;Ljava/io/File;Lcer;Lcfg;Lbid;)V	<init>(Ljava/io/File;Lcfs;)V
+		ma	0	0
+		ma	3	1
 	m	a()Ljava/util/Map;	b()Ljava/util/Map;
 		mv	0	0
-	m	f()Ljava/io/File;	a()Lcfu;
+	mu	a	k()V
+	mu	a	l()Ljava/util/List;
+	mu	a	b(Ljava/io/File;)Lcer;
+	mu	a	b()V
+	mu	a	c()Lceu$a;
+	mu	a	d()Ljava/util/List;
+	mu	a	e()Ljava/util/List;
+	mu	a	a(Ljava/util/List;)V
+	mu	a	f()Ljava/io/File;
 	m	a(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/util/concurrent/ListenableFuture;	a(Ljava/lang/String;Ljava/lang/String;)Lcom/google/common/util/concurrent/ListenableFuture;
 		ma	0	0
 		ma	1	1
@@ -71006,24 +71549,37 @@ c	Lceu;	Lcft;
 		ma	1	1
 		mv	0	0
 		mv	1	1
+	mu	a	c(Ljava/io/File;)Z
 	m	m()V	e()V
 		mv	0	0
 		mv	1	1
 		mv	2	2
 		mv	3	3
+	m	a(Ljava/io/File;)Lcom/google/common/util/concurrent/ListenableFuture;	a(Ljava/io/File;)Lcom/google/common/util/concurrent/ListenableFuture;
+		ma	0	0
+	m	g()Lcer;	f()Lpk;
 	m	h()V	c()V
 	m	a(Lceu;Ljava/lang/String;Ljava/io/File;)Z	a(Lcft;Ljava/lang/String;Ljava/io/File;)Z
 		ma	0	0
 		ma	1	1
 		ma	2	2
 	m	i()Lorg/apache/logging/log4j/Logger;	d()Lorg/apache/logging/log4j/Logger;
+	mu	a	a(Lceu;Ljava/io/File;)Lcer;
+	mu	a	j()Lnf;
 	m	<clinit>()V	<clinit>()V
 	f	c;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
+	fu	a	d;;Ljava/io/FileFilter;
 	f	e;;Ljava/util/regex/Pattern;	b;;Ljava/util/regex/Pattern;
+	fu	a	f;;Lnf;
+	fu	a	g;;Ljava/io/File;
+	f	a;;Lcer;	c;;Lcfu;
 	f	h;;Ljava/io/File;	d;;Ljava/io/File;
-	f	i;;Lcer;	g;;Lcga;
+	fu	a	b;;Lcfg;
+	fu	a	i;;Lcer;
 	f	j;;Ljava/util/concurrent/locks/ReentrantLock;	e;;Ljava/util/concurrent/locks/ReentrantLock;
 	f	k;;Lcom/google/common/util/concurrent/ListenableFuture;	f;;Lcom/google/common/util/concurrent/ListenableFuture;
+	fu	a	l;;Ljava/util/List;
+	fu	a	m;;Ljava/util/List;
 c	Lcev$1;	Lqf$1;
 	m	<init>(Lcev;)V	<init>(Lqf;)V
 		ma	0	0
@@ -71070,7 +71626,10 @@ c	Lcew;	Lqg;
 	m	a()Lnf;	a()Lnf;
 	m	b()Ljava/io/InputStream;	b()Ljava/io/InputStream;
 	m	c()Z	c()Z
-	mu	a	a(Ljava/lang/String;)Lcfe;
+	m	a(Ljava/lang/String;)Lcfe;	a(Lpn;)Ljava/lang/Object;
+		ma	0	0
+		mv	0	0
+		mv	1	1
 	m	d()Ljava/lang/String;	d()Ljava/lang/String;
 	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
 		ma	0	0
@@ -71239,6 +71798,7 @@ c	Lcfa;	Lcgd;
 		mv	0	0
 		mv	1	1
 		mv	2	2
+		mv	4	3
 	m	a(Lcep;)V	a(Lqd;)V
 		ma	0	0
 		mv	0	0
@@ -71297,9 +71857,10 @@ c	Lcfb;	Lcge;
 	f	c;;Ljava/util/regex/Pattern;	c;;Ljava/util/regex/Pattern;
 	f	a;;Ljava/util/Map;	a;;Ljava/util/Map;
 	f	d;;Z	d;;Z
-c	Lcfd;	Lpn;
+cu	a	Lcfd;
 cu	a	Lcfe;
-cu	a	Lcff;
+c	Lcff;	Lpn;
+	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 cu	a	Lcfg$1;
 cu	a	Lcfg$a;
 cu	a	Lcfg;
@@ -71343,33 +71904,53 @@ c	Lcfi;	Lcgh;
 	f	e;;Z	f;;Z
 c	Lcfj;	Lcgi;
 	m	<init>()V	<init>()V
+	m	a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcfi;	b(Lcom/google/gson/JsonObject;)Lcgh;
+		ma	0	0
+		mv	0	0
+		mv	1	5
+		mv	2	1
+		mv	3	2
+		mv	4	3
+		mv	5	4
+		mv	7	6
+		mv	8	7
+		mv	9	8
+		mv	10	9
 	m	a(ILcom/google/gson/JsonElement;)Lcfh;	a(ILcom/google/gson/JsonElement;)Lcgg;
 		ma	0	0
 		ma	1	1
 		mv	0	0
 		mv	1	1
 		mv	2	2
+	mu	a	a(Lcfi;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 cu	a	Lcfl;
-c	Lcfm;	Lcgl;
-	m	<init>()V	<init>()V
-	m	a()Ljava/lang/String;	a()Ljava/lang/String;
+cu	a	Lcfm;
 c	Lcfo;	Lcgk;
 	m	<init>(Ljava/util/Collection;)V	<init>(Ljava/util/Collection;)V
 		ma	0	0
 	m	a()Ljava/util/Collection;	a()Ljava/util/Collection;
 	f	a;;Ljava/util/Collection;	b;;Ljava/util/Collection;
-cu	a	Lcfp;
-c	Lcfr;	Lpo;
-	m	<init>(Lhh;I)V	<init>(Lhh;I)V
+c	Lcfp;	Lcgl;
+	m	<init>()V	<init>()V
+	m	a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcfo;	b(Lcom/google/gson/JsonObject;)Lcgk;
 		ma	0	0
-		ma	1	1
-	m	a()Lhh;	a()Lhh;
-	m	b()I	b()I
-	f	a;;Lhh;	b;;Lhh;
-	f	b;;I	c;;I
+		mv	0	3
+		mv	1	0
+		mv	2	1
+		mv	3	2
+		mv	4	4
+		mv	5	5
+		mv	6	6
+	m	a()Ljava/lang/String;	a()Ljava/lang/String;
+cu	a	Lcfr;
 c	Lcfs;	Lpp;
 	m	<init>()V	<init>()V
+	m	a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcfr;	b(Lcom/google/gson/JsonObject;)Lpo;
+		ma	0	0
+		mv	0	0
+		mv	1	1
+	mu	a	a(Lcfr;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 c	Lcfv;	Lcgo;
 	m	<init>(ZZ)V	<init>(ZZ)V
@@ -71381,6 +71962,10 @@ c	Lcfv;	Lcgo;
 	f	b;;Z	c;;Z
 c	Lcfw;	Lcgp;
 	m	<init>()V	<init>()V
+	m	a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcfv;	b(Lcom/google/gson/JsonObject;)Lcgo;
+		ma	0	0
+		mv	0	0
+		mv	1	1
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
 c	Lcfy;	Lcgr;
 	m	a(Lawt;Lfa;J)Ljava/util/List;	a(Laxw;Lfa;J)Ljava/util/List;
@@ -71403,6 +71988,8 @@ c	Lcfz;	Lcgs;
 	m	<init>(Ljava/lang/String;III)V	<init>(Ljava/lang/String;III)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
+		ma	3	3
 		mv	0	0
 	m	a()Lorg/lwjgl/util/vector/Matrix4f;	a()Lcja;
 	m	a(Lfa;)Lfa;	a(Lfa;)Lfa;
@@ -71439,6 +72026,7 @@ c	Lcfz;	Lcgs;
 	f	p;;Lcfz;	p;;Lcgs;
 	f	q;;Ljava/util/Map;	q;;Ljava/util/Map;
 	f	r;;I	r;;I
+	f	s;;Lorg/lwjgl/util/vector/Matrix4f;	s;;Lcja;
 	f	t;;I	t;;I
 	f	u;;I	u;;I
 	f	v;;[Lcfz;	v;;[Lcgs;
@@ -72880,7 +73468,7 @@ c	Lchw;	Lcis;
 	m	a(Lbub;)V	a(Lbvp;)V
 		ma	0	0
 	m	a(Lbic;)V	a(DD)V
-		mau	a	0
+		ma	0	0
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lhh;	a;;Lhh;
 	f	b;;Lhh;	b;;Lhh;
@@ -72991,6 +73579,7 @@ c	Lcia;	Lciw;
 	m	a(Lbub;)V	a(Lbvp;)V
 		ma	0	0
 	m	a(Lbic;)V	a(DD)V
+		mau	a	0
 	m	a(Lbsb;Lbhc;)V	a(Lbtp;Lbif;)V
 		ma	0	0
 		ma	1	1
@@ -73027,9 +73616,7 @@ c	Lcib;	Lcix;
 	f	g;;Ljava/lang/String;	g;;Ljava/lang/String;
 	f	h;;Ljava/util/function/Function;	h;;Ljava/util/function/Function;
 	f	i;;[Lcib;	i;;[Lcix;
-c	Lcid;	Lciz;
-	mu	a	<init>([F)V
-	m	<init>()V	<init>()V
+cu	a	Lcid;
 c	Lcie;	Lcjb;
 	m	<init>()V	<init>()V
 	f	a;;D	a;;D
@@ -73220,14 +73807,14 @@ c	Lcii;	Lcjh;
 	f	a;;Z	a;;Z
 	f	b;;Z	b;;Z
 	f	c;;I	c;;I
-	f	d;;I	e;;I
-	f	e;;I	f;;I
-	f	f;;I	d;;I
-	f	g;;I	h;;I
-	f	h;;I	i;;I
-	f	i;;I	j;;I
-	f	j;;I	k;;I
-	f	k;;I	g;;I
+	f	d;;I	d;;I
+	f	e;;I	e;;I
+	f	f;;I	f;;I
+	f	g;;I	g;;I
+	f	h;;I	h;;I
+	f	i;;I	i;;I
+	f	j;;I	j;;I
+	f	k;;I	k;;I
 	f	U;;Lcii$a;	T;;Lcjh$a;
 	f	l;;Z	l;;Z
 	f	V;;Z	U;;Z
@@ -77181,20 +77768,7 @@ c	Lgz;	Lgz;
 	f	a;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
 	f	b;;Lorg/apache/logging/log4j/Marker;	b;;Lorg/apache/logging/log4j/Marker;
 	f	c;;Lhu;	c;;Lhu;
-c	Lh$a;	Lh$a;
-	m	values()[Lh$a;	values()[Lh$a;
-	m	valueOf(Ljava/lang/String;)Lh$a;	valueOf(Ljava/lang/String;)Lh$a;
-		ma	0	0
-	m	<init>(Ljava/lang/String;I)V	<init>(Ljava/lang/String;I)V
-		ma	0	0
-		ma	1	1
-	m	<clinit>()V	<clinit>()V
-	f	a;;Lh$a;	a;;Lh$a;
-	f	b;;Lh$a;	b;;Lh$a;
-	f	c;;Lh$a;	c;;Lh$a;
-	f	d;;Lh$a;	d;;Lh$a;
-	fu	a	e;;Lh$a;
-	f	f;;[Lh$a;	f;;[Lh$a;
+cu	a	Lh$a;
 c	Lh;	Lh;
 	m	a()Lh$a;	a()Lh$a;
 		mv	0	0
@@ -82056,7 +82630,9 @@ c	Lnet/minecraft/realms/DisconnectedRealmsScreen;	Lnet/minecraft/realms/Disconne
 		ma	1	1
 		ma	2	2
 	m	init()V	init()V
-	mu	a	keyPressed(CI)V
+	m	keyPressed(CI)V	keyPressed(III)Z
+		mau	a	0
+		ma	1	0
 	mu	a	buttonClicked(Lnet/minecraft/realms/RealmsButton;)V
 	m	render(IIF)V	render(IIF)V
 		ma	0	0
@@ -82290,8 +82866,8 @@ c	Lnet/minecraft/realms/RealmsClickableScrolledSelectionList;	Lnet/minecraft/rea
 		ma	1	1
 		ma	2	2
 	m	width()I	width()I
-	mu	a	ym()I
-	mu	a	xm()I
+	m	ym()I	y0()I
+	m	xm()I	y1()I
 	m	renderItem(IIIILnet/minecraft/realms/Tezzelator;II)V	renderItem(IIIILnet/minecraft/realms/Tezzelator;II)V
 		ma	0	0
 		ma	1	1
@@ -82310,7 +82886,7 @@ c	Lnet/minecraft/realms/RealmsClickableScrolledSelectionList;	Lnet/minecraft/rea
 	m	getItemCount()I	getItemCount()I
 	m	selectItem(IZII)V	selectItem(IIDD)Z
 		ma	0	0
-		mau	a	1
+		ma	1	1
 		ma	2	2
 		ma	3	3
 	m	isSelectedItem(I)Z	isSelectedItem(I)Z
@@ -82331,9 +82907,9 @@ c	Lnet/minecraft/realms/RealmsClickableScrolledSelectionList;	Lnet/minecraft/rea
 	m	itemClicked(IIIII)V	itemClicked(IIDDI)V
 		ma	0	0
 		ma	1	1
-		ma	2	2
+		ma	2	4
 		ma	3	3
-		ma	4	4
+		ma	4	2
 	m	renderSelected(IIILnet/minecraft/realms/Tezzelator;)V	renderSelected(IIILnet/minecraft/realms/Tezzelator;)V
 		ma	0	0
 		ma	1	1
@@ -82415,12 +82991,13 @@ c	Lnet/minecraft/realms/RealmsEditBox;	Lnet/minecraft/realms/RealmsEditBox;
 	m	setValue(Ljava/lang/String;)V	setValue(Ljava/lang/String;)V
 		ma	0	0
 	m	keyPressed(CI)V	keyPressed(III)Z
+		mau	a	0
 		ma	1	1
 	m	isFocused()Z	isFocused()Z
 	m	mouseClicked(III)V	mouseClicked(DDI)Z
-		ma	0	0
+		ma	0	2
 		ma	1	1
-		ma	2	2
+		ma	2	0
 	m	render()V	render(IIF)V
 	m	setMaxLength(I)V	setMaxLength(I)V
 		ma	0	0
@@ -82655,7 +83232,6 @@ c	Lnet/minecraft/realms/RealmsScreen;	Lnet/minecraft/realms/RealmsScreen;
 	mu	a	keyboardEvent()V
 	mu	a	mouseReleased(III)V
 	mu	a	mouseDragged(IIIJ)V
-	mu	a	keyPressed(CI)V
 	m	confirmResult(ZI)V	confirmResult(ZI)V
 		ma	0	0
 		ma	1	1
@@ -82712,7 +83288,7 @@ c	Lnet/minecraft/realms/RealmsScrolledSelectionList;	Lnet/minecraft/realms/Realm
 	m	getItemCount()I	getItemCount()I
 	m	selectItem(IZII)V	selectItem(IIDD)Z
 		ma	0	0
-		mau	a	1
+		ma	1	1
 		ma	2	2
 		ma	3	3
 	m	isSelectedItem(I)Z	isSelectedItem(I)Z
@@ -82780,7 +83356,7 @@ c	Lnet/minecraft/realms/RealmsSimpleScrolledSelectionList;	Lnet/minecraft/realms
 	m	getItemCount()I	getItemCount()I
 	m	selectItem(IZII)V	selectItem(IIDD)Z
 		ma	0	0
-		mau	a	1
+		ma	1	1
 		ma	2	2
 		ma	3	3
 	m	isSelectedItem(I)Z	isSelectedItem(I)Z
@@ -82961,6 +83537,7 @@ c	Lnet/minecraft/server/MinecraftServer$4;	Lnet/minecraft/server/MinecraftServer
 c	Lnet/minecraft/server/MinecraftServer;	Lnet/minecraft/server/MinecraftServer;
 	m	<init>(Ljava/io/File;Ljava/net/Proxy;Lry;Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Lph;)V	<init>(Ljava/io/File;Ljava/net/Proxy;Lta;Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Lqj;)V
 		ma	0	0
+		ma	1	1
 		ma	2	2
 		ma	3	3
 		ma	4	4
@@ -83806,7 +84383,19 @@ c	Lns$1;	Lns$1;
 		ma	2	2
 c	Lns;	Lns;
 	m	<init>(Ljava/io/File;)V	<init>(Lqb;)V
+		ma	0	0
+	mu	a	a()V
 	m	b()Z	a()Z
+	m	d()Ljava/util/Map;	b(Lqd;)Ljava/util/Map;
+		mv	0	0
+		mv	1	1
+		mv	2	2
+		mv	3	3
+		mv	4	4
+		mv	5	5
+		mv	6	6
+		mv	7	7
+	mu	a	a(Ljava/util/Map;)V
 	m	a(Lnf;)Li;	a(Lnf;)Li;
 		ma	0	0
 	m	c()Ljava/lang/Iterable;	b()Ljava/lang/Iterable;
@@ -83814,6 +84403,7 @@ c	Lns;	Lns;
 	f	a;;Lorg/apache/logging/log4j/Logger;	c;;Lorg/apache/logging/log4j/Logger;
 	f	b;;Lcom/google/gson/Gson;	d;;Lcom/google/gson/Gson;
 	f	c;;Lj;	e;;Lj;
+	fu	a	d;;Ljava/io/File;
 	f	e;;Z	f;;Z
 c	Lnt$1;	Lnt$1;
 	m	<init>(Lnt;)V	<init>(Lnt;)V
@@ -83854,7 +84444,8 @@ c	Lnt;	Lnt;
 		mv	1	1
 		mv	2	2
 		mv	3	3
-	m	f()V	a(Lqd;)V
+	mu	a	f()V
+	mu	a	h()V
 	m	a(Lnt;)Ljava/lang/String;	a(Lnt;)Ljava/lang/String;
 		ma	0	0
 	m	b(Lnt;)Lnet/minecraft/server/MinecraftServer;	b(Lnt;)Lnet/minecraft/server/MinecraftServer;
@@ -85442,90 +86033,747 @@ c	Lor;	Lor;
 	f	i;;Let;	i;;Let;
 	f	j;;I	j;;I
 	f	k;;I	k;;I
-cu	a	Lorg/lwjgl/BufferChecks;
-cu	a	Lorg/lwjgl/BufferUtils;
-cu	a	Lorg/lwjgl/DefaultSysImplementation;
-cu	a	Lorg/lwjgl/J2SESysImplementation;
-cu	a	Lorg/lwjgl/LWJGLException;
-cu	a	Lorg/lwjgl/LWJGLUtil$1;
-cu	a	Lorg/lwjgl/LWJGLUtil$2;
-cu	a	Lorg/lwjgl/LWJGLUtil$3;
-cu	a	Lorg/lwjgl/LWJGLUtil$4;
-cu	a	Lorg/lwjgl/LWJGLUtil$5;
-cu	a	Lorg/lwjgl/LWJGLUtil$6;
-cu	a	Lorg/lwjgl/LWJGLUtil$TokenFilter;
-cu	a	Lorg/lwjgl/LWJGLUtil;
-cu	a	Lorg/lwjgl/LinuxSysImplementation$1;
-cu	a	Lorg/lwjgl/LinuxSysImplementation;
-cu	a	Lorg/lwjgl/MacOSXSysImplementation;
-cu	a	Lorg/lwjgl/MemoryUtil$1;
-cu	a	Lorg/lwjgl/MemoryUtil$Accessor;
-cu	a	Lorg/lwjgl/MemoryUtil$AccessorJNI;
-cu	a	Lorg/lwjgl/MemoryUtil$AccessorReflect;
-cu	a	Lorg/lwjgl/MemoryUtil$CharSequenceNT;
-cu	a	Lorg/lwjgl/MemoryUtil;
-cu	a	Lorg/lwjgl/PointerBuffer$PointerBufferR;
-cu	a	Lorg/lwjgl/PointerBuffer;
-cu	a	Lorg/lwjgl/PointerWrapper;
-cu	a	Lorg/lwjgl/Sys$1;
-cu	a	Lorg/lwjgl/Sys$2;
-cu	a	Lorg/lwjgl/Sys$3;
-cu	a	Lorg/lwjgl/Sys;
-cu	a	Lorg/lwjgl/SysImplementation;
-cu	a	Lorg/lwjgl/WindowsSysImplementation$1;
-cu	a	Lorg/lwjgl/WindowsSysImplementation;
-cu	a	Lorg/lwjgl/input/Controller;
-cu	a	Lorg/lwjgl/input/ControllerEvent;
-cu	a	Lorg/lwjgl/input/Controllers;
-cu	a	Lorg/lwjgl/input/Cursor$CursorElement;
-cu	a	Lorg/lwjgl/input/Cursor;
-cu	a	Lorg/lwjgl/input/JInputController;
-cu	a	Lorg/lwjgl/input/Keyboard$1;
-cu	a	Lorg/lwjgl/input/Keyboard$KeyEvent;
-cu	a	Lorg/lwjgl/input/Keyboard;
-cu	a	Lorg/lwjgl/input/Mouse$1;
-cu	a	Lorg/lwjgl/input/Mouse;
-cu	a	Lorg/lwjgl/input/OpenGLPackageAccess$1;
-cu	a	Lorg/lwjgl/input/OpenGLPackageAccess$2;
-cu	a	Lorg/lwjgl/input/OpenGLPackageAccess;
-cu	a	Lorg/lwjgl/opengl/APIUtil;
-cu	a	Lorg/lwjgl/opengl/ARBBufferObject;
-cu	a	Lorg/lwjgl/opengl/ARBFramebufferObject;
-cu	a	Lorg/lwjgl/opengl/ARBMultitexture;
-cu	a	Lorg/lwjgl/opengl/ARBShaderObjects;
-cu	a	Lorg/lwjgl/opengl/ARBVertexBufferObject;
-cu	a	Lorg/lwjgl/opengl/ARBVertexShader;
-cu	a	Lorg/lwjgl/opengl/AWTCanvasImplementation;
-cu	a	Lorg/lwjgl/opengl/AWTGLCanvas;
-cu	a	Lorg/lwjgl/opengl/AWTSurfaceLock$1;
-cu	a	Lorg/lwjgl/opengl/AWTSurfaceLock;
-cu	a	Lorg/lwjgl/opengl/AWTUtil$1;
-cu	a	Lorg/lwjgl/opengl/AWTUtil$2;
-cu	a	Lorg/lwjgl/opengl/AWTUtil;
-cu	a	Lorg/lwjgl/opengl/BaseReferences;
-cu	a	Lorg/lwjgl/opengl/CallbackUtil;
-cu	a	Lorg/lwjgl/opengl/Context;
-cu	a	Lorg/lwjgl/opengl/ContextAttribs;
-cu	a	Lorg/lwjgl/opengl/ContextCapabilities;
-cu	a	Lorg/lwjgl/opengl/ContextGL;
-cu	a	Lorg/lwjgl/opengl/ContextGLES;
-cu	a	Lorg/lwjgl/opengl/ContextImplementation;
-cu	a	Lorg/lwjgl/opengl/Display$1;
-cu	a	Lorg/lwjgl/opengl/Display$2;
-cu	a	Lorg/lwjgl/opengl/Display$3;
-cu	a	Lorg/lwjgl/opengl/Display$4;
-cu	a	Lorg/lwjgl/opengl/Display$5;
-cu	a	Lorg/lwjgl/opengl/Display$6;
-cu	a	Lorg/lwjgl/opengl/Display$7;
-cu	a	Lorg/lwjgl/opengl/Display$8;
-cu	a	Lorg/lwjgl/opengl/Display;
-cu	a	Lorg/lwjgl/opengl/DisplayImplementation;
-cu	a	Lorg/lwjgl/opengl/DisplayMode;
-cu	a	Lorg/lwjgl/opengl/Drawable;
-cu	a	Lorg/lwjgl/opengl/DrawableGL;
-cu	a	Lorg/lwjgl/opengl/DrawableGLES;
-cu	a	Lorg/lwjgl/opengl/DrawableLWJGL;
-cu	a	Lorg/lwjgl/opengl/EXTBlendFuncSeparate;
+c	Lorg/lwjgl/BufferUtils;	Lorg/lwjgl/BufferUtils;
+	m	<init>()V	<init>()V
+	m	createByteBuffer(I)Ljava/nio/ByteBuffer;	createByteBuffer(I)Ljava/nio/ByteBuffer;
+	m	createShortBuffer(I)Ljava/nio/ShortBuffer;	createShortBuffer(I)Ljava/nio/ShortBuffer;
+	m	createCharBuffer(I)Ljava/nio/CharBuffer;	createCharBuffer(I)Ljava/nio/CharBuffer;
+	m	createIntBuffer(I)Ljava/nio/IntBuffer;	createIntBuffer(I)Ljava/nio/IntBuffer;
+	m	createLongBuffer(I)Ljava/nio/LongBuffer;	createLongBuffer(I)Ljava/nio/LongBuffer;
+	m	createFloatBuffer(I)Ljava/nio/FloatBuffer;	createFloatBuffer(I)Ljava/nio/FloatBuffer;
+	m	createDoubleBuffer(I)Ljava/nio/DoubleBuffer;	createDoubleBuffer(I)Ljava/nio/DoubleBuffer;
+	m	createPointerBuffer(I)Lorg/lwjgl/PointerBuffer;	createPointerBuffer(I)Lorg/lwjgl/PointerBuffer;
+	m	zeroBuffer(Ljava/nio/ByteBuffer;)V	zeroBuffer(Ljava/nio/ByteBuffer;)V
+	m	zeroBuffer(Ljava/nio/ShortBuffer;)V	zeroBuffer(Ljava/nio/ShortBuffer;)V
+	m	zeroBuffer(Ljava/nio/CharBuffer;)V	zeroBuffer(Ljava/nio/CharBuffer;)V
+	m	zeroBuffer(Ljava/nio/IntBuffer;)V	zeroBuffer(Ljava/nio/IntBuffer;)V
+	m	zeroBuffer(Ljava/nio/FloatBuffer;)V	zeroBuffer(Ljava/nio/FloatBuffer;)V
+	m	zeroBuffer(Ljava/nio/LongBuffer;)V	zeroBuffer(Ljava/nio/LongBuffer;)V
+	m	zeroBuffer(Ljava/nio/DoubleBuffer;)V	zeroBuffer(Ljava/nio/DoubleBuffer;)V
+c	Lorg/lwjgl/PointerBuffer;	Lorg/lwjgl/PointerBuffer;
+	m	<init>(Ljava/nio/ByteBuffer;)V	<init>(JLjava/nio/ByteBuffer;IIII)V
+	m	allocateDirect(I)Lorg/lwjgl/PointerBuffer;	allocateDirect(I)Lorg/lwjgl/PointerBuffer;
+		ma	0	0
+	m	get()J	get()J
+	m	put(J)Lorg/lwjgl/PointerBuffer;	put(J)Lorg/lwjgl/PointerBuffer;
+	m	put(Ljava/nio/ByteBuffer;J)V	put(Ljava/nio/ByteBuffer;J)V
+		ma	0	0
+	m	get(I)J	get(I)J
+		ma	0	0
+	m	put(IJ)Lorg/lwjgl/PointerBuffer;	put(IJ)Lorg/lwjgl/PointerBuffer;
+		ma	0	0
+	m	put(Ljava/nio/ByteBuffer;IJ)V	put(Ljava/nio/ByteBuffer;IJ)V
+		ma	0	0
+		ma	1	1
+	m	get([JII)Lorg/lwjgl/PointerBuffer;	get([JII)Lorg/lwjgl/PointerBuffer;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	get([J)Lorg/lwjgl/PointerBuffer;	get([J)Lorg/lwjgl/PointerBuffer;
+		ma	0	0
+	m	put([JII)Lorg/lwjgl/PointerBuffer;	put([JII)Lorg/lwjgl/PointerBuffer;
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	put([J)Lorg/lwjgl/PointerBuffer;	put([J)Lorg/lwjgl/PointerBuffer;
+		ma	0	0
+	m	hashCode()I	hashCode()I
+	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
+		ma	0	0
+	m	compareTo(Ljava/lang/Object;)I	compareTo(Ljava/lang/Object;)I
+	m	checkBounds(III)V	checkBounds(III)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+c	Lorg/lwjgl/opengl/ARBFramebufferObject;	Lorg/lwjgl/opengl/ARBFramebufferObject;
+	m	<init>()V	<init>()V
+	m	glIsRenderbuffer(I)Z	glIsRenderbuffer(I)Z
+		ma	0	0
+	m	glBindRenderbuffer(II)V	glBindRenderbuffer(II)V
+		ma	0	0
+		ma	1	1
+	m	glDeleteRenderbuffers(Ljava/nio/IntBuffer;)V	glDeleteRenderbuffers(Ljava/nio/IntBuffer;)V
+		ma	0	0
+	m	glDeleteRenderbuffers(I)V	glDeleteRenderbuffers(I)V
+		ma	0	0
+	m	glGenRenderbuffers(Ljava/nio/IntBuffer;)V	glGenRenderbuffers(Ljava/nio/IntBuffer;)V
+		ma	0	0
+	m	glGenRenderbuffers()I	glGenRenderbuffers()I
+	m	glRenderbufferStorage(IIII)V	glRenderbufferStorage(IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	glRenderbufferStorageMultisample(IIIII)V	glRenderbufferStorageMultisample(IIIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	glGetRenderbufferParameteri(II)I	glGetRenderbufferParameteri(II)I
+		ma	0	0
+		ma	1	1
+	m	glIsFramebuffer(I)Z	glIsFramebuffer(I)Z
+		ma	0	0
+	m	glBindFramebuffer(II)V	glBindFramebuffer(II)V
+		ma	0	0
+		ma	1	1
+	m	glDeleteFramebuffers(Ljava/nio/IntBuffer;)V	glDeleteFramebuffers(Ljava/nio/IntBuffer;)V
+		ma	0	0
+	m	glDeleteFramebuffers(I)V	glDeleteFramebuffers(I)V
+		ma	0	0
+	m	glGenFramebuffers(Ljava/nio/IntBuffer;)V	glGenFramebuffers(Ljava/nio/IntBuffer;)V
+		ma	0	0
+	m	glGenFramebuffers()I	glGenFramebuffers()I
+	m	glCheckFramebufferStatus(I)I	glCheckFramebufferStatus(I)I
+		ma	0	0
+	m	glFramebufferTexture1D(IIIII)V	glFramebufferTexture1D(IIIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	glFramebufferTexture2D(IIIII)V	glFramebufferTexture2D(IIIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	glFramebufferTexture3D(IIIIII)V	glFramebufferTexture3D(IIIIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+	m	glFramebufferTextureLayer(IIIII)V	glFramebufferTextureLayer(IIIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	glFramebufferRenderbuffer(IIII)V	glFramebufferRenderbuffer(IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	glGetFramebufferAttachmentParameteri(III)I	glGetFramebufferAttachmentParameteri(III)I
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	glBlitFramebuffer(IIIIIIIIII)V	glBlitFramebuffer(IIIIIIIIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+		ma	7	7
+		ma	8	8
+		ma	9	9
+	m	glGenerateMipmap(I)V	glGenerateMipmap(I)V
+		ma	0	0
+	f	GL_FRAMEBUFFER;;I	GL_FRAMEBUFFER;;I
+	f	GL_READ_FRAMEBUFFER;;I	GL_READ_FRAMEBUFFER;;I
+	f	GL_DRAW_FRAMEBUFFER;;I	GL_DRAW_FRAMEBUFFER;;I
+	f	GL_RENDERBUFFER;;I	GL_RENDERBUFFER;;I
+	f	GL_STENCIL_INDEX1;;I	GL_STENCIL_INDEX1;;I
+	f	GL_STENCIL_INDEX4;;I	GL_STENCIL_INDEX4;;I
+	f	GL_STENCIL_INDEX8;;I	GL_STENCIL_INDEX8;;I
+	f	GL_STENCIL_INDEX16;;I	GL_STENCIL_INDEX16;;I
+	f	GL_RENDERBUFFER_WIDTH;;I	GL_RENDERBUFFER_WIDTH;;I
+	f	GL_RENDERBUFFER_HEIGHT;;I	GL_RENDERBUFFER_HEIGHT;;I
+	f	GL_RENDERBUFFER_INTERNAL_FORMAT;;I	GL_RENDERBUFFER_INTERNAL_FORMAT;;I
+	f	GL_RENDERBUFFER_RED_SIZE;;I	GL_RENDERBUFFER_RED_SIZE;;I
+	f	GL_RENDERBUFFER_GREEN_SIZE;;I	GL_RENDERBUFFER_GREEN_SIZE;;I
+	f	GL_RENDERBUFFER_BLUE_SIZE;;I	GL_RENDERBUFFER_BLUE_SIZE;;I
+	f	GL_RENDERBUFFER_ALPHA_SIZE;;I	GL_RENDERBUFFER_ALPHA_SIZE;;I
+	f	GL_RENDERBUFFER_DEPTH_SIZE;;I	GL_RENDERBUFFER_DEPTH_SIZE;;I
+	f	GL_RENDERBUFFER_STENCIL_SIZE;;I	GL_RENDERBUFFER_STENCIL_SIZE;;I
+	f	GL_RENDERBUFFER_SAMPLES;;I	GL_RENDERBUFFER_SAMPLES;;I
+	f	GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE;;I	GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE;;I
+	f	GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME;;I	GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME;;I
+	f	GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL;;I	GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL;;I
+	f	GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE;;I	GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE;;I
+	f	GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LAYER;;I	GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LAYER;;I
+	f	GL_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING;;I	GL_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING;;I
+	f	GL_FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE;;I	GL_FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE;;I
+	f	GL_FRAMEBUFFER_ATTACHMENT_RED_SIZE;;I	GL_FRAMEBUFFER_ATTACHMENT_RED_SIZE;;I
+	f	GL_FRAMEBUFFER_ATTACHMENT_GREEN_SIZE;;I	GL_FRAMEBUFFER_ATTACHMENT_GREEN_SIZE;;I
+	f	GL_FRAMEBUFFER_ATTACHMENT_BLUE_SIZE;;I	GL_FRAMEBUFFER_ATTACHMENT_BLUE_SIZE;;I
+	f	GL_FRAMEBUFFER_ATTACHMENT_ALPHA_SIZE;;I	GL_FRAMEBUFFER_ATTACHMENT_ALPHA_SIZE;;I
+	f	GL_FRAMEBUFFER_ATTACHMENT_DEPTH_SIZE;;I	GL_FRAMEBUFFER_ATTACHMENT_DEPTH_SIZE;;I
+	f	GL_FRAMEBUFFER_ATTACHMENT_STENCIL_SIZE;;I	GL_FRAMEBUFFER_ATTACHMENT_STENCIL_SIZE;;I
+	f	GL_UNSIGNED_NORMALIZED;;I	GL_UNSIGNED_NORMALIZED;;I
+	f	GL_FRAMEBUFFER_DEFAULT;;I	GL_FRAMEBUFFER_DEFAULT;;I
+	f	GL_INDEX;;I	GL_INDEX;;I
+	f	GL_COLOR_ATTACHMENT0;;I	GL_COLOR_ATTACHMENT0;;I
+	f	GL_COLOR_ATTACHMENT1;;I	GL_COLOR_ATTACHMENT1;;I
+	f	GL_COLOR_ATTACHMENT2;;I	GL_COLOR_ATTACHMENT2;;I
+	f	GL_COLOR_ATTACHMENT3;;I	GL_COLOR_ATTACHMENT3;;I
+	f	GL_COLOR_ATTACHMENT4;;I	GL_COLOR_ATTACHMENT4;;I
+	f	GL_COLOR_ATTACHMENT5;;I	GL_COLOR_ATTACHMENT5;;I
+	f	GL_COLOR_ATTACHMENT6;;I	GL_COLOR_ATTACHMENT6;;I
+	f	GL_COLOR_ATTACHMENT7;;I	GL_COLOR_ATTACHMENT7;;I
+	f	GL_COLOR_ATTACHMENT8;;I	GL_COLOR_ATTACHMENT8;;I
+	f	GL_COLOR_ATTACHMENT9;;I	GL_COLOR_ATTACHMENT9;;I
+	f	GL_COLOR_ATTACHMENT10;;I	GL_COLOR_ATTACHMENT10;;I
+	f	GL_COLOR_ATTACHMENT11;;I	GL_COLOR_ATTACHMENT11;;I
+	f	GL_COLOR_ATTACHMENT12;;I	GL_COLOR_ATTACHMENT12;;I
+	f	GL_COLOR_ATTACHMENT13;;I	GL_COLOR_ATTACHMENT13;;I
+	f	GL_COLOR_ATTACHMENT14;;I	GL_COLOR_ATTACHMENT14;;I
+	f	GL_COLOR_ATTACHMENT15;;I	GL_COLOR_ATTACHMENT15;;I
+	f	GL_DEPTH_ATTACHMENT;;I	GL_DEPTH_ATTACHMENT;;I
+	f	GL_STENCIL_ATTACHMENT;;I	GL_STENCIL_ATTACHMENT;;I
+	f	GL_DEPTH_STENCIL_ATTACHMENT;;I	GL_DEPTH_STENCIL_ATTACHMENT;;I
+	f	GL_MAX_SAMPLES;;I	GL_MAX_SAMPLES;;I
+	f	GL_FRAMEBUFFER_COMPLETE;;I	GL_FRAMEBUFFER_COMPLETE;;I
+	f	GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT;;I	GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT;;I
+	f	GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT;;I	GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT;;I
+	f	GL_FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER;;I	GL_FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER;;I
+	f	GL_FRAMEBUFFER_INCOMPLETE_READ_BUFFER;;I	GL_FRAMEBUFFER_INCOMPLETE_READ_BUFFER;;I
+	f	GL_FRAMEBUFFER_UNSUPPORTED;;I	GL_FRAMEBUFFER_UNSUPPORTED;;I
+	f	GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE;;I	GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE;;I
+	f	GL_FRAMEBUFFER_UNDEFINED;;I	GL_FRAMEBUFFER_UNDEFINED;;I
+	f	GL_FRAMEBUFFER_BINDING;;I	GL_FRAMEBUFFER_BINDING;;I
+	f	GL_DRAW_FRAMEBUFFER_BINDING;;I	GL_DRAW_FRAMEBUFFER_BINDING;;I
+	f	GL_READ_FRAMEBUFFER_BINDING;;I	GL_READ_FRAMEBUFFER_BINDING;;I
+	f	GL_RENDERBUFFER_BINDING;;I	GL_RENDERBUFFER_BINDING;;I
+	f	GL_MAX_COLOR_ATTACHMENTS;;I	GL_MAX_COLOR_ATTACHMENTS;;I
+	f	GL_MAX_RENDERBUFFER_SIZE;;I	GL_MAX_RENDERBUFFER_SIZE;;I
+	f	GL_INVALID_FRAMEBUFFER_OPERATION;;I	GL_INVALID_FRAMEBUFFER_OPERATION;;I
+	f	GL_DEPTH_STENCIL;;I	GL_DEPTH_STENCIL;;I
+	f	GL_UNSIGNED_INT_24_8;;I	GL_UNSIGNED_INT_24_8;;I
+	f	GL_DEPTH24_STENCIL8;;I	GL_DEPTH24_STENCIL8;;I
+	f	GL_TEXTURE_STENCIL_SIZE;;I	GL_TEXTURE_STENCIL_SIZE;;I
+c	Lorg/lwjgl/opengl/ARBMultitexture;	Lorg/lwjgl/opengl/ARBMultitexture;
+	m	<init>()V	<init>()V
+	m	glClientActiveTextureARB(I)V	glClientActiveTextureARB(I)V
+		ma	0	0
+	m	glActiveTextureARB(I)V	glActiveTextureARB(I)V
+		ma	0	0
+	m	glMultiTexCoord1fARB(IF)V	glMultiTexCoord1fARB(IF)V
+		ma	0	0
+		ma	1	1
+	m	glMultiTexCoord1dARB(ID)V	glMultiTexCoord1dARB(ID)V
+		ma	0	0
+		ma	1	1
+	m	glMultiTexCoord1iARB(II)V	glMultiTexCoord1iARB(II)V
+		ma	0	0
+		ma	1	1
+	m	glMultiTexCoord1sARB(IS)V	glMultiTexCoord1sARB(IS)V
+		ma	0	0
+		ma	1	1
+	m	glMultiTexCoord2fARB(IFF)V	glMultiTexCoord2fARB(IFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	glMultiTexCoord2dARB(IDD)V	glMultiTexCoord2dARB(IDD)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	glMultiTexCoord2iARB(III)V	glMultiTexCoord2iARB(III)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	glMultiTexCoord2sARB(ISS)V	glMultiTexCoord2sARB(ISS)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	glMultiTexCoord3fARB(IFFF)V	glMultiTexCoord3fARB(IFFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	glMultiTexCoord3dARB(IDDD)V	glMultiTexCoord3dARB(IDDD)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	glMultiTexCoord3iARB(IIII)V	glMultiTexCoord3iARB(IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	glMultiTexCoord3sARB(ISSS)V	glMultiTexCoord3sARB(ISSS)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	glMultiTexCoord4fARB(IFFFF)V	glMultiTexCoord4fARB(IFFFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	glMultiTexCoord4dARB(IDDDD)V	glMultiTexCoord4dARB(IDDDD)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	glMultiTexCoord4iARB(IIIII)V	glMultiTexCoord4iARB(IIIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	glMultiTexCoord4sARB(ISSSS)V	glMultiTexCoord4sARB(ISSSS)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	f	GL_TEXTURE0_ARB;;I	GL_TEXTURE0_ARB;;I
+	f	GL_TEXTURE1_ARB;;I	GL_TEXTURE1_ARB;;I
+	f	GL_TEXTURE2_ARB;;I	GL_TEXTURE2_ARB;;I
+	f	GL_TEXTURE3_ARB;;I	GL_TEXTURE3_ARB;;I
+	f	GL_TEXTURE4_ARB;;I	GL_TEXTURE4_ARB;;I
+	f	GL_TEXTURE5_ARB;;I	GL_TEXTURE5_ARB;;I
+	f	GL_TEXTURE6_ARB;;I	GL_TEXTURE6_ARB;;I
+	f	GL_TEXTURE7_ARB;;I	GL_TEXTURE7_ARB;;I
+	f	GL_TEXTURE8_ARB;;I	GL_TEXTURE8_ARB;;I
+	f	GL_TEXTURE9_ARB;;I	GL_TEXTURE9_ARB;;I
+	f	GL_TEXTURE10_ARB;;I	GL_TEXTURE10_ARB;;I
+	f	GL_TEXTURE11_ARB;;I	GL_TEXTURE11_ARB;;I
+	f	GL_TEXTURE12_ARB;;I	GL_TEXTURE12_ARB;;I
+	f	GL_TEXTURE13_ARB;;I	GL_TEXTURE13_ARB;;I
+	f	GL_TEXTURE14_ARB;;I	GL_TEXTURE14_ARB;;I
+	f	GL_TEXTURE15_ARB;;I	GL_TEXTURE15_ARB;;I
+	f	GL_TEXTURE16_ARB;;I	GL_TEXTURE16_ARB;;I
+	f	GL_TEXTURE17_ARB;;I	GL_TEXTURE17_ARB;;I
+	f	GL_TEXTURE18_ARB;;I	GL_TEXTURE18_ARB;;I
+	f	GL_TEXTURE19_ARB;;I	GL_TEXTURE19_ARB;;I
+	f	GL_TEXTURE20_ARB;;I	GL_TEXTURE20_ARB;;I
+	f	GL_TEXTURE21_ARB;;I	GL_TEXTURE21_ARB;;I
+	f	GL_TEXTURE22_ARB;;I	GL_TEXTURE22_ARB;;I
+	f	GL_TEXTURE23_ARB;;I	GL_TEXTURE23_ARB;;I
+	f	GL_TEXTURE24_ARB;;I	GL_TEXTURE24_ARB;;I
+	f	GL_TEXTURE25_ARB;;I	GL_TEXTURE25_ARB;;I
+	f	GL_TEXTURE26_ARB;;I	GL_TEXTURE26_ARB;;I
+	f	GL_TEXTURE27_ARB;;I	GL_TEXTURE27_ARB;;I
+	f	GL_TEXTURE28_ARB;;I	GL_TEXTURE28_ARB;;I
+	f	GL_TEXTURE29_ARB;;I	GL_TEXTURE29_ARB;;I
+	f	GL_TEXTURE30_ARB;;I	GL_TEXTURE30_ARB;;I
+	f	GL_TEXTURE31_ARB;;I	GL_TEXTURE31_ARB;;I
+	f	GL_ACTIVE_TEXTURE_ARB;;I	GL_ACTIVE_TEXTURE_ARB;;I
+	f	GL_CLIENT_ACTIVE_TEXTURE_ARB;;I	GL_CLIENT_ACTIVE_TEXTURE_ARB;;I
+	f	GL_MAX_TEXTURE_UNITS_ARB;;I	GL_MAX_TEXTURE_UNITS_ARB;;I
+c	Lorg/lwjgl/opengl/ARBShaderObjects;	Lorg/lwjgl/opengl/ARBShaderObjects;
+	m	<init>()V	<init>()V
+	m	glDeleteObjectARB(I)V	glDeleteObjectARB(I)V
+		ma	0	0
+	m	glGetHandleARB(I)I	glGetHandleARB(I)I
+		ma	0	0
+	m	glDetachObjectARB(II)V	glDetachObjectARB(II)V
+		ma	0	0
+		ma	1	1
+	m	glCreateShaderObjectARB(I)I	glCreateShaderObjectARB(I)I
+		ma	0	0
+	m	nglShaderSourceARB(IIJIJ)V	nglShaderSourceARB(IIJJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	glShaderSourceARB(ILjava/lang/CharSequence;)V	glShaderSourceARB(ILjava/lang/CharSequence;)V
+	m	glShaderSourceARB(I[Ljava/lang/CharSequence;)V	glShaderSourceARB(I[Ljava/lang/CharSequence;)V
+	m	glCompileShaderARB(I)V	glCompileShaderARB(I)V
+		ma	0	0
+	m	glCreateProgramObjectARB()I	glCreateProgramObjectARB()I
+	m	glAttachObjectARB(II)V	glAttachObjectARB(II)V
+		ma	0	0
+		ma	1	1
+	m	glLinkProgramARB(I)V	glLinkProgramARB(I)V
+		ma	0	0
+	m	glUseProgramObjectARB(I)V	glUseProgramObjectARB(I)V
+		ma	0	0
+	m	glValidateProgramARB(I)V	glValidateProgramARB(I)V
+		ma	0	0
+	m	glUniform1fARB(IF)V	glUniform1fARB(IF)V
+		ma	0	0
+		ma	1	1
+	m	glUniform2fARB(IFF)V	glUniform2fARB(IFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	glUniform3fARB(IFFF)V	glUniform3fARB(IFFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	glUniform4fARB(IFFFF)V	glUniform4fARB(IFFFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	glUniform1iARB(II)V	glUniform1iARB(II)V
+		ma	0	0
+		ma	1	1
+	m	glUniform2iARB(III)V	glUniform2iARB(III)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	glUniform3iARB(IIII)V	glUniform3iARB(IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	glUniform4iARB(IIIII)V	glUniform4iARB(IIIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	nglUniform1fvARB(IIJJ)V	nglUniform1fvARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	nglUniform2fvARB(IIJJ)V	nglUniform2fvARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	nglUniform3fvARB(IIJJ)V	nglUniform3fvARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	nglUniform4fvARB(IIJJ)V	nglUniform4fvARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	nglUniform1ivARB(IIJJ)V	nglUniform1ivARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	nglUniform2ivARB(IIJJ)V	nglUniform2ivARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	nglUniform3ivARB(IIJJ)V	nglUniform3ivARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	nglUniform4ivARB(IIJJ)V	nglUniform4ivARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	nglUniformMatrix2fvARB(IIZJJ)V	nglUniformMatrix2fvARB(IIZJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	nglUniformMatrix3fvARB(IIZJJ)V	nglUniformMatrix3fvARB(IIZJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	nglUniformMatrix4fvARB(IIZJJ)V	nglUniformMatrix4fvARB(IIZJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	nglGetObjectParameterfvARB(IIJJ)V	nglGetObjectParameterfvARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	nglGetObjectParameterivARB(IIJJ)V	nglGetObjectParameterivARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	glGetObjectParameteriARB(II)I	glGetObjectParameteriARB(II)I
+		ma	1	1
+	m	glGetInfoLogARB(ILjava/nio/IntBuffer;Ljava/nio/ByteBuffer;)V	glGetInfoLogARB(ILjava/nio/IntBuffer;Ljava/nio/ByteBuffer;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	nglGetInfoLogARB(IIJJJ)V	nglGetInfoLogARB(IIJJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	glGetInfoLogARB(II)Ljava/lang/String;	glGetInfoLogARB(II)Ljava/lang/String;
+		ma	0	0
+		ma	1	1
+	m	glGetAttachedObjectsARB(ILjava/nio/IntBuffer;Ljava/nio/IntBuffer;)V	glGetAttachedObjectsARB(ILjava/nio/IntBuffer;Ljava/nio/IntBuffer;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	nglGetAttachedObjectsARB(IIJJJ)V	nglGetAttachedObjectsARB(IIJJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	glGetUniformLocationARB(ILjava/nio/ByteBuffer;)I	glGetUniformLocationARB(ILjava/nio/ByteBuffer;)I
+		ma	0	0
+		ma	1	1
+	m	nglGetUniformLocationARB(IJJ)I	nglGetUniformLocationARB(IJ)I
+		ma	0	0
+		ma	1	1
+	m	glGetUniformLocationARB(ILjava/lang/CharSequence;)I	glGetUniformLocationARB(ILjava/lang/CharSequence;)I
+		ma	0	0
+		ma	1	1
+	m	glGetActiveUniformARB(IILjava/nio/IntBuffer;Ljava/nio/IntBuffer;Ljava/nio/IntBuffer;Ljava/nio/ByteBuffer;)V	glGetActiveUniformARB(IILjava/nio/IntBuffer;Ljava/nio/IntBuffer;Ljava/nio/IntBuffer;Ljava/nio/ByteBuffer;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+	m	nglGetActiveUniformARB(IIIJJJJJ)V	nglGetActiveUniformARB(IIIJJJJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+	m	nglGetUniformfvARB(IIJJ)V	nglGetUniformfvARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	nglGetUniformivARB(IIJJ)V	nglGetUniformivARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	glGetShaderSourceARB(ILjava/nio/IntBuffer;Ljava/nio/ByteBuffer;)V	glGetShaderSourceARB(ILjava/nio/IntBuffer;Ljava/nio/ByteBuffer;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	nglGetShaderSourceARB(IIJJJ)V	nglGetShaderSourceARB(IIJJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	glGetShaderSourceARB(II)Ljava/lang/String;	glGetShaderSourceARB(II)Ljava/lang/String;
+		ma	0	0
+		ma	1	1
+	f	GL_PROGRAM_OBJECT_ARB;;I	GL_PROGRAM_OBJECT_ARB;;I
+	f	GL_OBJECT_TYPE_ARB;;I	GL_OBJECT_TYPE_ARB;;I
+	f	GL_OBJECT_SUBTYPE_ARB;;I	GL_OBJECT_SUBTYPE_ARB;;I
+	f	GL_OBJECT_DELETE_STATUS_ARB;;I	GL_OBJECT_DELETE_STATUS_ARB;;I
+	f	GL_OBJECT_COMPILE_STATUS_ARB;;I	GL_OBJECT_COMPILE_STATUS_ARB;;I
+	f	GL_OBJECT_LINK_STATUS_ARB;;I	GL_OBJECT_LINK_STATUS_ARB;;I
+	f	GL_OBJECT_VALIDATE_STATUS_ARB;;I	GL_OBJECT_VALIDATE_STATUS_ARB;;I
+	f	GL_OBJECT_INFO_LOG_LENGTH_ARB;;I	GL_OBJECT_INFO_LOG_LENGTH_ARB;;I
+	f	GL_OBJECT_ATTACHED_OBJECTS_ARB;;I	GL_OBJECT_ATTACHED_OBJECTS_ARB;;I
+	f	GL_OBJECT_ACTIVE_UNIFORMS_ARB;;I	GL_OBJECT_ACTIVE_UNIFORMS_ARB;;I
+	f	GL_OBJECT_ACTIVE_UNIFORM_MAX_LENGTH_ARB;;I	GL_OBJECT_ACTIVE_UNIFORM_MAX_LENGTH_ARB;;I
+	f	GL_OBJECT_SHADER_SOURCE_LENGTH_ARB;;I	GL_OBJECT_SHADER_SOURCE_LENGTH_ARB;;I
+	f	GL_SHADER_OBJECT_ARB;;I	GL_SHADER_OBJECT_ARB;;I
+	f	GL_FLOAT_VEC2_ARB;;I	GL_FLOAT_VEC2_ARB;;I
+	f	GL_FLOAT_VEC3_ARB;;I	GL_FLOAT_VEC3_ARB;;I
+	f	GL_FLOAT_VEC4_ARB;;I	GL_FLOAT_VEC4_ARB;;I
+	f	GL_INT_VEC2_ARB;;I	GL_INT_VEC2_ARB;;I
+	f	GL_INT_VEC3_ARB;;I	GL_INT_VEC3_ARB;;I
+	f	GL_INT_VEC4_ARB;;I	GL_INT_VEC4_ARB;;I
+	f	GL_BOOL_ARB;;I	GL_BOOL_ARB;;I
+	f	GL_BOOL_VEC2_ARB;;I	GL_BOOL_VEC2_ARB;;I
+	f	GL_BOOL_VEC3_ARB;;I	GL_BOOL_VEC3_ARB;;I
+	f	GL_BOOL_VEC4_ARB;;I	GL_BOOL_VEC4_ARB;;I
+	f	GL_FLOAT_MAT2_ARB;;I	GL_FLOAT_MAT2_ARB;;I
+	f	GL_FLOAT_MAT3_ARB;;I	GL_FLOAT_MAT3_ARB;;I
+	f	GL_FLOAT_MAT4_ARB;;I	GL_FLOAT_MAT4_ARB;;I
+	f	GL_SAMPLER_1D_ARB;;I	GL_SAMPLER_1D_ARB;;I
+	f	GL_SAMPLER_2D_ARB;;I	GL_SAMPLER_2D_ARB;;I
+	f	GL_SAMPLER_3D_ARB;;I	GL_SAMPLER_3D_ARB;;I
+	f	GL_SAMPLER_CUBE_ARB;;I	GL_SAMPLER_CUBE_ARB;;I
+	f	GL_SAMPLER_1D_SHADOW_ARB;;I	GL_SAMPLER_1D_SHADOW_ARB;;I
+	f	GL_SAMPLER_2D_SHADOW_ARB;;I	GL_SAMPLER_2D_SHADOW_ARB;;I
+	f	GL_SAMPLER_2D_RECT_ARB;;I	GL_SAMPLER_2D_RECT_ARB;;I
+	f	GL_SAMPLER_2D_RECT_SHADOW_ARB;;I	GL_SAMPLER_2D_RECT_SHADOW_ARB;;I
+c	Lorg/lwjgl/opengl/ARBVertexBufferObject;	Lorg/lwjgl/opengl/ARBVertexBufferObject;
+	m	<init>()V	<init>()V
+	f	GL_ARRAY_BUFFER_ARB;;I	GL_ARRAY_BUFFER_ARB;;I
+	f	GL_ELEMENT_ARRAY_BUFFER_ARB;;I	GL_ELEMENT_ARRAY_BUFFER_ARB;;I
+	f	GL_ARRAY_BUFFER_BINDING_ARB;;I	GL_ARRAY_BUFFER_BINDING_ARB;;I
+	f	GL_ELEMENT_ARRAY_BUFFER_BINDING_ARB;;I	GL_ELEMENT_ARRAY_BUFFER_BINDING_ARB;;I
+	f	GL_VERTEX_ARRAY_BUFFER_BINDING_ARB;;I	GL_VERTEX_ARRAY_BUFFER_BINDING_ARB;;I
+	f	GL_NORMAL_ARRAY_BUFFER_BINDING_ARB;;I	GL_NORMAL_ARRAY_BUFFER_BINDING_ARB;;I
+	f	GL_COLOR_ARRAY_BUFFER_BINDING_ARB;;I	GL_COLOR_ARRAY_BUFFER_BINDING_ARB;;I
+	f	GL_INDEX_ARRAY_BUFFER_BINDING_ARB;;I	GL_INDEX_ARRAY_BUFFER_BINDING_ARB;;I
+	f	GL_TEXTURE_COORD_ARRAY_BUFFER_BINDING_ARB;;I	GL_TEXTURE_COORD_ARRAY_BUFFER_BINDING_ARB;;I
+	f	GL_EDGE_FLAG_ARRAY_BUFFER_BINDING_ARB;;I	GL_EDGE_FLAG_ARRAY_BUFFER_BINDING_ARB;;I
+	f	GL_SECONDARY_COLOR_ARRAY_BUFFER_BINDING_ARB;;I	GL_SECONDARY_COLOR_ARRAY_BUFFER_BINDING_ARB;;I
+	f	GL_FOG_COORDINATE_ARRAY_BUFFER_BINDING_ARB;;I	GL_FOG_COORDINATE_ARRAY_BUFFER_BINDING_ARB;;I
+	f	GL_WEIGHT_ARRAY_BUFFER_BINDING_ARB;;I	GL_WEIGHT_ARRAY_BUFFER_BINDING_ARB;;I
+	f	GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING_ARB;;I	GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING_ARB;;I
+c	Lorg/lwjgl/opengl/ARBVertexShader;	Lorg/lwjgl/opengl/ARBVertexShader;
+	m	<init>()V	<init>()V
+	m	glVertexAttrib1sARB(IS)V	glVertexAttrib1sARB(IS)V
+		ma	0	0
+		ma	1	1
+	m	glVertexAttrib1fARB(IF)V	glVertexAttrib1fARB(IF)V
+		ma	0	0
+		ma	1	1
+	m	glVertexAttrib1dARB(ID)V	glVertexAttrib1dARB(ID)V
+		ma	0	0
+		ma	1	1
+	m	glVertexAttrib2sARB(ISS)V	glVertexAttrib2sARB(ISS)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	glVertexAttrib2fARB(IFF)V	glVertexAttrib2fARB(IFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	glVertexAttrib2dARB(IDD)V	glVertexAttrib2dARB(IDD)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	glVertexAttrib3sARB(ISSS)V	glVertexAttrib3sARB(ISSS)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	glVertexAttrib3fARB(IFFF)V	glVertexAttrib3fARB(IFFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	glVertexAttrib3dARB(IDDD)V	glVertexAttrib3dARB(IDDD)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	glVertexAttrib4sARB(ISSSS)V	glVertexAttrib4sARB(ISSSS)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	glVertexAttrib4fARB(IFFFF)V	glVertexAttrib4fARB(IFFFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	glVertexAttrib4dARB(IDDDD)V	glVertexAttrib4dARB(IDDDD)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	glVertexAttrib4NubARB(IBBBB)V	glVertexAttrib4NubARB(IBBBB)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	nglVertexAttribPointerARB(IIIZIJJ)V	nglVertexAttribPointerARB(IIIZIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+	m	glVertexAttribPointerARB(IIIZIJ)V	glVertexAttribPointerARB(IIIZIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	glVertexAttribPointerARB(IIIZILjava/nio/ByteBuffer;)V	glVertexAttribPointerARB(IIIZILjava/nio/ByteBuffer;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+	m	glEnableVertexAttribArrayARB(I)V	glEnableVertexAttribArrayARB(I)V
+		ma	0	0
+	m	glDisableVertexAttribArrayARB(I)V	glDisableVertexAttribArrayARB(I)V
+		ma	0	0
+	m	glBindAttribLocationARB(IILjava/nio/ByteBuffer;)V	glBindAttribLocationARB(IILjava/nio/ByteBuffer;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	nglBindAttribLocationARB(IIJJ)V	nglBindAttribLocationARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	glBindAttribLocationARB(IILjava/lang/CharSequence;)V	glBindAttribLocationARB(IILjava/lang/CharSequence;)V
+		ma	0	0
+		ma	1	1
+	m	glGetActiveAttribARB(IILjava/nio/IntBuffer;Ljava/nio/IntBuffer;Ljava/nio/IntBuffer;Ljava/nio/ByteBuffer;)V	glGetActiveAttribARB(IILjava/nio/IntBuffer;Ljava/nio/IntBuffer;Ljava/nio/IntBuffer;Ljava/nio/ByteBuffer;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+	m	nglGetActiveAttribARB(IIIJJJJJ)V	nglGetActiveAttribARB(IIIJJJJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
+		ma	6	6
+	m	glGetAttribLocationARB(ILjava/nio/ByteBuffer;)I	glGetAttribLocationARB(ILjava/nio/ByteBuffer;)I
+		ma	0	0
+		ma	1	1
+	m	nglGetAttribLocationARB(IJJ)I	nglGetAttribLocationARB(IJ)I
+		ma	0	0
+		ma	1	1
+	m	glGetAttribLocationARB(ILjava/lang/CharSequence;)I	glGetAttribLocationARB(ILjava/lang/CharSequence;)I
+		ma	0	0
+		ma	1	1
+	m	nglGetVertexAttribfvARB(IIJJ)V	nglGetVertexAttribfvARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	nglGetVertexAttribdvARB(IIJJ)V	nglGetVertexAttribdvARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	nglGetVertexAttribivARB(IIJJ)V	nglGetVertexAttribivARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	glGetVertexAttribPointerARB(IIJ)Ljava/nio/ByteBuffer;	glGetVertexAttribPointerARB(II)J
+		ma	0	0
+		ma	1	1
+	m	nglGetVertexAttribPointervARB(IIJJ)Ljava/nio/ByteBuffer;	nglGetVertexAttribPointervARB(IIJ)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	f	GL_VERTEX_SHADER_ARB;;I	GL_VERTEX_SHADER_ARB;;I
+	f	GL_MAX_VERTEX_UNIFORM_COMPONENTS_ARB;;I	GL_MAX_VERTEX_UNIFORM_COMPONENTS_ARB;;I
+	f	GL_MAX_VARYING_FLOATS_ARB;;I	GL_MAX_VARYING_FLOATS_ARB;;I
+	f	GL_MAX_VERTEX_ATTRIBS_ARB;;I	GL_MAX_VERTEX_ATTRIBS_ARB;;I
+	f	GL_MAX_TEXTURE_IMAGE_UNITS_ARB;;I	GL_MAX_TEXTURE_IMAGE_UNITS_ARB;;I
+	f	GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS_ARB;;I	GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS_ARB;;I
+	f	GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS_ARB;;I	GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS_ARB;;I
+	f	GL_MAX_TEXTURE_COORDS_ARB;;I	GL_MAX_TEXTURE_COORDS_ARB;;I
+	f	GL_VERTEX_PROGRAM_POINT_SIZE_ARB;;I	GL_VERTEX_PROGRAM_POINT_SIZE_ARB;;I
+	f	GL_VERTEX_PROGRAM_TWO_SIDE_ARB;;I	GL_VERTEX_PROGRAM_TWO_SIDE_ARB;;I
+	f	GL_OBJECT_ACTIVE_ATTRIBUTES_ARB;;I	GL_OBJECT_ACTIVE_ATTRIBUTES_ARB;;I
+	f	GL_OBJECT_ACTIVE_ATTRIBUTE_MAX_LENGTH_ARB;;I	GL_OBJECT_ACTIVE_ATTRIBUTE_MAX_LENGTH_ARB;;I
+	f	GL_VERTEX_ATTRIB_ARRAY_ENABLED_ARB;;I	GL_VERTEX_ATTRIB_ARRAY_ENABLED_ARB;;I
+	f	GL_VERTEX_ATTRIB_ARRAY_SIZE_ARB;;I	GL_VERTEX_ATTRIB_ARRAY_SIZE_ARB;;I
+	f	GL_VERTEX_ATTRIB_ARRAY_STRIDE_ARB;;I	GL_VERTEX_ATTRIB_ARRAY_STRIDE_ARB;;I
+	f	GL_VERTEX_ATTRIB_ARRAY_TYPE_ARB;;I	GL_VERTEX_ATTRIB_ARRAY_TYPE_ARB;;I
+	f	GL_VERTEX_ATTRIB_ARRAY_NORMALIZED_ARB;;I	GL_VERTEX_ATTRIB_ARRAY_NORMALIZED_ARB;;I
+	f	GL_CURRENT_VERTEX_ATTRIB_ARB;;I	GL_CURRENT_VERTEX_ATTRIB_ARB;;I
+	f	GL_VERTEX_ATTRIB_ARRAY_POINTER_ARB;;I	GL_VERTEX_ATTRIB_ARRAY_POINTER_ARB;;I
+	f	GL_FLOAT_VEC2_ARB;;I	GL_FLOAT_VEC2_ARB;;I
+	f	GL_FLOAT_VEC3_ARB;;I	GL_FLOAT_VEC3_ARB;;I
+	f	GL_FLOAT_VEC4_ARB;;I	GL_FLOAT_VEC4_ARB;;I
+	f	GL_FLOAT_MAT2_ARB;;I	GL_FLOAT_MAT2_ARB;;I
+	f	GL_FLOAT_MAT3_ARB;;I	GL_FLOAT_MAT3_ARB;;I
+	f	GL_FLOAT_MAT4_ARB;;I	GL_FLOAT_MAT4_ARB;;I
+c	Lorg/lwjgl/opengl/DrawableLWJGL;	Lblj;
+	m	createSharedContext()Lorg/lwjgl/opengl/Context;	t()Lblh;
+c	Lorg/lwjgl/opengl/EXTBlendFuncSeparate;	Lorg/lwjgl/opengl/EXTBlendFuncSeparate;
+	m	<init>()V	<init>()V
+	m	glBlendFuncSeparateEXT(IIII)V	glBlendFuncSeparateEXT(IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	f	GL_BLEND_DST_RGB_EXT;;I	GL_BLEND_DST_RGB_EXT;;I
+	f	GL_BLEND_SRC_RGB_EXT;;I	GL_BLEND_SRC_RGB_EXT;;I
+	f	GL_BLEND_DST_ALPHA_EXT;;I	GL_BLEND_DST_ALPHA_EXT;;I
+	f	GL_BLEND_SRC_ALPHA_EXT;;I	GL_BLEND_SRC_ALPHA_EXT;;I
 c	Lorg/lwjgl/opengl/EXTFramebufferObject;	Lorg/lwjgl/opengl/EXTFramebufferObject;
 	m	<init>()V	<init>()V
 	m	glIsRenderbufferEXT(I)Z	glIsRenderbufferEXT(I)Z
@@ -85537,11 +86785,13 @@ c	Lorg/lwjgl/opengl/EXTFramebufferObject;	Lorg/lwjgl/opengl/EXTFramebufferObject
 		ma	0	0
 	m	nglDeleteRenderbuffersEXT(IJJ)V	nglDeleteRenderbuffersEXT(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glDeleteRenderbuffersEXT(I)V	glDeleteRenderbuffersEXT(I)V
 	m	glGenRenderbuffersEXT(Ljava/nio/IntBuffer;)V	glGenRenderbuffersEXT(Ljava/nio/IntBuffer;)V
 		ma	0	0
 	m	nglGenRenderbuffersEXT(IJJ)V	nglGenRenderbuffersEXT(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glGenRenderbuffersEXT()I	glGenRenderbuffersEXT()I
 	m	glRenderbufferStorageEXT(IIII)V	glRenderbufferStorageEXT(IIII)V
 		ma	0	0
@@ -85551,6 +86801,7 @@ c	Lorg/lwjgl/opengl/EXTFramebufferObject;	Lorg/lwjgl/opengl/EXTFramebufferObject
 	m	nglGetRenderbufferParameterivEXT(IIJJ)V	nglGetRenderbufferParameterivEXT(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetRenderbufferParameteriEXT(II)I	glGetRenderbufferParameteriEXT(II)I
 		ma	1	1
 	m	glIsFramebufferEXT(I)Z	glIsFramebufferEXT(I)Z
@@ -85562,11 +86813,13 @@ c	Lorg/lwjgl/opengl/EXTFramebufferObject;	Lorg/lwjgl/opengl/EXTFramebufferObject
 		ma	0	0
 	m	nglDeleteFramebuffersEXT(IJJ)V	nglDeleteFramebuffersEXT(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glDeleteFramebuffersEXT(I)V	glDeleteFramebuffersEXT(I)V
 	m	glGenFramebuffersEXT(Ljava/nio/IntBuffer;)V	glGenFramebuffersEXT(Ljava/nio/IntBuffer;)V
 		ma	0	0
 	m	nglGenFramebuffersEXT(IJJ)V	nglGenFramebuffersEXT(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glGenFramebuffersEXT()I	glGenFramebuffersEXT()I
 	m	glCheckFramebufferStatusEXT(I)I	glCheckFramebufferStatusEXT(I)I
 		ma	0	0
@@ -85598,6 +86851,7 @@ c	Lorg/lwjgl/opengl/EXTFramebufferObject;	Lorg/lwjgl/opengl/EXTFramebufferObject
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	glGetFramebufferAttachmentParameteriEXT(III)I	glGetFramebufferAttachmentParameteriEXT(III)I
 		ma	0	0
 		ma	2	2
@@ -85654,10 +86908,6 @@ c	Lorg/lwjgl/opengl/EXTFramebufferObject;	Lorg/lwjgl/opengl/EXTFramebufferObject
 	f	GL_MAX_COLOR_ATTACHMENTS_EXT;;I	GL_MAX_COLOR_ATTACHMENTS_EXT;;I
 	f	GL_MAX_RENDERBUFFER_SIZE_EXT;;I	GL_MAX_RENDERBUFFER_SIZE_EXT;;I
 	f	GL_INVALID_FRAMEBUFFER_OPERATION_EXT;;I	GL_INVALID_FRAMEBUFFER_OPERATION_EXT;;I
-cu	a	Lorg/lwjgl/opengl/EventQueue;
-cu	a	Lorg/lwjgl/opengl/FastIntMap$Entry;
-cu	a	Lorg/lwjgl/opengl/FastIntMap$EntryIterator;
-cu	a	Lorg/lwjgl/opengl/FastIntMap;
 c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 	m	<init>()V	<init>()V
 	m	glAccum(IF)V	glAccum(IF)V
@@ -85687,6 +86937,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 	m	nglCallLists(IIJJ)V	nglCallLists(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glCallList(I)V	glCallList(I)V
 		ma	0	0
 	m	glBlendFunc(II)V	glBlendFunc(II)V
@@ -85700,6 +86951,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	3	3
 		ma	4	4
 		ma	5	5
+		ma	6	6
 	m	glBitmap(IIFFFFJ)V	glBitmap(IIFFFFJ)V
 	m	glBindTexture(II)V	glBindTexture(II)V
 		ma	0	0
@@ -85710,12 +86962,14 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 	m	nglPrioritizeTextures(IJJJ)V	nglPrioritizeTextures(IJJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glAreTexturesResident(Ljava/nio/IntBuffer;Ljava/nio/ByteBuffer;)Z	glAreTexturesResident(Ljava/nio/IntBuffer;Ljava/nio/ByteBuffer;)Z
 		ma	0	0
 		ma	1	1
 	m	nglAreTexturesResident(IJJJ)Z	nglAreTexturesResident(IJJ)Z
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glBegin(I)V	glBegin(I)V
 		ma	0	0
 	m	glEnd()V	glEnd()V
@@ -85730,8 +86984,8 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	0	0
 	m	nglDeleteTextures(IJJ)V	nglDeleteTextures(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glDeleteTextures(I)V	glDeleteTextures(I)V
-		ma	0	0
 	m	glCullFace(I)V	glCullFace(I)V
 		ma	0	0
 	m	glCopyTexSubImage2D(IIIIIIII)V	glCopyTexSubImage2D(IIIIIIII)V
@@ -85773,13 +87027,11 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	glColorPointer(IILjava/nio/DoubleBuffer;)V
-	mu	a	glColorPointer(IILjava/nio/FloatBuffer;)V
-	mu	a	glColorPointer(IZILjava/nio/ByteBuffer;)V
 	m	nglColorPointer(IIIJJ)V	nglColorPointer(IIIJ)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	glColorPointer(IIIJ)V	glColorPointer(IIIJ)V
 		ma	0	0
 		ma	1	1
@@ -85838,6 +87090,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	1	1
 	m	nglClipPlane(IJJ)V	nglClipPlane(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glClearStencil(I)V	glClearStencil(I)V
 		ma	0	0
 	m	glEvalPoint1(I)V	glEvalPoint1(I)V
@@ -85878,6 +87131,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	1	1
 	m	nglEdgeFlagPointer(IJJ)V	nglEdgeFlagPointer(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glEdgeFlagPointer(IJ)V	glEdgeFlagPointer(IJ)V
 		ma	0	0
 	m	glEdgeFlag(Z)V	glEdgeFlag(Z)V
@@ -85905,6 +87159,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+		ma	4	4
 	m	glDrawPixels(IIIIJ)V	glDrawPixels(IIIIJ)V
 		ma	0	0
 		ma	1	1
@@ -85923,10 +87178,10 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	glDrawElements(IIIJ)V	glDrawElements(IIIJ)V
 		ma	0	0
 		ma	2	2
-	mu	a	glDrawElements(IIILjava/nio/ByteBuffer;)V
 	m	glDrawBuffer(I)V	glDrawBuffer(I)V
 		ma	0	0
 	m	glDrawArrays(III)V	glDrawArrays(III)V
@@ -85946,65 +87201,79 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 	m	nglFeedbackBuffer(IIJJ)V	nglFeedbackBuffer(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglGetPixelMapfv(IJJ)V	nglGetPixelMapfv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glGetPixelMapfv(IJ)V	glGetPixelMapfv(IJ)V
 		ma	0	0
 	m	nglGetPixelMapuiv(IJJ)V	nglGetPixelMapuiv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glGetPixelMapuiv(IJ)V	glGetPixelMapuiv(IJ)V
 		ma	0	0
 	m	nglGetPixelMapusv(IJJ)V	nglGetPixelMapusv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glGetPixelMapusv(IJ)V	glGetPixelMapusv(IJ)V
 		ma	0	0
 	m	nglGetMaterialfv(IIJJ)V	nglGetMaterialfv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglGetMaterialiv(IIJJ)V	nglGetMaterialiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglGetMapfv(IIJJ)V	nglGetMapfv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglGetMapdv(IIJJ)V	nglGetMapdv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglGetMapiv(IIJJ)V	nglGetMapiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglGetLightfv(IIJJ)V	nglGetLightfv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglGetLightiv(IIJJ)V	nglGetLightiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetError()I	glGetError()I
 	m	glGetClipPlane(ILjava/nio/DoubleBuffer;)V	glGetClipPlane(ILjava/nio/DoubleBuffer;)V
 		ma	0	0
 		ma	1	1
 	m	nglGetClipPlane(IJJ)V	nglGetClipPlane(IJ)V
 		ma	0	0
+		ma	1	1
 	m	nglGetBooleanv(IJJ)V	nglGetBooleanv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glGetBoolean(I)Z	glGetBoolean(I)Z
 		ma	0	0
 	m	nglGetDoublev(IJJ)V	nglGetDoublev(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glGetDouble(I)D	glGetDouble(I)D
-		ma	0	0
 	m	nglGetFloatv(IJJ)V	nglGetFloatv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glGetFloat(I)F	glGetFloat(I)F
-		ma	0	0
 	m	nglGetIntegerv(IJJ)V	nglGetIntegerv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glGetInteger(I)I	glGetInteger(I)I
-		ma	0	0
 	m	glGenTextures(Ljava/nio/IntBuffer;)V	glGenTextures(Ljava/nio/IntBuffer;)V
 		ma	0	0
 	m	nglGenTextures(IJJ)V	nglGenTextures(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glGenTextures()I	glGenTextures()I
 	m	glGenLists(I)I	glGenLists(I)I
 		ma	0	0
@@ -86025,14 +87294,17 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	1	1
 	m	nglFogfv(IJJ)V	nglFogfv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	nglFogiv(IJJ)V	nglFogiv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glFlush()V	glFlush()V
 	m	glFinish()V	glFinish()V
 	m	glGetPointer(IJ)Ljava/nio/ByteBuffer;	glGetPointer(I)J
 		ma	0	0
 	m	nglGetPointerv(IJJ)Ljava/nio/ByteBuffer;	nglGetPointerv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glIsEnabled(I)Z	glIsEnabled(I)Z
 		ma	0	0
 	m	glInterleavedArrays(IILjava/nio/ByteBuffer;)V	glInterleavedArrays(IILjava/nio/ByteBuffer;)V
@@ -86058,6 +87330,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 	m	nglInterleavedArrays(IIJJ)V	nglInterleavedArrays(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glInterleavedArrays(IIJ)V	glInterleavedArrays(IIJ)V
 		ma	0	0
 		ma	1	1
@@ -86068,30 +87341,30 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 	m	nglGetTexParameterfv(IIJJ)V	nglGetTexParameterfv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetTexParameterf(II)F	glGetTexParameterf(II)F
-		ma	0	0
 		ma	1	1
 	m	nglGetTexParameteriv(IIJJ)V	nglGetTexParameteriv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetTexParameteri(II)I	glGetTexParameteri(II)I
-		ma	0	0
 		ma	1	1
 	m	nglGetTexLevelParameterfv(IIIJJ)V	nglGetTexLevelParameterfv(IIIJ)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	glGetTexLevelParameterf(III)F	glGetTexLevelParameterf(III)F
 		ma	0	0
-		ma	1	1
 		ma	2	2
 	m	nglGetTexLevelParameteriv(IIIJJ)V	nglGetTexLevelParameteriv(IIIJ)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	glGetTexLevelParameteri(III)I	glGetTexLevelParameteri(III)I
 		ma	0	0
-		ma	1	1
 		ma	2	2
 	m	glGetTexImage(IIIILjava/nio/ByteBuffer;)V	glGetTexImage(IIIILjava/nio/ByteBuffer;)V
 		ma	1	1
@@ -86123,6 +87396,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+		ma	4	4
 	m	glGetTexImage(IIIIJ)V	glGetTexImage(IIIIJ)V
 		ma	1	1
 		ma	2	2
@@ -86130,29 +87404,31 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 	m	nglGetTexGeniv(IIJJ)V	nglGetTexGeniv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetTexGeni(II)I	glGetTexGeni(II)I
-		ma	0	0
 		ma	1	1
 	m	nglGetTexGenfv(IIJJ)V	nglGetTexGenfv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetTexGenf(II)F	glGetTexGenf(II)F
-		ma	0	0
 		ma	1	1
 	m	nglGetTexGendv(IIJJ)V	nglGetTexGendv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetTexGend(II)D	glGetTexGend(II)D
-		ma	0	0
 		ma	1	1
 	m	nglGetTexEnviv(IIJJ)V	nglGetTexEnviv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetTexEnvi(II)I	glGetTexEnvi(II)I
 		ma	1	1
 	m	nglGetTexEnvfv(IIJJ)V	nglGetTexEnvfv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetTexEnvf(II)F	glGetTexEnvf(II)F
 		ma	1	1
 	m	glGetString(I)Ljava/lang/String;	glGetString(I)Ljava/lang/String;
@@ -86161,6 +87437,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	0	0
 	m	glGetPolygonStipple(Ljava/nio/ByteBuffer;)V	glGetPolygonStipple(Ljava/nio/ByteBuffer;)V
 	m	nglGetPolygonStipple(JJ)V	nglGetPolygonStipple(J)V
+		ma	0	0
 	m	glGetPolygonStipple(J)V	glGetPolygonStipple(J)V
 	m	glIsList(I)Z	glIsList(I)Z
 		ma	0	0
@@ -86175,9 +87452,11 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 	m	nglMaterialfv(IIJJ)V	nglMaterialfv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglMaterialiv(IIJJ)V	nglMaterialiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glMapGrid1f(IFF)V	glMapGrid1f(IFF)V
 		ma	0	0
 		ma	1	1
@@ -86221,6 +87500,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	6	6
 		ma	7	7
 		ma	8	8
+		ma	9	9
 	m	glMap2d(IDDIIDDIILjava/nio/DoubleBuffer;)V	glMap2d(IDDIIDDIILjava/nio/DoubleBuffer;)V
 		ma	0	0
 		ma	1	1
@@ -86242,6 +87522,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	6	6
 		ma	7	7
 		ma	8	8
+		ma	9	9
 	m	glMap1f(IFFIILjava/nio/FloatBuffer;)V	glMap1f(IFFIILjava/nio/FloatBuffer;)V
 		ma	0	0
 		ma	1	1
@@ -86255,6 +87536,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	2	2
 		ma	3	3
 		ma	4	4
+		ma	5	5
 	m	glMap1d(IDDIILjava/nio/DoubleBuffer;)V	glMap1d(IDDIILjava/nio/DoubleBuffer;)V
 		ma	0	0
 		ma	1	1
@@ -86268,12 +87550,15 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	2	2
 		ma	3	3
 		ma	4	4
+		ma	5	5
 	m	glLogicOp(I)V	glLogicOp(I)V
 		ma	0	0
 	m	glLoadName(I)V	glLoadName(I)V
 		ma	0	0
 	m	nglLoadMatrixf(JJ)V	nglLoadMatrixf(J)V
+		ma	0	0
 	m	nglLoadMatrixd(JJ)V	nglLoadMatrixd(J)V
+		ma	0	0
 	m	glLoadIdentity()V	glLoadIdentity()V
 	m	glListBase(I)V	glListBase(I)V
 		ma	0	0
@@ -86290,8 +87575,10 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	1	1
 	m	nglLightModelfv(IJJ)V	nglLightModelfv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	nglLightModeliv(IJJ)V	nglLightModeliv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glLightf(IIF)V	glLightf(IIF)V
 		ma	0	0
 		ma	1	1
@@ -86303,15 +87590,18 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 	m	nglLightfv(IIJJ)V	nglLightfv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglLightiv(IIJJ)V	nglLightiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glIsTexture(I)Z	glIsTexture(I)Z
 		ma	0	0
 	m	glMatrixMode(I)V	glMatrixMode(I)V
 		ma	0	0
 	m	glPolygonStipple(Ljava/nio/ByteBuffer;)V	glPolygonStipple(Ljava/nio/ByteBuffer;)V
 	m	nglPolygonStipple(JJ)V	nglPolygonStipple(J)V
+		ma	0	0
 	m	glPolygonStipple(J)V	glPolygonStipple(J)V
 	m	glPolygonOffset(FF)V	glPolygonOffset(FF)V
 		ma	0	0
@@ -86338,16 +87628,19 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 	m	nglPixelMapfv(IIJJ)V	nglPixelMapfv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glPixelMapfv(IIJ)V	glPixelMapfv(IIJ)V
 		ma	0	0
 	m	nglPixelMapuiv(IIJJ)V	nglPixelMapuiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glPixelMapuiv(IIJ)V	glPixelMapuiv(IIJ)V
 		ma	0	0
 	m	nglPixelMapusv(IIJJ)V	nglPixelMapusv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glPixelMapusv(IIJ)V	glPixelMapusv(IIJ)V
 		ma	0	0
 	m	glPassThrough(F)V	glPassThrough(F)V
@@ -86359,13 +87652,10 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	glNormalPointer(ILjava/nio/ByteBuffer;)V
-	mu	a	glNormalPointer(ILjava/nio/DoubleBuffer;)V
-	mu	a	glNormalPointer(ILjava/nio/FloatBuffer;)V
-	mu	a	glNormalPointer(ILjava/nio/IntBuffer;)V
 	m	nglNormalPointer(IIJJ)V	nglNormalPointer(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glNormalPointer(IIJ)V	glNormalPointer(IIJ)V
 		ma	0	0
 		ma	1	1
@@ -86394,13 +87684,16 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	1	1
 	m	glEndList()V	glEndList()V
 	m	nglMultMatrixf(JJ)V	nglMultMatrixf(J)V
+		ma	0	0
 	m	nglMultMatrixd(JJ)V	nglMultMatrixd(J)V
+		ma	0	0
 	m	glShadeModel(I)V	glShadeModel(I)V
 		ma	0	0
 	m	glSelectBuffer(Ljava/nio/IntBuffer;)V	glSelectBuffer(Ljava/nio/IntBuffer;)V
 		ma	0	0
 	m	nglSelectBuffer(IJJ)V	nglSelectBuffer(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glScissor(IIII)V	glScissor(IIII)V
 		ma	0	0
 		ma	1	1
@@ -86449,7 +87742,6 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	4	4
 		ma	5	5
 		ma	6	6
-	mu	a	glReadPixels(IIIIIILjava/nio/DoubleBuffer;)V
 	m	glReadPixels(IIIIIILjava/nio/FloatBuffer;)V	glReadPixels(IIIIIILjava/nio/FloatBuffer;)V
 		ma	0	0
 		ma	1	1
@@ -86481,6 +87773,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	3	3
 		ma	4	4
 		ma	5	5
+		ma	6	6
 	m	glReadPixels(IIIIIIJ)V	glReadPixels(IIIIIIJ)V
 		ma	0	0
 		ma	1	1
@@ -86541,14 +87834,11 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	glVertexPointer(IILjava/nio/DoubleBuffer;)V
-	mu	a	glVertexPointer(IILjava/nio/FloatBuffer;)V
-	mu	a	glVertexPointer(IILjava/nio/IntBuffer;)V
-	mu	a	glVertexPointer(IILjava/nio/ShortBuffer;)V
 	m	nglVertexPointer(IIIJJ)V	nglVertexPointer(IIIJ)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	glVertexPointer(IIIJ)V	glVertexPointer(IIIJ)V
 		ma	0	0
 		ma	1	1
@@ -86655,6 +87945,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	4	4
 		ma	5	5
 		ma	6	6
+		ma	7	7
 	m	glTexImage1D(IIIIIIIJ)V	glTexImage1D(IIIIIIIJ)V
 		ma	0	0
 		ma	1	1
@@ -86722,6 +88013,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	5	5
 		ma	6	6
 		ma	7	7
+		ma	8	8
 	m	glTexImage2D(IIIIIIIIJ)V	glTexImage2D(IIIIIIIIJ)V
 		ma	0	0
 		ma	1	1
@@ -86778,6 +88070,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	3	3
 		ma	4	4
 		ma	5	5
+		ma	6	6
 	m	glTexSubImage1D(IIIIIIJ)V	glTexSubImage1D(IIIIIIJ)V
 		ma	0	0
 		ma	1	1
@@ -86844,6 +88137,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 		ma	5	5
 		ma	6	6
 		ma	7	7
+		ma	8	8
 	m	glTexSubImage2D(IIIIIIIIJ)V	glTexSubImage2D(IIIIIIIIJ)V
 		ma	0	0
 		ma	1	1
@@ -86864,9 +88158,11 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 	m	nglTexParameterfv(IIJJ)V	nglTexParameterfv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglTexParameteriv(IIJJ)V	nglTexParameteriv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glTexGenf(IIF)V	glTexGenf(IIF)V
 		ma	0	0
 		ma	1	1
@@ -86878,9 +88174,11 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 	m	nglTexGenfv(IIJJ)V	nglTexGenfv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglTexGendv(IIJJ)V	nglTexGendv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glTexGeni(III)V	glTexGeni(III)V
 		ma	0	0
 		ma	1	1
@@ -86888,6 +88186,7 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 	m	nglTexGeniv(IIJJ)V	nglTexGeniv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glTexEnvf(IIF)V	glTexEnvf(IIF)V
 		ma	0	0
 		ma	1	1
@@ -86899,17 +88198,16 @@ c	Lorg/lwjgl/opengl/GL11;	Lorg/lwjgl/opengl/GL11;
 	m	nglTexEnvfv(IIJJ)V	nglTexEnvfv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglTexEnviv(IIJJ)V	nglTexEnviv(IIJ)V
 		ma	0	0
 		ma	1	1
-	mu	a	glTexCoordPointer(IILjava/nio/DoubleBuffer;)V
-	mu	a	glTexCoordPointer(IILjava/nio/FloatBuffer;)V
-	mu	a	glTexCoordPointer(IILjava/nio/IntBuffer;)V
-	mu	a	glTexCoordPointer(IILjava/nio/ShortBuffer;)V
+		ma	2	2
 	m	nglTexCoordPointer(IIIJJ)V	nglTexCoordPointer(IIIJ)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	glTexCoordPointer(IIIJ)V	glTexCoordPointer(IIIJ)V
 		ma	0	0
 		ma	1	1
@@ -87505,6 +88803,7 @@ c	Lorg/lwjgl/opengl/GL13;	Lorg/lwjgl/opengl/GL13;
 		ma	3	3
 		ma	4	4
 		ma	5	5
+		ma	6	6
 	m	glCompressedTexImage1D(IIIIIIJ)V	glCompressedTexImage1D(IIIIIIJ)V
 		ma	0	0
 		ma	1	1
@@ -87527,6 +88826,7 @@ c	Lorg/lwjgl/opengl/GL13;	Lorg/lwjgl/opengl/GL13;
 		ma	4	4
 		ma	5	5
 		ma	6	6
+		ma	7	7
 	m	glCompressedTexImage2D(IIIIIIIJ)V	glCompressedTexImage2D(IIIIIIIJ)V
 		ma	0	0
 		ma	1	1
@@ -87552,6 +88852,7 @@ c	Lorg/lwjgl/opengl/GL13;	Lorg/lwjgl/opengl/GL13;
 		ma	5	5
 		ma	6	6
 		ma	7	7
+		ma	8	8
 	m	glCompressedTexImage3D(IIIIIIIIJ)V	glCompressedTexImage3D(IIIIIIIIJ)V
 		ma	0	0
 		ma	1	1
@@ -87574,6 +88875,7 @@ c	Lorg/lwjgl/opengl/GL13;	Lorg/lwjgl/opengl/GL13;
 		ma	3	3
 		ma	4	4
 		ma	5	5
+		ma	6	6
 	m	glCompressedTexSubImage1D(IIIIIIJ)V	glCompressedTexSubImage1D(IIIIIIJ)V
 		ma	0	0
 		ma	1	1
@@ -87598,6 +88900,7 @@ c	Lorg/lwjgl/opengl/GL13;	Lorg/lwjgl/opengl/GL13;
 		ma	5	5
 		ma	6	6
 		ma	7	7
+		ma	8	8
 	m	glCompressedTexSubImage2D(IIIIIIIIJ)V	glCompressedTexSubImage2D(IIIIIIIIJ)V
 		ma	0	0
 		ma	1	1
@@ -87628,6 +88931,7 @@ c	Lorg/lwjgl/opengl/GL13;	Lorg/lwjgl/opengl/GL13;
 		ma	7	7
 		ma	8	8
 		ma	9	9
+		ma	10	10
 	m	glCompressedTexSubImage3D(IIIIIIIIIIJ)V	glCompressedTexSubImage3D(IIIIIIIIIIJ)V
 		ma	0	0
 		ma	1	1
@@ -87643,6 +88947,7 @@ c	Lorg/lwjgl/opengl/GL13;	Lorg/lwjgl/opengl/GL13;
 	m	nglGetCompressedTexImage(IIJJ)V	nglGetCompressedTexImage(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetCompressedTexImage(IIJ)V	glGetCompressedTexImage(IIJ)V
 		ma	0	0
 	m	glMultiTexCoord1f(IF)V	glMultiTexCoord1f(IF)V
@@ -87682,9 +88987,13 @@ c	Lorg/lwjgl/opengl/GL13;	Lorg/lwjgl/opengl/GL13;
 		ma	3	3
 		ma	4	4
 	m	nglLoadTransposeMatrixf(JJ)V	nglLoadTransposeMatrixf(J)V
+		ma	0	0
 	m	nglLoadTransposeMatrixd(JJ)V	nglLoadTransposeMatrixd(J)V
+		ma	0	0
 	m	nglMultTransposeMatrixf(JJ)V	nglMultTransposeMatrixf(J)V
+		ma	0	0
 	m	nglMultTransposeMatrixd(JJ)V	nglMultTransposeMatrixd(J)V
+		ma	0	0
 	m	glSampleCoverage(FZ)V	glSampleCoverage(FZ)V
 		ma	0	0
 		ma	1	1
@@ -87800,6 +89109,7 @@ c	Lorg/lwjgl/opengl/GL14;	Lorg/lwjgl/opengl/GL14;
 	m	nglFogCoordPointer(IIJJ)V	nglFogCoordPointer(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glFogCoordPointer(IIJ)V	glFogCoordPointer(IIJ)V
 		ma	0	0
 		ma	1	1
@@ -87818,8 +89128,10 @@ c	Lorg/lwjgl/opengl/GL14;	Lorg/lwjgl/opengl/GL14;
 		ma	1	1
 	m	nglPointParameteriv(IJJ)V	nglPointParameteriv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	nglPointParameterfv(IJJ)V	nglPointParameterfv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glSecondaryColor3b(BBB)V	glSecondaryColor3b(BBB)V
 		ma	0	0
 		ma	1	1
@@ -87840,6 +89152,7 @@ c	Lorg/lwjgl/opengl/GL14;	Lorg/lwjgl/opengl/GL14;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	glSecondaryColorPointer(IIIJ)V	glSecondaryColorPointer(IIIJ)V
 		ma	0	0
 		ma	1	1
@@ -87923,11 +89236,13 @@ c	Lorg/lwjgl/opengl/GL15;	Lorg/lwjgl/opengl/GL15;
 		ma	0	0
 	m	nglDeleteBuffers(IJJ)V	nglDeleteBuffers(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glDeleteBuffers(I)V	glDeleteBuffers(I)V
 	m	glGenBuffers(Ljava/nio/IntBuffer;)V	glGenBuffers(Ljava/nio/IntBuffer;)V
 		ma	0	0
 	m	nglGenBuffers(IJJ)V	nglGenBuffers(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glGenBuffers()I	glGenBuffers()I
 	m	glIsBuffer(I)Z	glIsBuffer(I)Z
 		ma	0	0
@@ -87983,6 +89298,7 @@ c	Lorg/lwjgl/opengl/GL15;	Lorg/lwjgl/opengl/GL15;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	glGetBufferSubData(IJLjava/nio/ByteBuffer;)V	glGetBufferSubData(IJLjava/nio/ByteBuffer;)V
 		ma	0	0
 		ma	1	1
@@ -88007,6 +89323,7 @@ c	Lorg/lwjgl/opengl/GL15;	Lorg/lwjgl/opengl/GL15;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	glMapBuffer(IILjava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;	glMapBuffer(IILjava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 		ma	0	0
 		ma	1	1
@@ -88024,6 +89341,7 @@ c	Lorg/lwjgl/opengl/GL15;	Lorg/lwjgl/opengl/GL15;
 	m	nglGetBufferParameteriv(IIJJ)V	nglGetBufferParameteriv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetBufferParameteri(II)I	glGetBufferParameteri(II)I
 		ma	1	1
 	m	glGetBufferPointer(II)Ljava/nio/ByteBuffer;	glGetBufferPointer(II)J
@@ -88032,15 +89350,18 @@ c	Lorg/lwjgl/opengl/GL15;	Lorg/lwjgl/opengl/GL15;
 	m	nglGetBufferPointerv(IIJJ)Ljava/nio/ByteBuffer;	nglGetBufferPointerv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGenQueries(Ljava/nio/IntBuffer;)V	glGenQueries(Ljava/nio/IntBuffer;)V
 		ma	0	0
 	m	nglGenQueries(IJJ)V	nglGenQueries(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glGenQueries()I	glGenQueries()I
 	m	glDeleteQueries(Ljava/nio/IntBuffer;)V	glDeleteQueries(Ljava/nio/IntBuffer;)V
 		ma	0	0
 	m	nglDeleteQueries(IJJ)V	nglDeleteQueries(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glDeleteQueries(I)V	glDeleteQueries(I)V
 	m	glIsQuery(I)Z	glIsQuery(I)Z
 		ma	0	0
@@ -88052,16 +89373,19 @@ c	Lorg/lwjgl/opengl/GL15;	Lorg/lwjgl/opengl/GL15;
 	m	nglGetQueryiv(IIJJ)V	nglGetQueryiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetQueryi(II)I	glGetQueryi(II)I
 		ma	1	1
 	m	nglGetQueryObjectiv(IIJJ)V	nglGetQueryObjectiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetQueryObjecti(II)I	glGetQueryObjecti(II)I
 		ma	1	1
 	m	nglGetQueryObjectuiv(IIJJ)V	nglGetQueryObjectuiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetQueryObjectui(II)I	glGetQueryObjectui(II)I
 		ma	1	1
 	f	GL_ARRAY_BUFFER;;I	GL_ARRAY_BUFFER;;I
@@ -88120,7 +89444,6 @@ c	Lorg/lwjgl/opengl/GL20;	Lorg/lwjgl/opengl/GL20;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-		ma	4	3
 	m	glShaderSource(ILjava/lang/CharSequence;)V	glShaderSource(ILjava/lang/CharSequence;)V
 		ma	0	0
 	m	glShaderSource(I[Ljava/lang/CharSequence;)V	glShaderSource(I[Ljava/lang/CharSequence;)V
@@ -88189,47 +89512,60 @@ c	Lorg/lwjgl/opengl/GL20;	Lorg/lwjgl/opengl/GL20;
 	m	nglUniform1fv(IIJJ)V	nglUniform1fv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglUniform2fv(IIJJ)V	nglUniform2fv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglUniform3fv(IIJJ)V	nglUniform3fv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglUniform4fv(IIJJ)V	nglUniform4fv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglUniform1iv(IIJJ)V	nglUniform1iv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglUniform2iv(IIJJ)V	nglUniform2iv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglUniform3iv(IIJJ)V	nglUniform3iv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglUniform4iv(IIJJ)V	nglUniform4iv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglUniformMatrix2fv(IIZJJ)V	nglUniformMatrix2fv(IIZJ)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	nglUniformMatrix3fv(IIZJJ)V	nglUniformMatrix3fv(IIZJ)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	nglUniformMatrix4fv(IIZJJ)V	nglUniformMatrix4fv(IIZJ)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	nglGetShaderiv(IIJJ)V	nglGetShaderiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetShaderi(II)I	glGetShaderi(II)I
 		ma	1	1
 	m	nglGetProgramiv(IIJJ)V	nglGetProgramiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetProgrami(II)I	glGetProgrami(II)I
 		ma	1	1
 	m	glGetShaderInfoLog(ILjava/nio/IntBuffer;Ljava/nio/ByteBuffer;)V	glGetShaderInfoLog(ILjava/nio/IntBuffer;Ljava/nio/ByteBuffer;)V
@@ -88240,6 +89576,7 @@ c	Lorg/lwjgl/opengl/GL20;	Lorg/lwjgl/opengl/GL20;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	glGetShaderInfoLog(II)Ljava/lang/String;	glGetShaderInfoLog(II)Ljava/lang/String;
 		ma	0	0
 		ma	1	1
@@ -88251,6 +89588,7 @@ c	Lorg/lwjgl/opengl/GL20;	Lorg/lwjgl/opengl/GL20;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	glGetProgramInfoLog(II)Ljava/lang/String;	glGetProgramInfoLog(II)Ljava/lang/String;
 		ma	0	0
 		ma	1	1
@@ -88262,11 +89600,13 @@ c	Lorg/lwjgl/opengl/GL20;	Lorg/lwjgl/opengl/GL20;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	glGetUniformLocation(ILjava/nio/ByteBuffer;)I	glGetUniformLocation(ILjava/nio/ByteBuffer;)I
 		ma	0	0
 		ma	1	1
 	m	nglGetUniformLocation(IJJ)I	nglGetUniformLocation(IJ)I
 		ma	0	0
+		ma	1	1
 	m	glGetUniformLocation(ILjava/lang/CharSequence;)I	glGetUniformLocation(ILjava/lang/CharSequence;)I
 		ma	0	0
 		ma	1	1
@@ -88288,9 +89628,11 @@ c	Lorg/lwjgl/opengl/GL20;	Lorg/lwjgl/opengl/GL20;
 	m	nglGetUniformfv(IIJJ)V	nglGetUniformfv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglGetUniformiv(IIJJ)V	nglGetUniformiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetShaderSource(ILjava/nio/IntBuffer;Ljava/nio/ByteBuffer;)V	glGetShaderSource(ILjava/nio/IntBuffer;Ljava/nio/ByteBuffer;)V
 		ma	0	0
 		ma	1	1
@@ -88299,6 +89641,7 @@ c	Lorg/lwjgl/opengl/GL20;	Lorg/lwjgl/opengl/GL20;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	glGetShaderSource(II)Ljava/lang/String;	glGetShaderSource(II)Ljava/lang/String;
 		ma	0	0
 		ma	1	1
@@ -88368,6 +89711,7 @@ c	Lorg/lwjgl/opengl/GL20;	Lorg/lwjgl/opengl/GL20;
 		ma	2	2
 		ma	3	3
 		ma	4	4
+		ma	5	5
 	m	glVertexAttribPointer(IIIZIJ)V	glVertexAttribPointer(IIIZIJ)V
 		ma	0	0
 		ma	1	1
@@ -88387,15 +89731,19 @@ c	Lorg/lwjgl/opengl/GL20;	Lorg/lwjgl/opengl/GL20;
 	m	nglGetVertexAttribfv(IIJJ)V	nglGetVertexAttribfv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglGetVertexAttribdv(IIJJ)V	nglGetVertexAttribdv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglGetVertexAttribiv(IIJJ)V	nglGetVertexAttribiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglGetVertexAttribPointerv(IIJJ)Ljava/nio/ByteBuffer;	nglGetVertexAttribPointerv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetVertexAttribPointer(IILjava/nio/ByteBuffer;)V	glGetVertexAttribPointer(II)J
 		ma	1	1
 	m	glBindAttribLocation(IILjava/nio/ByteBuffer;)V	glBindAttribLocation(IILjava/nio/ByteBuffer;)V
@@ -88405,6 +89753,7 @@ c	Lorg/lwjgl/opengl/GL20;	Lorg/lwjgl/opengl/GL20;
 	m	nglBindAttribLocation(IIJJ)V	nglBindAttribLocation(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glBindAttribLocation(IILjava/lang/CharSequence;)V	glBindAttribLocation(IILjava/lang/CharSequence;)V
 		ma	0	0
 		ma	1	1
@@ -88428,12 +89777,14 @@ c	Lorg/lwjgl/opengl/GL20;	Lorg/lwjgl/opengl/GL20;
 		ma	1	1
 	m	nglGetAttribLocation(IJJ)I	nglGetAttribLocation(IJ)I
 		ma	0	0
+		ma	1	1
 	m	glGetAttribLocation(ILjava/lang/CharSequence;)I	glGetAttribLocation(ILjava/lang/CharSequence;)I
 		ma	0	0
 		ma	1	1
 	m	glDrawBuffers(Ljava/nio/IntBuffer;)V	glDrawBuffers(Ljava/nio/IntBuffer;)V
 	m	nglDrawBuffers(IJJ)V	nglDrawBuffers(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glDrawBuffers(I)V	glDrawBuffers(I)V
 	m	glStencilOpSeparate(IIII)V	glStencilOpSeparate(IIII)V
 		ma	0	0
@@ -88546,12 +89897,15 @@ c	Lorg/lwjgl/opengl/GL30;	Lorg/lwjgl/opengl/GL30;
 	m	nglClearBufferfv(IIJJ)V	nglClearBufferfv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglClearBufferiv(IIJJ)V	nglClearBufferiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglClearBufferuiv(IIJJ)V	nglClearBufferuiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glClearBufferfi(IIFI)V	glClearBufferfi(IIFI)V
 		ma	0	0
 		ma	1	1
@@ -88595,28 +89949,40 @@ c	Lorg/lwjgl/opengl/GL30;	Lorg/lwjgl/opengl/GL30;
 		ma	4	4
 	m	nglVertexAttribI1iv(IJJ)V	nglVertexAttribI1iv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	nglVertexAttribI2iv(IJJ)V	nglVertexAttribI2iv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	nglVertexAttribI3iv(IJJ)V	nglVertexAttribI3iv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	nglVertexAttribI4iv(IJJ)V	nglVertexAttribI4iv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	nglVertexAttribI1uiv(IJJ)V	nglVertexAttribI1uiv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	nglVertexAttribI2uiv(IJJ)V	nglVertexAttribI2uiv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	nglVertexAttribI3uiv(IJJ)V	nglVertexAttribI3uiv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	nglVertexAttribI4uiv(IJJ)V	nglVertexAttribI4uiv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	nglVertexAttribI4bv(IJJ)V	nglVertexAttribI4bv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	nglVertexAttribI4sv(IJJ)V	nglVertexAttribI4sv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	nglVertexAttribI4ubv(IJJ)V	nglVertexAttribI4ubv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	nglVertexAttribI4usv(IJJ)V	nglVertexAttribI4usv(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glVertexAttribIPointer(IIIILjava/nio/ByteBuffer;)V	glVertexAttribIPointer(IIIILjava/nio/ByteBuffer;)V
 		ma	0	0
 		ma	1	1
@@ -88637,6 +90003,7 @@ c	Lorg/lwjgl/opengl/GL30;	Lorg/lwjgl/opengl/GL30;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+		ma	4	4
 	m	glVertexAttribIPointer(IIIIJ)V	glVertexAttribIPointer(IIIIJ)V
 		ma	0	0
 		ma	1	1
@@ -88645,9 +90012,11 @@ c	Lorg/lwjgl/opengl/GL30;	Lorg/lwjgl/opengl/GL30;
 	m	nglGetVertexAttribIiv(IIJJ)V	nglGetVertexAttribIiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglGetVertexAttribIuiv(IIJJ)V	nglGetVertexAttribIuiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glUniform1ui(II)V	glUniform1ui(II)V
 		ma	0	0
 		ma	1	1
@@ -88669,18 +90038,23 @@ c	Lorg/lwjgl/opengl/GL30;	Lorg/lwjgl/opengl/GL30;
 	m	nglUniform1uiv(IIJJ)V	nglUniform1uiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglUniform2uiv(IIJJ)V	nglUniform2uiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglUniform3uiv(IIJJ)V	nglUniform3uiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglUniform4uiv(IIJJ)V	nglUniform4uiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglGetUniformuiv(IIJJ)V	nglGetUniformuiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glBindFragDataLocation(IILjava/nio/ByteBuffer;)V	glBindFragDataLocation(IILjava/nio/ByteBuffer;)V
 		ma	0	0
 		ma	1	1
@@ -88688,6 +90062,7 @@ c	Lorg/lwjgl/opengl/GL30;	Lorg/lwjgl/opengl/GL30;
 	m	nglBindFragDataLocation(IIJJ)V	nglBindFragDataLocation(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glBindFragDataLocation(IILjava/lang/CharSequence;)V	glBindFragDataLocation(IILjava/lang/CharSequence;)V
 		ma	0	0
 		ma	1	1
@@ -88696,6 +90071,7 @@ c	Lorg/lwjgl/opengl/GL30;	Lorg/lwjgl/opengl/GL30;
 		ma	1	1
 	m	nglGetFragDataLocation(IJJ)I	nglGetFragDataLocation(IJ)I
 		ma	0	0
+		ma	1	1
 	m	glGetFragDataLocation(ILjava/lang/CharSequence;)I	glGetFragDataLocation(ILjava/lang/CharSequence;)I
 		ma	0	0
 		ma	1	1
@@ -88730,11 +90106,13 @@ c	Lorg/lwjgl/opengl/GL30;	Lorg/lwjgl/opengl/GL30;
 		ma	0	0
 	m	nglDeleteRenderbuffers(IJJ)V	nglDeleteRenderbuffers(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glDeleteRenderbuffers(I)V	glDeleteRenderbuffers(I)V
 	m	glGenRenderbuffers(Ljava/nio/IntBuffer;)V	glGenRenderbuffers(Ljava/nio/IntBuffer;)V
 		ma	0	0
 	m	nglGenRenderbuffers(IJJ)V	nglGenRenderbuffers(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glGenRenderbuffers()I	glGenRenderbuffers()I
 	m	glRenderbufferStorage(IIII)V	glRenderbufferStorage(IIII)V
 		ma	0	0
@@ -88744,6 +90122,7 @@ c	Lorg/lwjgl/opengl/GL30;	Lorg/lwjgl/opengl/GL30;
 	m	nglGetRenderbufferParameteriv(IIJJ)V	nglGetRenderbufferParameteriv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetRenderbufferParameteri(II)I	glGetRenderbufferParameteri(II)I
 		ma	1	1
 	m	glIsFramebuffer(I)Z	glIsFramebuffer(I)Z
@@ -88755,11 +90134,13 @@ c	Lorg/lwjgl/opengl/GL30;	Lorg/lwjgl/opengl/GL30;
 		ma	0	0
 	m	nglDeleteFramebuffers(IJJ)V	nglDeleteFramebuffers(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glDeleteFramebuffers(I)V	glDeleteFramebuffers(I)V
 	m	glGenFramebuffers(Ljava/nio/IntBuffer;)V	glGenFramebuffers(Ljava/nio/IntBuffer;)V
 		ma	0	0
 	m	nglGenFramebuffers(IJJ)V	nglGenFramebuffers(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glGenFramebuffers()I	glGenFramebuffers()I
 	m	glCheckFramebufferStatus(I)I	glCheckFramebufferStatus(I)I
 		ma	0	0
@@ -88791,6 +90172,7 @@ c	Lorg/lwjgl/opengl/GL30;	Lorg/lwjgl/opengl/GL30;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+		ma	3	3
 	m	glGetFramebufferAttachmentParameteri(III)I	glGetFramebufferAttachmentParameteri(III)I
 		ma	0	0
 		ma	2	2
@@ -88816,21 +90198,25 @@ c	Lorg/lwjgl/opengl/GL30;	Lorg/lwjgl/opengl/GL30;
 	m	nglTexParameterIiv(IIJJ)V	nglTexParameterIiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glTexParameterIi(III)V	glTexParameterIi(III)V
 		ma	1	1
 	m	nglTexParameterIuiv(IIJJ)V	nglTexParameterIuiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glTexParameterIui(III)V	glTexParameterIui(III)V
 		ma	1	1
 	m	nglGetTexParameterIiv(IIJJ)V	nglGetTexParameterIiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetTexParameterIi(II)I	glGetTexParameterIi(II)I
 		ma	1	1
 	m	nglGetTexParameterIuiv(IIJJ)V	nglGetTexParameterIuiv(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glGetTexParameterIui(II)I	glGetTexParameterIui(II)I
 		ma	1	1
 	m	glFramebufferTextureLayer(IIIII)V	glFramebufferTextureLayer(IIIII)V
@@ -88848,9 +90234,11 @@ c	Lorg/lwjgl/opengl/GL30;	Lorg/lwjgl/opengl/GL30;
 	m	nglGetBooleani_v(IIJJ)V	nglGetBooleani_v(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	nglGetIntegeri_v(IIJJ)V	nglGetIntegeri_v(IIJ)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 	m	glEnablei(II)V	glEnablei(II)V
 		ma	0	0
 		ma	1	1
@@ -88876,6 +90264,7 @@ c	Lorg/lwjgl/opengl/GL30;	Lorg/lwjgl/opengl/GL30;
 	m	nglTransformFeedbackVaryings(IIJIJ)V	nglTransformFeedbackVaryings(IIJI)V
 		ma	0	0
 		ma	1	1
+		ma	2	2
 		ma	3	3
 	m	glTransformFeedbackVaryings(I[Ljava/lang/CharSequence;I)V	glTransformFeedbackVaryings(I[Ljava/lang/CharSequence;I)V
 		ma	2	2
@@ -88905,11 +90294,13 @@ c	Lorg/lwjgl/opengl/GL30;	Lorg/lwjgl/opengl/GL30;
 		ma	0	0
 	m	nglDeleteVertexArrays(IJJ)V	nglDeleteVertexArrays(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glDeleteVertexArrays(I)V	glDeleteVertexArrays(I)V
 	m	glGenVertexArrays(Ljava/nio/IntBuffer;)V	glGenVertexArrays(Ljava/nio/IntBuffer;)V
 		ma	0	0
 	m	nglGenVertexArrays(IJJ)V	nglGenVertexArrays(IJ)V
 		ma	0	0
+		ma	1	1
 	m	glGenVertexArrays()I	glGenVertexArrays()I
 	m	glIsVertexArray(I)Z	glIsVertexArray(I)Z
 		ma	0	0
@@ -89134,140 +90525,13 @@ c	Lorg/lwjgl/opengl/GL30;	Lorg/lwjgl/opengl/GL30;
 	f	GL_TRANSFORM_FEEDBACK_VARYING_MAX_LENGTH;;I	GL_TRANSFORM_FEEDBACK_VARYING_MAX_LENGTH;;I
 	f	GL_VERTEX_ARRAY_BINDING;;I	GL_VERTEX_ARRAY_BINDING;;I
 	f	GL_FRAMEBUFFER_SRGB;;I	GL_FRAMEBUFFER_SRGB;;I
-cu	a	Lorg/lwjgl/opengl/GLChecks;
-cu	a	Lorg/lwjgl/opengl/GLContext$1;
-cu	a	Lorg/lwjgl/opengl/GLContext$2;
-cu	a	Lorg/lwjgl/opengl/GLContext$CapabilitiesCacheEntry;
-cu	a	Lorg/lwjgl/opengl/GLContext;
-cu	a	Lorg/lwjgl/opengl/GlobalLock;
-cu	a	Lorg/lwjgl/opengl/InputImplementation;
-cu	a	Lorg/lwjgl/opengl/KeyboardEventQueue;
-cu	a	Lorg/lwjgl/opengl/LinuxAWTGLCanvasPeerInfo;
-cu	a	Lorg/lwjgl/opengl/LinuxCanvasImplementation$1;
-cu	a	Lorg/lwjgl/opengl/LinuxCanvasImplementation$2;
-cu	a	Lorg/lwjgl/opengl/LinuxCanvasImplementation;
-cu	a	Lorg/lwjgl/opengl/LinuxContextImplementation;
-cu	a	Lorg/lwjgl/opengl/LinuxDisplay$1;
-cu	a	Lorg/lwjgl/opengl/LinuxDisplay$2;
-cu	a	Lorg/lwjgl/opengl/LinuxDisplay$3;
-cu	a	Lorg/lwjgl/opengl/LinuxDisplay$4;
-cu	a	Lorg/lwjgl/opengl/LinuxDisplay$Compiz$1$1;
-cu	a	Lorg/lwjgl/opengl/LinuxDisplay$Compiz$1$2;
-cu	a	Lorg/lwjgl/opengl/LinuxDisplay$Compiz$1;
-cu	a	Lorg/lwjgl/opengl/LinuxDisplay$Compiz$2;
-cu	a	Lorg/lwjgl/opengl/LinuxDisplay$Compiz$Provider;
-cu	a	Lorg/lwjgl/opengl/LinuxDisplay$Compiz;
-cu	a	Lorg/lwjgl/opengl/LinuxDisplay;
-cu	a	Lorg/lwjgl/opengl/LinuxDisplayPeerInfo;
-cu	a	Lorg/lwjgl/opengl/LinuxEvent;
-cu	a	Lorg/lwjgl/opengl/LinuxKeyboard;
-cu	a	Lorg/lwjgl/opengl/LinuxKeycodes;
-cu	a	Lorg/lwjgl/opengl/LinuxMouse;
-cu	a	Lorg/lwjgl/opengl/LinuxPbufferPeerInfo;
-cu	a	Lorg/lwjgl/opengl/LinuxPeerInfo;
-cu	a	Lorg/lwjgl/opengl/MacOSXAWTGLCanvasPeerInfo;
-cu	a	Lorg/lwjgl/opengl/MacOSXCanvasImplementation;
-cu	a	Lorg/lwjgl/opengl/MacOSXCanvasPeerInfo$1;
-cu	a	Lorg/lwjgl/opengl/MacOSXCanvasPeerInfo;
-cu	a	Lorg/lwjgl/opengl/MacOSXContextImplementation;
-cu	a	Lorg/lwjgl/opengl/MacOSXDisplay;
-cu	a	Lorg/lwjgl/opengl/MacOSXDisplayPeerInfo;
-cu	a	Lorg/lwjgl/opengl/MacOSXMouseEventQueue;
-cu	a	Lorg/lwjgl/opengl/MacOSXNativeKeyboard;
-cu	a	Lorg/lwjgl/opengl/MacOSXNativeMouse;
-cu	a	Lorg/lwjgl/opengl/MacOSXPbufferPeerInfo;
-cu	a	Lorg/lwjgl/opengl/MacOSXPeerInfo;
-cu	a	Lorg/lwjgl/opengl/MouseEventQueue;
-cu	a	Lorg/lwjgl/opengl/OpenGLException;
-cu	a	Lorg/lwjgl/opengl/PeerInfo;
-cu	a	Lorg/lwjgl/opengl/PixelFormat;
-cu	a	Lorg/lwjgl/opengl/PixelFormatLWJGL;
-cu	a	Lorg/lwjgl/opengl/References;
-cu	a	Lorg/lwjgl/opengl/ReferencesStack;
-cu	a	Lorg/lwjgl/opengl/StateStack;
-cu	a	Lorg/lwjgl/opengl/StateTracker$1;
-cu	a	Lorg/lwjgl/opengl/StateTracker$VAOState;
-cu	a	Lorg/lwjgl/opengl/StateTracker;
-cu	a	Lorg/lwjgl/opengl/Sync$1;
-cu	a	Lorg/lwjgl/opengl/Sync$RunningAvg;
-cu	a	Lorg/lwjgl/opengl/Sync;
-cu	a	Lorg/lwjgl/opengl/Util;
-cu	a	Lorg/lwjgl/opengl/WindowsAWTGLCanvasPeerInfo;
-cu	a	Lorg/lwjgl/opengl/WindowsCanvasImplementation$1;
-cu	a	Lorg/lwjgl/opengl/WindowsCanvasImplementation;
-cu	a	Lorg/lwjgl/opengl/WindowsContextImplementation;
-cu	a	Lorg/lwjgl/opengl/WindowsDisplay$1;
-cu	a	Lorg/lwjgl/opengl/WindowsDisplay$2;
-cu	a	Lorg/lwjgl/opengl/WindowsDisplay$3;
-cu	a	Lorg/lwjgl/opengl/WindowsDisplay$Rect;
-cu	a	Lorg/lwjgl/opengl/WindowsDisplay;
-cu	a	Lorg/lwjgl/opengl/WindowsDisplayPeerInfo;
-cu	a	Lorg/lwjgl/opengl/WindowsFileVersion;
-cu	a	Lorg/lwjgl/opengl/WindowsKeyboard;
-cu	a	Lorg/lwjgl/opengl/WindowsKeycodes;
-cu	a	Lorg/lwjgl/opengl/WindowsMouse;
-cu	a	Lorg/lwjgl/opengl/WindowsPbufferPeerInfo;
-cu	a	Lorg/lwjgl/opengl/WindowsPeerInfo;
-cu	a	Lorg/lwjgl/opengl/WindowsRegistry;
-cu	a	Lorg/lwjgl/opengl/XRandR$Screen;
-cu	a	Lorg/lwjgl/opengl/XRandR;
-cu	a	Lorg/lwjgl/opengles/ContextAttribs;
-cu	a	Lorg/lwjgl/util/glu/GLU;
-cu	a	Lorg/lwjgl/util/glu/GLUtessellator;
-cu	a	Lorg/lwjgl/util/glu/GLUtessellatorCallback;
-cu	a	Lorg/lwjgl/util/glu/GLUtessellatorCallbackAdapter;
-cu	a	Lorg/lwjgl/util/glu/MipMap;
-cu	a	Lorg/lwjgl/util/glu/PixelStoreState;
-cu	a	Lorg/lwjgl/util/glu/Project;
-cu	a	Lorg/lwjgl/util/glu/Registry;
-cu	a	Lorg/lwjgl/util/glu/Util;
-cu	a	Lorg/lwjgl/util/glu/tessellation/ActiveRegion;
-cu	a	Lorg/lwjgl/util/glu/tessellation/CachedVertex;
-cu	a	Lorg/lwjgl/util/glu/tessellation/Dict$DictLeq;
-cu	a	Lorg/lwjgl/util/glu/tessellation/Dict;
-cu	a	Lorg/lwjgl/util/glu/tessellation/DictNode;
-cu	a	Lorg/lwjgl/util/glu/tessellation/GLUface;
-cu	a	Lorg/lwjgl/util/glu/tessellation/GLUhalfEdge;
-cu	a	Lorg/lwjgl/util/glu/tessellation/GLUmesh;
-cu	a	Lorg/lwjgl/util/glu/tessellation/GLUtessellatorImpl;
-cu	a	Lorg/lwjgl/util/glu/tessellation/GLUvertex;
-cu	a	Lorg/lwjgl/util/glu/tessellation/Geom;
-cu	a	Lorg/lwjgl/util/glu/tessellation/Mesh;
-cu	a	Lorg/lwjgl/util/glu/tessellation/Normal;
-cu	a	Lorg/lwjgl/util/glu/tessellation/PriorityQ$Leq;
-cu	a	Lorg/lwjgl/util/glu/tessellation/PriorityQ$PQhandleElem;
-cu	a	Lorg/lwjgl/util/glu/tessellation/PriorityQ$PQnode;
-cu	a	Lorg/lwjgl/util/glu/tessellation/PriorityQ;
-cu	a	Lorg/lwjgl/util/glu/tessellation/PriorityQHeap;
-cu	a	Lorg/lwjgl/util/glu/tessellation/PriorityQSort$1;
-cu	a	Lorg/lwjgl/util/glu/tessellation/PriorityQSort$Stack;
-cu	a	Lorg/lwjgl/util/glu/tessellation/PriorityQSort;
-cu	a	Lorg/lwjgl/util/glu/tessellation/Render$1;
-cu	a	Lorg/lwjgl/util/glu/tessellation/Render$FaceCount;
-cu	a	Lorg/lwjgl/util/glu/tessellation/Render$RenderFan;
-cu	a	Lorg/lwjgl/util/glu/tessellation/Render$RenderStrip;
-cu	a	Lorg/lwjgl/util/glu/tessellation/Render$RenderTriangle;
-cu	a	Lorg/lwjgl/util/glu/tessellation/Render$renderCallBack;
-cu	a	Lorg/lwjgl/util/glu/tessellation/Render;
-cu	a	Lorg/lwjgl/util/glu/tessellation/Sweep$1;
-cu	a	Lorg/lwjgl/util/glu/tessellation/Sweep$2;
-cu	a	Lorg/lwjgl/util/glu/tessellation/Sweep;
-cu	a	Lorg/lwjgl/util/glu/tessellation/TessMono;
-cu	a	Lorg/lwjgl/util/vector/Matrix3f;
-cu	a	Lorg/lwjgl/util/vector/Matrix4f;
-cu	a	Lorg/lwjgl/util/vector/Matrix;
-cu	a	Lorg/lwjgl/util/vector/Quaternion;
-cu	a	Lorg/lwjgl/util/vector/ReadableVector2f;
-cu	a	Lorg/lwjgl/util/vector/ReadableVector3f;
-cu	a	Lorg/lwjgl/util/vector/ReadableVector4f;
-cu	a	Lorg/lwjgl/util/vector/ReadableVector;
-cu	a	Lorg/lwjgl/util/vector/Vector2f;
-cu	a	Lorg/lwjgl/util/vector/Vector3f;
-cu	a	Lorg/lwjgl/util/vector/Vector4f;
-cu	a	Lorg/lwjgl/util/vector/Vector;
-cu	a	Lorg/lwjgl/util/vector/WritableVector2f;
-cu	a	Lorg/lwjgl/util/vector/WritableVector3f;
-cu	a	Lorg/lwjgl/util/vector/WritableVector4f;
+c	Lorg/lwjgl/opengl/GLChecks;	Lorg/lwjgl/opengl/GLChecks;
+	m	<init>()V	<init>()V
+c	Lorg/lwjgl/opengl/StateStack;	Lpo;
+	m	<init>(I)V	<init>(Lhh;I)V
+	f	stack_pos;;I	c;;I
+c	Lorg/lwjgl/util/glu/tessellation/Mesh;	Lcjd;
+	m	<init>()V	<init>()V
 c	Los;	Los;
 	m	<init>(Lvg;IIIZ)V	<init>(Lwj;IIIZ)V
 		ma	0	0
