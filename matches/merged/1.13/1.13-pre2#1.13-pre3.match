@@ -1,4 +1,4 @@
-Matches saved 2023-01-10, status: c:4294/4306 m:32074/32194 f:14648/14702 ma:45941/46081, input files:
+Matches saved 2023-01-12, status: c:4294/4306 m:32070/32194 f:14648/14702 ma:45941/46081, input files:
 	a:
 		15898676	SHA256	HhsKfpi+/LaAUamj6+ZubNi+l8RQMF5PZLQfIKOfmxM=	minecraft-merged-1.13-pre2.jar
 	b:
@@ -851,7 +851,7 @@ c	Laba;	Labg;
 	m	a(Lxx;Lxx;)Lyb;	a(Lyb;Lyb;)Lyf;
 		ma	0	0
 		ma	1	1
-	m	b()Labm;	a()Ljava/util/function/Function;
+	mu	a	b()Labm;
 	m	a(I)Ljava/lang/String;	a(I)Ljava/lang/String;
 		ma	0	0
 	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
@@ -882,7 +882,7 @@ c	Labb;	Labh;
 		ma	1	1
 	m	b(Ljava/lang/Object;)Ljava/lang/Object;	b(Lafj;Ljava/lang/Object;)Ljava/lang/Object;
 		ma	0	1
-	m	b()Lxt;	a()Ljava/util/function/Function;
+	mu	a	b()Lxt;
 	m	a(I)Ljava/lang/String;	a(I)Ljava/lang/String;
 		ma	0	0
 	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
@@ -957,7 +957,7 @@ c	Labh;	Labn;
 	m	<init>()V	<init>()V
 	m	b(Ljava/lang/Object;)Ljava/lang/Object;	b(Lafj;Ljava/lang/Object;)Ljava/lang/Object;
 		ma	0	1
-	m	b()Lxt;	a()Ljava/util/function/Function;
+	mu	a	b()Lxt;
 	mu	a	a()Ljava/lang/Object;
 c	Labi$b;	Labo$b;
 	m	values()[Labi$b;	values()[Labo$b;
@@ -1333,7 +1333,7 @@ c	Labj;	Labp;
 		ma	1	1
 	m	a(I)Ljava/lang/String;	a(I)Ljava/lang/String;
 		ma	0	0
-	m	b()Labm;	a()Ljava/util/function/Function;
+	mu	a	b()Labm;
 	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
 		ma	0	0
 		mv	0	0
