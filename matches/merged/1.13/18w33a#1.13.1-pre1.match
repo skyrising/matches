@@ -1,4 +1,4 @@
-Matches saved 2023-01-11, status: c:4018/4019 m:31423/31436 f:14506/14506 ma:45460/45473, input files:
+Matches saved 2023-01-12, status: c:4018/4019 m:31403/31436 f:14506/14506 ma:45440/45473, input files:
 	a:
 		15897489	SHA256	Ep5t3iuZsc2zKeO5Ho8xYyL4NKksLma1FHNEM/M2VRI=	minecraft-merged-18w33a.jar
 	b:
@@ -5512,6 +5512,7 @@ c	Lafa;	Lafb;
 		ma	1	1
 		ma	2	2
 		mv	0	0
+	mu	a	a(Laxx;)Z
 	m	a(Laxx;Z)Z	a(Laxy;Z)Z
 		ma	0	0
 		ma	1	1
@@ -5728,8 +5729,7 @@ c	Laff;	Lafg;
 	m	a(Lek;Laya;)F	a(Lel;Layb;)F
 		ma	0	0
 		ma	1	1
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
+	mu	a	a(Laxx;)Z
 	m	ds()Z	dr()Z
 	m	dt()Z	ds()Z
 	m	f(Lek;)Z	f(Lel;)Z
@@ -8568,11 +8568,7 @@ c	Lajk;	Lajl;
 		ma	0	0
 	m	b(Lgx;)V	b(Lgy;)V
 		ma	0	0
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
-		mv	0	0
-		mv	1	1
-		mv	2	2
+	mu	a	a(Laxx;)Z
 	m	ds()Z	dr()Z
 		mv	0	0
 		mv	1	1
@@ -8605,9 +8601,7 @@ c	Lajm;	Lajn;
 	m	bF()F	bF()F
 	m	bZ()V	bZ()V
 	m	dl()Z	dk()Z
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
-		mv	0	0
+	mu	a	a(Laxx;)Z
 	m	H()Z	H()Z
 	m	l()Z	l()Z
 	m	dz()I	dy()I
@@ -8684,12 +8678,7 @@ c	Lajo;	Lajp;
 	m	aI()D	aI()D
 	m	a(Lgx;)V	a(Lgy;)V
 		ma	0	0
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
-		mv	0	0
-		mv	1	1
-		mv	2	2
-		mv	3	3
+	mu	a	a(Laxx;)Z
 	m	z()I	z()I
 	m	H()Z	H()Z
 	m	b(Laoe;)I	b(Laof;)I
@@ -8944,8 +8933,7 @@ c	Lajs;	Lajt;
 		mv	1	1
 		mv	2	2
 		mv	3	3
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
+	mu	a	a(Laxx;)Z
 	m	d(Ladz;)Lwh;	d(Laea;)Lwi;
 		ma	0	0
 	m	cs()Lwh;	cs()Lwi;
@@ -9089,8 +9077,7 @@ c	Lajw;	Lajx;
 	m	dI()I	dH()I
 	m	p(I)V	p(I)V
 		ma	0	0
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
+	mu	a	a(Laxx;)Z
 	m	a(Laya;)Z	a(Layb;)Z
 		ma	0	0
 		mv	0	0
@@ -9150,13 +9137,7 @@ c	Lajx;	Lajy;
 		mv	0	0
 	m	f(Latc;)Z	f(Latd;)Z
 		ma	0	0
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
-		mv	0	0
-		mv	1	1
-		mv	2	2
-		mv	3	3
-		mv	4	4
+	mu	a	a(Laxx;)Z
 	m	c(FF)V	c(FF)V
 		ma	0	0
 		ma	1	1
@@ -9331,13 +9312,7 @@ c	Lajz;	Laka;
 		ma	0	0
 	m	n()V	n()V
 	m	bZ()V	bZ()V
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
-		mv	0	0
-		mv	1	1
-		mv	2	2
-		mv	3	3
-		mv	4	4
+	mu	a	a(Laxx;)Z
 	m	D()Lwh;	D()Lwi;
 	m	d(Ladz;)Lwh;	d(Laea;)Lwi;
 		ma	0	0
@@ -9627,13 +9602,7 @@ c	Lakb;	Lakc;
 	m	dK()I	dJ()I
 		mv	0	0
 		mv	1	1
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
-		mv	0	0
-		mv	1	1
-		mv	2	2
-		mv	3	3
-		mv	4	4
+	mu	a	a(Laxx;)Z
 	m	dL()Z	dK()Z
 	m	a(B)V	a(B)V
 		ma	0	0
@@ -9877,8 +9846,7 @@ c	Lakg;	Lakh;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
+	mu	a	a(Laxx;)Z
 	m	a(B)V	a(B)V
 		ma	0	0
 	m	c(FFF)V	c(FFF)V
@@ -10178,9 +10146,7 @@ c	Laki;	Lakj;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
-		mv	0	0
+	mu	a	a(Laxx;)Z
 	m	n()V	n()V
 	m	bZ()V	bZ()V
 	m	bw()Z	bw()Z
@@ -13126,9 +13092,7 @@ c	Lams;	Lamt;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
-		mv	0	0
+	mu	a	a(Laxx;)Z
 	m	dG()Z	dF()Z
 	m	dA()Z	dz()Z
 	m	G()Lpb;	G()Lpc;
@@ -13360,9 +13324,7 @@ c	Lamv;	Lamw;
 	m	k()V	k()V
 		mv	0	0
 	m	K_()Z	K_()Z
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
-		mv	0	0
+	mu	a	a(Laxx;)Z
 	m	cA()Lafc;	cA()Lafd;
 	f	a;;I	a;;I
 	f	b;;Z	b;;Z
@@ -13580,8 +13542,7 @@ c	Lamy;	Lamz;
 	m	cs()Lwh;	cs()Lwi;
 	m	G()Lpb;	G()Lpc;
 	m	cD()F	cD()F
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
+	mu	a	a(Laxx;)Z
 	m	dh()I	dg()I
 	m	b(Lgx;)V	b(Lgy;)V
 		ma	0	0
@@ -13763,8 +13724,7 @@ c	Lana;	Lanb;
 	m	K_()Z	K_()Z
 	m	a(Laya;)Z	a(Layb;)Z
 		ma	0	0
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
+	mu	a	a(Laxx;)Z
 	m	a(Ladz;F)Z	a(Laea;F)Z
 		ma	0	0
 		ma	1	1
@@ -13893,8 +13853,7 @@ c	Land;	Lane;
 	m	<init>(Laxw;)V	<init>(Laxx;)V
 		ma	0	0
 	m	bZ()V	bZ()V
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
+	mu	a	a(Laxx;)Z
 	m	a(Laya;)Z	a(Layb;)Z
 		ma	0	0
 	m	a(IZ)V	a(IZ)V
@@ -13944,8 +13903,7 @@ c	Lane;	Lanf;
 	m	K_()Z	K_()Z
 		mv	0	0
 		mv	1	1
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
+	mu	a	a(Laxx;)Z
 	m	bZ()V	bZ()V
 	m	cc()Z	cc()Z
 	m	c(Laoe;)Z	c(Laof;)Z
@@ -14165,8 +14123,7 @@ c	Lang;	Lanh;
 	m	J()V	J()V
 		mv	0	0
 		mv	1	1
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
+	mu	a	a(Laxx;)Z
 	m	a(Laya;)Z	a(Layb;)Z
 		ma	0	0
 	m	b(Lgx;)V	b(Lgy;)V
@@ -14487,9 +14444,7 @@ c	Lank;	Lanl;
 		ma	0	0
 		ma	1	1
 	m	K_()Z	K_()Z
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
-		mv	0	0
+	mu	a	a(Laxx;)Z
 	m	cA()Lafc;	cA()Lafd;
 	f	a;;Lank$b;	a;;Lanl$b;
 c	Lanl;	Lanm;
@@ -14608,12 +14563,7 @@ c	Lanm;	Lann;
 	m	dw()Lwh;	dv()Lwi;
 	m	F()Lasy;	F()Lasz;
 	m	G()Lpb;	G()Lpc;
-	m	a(Laxx;)Z	a(Laxy;Z)Z
-		ma	0	0
-		mv	0	0
-		mv	1	1
-		mv	2	2
-		mv	3	3
+	mu	a	a(Laxx;)Z
 	m	cD()F	cD()F
 	m	K()I	K()I
 	m	dA()Z	dz()Z
