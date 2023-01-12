@@ -1,8 +1,8 @@
-Matches saved 2022-11-20, status: c:4296/4298 m:31994/32041 f:14656/14662 ma:45809/45863, input files:
+Matches saved 2023-01-12, status: c:4296/4298 m:31990/32041 f:14656/14662 ma:45809/45863, input files:
 	a:
-		16320314	SHA256	k9O3w/L062Kx2awSVZNDx8pEoh66ELGc1AQH8jrd3gM=	minecraft-merged-1.13-pre1.jar
+		15860084	SHA256	q3tPMG5hrB3cojnmXAp7ZSexcvfTZSV3xIAYo8+UXDc=	minecraft-merged-1.13-pre1.jar
 	b:
-		16359918	SHA256	KApCYzN0BYtD41C2uay0dySRjRwug/s1e1yW5iF1bqo=	minecraft-merged-1.13-pre2.jar
+		15898676	SHA256	HhsKfpi+/LaAUamj6+ZubNi+l8RQMF5PZLQfIKOfmxM=	minecraft-merged-1.13-pre2.jar
 	cp:
 		23581	SHA256	efWp2MeISJ0zdct3zIJqkF4mHlDSPzG5TC1fK5KtPcY=	patchy-1.3.9.jar
 		30973	SHA256	J5AeXU1g01AlcdXmNY/Inj/Ph0E4tp1JXRObzD4WlAQ=	oshi-core-1.1.jar
@@ -46080,7 +46080,7 @@ c	Lbqt;	Lbqw;
 	m	a(Ljava/lang/String;Lcae;)V	a(Ljava/lang/String;Lcah;)V
 		ma	0	0
 		ma	1	1
-	m	e()Ljava/util/Map;	e()Ljava/util/Map;
+	mu	a	e()Ljava/util/Map;
 	m	a(Ljava/util/Map;)V	a(Ljava/util/Map;)V
 		ma	0	0
 	m	b(Ljava/lang/String;)Lit/unimi/dsi/fastutil/longs/LongSet;	b(Ljava/lang/String;)Lit/unimi/dsi/fastutil/longs/LongSet;
@@ -46088,7 +46088,7 @@ c	Lbqt;	Lbqw;
 	m	a(Ljava/lang/String;J)V	a(Ljava/lang/String;J)V
 		ma	0	0
 		ma	1	1
-	m	f()Ljava/util/Map;	f()Ljava/util/Map;
+	mu	a	f()Ljava/util/Map;
 	m	b(Ljava/util/Map;)V	b(Ljava/util/Map;)V
 		ma	0	0
 	m	a(Lbbr;ZLeh;I)V	a(Lbbs;ZLei;I)V
@@ -115584,8 +115584,8 @@ c	Ltg;	Lth;
 		ma	0	0
 		ma	1	1
 		mv	0	0
-	m	e()Ljava/util/Map;	e()Ljava/util/Map;
-	m	f()Ljava/util/Map;	f()Ljava/util/Map;
+	mu	a	e()Ljava/util/Map;
+	mu	a	f()Ljava/util/Map;
 	m	<clinit>()V	<clinit>()V
 	f	b;;Lorg/apache/logging/log4j/Logger;	b;;Lorg/apache/logging/log4j/Logger;
 	f	c;;Lbbi;	c;;Lbbj;
