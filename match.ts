@@ -297,10 +297,10 @@ async function generateCommitMessage(args: string[]) {
         let [versionA, versionB] = parts[3].slice(0, -6).split('#')
         let [typeA, typeB] = [parts[1], parts[1]]
         if (parts[1] === 'cross') {
-            const [va, ta] = versionA.split('-')
+            const [ta, va] = versionA.split('-')
             versionA = va
             typeA = ta
-            const [vb, tb] = versionB.split('-')
+            const [tb, vb] = versionB.split('-')
             versionB = vb
             typeB = tb
         }
