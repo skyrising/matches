@@ -267,7 +267,7 @@ async function dumpIndexHtml(data: Data) {
         </section>
         sections.push(section)
     }
-    const rendered = renderToStaticMarkup(<>{...sections}</>)
+    const rendered = renderToStaticMarkup(<React.Fragment children={sections} />)
     await Deno.writeTextFile(path.resolve(DIST_DIR, 'index.html'), template.replace('$$VERSIONS$$', rendered))
 }
 
