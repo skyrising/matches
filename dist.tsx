@@ -271,10 +271,18 @@ async function dumpIndexHtml(data: Data) {
     await Deno.writeTextFile(path.resolve(DIST_DIR, 'index.html'), template.replace('$$VERSIONS$$', rendered))
 }
 
+async function dumpJson(data: Data) {
+    await Deno.writeTextFile(path.resolve(DIST_DIR, 'matches.json'), JSON.stringify({
+        matches: data.matches,
+        versions: data.versions
+    }, null, 2))
+}
+
 async function generate() {
     const data = await getData()
     await dumpGraph(data)
     await dumpIndexHtml(data)
+    await dumpJson(data)
 }
 
 generate().catch(console.error)
