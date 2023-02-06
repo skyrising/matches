@@ -15731,7 +15731,7 @@ c	Lame;	Lamj;
 		ma	0	0
 	m	e()I	e()I
 	m	f()I	f()I
-	m	g()I	h()I
+	m	g()I	g()I
 	m	b()V	b()V
 		mv	0	0
 	m	b(II)V	b(II)V
