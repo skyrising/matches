@@ -1726,6 +1726,11 @@
       "file": "matches/merged/1.13/18w33a#1.13.1-pre1.match"
     },
     {
+      "a": "merged-1.13.2",
+      "b": "merged-18w43a",
+      "file": "matches/merged/1.14/1.13.2#18w43a.match"
+    },
+    {
       "a": "merged-1.3-pre-07261249",
       "b": "merged-1.3.1",
       "file": "matches/merged/1.3/1.3-pre-07261249#1.3.1.match"
@@ -5689,6 +5694,12 @@
       "type": "merged",
       "version": "18w33a",
       "era": "1.13"
+    },
+    "merged-18w43a": {
+      "id": "merged_18w43a",
+      "type": "merged",
+      "version": "18w43a",
+      "era": "1.14"
     },
     "merged-1.3.1": {
       "id": "merged_1_3_1",
