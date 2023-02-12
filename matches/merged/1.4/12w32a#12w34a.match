@@ -1,18 +1,18 @@
-Matches saved 2021-10-09, status: c:1359/1366 m:10940/11003 f:5625/5645 ma:17359/17466, input files:
+Matches saved 2023-02-12, status: c:1360/1366 m:10942/11003 f:5626/5645 ma:17370/17466, input files:
 	a:
-		4648213	2FFfYnng0yhM4stTse7vp7zNvjv0fDkN2XU6Tgv6mVw=	minecraft-merged-12w32a.jar
+		4676885	SHA256	2P4/cysWvJnoMez54xuqlPZgjkDFVh8lNPw4U1TcFgw=	minecraft-merged-12w32a.jar
 	b:
-		4696950	HPNVgYqA7EB+90zkSlm1n/PR5/yG1xXRwkg9G/a/Yg0=	minecraft-merged-12w34a.jar
+		4725942	SHA256	Es4hLniLRlW89C2oz/6iQK0G/EsJTmp40FnOS9krK4Q=	minecraft-merged-12w34a.jar
 	cp:
-		27787	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		214592	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		994633	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		27787	SHA256	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		214592	SHA256	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
+		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
+		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
+		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
 	cp a:
 	cp b:
 	non-obf cls a	paulscode|jcraft
@@ -12974,8 +12974,7 @@ c	Latw;	Lauk;
 	m	a(ILjr;)V	a(ILjr;)V
 		ma	0	0
 		ma	1	1
-	m	a(I)Ljr;	a(I)Ljr;
-		ma	0	0
+	mu	a	a(I)Ljr;
 	m	b(I)Ljr;	b(I)Ljr;
 		ma	0	0
 	m	g(IIIII)Z	g(IIIII)Z
@@ -13849,7 +13848,9 @@ c	Lavj;	Lavx;
 		ma	0	0
 	m	c(Ljr;)V	c(Ljr;)V
 		ma	0	0
-	mu	a	a(Ljr;I)V
+	m	a(Ljr;I)V	a(Ljr;I)V
+		ma	0	0
+		ma	1	1
 	m	ag()Z	ah()Z
 	m	u(I)V	v(I)V
 		ma	0	0
@@ -14837,7 +14838,11 @@ c	Lavz;	Lawn;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	t(Laiq;III)Z
+	m	t(Laiq;III)Z	a(Lait;III)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	u(Laiq;III)Z	t(Lajc;III)Z
 		ma	0	0
 		ma	1	1
@@ -16014,8 +16019,6 @@ c	Laxl;	Laya;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	a(Lka;DDDFF)V
-	mu	a	a(Ljr;DDDFF)V
 c	Laxm;	Layb;
 	m	<init>()V	<init>()V
 	m	a(Loa;)F	a(Log;)F
@@ -16263,8 +16266,6 @@ c	Laxu;	Laym;
 	m	a(Lka;F)F	a(Lkd;F)F
 		ma	0	0
 		ma	1	1
-	mu	a	a(Lka;DDDFF)V
-	mu	a	a(Ljr;DDDFF)V
 c	Laxv;	Layn;
 	m	<init>()V	<init>()V
 	m	b()V	b()V
@@ -19340,7 +19341,6 @@ c	Lcs;	Lcs;
 	m	d()I	d()I
 	m	c(I)[B	c(I)[B
 		ma	0	0
-	mu	a	a_()Z
 	m	<clinit>()V	<clinit>()V
 	f	c;;[I	c;;[I
 	f	d;;[I	d;;[I
@@ -19970,7 +19970,6 @@ c	Lds;	Lds;
 		ma	0	0
 	m	a()I	a()I
 	m	d()Ljava/util/List;	d()Ljava/util/List;
-	mu	a	a_()Z
 	f	a;;I	a;;I
 	f	b;;Ljava/util/List;	b;;Ljava/util/List;
 c	Ldt;	Ldt;
@@ -21466,8 +21465,7 @@ c	Lgv;	Lgv;
 		ma	0	0
 	m	b(Ljr;)V	b(Ljr;)V
 		ma	0	0
-	m	a(I)Ljr;	a(I)Ljr;
-		ma	0	0
+	mu	a	a(I)Ljr;
 	m	c(Ljr;)Z	c(Ljr;)Z
 		ma	0	0
 	m	a(Ljr;B)V	a(Ljr;B)V
@@ -21534,7 +21532,6 @@ c	Lgy;	Lgy;
 	m	g()V	g()V
 	mu	a	b(I)Lrp;
 	mu	a	h()Lrp;
-	mu	a	a(ILrp;)V
 	mu	a	i()[Lrp;
 	m	a(Lji;)V	a(Lji;)V
 		ma	0	0
@@ -21542,10 +21539,13 @@ c	Lgy;	Lgy;
 		ma	0	0
 		ma	1	1
 	m	j()Z	h()Z
-	mu	a	c(I)V
+	m	c(I)V	b(I)V
+		ma	0	0
 	m	b(Laju;)V	b(Lakh;)V
 		ma	0	0
-	mu	a	a(Ljr;I)V
+	m	a(Ljr;I)V	a(Ljr;I)V
+		ma	0	0
+		ma	1	1
 	m	a(III)Lol;	a(III)Lor;
 		ma	0	0
 		ma	1	1
@@ -23232,7 +23232,7 @@ c	Ljr;	Ljr;
 		ma	0	0
 	m	ac()V	ac()V
 	m	ad()V	ad()V
-	m	i()[Lrp;	ae()[Lrz;
+	mu	a	i()[Lrp;
 	m	a(ILrp;)V	b(ILrz;)V
 		ma	0	0
 		ma	1	1
@@ -23657,15 +23657,14 @@ c	Lka;	Lkd;
 	m	bu()Lkc;	bw()Lkf;
 	m	a(Lrp;)V	a(Lrz;)V
 		ma	0	0
-	m	h()Lrp;	bx()Lrz;
-	m	b(I)Lrp;	p(I)Lrz;
-		ma	0	0
+	mu	a	h()Lrp;
+	mu	a	b(I)Lrp;
 	m	p(I)Lrp;	q(I)Lrz;
 		ma	0	0
 	m	a(ILrp;)V	b(ILrz;)V
 		ma	0	0
 		ma	1	1
-	m	i()[Lrp;	ae()[Lrz;
+	mu	a	i()[Lrp;
 	m	q(I)V	r(I)V
 		ma	0	0
 	m	bv()V	by()V
@@ -23806,30 +23805,24 @@ c	Lkd;	Lkg;
 		ma	0	0
 	m	<init>(Lux;IIII)V	<init>(Lvg;IIII)V
 		ma	0	0
-		ma	1	2
-		ma	2	3
+		ma	1	1
+		ma	2	2
 		ma	3	4
-		ma	4	1
+		ma	4	3
 	m	<init>(Lux;IIIILjava/lang/String;)V	<init>(Lvg;IIIILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
-		ma	3	3
-		ma	4	4
+		ma	3	4
+		ma	4	3
 		ma	5	5
-	mu	a	a()V
 	mu	a	a(I)V
 	mu	a	b(I)F
-	mu	a	h_()V
 	mu	a	c()Z
-	mu	a	M()Z
-	mu	a	a(Lji;I)Z
 	m	b(Laq;)V	b(Laq;)V
 		ma	0	0
 	m	a(Laq;)V	a(Laq;)V
 		ma	0	0
-	mu	a	d(DDD)V
-	mu	a	g(DDD)V
 	fu	a	f;;I
 	fu	a	a;;I
 	fu	a	b;;I
@@ -26855,7 +26848,6 @@ c	Lok;	Loq;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	a(Ljr;I)V
 	m	e()F	e()F
 	m	e_()V	e_()V
 	m	a(Lji;I)Z	a(Lji;I)Z
@@ -26984,7 +26976,6 @@ c	Lok;	Loq;
 		ma	0	0
 	m	aK()Z	aM()Z
 	m	al()Ljava/lang/String;	an()Ljava/lang/String;
-	mu	a	c(I)V
 	m	a(Lok;Z)V	a(Loq;Z)V
 		ma	0	0
 		ma	1	1
@@ -31049,7 +31040,17 @@ c	Lsc;	Lsm;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-cu	a	Lsd;
+c	Lsd;	Lsf;
+	m	<init>(ILaiq;)V	<init>(ILajc;[Ljava/lang/String;)V
+		ma	0	0
+		ma	1	1
+	m	a(I)I	a(I)I
+		ma	0	0
+	m	b(I)I	b(I)I
+		ma	0	0
+	m	c(Lrp;)Ljava/lang/String;	c_(Lrz;)Ljava/lang/String;
+		ma	0	0
+	f	a;;Laiq;	a;;Lajc;
 cu	a	Lse;
 c	Lsf;	Lsp;
 	m	<init>(III)V	<init>(III)V
