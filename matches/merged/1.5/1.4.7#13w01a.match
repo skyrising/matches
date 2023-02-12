@@ -1,18 +1,18 @@
-Matches saved 2021-10-10, status: c:1500/1500 m:12159/12189 f:6109/6115 ma:19277/19386, input files:
+Matches saved 2023-02-12, status: c:1500/1500 m:12138/12189 f:6109/6115 ma:19209/19386, input files:
 	a:
-		5027200	oZNyN+Fdmdfev5BF6hWLAKVyrwAfVwPSdfJieaUK2gk=	minecraft-merged-1.4.7.jar
+		5058272	SHA256	/InUBT8ZWG3AxBrdobxKDeEn4nVkShEfHbQWAZqRM8k=	minecraft-merged-1.4.7.jar
 	b:
-		5055090	JWQoyEwE0X5SZKEyBVhs2yYZne9LqCK1DdZByekdRI8=	minecraft-merged-13w01a.jar
+		5086434	SHA256	L4vul7s6Z61gUmWd67CfvzMocpH2ozDaRdXG6QxDpYQ=	minecraft-merged-13w01a.jar
 	cp:
-		27787	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		214592	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		994633	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		27787	SHA256	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		214592	SHA256	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
+		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
+		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
+		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
 	cp a:
 	cp b:
 	non-obf cls a	paulscode|jcraft
@@ -5117,12 +5117,8 @@ c	Lajt;	Lamf;
 		ma	1	1
 	mu	a	b()Z
 	mu	a	b(Lyc;III)Z
-	mu	a	d(Lyc;III)Z
 	mu	a	b(Lyc;IIILjava/util/Random;)V
-	mu	a	a(II)I
-	mu	a	a(Lym;IIII)Z
 	m	d()I	d()I
-	mu	a	a(I)I
 	mu	a	c(Lym;IIII)Z
 	mu	a	b(Lym;IIII)Z
 	mu	a	a(Lyc;IIII)V
@@ -5139,8 +5135,6 @@ c	Lajt;	Lamf;
 		ma	7	7
 		ma	8	8
 	mu	a	i()Z
-	mu	a	a(Lyc;IIILmd;)V
-	mu	a	g(Lyc;III)V
 	mu	a	c(Lyc;IIII)V
 	mu	a	c()Z
 	m	a(ILjava/util/Random;I)I	a(ILjava/util/Random;I)I
@@ -6279,7 +6273,6 @@ c	Lakv;	Lala;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Lyc;IIILqx;)V
 	m	a(Lyc;IIILqx;IFFF)Z	a(Lyd;IIILqx;IFFF)Z
 		ma	0	0
 		ma	1	1
@@ -6937,79 +6930,29 @@ c	Laln;	Lals;
 		ma	4	4
 		ma	5	5
 		ma	6	6
-c	Lalo;	Lajb;
-	m	<init>(IILalp;Lagi;)V	<init>(IILagi;)V
+c	Lalo;	Lalu;
+	m	<init>(IILalp;Lagi;)V	<init>(IILagi;Lalv;)V
 		ma	0	0
 		ma	1	1
+		ma	2	3
 		ma	3	2
-	m	r_()I	e()I
-	m	e(Lyc;III)Laoe;	a(Lyd;III)Laor;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	c()Z	c()Z
-	m	b()Z	b()Z
-	m	c(Lym;III)Z	b(Lym;III)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	b(Lyc;III)Z	b(Lyd;III)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	a(Lyc;IIII)V	a(Lyd;IIII)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	b(Lyc;IIILjava/util/Random;)V	a(Lyd;IIILjava/util/Random;)V
-		mau	a	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	a(Lyc;IIILlq;)V	a(Lyd;IIILlq;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	l(Lyc;III)V	b(Lyd;IIII)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	a(Lyc;IIIII)V	a(Lyd;IIIII)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-	m	a(Lym;III)V	a(Lym;III)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	b(Lym;IIII)Z	b(Lym;IIII)I
-		mau	a	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	c(Lym;IIII)Z	c(Lym;IIII)I
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	i()Z	g()Z
-	m	f()V	h()V
-	m	q_()I	i()I
+	mu	a	r_()I
+	mu	a	e(Lyc;III)Laoe;
+	mu	a	c()Z
+	mu	a	b()Z
+	mu	a	c(Lym;III)Z
+	mu	a	b(Lyc;III)Z
+	mu	a	a(Lyc;IIII)V
+	mu	a	b(Lyc;IIILjava/util/Random;)V
+	mu	a	a(Lyc;IIILlq;)V
+	mu	a	l(Lyc;III)V
+	mu	a	a(Lyc;IIIII)V
+	mu	a	a(Lym;III)V
+	mu	a	b(Lym;IIII)Z
+	mu	a	c(Lym;IIII)Z
+	mu	a	i()Z
+	mu	a	f()V
+	mu	a	q_()I
 	fu	a	a;;Lalp;
 c	Lalp;	Lalv;
 	m	values()[Lalp;	values()[Lalv;
@@ -7741,12 +7684,7 @@ c	Lamh;	Lamo;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	m	c(Lyc;IIII)V	f(Lyd;IIII)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
+	mu	a	c(Lyc;IIII)V
 	m	e(Lym;III)I	e(Lym;III)I
 		ma	0	0
 		ma	1	1
@@ -7927,12 +7865,7 @@ c	Lamj;	Lamq;
 	m	a(II)I	a(II)I
 		ma	0	0
 		ma	1	1
-	m	c(Lyc;IIII)V	f(Lyd;IIII)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
+	mu	a	c(Lyc;IIII)V
 	m	a(Ljava/util/Random;)I	a(Ljava/util/Random;)I
 		ma	0	0
 	m	e(I)Z	e(I)Z
@@ -8260,12 +8193,7 @@ c	Lamq;	Lamx;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	m	c(Lyc;IIII)V	f(Lyd;IIII)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
+	mu	a	c(Lyc;IIII)V
 	m	a(Lyc;IIII)V	a(Lyd;IIII)V
 		ma	0	0
 		ma	1	1
@@ -8773,12 +8701,7 @@ c	Lamv;	Lanc;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	c(Lyc;IIII)V	f(Lyd;IIII)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
+	mu	a	c(Lyc;IIII)V
 	m	a(Lyc;IIILqx;IFFF)Z	a(Lyd;IIILqx;IFFF)Z
 		ma	0	0
 		ma	1	1
@@ -37285,7 +37208,11 @@ c	Lyc;	Lyd;
 	m	e(II)Lzz;	e(II)Lzz;
 		ma	0	0
 		ma	1	1
-	mu	a	c(IIIII)Z
+	m	c(IIIII)Z	c(IIII)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
 	m	a(IIIIIZ)Z	e(IIIIII)Z
 		ma	0	0
 		ma	1	1
@@ -37293,7 +37220,7 @@ c	Lyc;	Lyd;
 		ma	3	3
 		ma	4	4
 		mau	a	5
-	m	b(IIII)Z	c(IIII)Z
+	m	b(IIII)Z	c(IIIII)Z
 		ma	0	0
 		ma	1	1
 		ma	2	2
@@ -37306,11 +37233,7 @@ c	Lyc;	Lyd;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	c(IIII)V	c(IIIII)Z
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
+	mu	a	c(IIII)V
 	mu	a	d(IIII)Z
 	mu	a	e(IIII)Z
 	mu	a	d(IIIII)Z
