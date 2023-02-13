@@ -4,32 +4,31 @@ Matches saved 2022-01-07, status: c:1845/1845 m:15788/15794 f:7045/7045 ma:23194
 	b:
 		5325306	iysQU8m/D6PemcuPjECK4NpMCtaU30hapHo4SPRODHY=	minecraft-merged-13w48b.jar
 	cp:
-		289881	26oIhpCiOpVO/2aamdJFKiTdnxDYZnJf9dKf9HQKiX4=	vecmath-1.3.1.jar
-		2523218	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
-		1634692	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		103871	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
-		5618	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
-		21679	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
-		18981	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
-		65020	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
-		1452995	luqjIjK1pbD5r8EhoOGyQW49ylBlezHlQxwKBK5lBVI=	netty-all-4.0.10.Final.jar
-		2172168	ejRXV3DuvGClR2YW42dqbLbyl1x4xBXipgFKxyS6V4M=	guava-15.0.jar
-		315805	Ex8FGajkYC5HzwJL/X4INLz1WSpyB/mi/bcR1PWvwWY=	commons-lang3-3.1.jar
-		185140	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		190432	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
-		34601	3FrF1uHOIyfriYgecG16Teb3qR8y8cXiSctRt/GUwCs=	authlib-1.2.jar
-		108161	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
-		681134	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
-		1014767	Kuqx3a+cHkK76oXhzBAzjpPrebbOdLb8lTKsFavyqWw=	lwjgl-2.9.1-nightly-20131120.jar
-		173887	rx5+ciLmLUd1OT+jwATWz6LCfal46iOpTwSV1sIpPEw=	lwjgl_util-2.9.1-nightly-20131120.jar
-		52315	NEKz8h1OFzGjycxti6VU2BcRatx8cs5DGIzCMz4hvBw=	twitch-5.10.jar
+		netty-1.8.8.jar
+		vecmath-1.3.1.jar
+		trove4j-3.0.3.jar
+		icu4j-core-mojang-51.2.jar
+		jopt-simple-4.5.jar
+		codecjorbis-20101023.jar
+		codecwav-20101023.jar
+		libraryjavasound-20101123.jar
+		librarylwjglopenal-20100824.jar
+		soundsystem-20120107.jar
+		netty-all-4.0.10.Final.jar
+		guava-15.0.jar
+		commons-lang3-3.1.jar
+		commons-io-2.4.jar
+		jinput-2.0.5.jar
+		jutils-1.0.0.jar
+		gson-2.2.4.jar
+		authlib-1.2.jar
+		log4j-api-2.0-beta9.jar
+		log4j-core-2.0-beta9.jar
+		lwjgl-2.9.1-nightly-20131120.jar
+		lwjgl_util-2.9.1-nightly-20131120.jar
+		twitch-5.10.jar
 	cp a:
-		14725	iSInjK8Ubmy2v5Vsa/8QJJbg1y2Jr7GplIGMoRnK6Xo=	netty-1.7.7.jar
 	cp b:
-		7877	MSD9JMCaubwIjLnB6yBlvoZxhghFD9vCe103FymmGcs=	netty-1.6.jar
 c	La;	La;
 	m	values()[La;	values()[La;
 	m	valueOf(Ljava/lang/String;)La;	valueOf(Ljava/lang/String;)La;
