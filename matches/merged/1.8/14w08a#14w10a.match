@@ -1,36 +1,36 @@
-Matches saved 2022-01-10, status: c:2052/2075 m:16832/17008 f:7427/7457 ma:21854/22104, input files:
+Matches saved 2023-02-13, status: c:2052/2075 m:16836/17008 f:7427/7457 ma:21858/22104, input files:
 	a:
-		5742012	hE3fFPS5Pa2eDtX9a7aaBRD9TyeZckdqpFg1tjx+qIg=	minecraft-merged-14w08a.jar
+		5742012	SHA256	vvVLdKp+JejnZhN48tij3ZIH55I3IPjWfOUAeplfxDY=	minecraft-merged-14w08a.jar
 	b:
-		5883337	0Wc2TmOldKXdzkFmmBIQFosFeTV/9yBXrYmh4kVcSg4=	minecraft-merged-14w10a.jar
+		5883337	SHA256	LhI25r605v3IGbZYkrlNjchoDU11dfcos29QilQdmuw=	minecraft-merged-14w10a.jar
 	cp:
-		7877	MSD9JMCaubwIjLnB6yBlvoZxhghFD9vCe103FymmGcs=	netty-1.6.jar
-		289881	26oIhpCiOpVO/2aamdJFKiTdnxDYZnJf9dKf9HQKiX4=	vecmath-1.3.1.jar
-		2523218	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
-		1634692	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
-		62477	P8++MgPC6lIb92QEhP011jAxhuouCOcvAy1kDKBn/9o=	jopt-simple-4.6.jar
-		103871	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
-		5618	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
-		21679	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
-		18981	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
-		65020	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
-		1501009	i8K3GhftG1xjKbzGH6mi9/4HEHRUj6E366/sKiPUnYk=	netty-all-4.0.15.Final.jar
-		2225441	+pF/Tz9qdjdRNLqJpA06HOgHlFqRu9vjnDH3bgMDCGg=	guava-16.0.jar
-		385091	gCTCUDv4Pvp9/xU/4CTBYk9fdWvg7F/BHIVv5CCGTSY=	commons-lang3-3.2.1.jar
-		185140	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
-		263965	rRnSYBw6vwuUa1w6QRPiJqjB4zBeOVuQATt43ZSnI84=	commons-codec-1.9.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		190432	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
-		57849	Xog9CZ1sgvzAM8uDhPkrdfraSRqz9WRDy6DErDFu4Mo=	authlib-1.5.1.jar
-		108161	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
-		681134	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
-		1014790	wRj42EMTmA954ef3rksUsQwvIMd+pKHCn28LArwTkHc=	lwjgl-2.9.1.jar
-		173909	MtfnMAWi3AzMPGJHDENbNR9lAd6OhxjiaWBTR1RXCnc=	lwjgl_util-2.9.1.jar
+		15966	SHA256	yuPeFp52le8wB5NJxeqBeQvRDATEA3GW/U/cB7bUOTQ=	netty-1.8.8.jar
+		289881	SHA256	26oIhpCiOpVO/2aamdJFKiTdnxDYZnJf9dKf9HQKiX4=	vecmath-1.3.1.jar
+		2523218	SHA256	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
+		1634692	SHA256	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
+		62477	SHA256	P8++MgPC6lIb92QEhP011jAxhuouCOcvAy1kDKBn/9o=	jopt-simple-4.6.jar
+		103871	SHA256	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
+		5618	SHA256	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
+		21679	SHA256	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
+		18981	SHA256	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
+		65020	SHA256	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
+		1501009	SHA256	i8K3GhftG1xjKbzGH6mi9/4HEHRUj6E366/sKiPUnYk=	netty-all-4.0.15.Final.jar
+		2225441	SHA256	+pF/Tz9qdjdRNLqJpA06HOgHlFqRu9vjnDH3bgMDCGg=	guava-16.0.jar
+		385091	SHA256	gCTCUDv4Pvp9/xU/4CTBYk9fdWvg7F/BHIVv5CCGTSY=	commons-lang3-3.2.1.jar
+		185140	SHA256	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
+		263965	SHA256	rRnSYBw6vwuUa1w6QRPiJqjB4zBeOVuQATt43ZSnI84=	commons-codec-1.9.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		190432	SHA256	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
+		57849	SHA256	Xog9CZ1sgvzAM8uDhPkrdfraSRqz9WRDy6DErDFu4Mo=	authlib-1.5.1.jar
+		108161	SHA256	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
+		681134	SHA256	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
+		1014790	SHA256	wRj42EMTmA954ef3rksUsQwvIMd+pKHCn28LArwTkHc=	lwjgl-2.9.1.jar
+		173909	SHA256	MtfnMAWi3AzMPGJHDENbNR9lAd6OhxjiaWBTR1RXCnc=	lwjgl_util-2.9.1.jar
 	cp a:
-		52315	+SGryceS9ZT3/G/Aa0p+ozC2Rupe03heNYn5CxayqtE=	twitch-5.16.jar
+		52315	SHA256	+SGryceS9ZT3/G/Aa0p+ozC2Rupe03heNYn5CxayqtE=	twitch-5.16.jar
 	cp b:
-		55977	O5D5962Wi5WISC46Cbbn0NgcbPfCFMXOzYEg4+5Qmuk=	twitch-6.5.jar
+		55977	SHA256	O5D5962Wi5WISC46Cbbn0NgcbPfCFMXOzYEg4+5Qmuk=	twitch-6.5.jar
 c	La;	La;
 	m	values()[La;	values()[La;
 	m	valueOf(Ljava/lang/String;)La;	valueOf(Ljava/lang/String;)La;
@@ -7980,7 +7980,6 @@ c	Laly;	Lamv;
 	m	b(I)I	b(I)I
 		ma	0	0
 	mu	a	c(I)F
-	mu	a	k()Lais;
 	f	a;;Lrk;	L;;Lsh;
 	f	b;;Lrk;	M;;Lsh;
 	f	M;;Lrk;	N;;Lsh;
@@ -32718,7 +32717,6 @@ c	Lbzs;	Lcat;
 	m	<clinit>()V	<clinit>()V
 	f	b;;Lcom/google/common/base/Splitter;	b;;Lcom/google/common/base/Splitter;
 	f	c;;Ljava/util/zip/ZipFile;	c;;Ljava/util/zip/ZipFile;
-	m	finalize()V	finalize()V
 c	Lbzt;	Lcau;
 	m	<init>(Ljava/io/File;)V	<init>(Ljava/io/File;)V
 		ma	0	0
@@ -33916,22 +33914,6 @@ c	Lcda;	Lcee;
 	f	c;;Ljava/lang/String;	c;;Ljava/lang/String;
 	f	d;;Ljava/util/Map;	d;;Ljava/util/Map;
 c	Lcdb;	Lcef;
-	mu	a	requestAuthTokenCallback(Ltv/twitch/ErrorCode;Ltv/twitch/AuthToken;)V
-	mu	a	loginCallback(Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/ChannelInfo;)V
-	mu	a	getIngestServersCallback(Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/IngestList;)V
-	mu	a	getUserInfoCallback(Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/UserInfo;)V
-	mu	a	getStreamInfoCallback(Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/StreamInfo;)V
-	mu	a	getArchivingStateCallback(Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/ArchivingState;)V
-	mu	a	runCommercialCallback(Ltv/twitch/ErrorCode;)V
-	mu	a	setStreamInfoCallback(Ltv/twitch/ErrorCode;)V
-	mu	a	getGameNameListCallback(Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/GameInfoList;)V
-	mu	a	bufferUnlockCallback(J)V
-	mu	a	startCallback(Ltv/twitch/ErrorCode;)V
-	mu	a	stopCallback(Ltv/twitch/ErrorCode;)V
-	mu	a	sendActionMetaDataCallback(Ltv/twitch/ErrorCode;)V
-	mu	a	sendStartSpanMetaDataCallback(Ltv/twitch/ErrorCode;)V
-	mu	a	sendEndSpanMetaDataCallback(Ltv/twitch/ErrorCode;)V
-	mu	a	statCallback(Ltv/twitch/broadcast/StatType;J)V
 	m	a(Lcde;)V	a(Lcek;)V
 		ma	0	0
 	m	b()Z	b()Z
@@ -34178,26 +34160,9 @@ c	Lcdj;	Lcet;
 	m	c()Ltv/twitch/broadcast/IngestServer;	c()Ltv/twitch/broadcast/IngestServer;
 	m	e()Z	f()Z
 	m	h()F	i()F
-	mu	a	requestAuthTokenCallback(Ltv/twitch/ErrorCode;Ltv/twitch/AuthToken;)V
-	mu	a	loginCallback(Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/ChannelInfo;)V
-	mu	a	getIngestServersCallback(Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/IngestList;)V
-	mu	a	getUserInfoCallback(Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/UserInfo;)V
-	mu	a	getStreamInfoCallback(Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/StreamInfo;)V
-	mu	a	getArchivingStateCallback(Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/ArchivingState;)V
-	mu	a	runCommercialCallback(Ltv/twitch/ErrorCode;)V
-	mu	a	setStreamInfoCallback(Ltv/twitch/ErrorCode;)V
-	mu	a	getGameNameListCallback(Ltv/twitch/ErrorCode;Ltv/twitch/broadcast/GameInfoList;)V
-	mu	a	bufferUnlockCallback(J)V
-	mu	a	startCallback(Ltv/twitch/ErrorCode;)V
-	mu	a	stopCallback(Ltv/twitch/ErrorCode;)V
-	mu	a	sendActionMetaDataCallback(Ltv/twitch/ErrorCode;)V
-	mu	a	sendStartSpanMetaDataCallback(Ltv/twitch/ErrorCode;)V
-	mu	a	sendEndSpanMetaDataCallback(Ltv/twitch/ErrorCode;)V
-	mu	a	statCallback(Ltv/twitch/broadcast/StatType;J)V
 	m	<init>(Ltv/twitch/broadcast/Stream;Ltv/twitch/broadcast/IngestList;)V	<init>(Ltv/twitch/broadcast/Stream;Ltv/twitch/broadcast/IngestList;)V
 		ma	0	0
 		ma	1	1
-	mu	a	finalize()V
 	m	i()V	j()V
 	m	j()V	k()V
 	m	l()V	m()V
@@ -44761,7 +44726,6 @@ c	Ltv/twitch/AuthToken;	Ltv/twitch/AuthToken;
 c	Ltv/twitch/Core;	Ltv/twitch/Core;
 	m	getInstance()Ltv/twitch/Core;	getInstance()Ltv/twitch/Core;
 	m	<init>(Ltv/twitch/CoreAPI;)V	<init>(Ltv/twitch/CoreAPI;)V
-	mu	a	finalize()V
 	m	initialize(Ljava/lang/String;Ltv/twitch/VideoEncoder;Ljava/lang/String;)Ltv/twitch/ErrorCode;	initialize(Ljava/lang/String;Ljava/lang/String;)Ltv/twitch/ErrorCode;
 	m	shutdown()Ltv/twitch/ErrorCode;	shutdown()Ltv/twitch/ErrorCode;
 	m	setTraceLevel(Ltv/twitch/MessageLevel;)Ltv/twitch/ErrorCode;	setTraceLevel(Ltv/twitch/MessageLevel;)Ltv/twitch/ErrorCode;
@@ -45087,7 +45051,6 @@ c	Ltv/twitch/StandardCoreAPI;	Ltv/twitch/StandardCoreAPI;
 		ma	0	0
 	m	errorToString(Ltv/twitch/ErrorCode;)Ljava/lang/String;	errorToString(Ltv/twitch/ErrorCode;)Ljava/lang/String;
 		ma	0	0
-	m	finalize()V	finalize()V
 c	Ltv/twitch/broadcast/ArchivingState;	Ltv/twitch/broadcast/ArchivingState;
 	m	<init>()V	<init>()V
 	f	recordingEnabled;;Z	recordingEnabled;;Z
@@ -45303,7 +45266,6 @@ c	Ltv/twitch/broadcast/DesktopStreamAPI;	Ltv/twitch/broadcast/DesktopStreamAPI;
 	m	captureFrameBuffer_ReadPixels(J)Ltv/twitch/ErrorCode;	captureFrameBuffer_ReadPixels(J)Ltv/twitch/ErrorCode;
 		ma	0	0
 	m	getStreamTime()J	getStreamTime()J
-	m	finalize()V	finalize()V
 c	Ltv/twitch/broadcast/EncodingCpuUsage;	Ltv/twitch/broadcast/EncodingCpuUsage;
 	m	values()[Ltv/twitch/broadcast/EncodingCpuUsage;	values()[Ltv/twitch/broadcast/EncodingCpuUsage;
 	m	valueOf(Ljava/lang/String;)Ltv/twitch/broadcast/EncodingCpuUsage;	valueOf(Ljava/lang/String;)Ltv/twitch/broadcast/EncodingCpuUsage;
@@ -45342,7 +45304,6 @@ c	Ltv/twitch/broadcast/FrameBuffer;	Ltv/twitch/broadcast/FrameBuffer;
 	f	m_NativeAddress;;J	m_NativeAddress;;J
 	f	m_Size;;I	m_Size;;I
 	f	m_API;;Ltv/twitch/broadcast/StreamAPI;	m_API;;Ltv/twitch/broadcast/StreamAPI;
-	m	finalize()V	finalize()V
 c	Ltv/twitch/broadcast/GameInfo;	Ltv/twitch/broadcast/GameInfo;
 	m	<init>()V	<init>()V
 	f	name;;Ljava/lang/String;	name;;Ljava/lang/String;
@@ -45574,7 +45535,6 @@ c	Ltv/twitch/broadcast/Stream;	Ltv/twitch/broadcast/Stream;
 	m	<clinit>()V	<clinit>()V
 	f	s_Instance;;Ltv/twitch/broadcast/Stream;	s_Instance;;Ltv/twitch/broadcast/Stream;
 	f	m_StreamAPI;;Ltv/twitch/broadcast/StreamAPI;	m_StreamAPI;;Ltv/twitch/broadcast/StreamAPI;
-	m	finalize()V	finalize()V
 c	Ltv/twitch/broadcast/StreamAPI;	Ltv/twitch/broadcast/StreamAPI;
 	m	<init>()V	<init>()V
 	m	setStreamCallbacks(Ltv/twitch/broadcast/IStreamCallbacks;)V	setStreamCallbacks(Ltv/twitch/broadcast/IStreamCallbacks;)V
@@ -45690,7 +45650,6 @@ c	Ltv/twitch/chat/Chat;	Ltv/twitch/chat/Chat;
 	m	getInstance()Ltv/twitch/chat/Chat;	getInstance()Ltv/twitch/chat/Chat;
 	m	<init>(Ltv/twitch/chat/ChatAPI;)V	<init>(Ltv/twitch/chat/ChatAPI;)V
 		ma	0	0
-	mu	a	finalize()V
 	m	initialize(Ljava/lang/String;Z)Ltv/twitch/ErrorCode;	initialize(Ljava/util/HashSet;Ltv/twitch/chat/IChatAPIListener;)Ltv/twitch/ErrorCode;
 	m	shutdown()Ltv/twitch/ErrorCode;	shutdown()Ltv/twitch/ErrorCode;
 	m	connect(Ljava/lang/String;Ljava/lang/String;)Ltv/twitch/ErrorCode;	connect(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ltv/twitch/chat/IChatChannelListener;)Ltv/twitch/ErrorCode;
@@ -45836,7 +45795,6 @@ c	Ltv/twitch/chat/StandardChatAPI;	Ltv/twitch/chat/StandardChatAPI;
 	m	TTV_Java_Chat_DownloadEmoticonData(Z)Ltv/twitch/ErrorCode;	TTV_Java_Chat_DownloadEmoticonData()Ltv/twitch/ErrorCode;
 	m	TTV_Java_Chat_GetEmoticonData(Ltv/twitch/chat/ChatEmoticonData;)Ltv/twitch/ErrorCode;	TTV_Java_Chat_GetEmoticonData(Ltv/twitch/chat/ChatEmoticonData;)Ltv/twitch/ErrorCode;
 		ma	0	0
-	m	finalize()V	finalize()V
 c	Ltv;	Lus;
 	m	<init>(Ljava/lang/String;DI)V	<init>(Ljava/lang/String;DI)V
 		ma	0	0
@@ -45882,9 +45840,11 @@ c	Ltx;	Luu;
 		ma	0	0
 	m	a(Ljava/lang/String;)Ltu;	a(Ljava/lang/String;)Lur;
 		ma	0	0
-	mu	a	b(Ltt;)Ltu;
+	m	b(Ltt;)Ltu;	c(Luq;)Lur;
+		ma	0	0
 	m	a()Ljava/util/Collection;	a()Ljava/util/Collection;
-	mu	a	a(Ltz;)V
+	m	a(Ltz;)V	a(Lur;)V
+		ma	0	0
 	m	a(Lcom/google/common/collect/Multimap;)V	a(Lcom/google/common/collect/Multimap;)V
 		ma	0	0
 	m	b(Lcom/google/common/collect/Multimap;)V	b(Lcom/google/common/collect/Multimap;)V
@@ -45950,8 +45910,10 @@ c	Luc;	Lux;
 		ma	0	0
 	m	b(Ljava/lang/String;)Ltz;	b(Ljava/lang/String;)Luw;
 		ma	0	0
-	mu	a	b(Ltt;)Ltu;
-	mu	a	a(Ltz;)V
+	m	b(Ltt;)Ltu;	c(Luq;)Lur;
+		ma	0	0
+	m	a(Ltz;)V	a(Lur;)V
+		ma	0	0
 	m	b()Ljava/util/Set;	b()Ljava/util/Set;
 	m	c()Ljava/util/Collection;	c()Ljava/util/Collection;
 	m	a(Ljava/lang/String;)Ltu;	a(Ljava/lang/String;)Lur;
