@@ -1,40 +1,39 @@
-Matches saved 2022-01-07, status: c:1805/1806 m:15309/15323 f:6771/6785 ma:22778/22809, input files:
+Matches saved 2023-02-13, status: c:1805/1806 m:15309/15323 f:6771/6785 ma:22778/22809, input files:
 	a:
-		5218790	6QFCqZLqdClX3MjBvo7JIRvE7zwg6+f19J0W4lZaLVc=	minecraft-merged-1.7.2.jar
+		5218790	SHA256	0EIyueJOxao63fxgohYmmXIfBRaNbLhtxJb9321AXS0=	minecraft-merged-1.7.2.jar
 	b:
-		5308755	vfhK80cE10nkheVYfMsm8ziwfcEHYo9fZ/Ek9ms92hg=	minecraft-merged-13w47a.jar
+		5308755	SHA256	GRiziZTYA5y8sAutc/SQ/xYCWJoHmbm1Xqo3J/EVHPg=	minecraft-merged-13w47a.jar
 	cp:
-		289881	26oIhpCiOpVO/2aamdJFKiTdnxDYZnJf9dKf9HQKiX4=	vecmath-1.3.1.jar
-		2523218	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
-		1634692	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		103871	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
-		5618	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
-		21679	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
-		18981	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
-		65020	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
-		1452995	luqjIjK1pbD5r8EhoOGyQW49ylBlezHlQxwKBK5lBVI=	netty-all-4.0.10.Final.jar
-		2172168	ejRXV3DuvGClR2YW42dqbLbyl1x4xBXipgFKxyS6V4M=	guava-15.0.jar
-		315805	Ex8FGajkYC5HzwJL/X4INLz1WSpyB/mi/bcR1PWvwWY=	commons-lang3-3.1.jar
-		185140	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		190432	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
-		108161	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
-		681134	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
+		15966	SHA256	yuPeFp52le8wB5NJxeqBeQvRDATEA3GW/U/cB7bUOTQ=	netty-1.8.8.jar
+		289881	SHA256	26oIhpCiOpVO/2aamdJFKiTdnxDYZnJf9dKf9HQKiX4=	vecmath-1.3.1.jar
+		2523218	SHA256	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
+		1634692	SHA256	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		103871	SHA256	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
+		5618	SHA256	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
+		21679	SHA256	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
+		18981	SHA256	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
+		65020	SHA256	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
+		1452995	SHA256	luqjIjK1pbD5r8EhoOGyQW49ylBlezHlQxwKBK5lBVI=	netty-all-4.0.10.Final.jar
+		2172168	SHA256	ejRXV3DuvGClR2YW42dqbLbyl1x4xBXipgFKxyS6V4M=	guava-15.0.jar
+		315805	SHA256	Ex8FGajkYC5HzwJL/X4INLz1WSpyB/mi/bcR1PWvwWY=	commons-lang3-3.1.jar
+		185140	SHA256	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		190432	SHA256	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
+		108161	SHA256	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
+		681134	SHA256	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
 	cp a:
-		14725	iSInjK8Ubmy2v5Vsa/8QJJbg1y2Jr7GplIGMoRnK6Xo=	netty-1.7.7.jar
-		35930	qwOBnB7KE1r1B4ETo3EyutqkNg+ZaTCpdhDXSGFWNoM=	authlib-1.3.jar
-		994633	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		1016818	A37x4oh307YR7VAqY/EqvM3cgcrgE+5Fe7WJjVpG5hY=	lwjgl-2.9.1-nightly-20131017.jar
-		173887	BS8deuuXd2YyV6LwhZKdH2AdKaOBZWM6InLNkIAh7Xg=	lwjgl_util-2.9.1-nightly-20131017.jar
+		35930	SHA256	qwOBnB7KE1r1B4ETo3EyutqkNg+ZaTCpdhDXSGFWNoM=	authlib-1.3.jar
+		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
+		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
+		1016818	SHA256	A37x4oh307YR7VAqY/EqvM3cgcrgE+5Fe7WJjVpG5hY=	lwjgl-2.9.1-nightly-20131017.jar
+		173887	SHA256	BS8deuuXd2YyV6LwhZKdH2AdKaOBZWM6InLNkIAh7Xg=	lwjgl_util-2.9.1-nightly-20131017.jar
 	cp b:
-		7877	MSD9JMCaubwIjLnB6yBlvoZxhghFD9vCe103FymmGcs=	netty-1.6.jar
-		34601	3FrF1uHOIyfriYgecG16Teb3qR8y8cXiSctRt/GUwCs=	authlib-1.2.jar
-		1014767	Kuqx3a+cHkK76oXhzBAzjpPrebbOdLb8lTKsFavyqWw=	lwjgl-2.9.1-nightly-20131120.jar
-		173887	rx5+ciLmLUd1OT+jwATWz6LCfal46iOpTwSV1sIpPEw=	lwjgl_util-2.9.1-nightly-20131120.jar
-		52315	lJe989EuLwiG0eX5wOVDXp/PnljirjoiTJo26v1yzvE=	twitch-5.9.jar
+		34601	SHA256	3FrF1uHOIyfriYgecG16Teb3qR8y8cXiSctRt/GUwCs=	authlib-1.2.jar
+		1014767	SHA256	Kuqx3a+cHkK76oXhzBAzjpPrebbOdLb8lTKsFavyqWw=	lwjgl-2.9.1-nightly-20131120.jar
+		173887	SHA256	rx5+ciLmLUd1OT+jwATWz6LCfal46iOpTwSV1sIpPEw=	lwjgl_util-2.9.1-nightly-20131120.jar
+		52315	SHA256	lJe989EuLwiG0eX5wOVDXp/PnljirjoiTJo26v1yzvE=	twitch-5.9.jar
 c	La;	La;
 	m	values()[La;	values()[La;
 	m	valueOf(Ljava/lang/String;)La;	valueOf(Ljava/lang/String;)La;
@@ -7995,7 +7994,6 @@ c	Lajp;	Lajs;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	a(Lafn;IIIIFI)V
 	m	a(Lafn;IIILahu;I)V	a(Lafq;IIILahx;I)V
 		ma	0	0
 		ma	1	1
@@ -36073,89 +36071,6 @@ c	Lin;	Liq;
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;I	b;;I
 	f	c;;[B	c;;[B
-c	Lio/netty/bootstrap/Bootstrap$1;	Lio/netty/bootstrap/Bootstrap$1;
-	m	<init>(Lio/netty/bootstrap/Bootstrap;Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V	<init>(Lio/netty/bootstrap/Bootstrap;Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-	m	operationComplete(Lio/netty/channel/ChannelFuture;)V	operationComplete(Lio/netty/channel/ChannelFuture;)V
-		ma	0	0
-	m	operationComplete(Lio/netty/util/concurrent/Future;)V	operationComplete(Lio/netty/util/concurrent/Future;)V
-		ma	0	0
-	f	val$regFuture;;Lio/netty/channel/ChannelFuture;	val$regFuture;;Lio/netty/channel/ChannelFuture;
-	f	val$channel;;Lio/netty/channel/Channel;	val$channel;;Lio/netty/channel/Channel;
-	f	val$remoteAddress;;Ljava/net/SocketAddress;	val$remoteAddress;;Ljava/net/SocketAddress;
-	f	val$localAddress;;Ljava/net/SocketAddress;	val$localAddress;;Ljava/net/SocketAddress;
-	f	val$promise;;Lio/netty/channel/ChannelPromise;	val$promise;;Lio/netty/channel/ChannelPromise;
-	f	this$0;;Lio/netty/bootstrap/Bootstrap;	this$0;;Lio/netty/bootstrap/Bootstrap;
-c	Lio/netty/bootstrap/Bootstrap$2;	Lio/netty/bootstrap/Bootstrap$2;
-	m	<init>(Lio/netty/channel/ChannelFuture;Ljava/net/SocketAddress;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V	<init>(Lio/netty/channel/ChannelFuture;Ljava/net/SocketAddress;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	run()V	run()V
-	f	val$regFuture;;Lio/netty/channel/ChannelFuture;	val$regFuture;;Lio/netty/channel/ChannelFuture;
-	f	val$localAddress;;Ljava/net/SocketAddress;	val$localAddress;;Ljava/net/SocketAddress;
-	f	val$channel;;Lio/netty/channel/Channel;	val$channel;;Lio/netty/channel/Channel;
-	f	val$remoteAddress;;Ljava/net/SocketAddress;	val$remoteAddress;;Ljava/net/SocketAddress;
-	f	val$promise;;Lio/netty/channel/ChannelPromise;	val$promise;;Lio/netty/channel/ChannelPromise;
-c	Lio/netty/bootstrap/Bootstrap;	Lio/netty/bootstrap/Bootstrap;
-	m	<init>()V	<init>()V
-	m	<init>(Lio/netty/bootstrap/Bootstrap;)V	<init>(Lio/netty/bootstrap/Bootstrap;)V
-		ma	0	0
-	m	remoteAddress(Ljava/net/SocketAddress;)Lio/netty/bootstrap/Bootstrap;	remoteAddress(Ljava/net/SocketAddress;)Lio/netty/bootstrap/Bootstrap;
-		ma	0	0
-	m	remoteAddress(Ljava/lang/String;I)Lio/netty/bootstrap/Bootstrap;	remoteAddress(Ljava/lang/String;I)Lio/netty/bootstrap/Bootstrap;
-		ma	0	0
-		ma	1	1
-	m	remoteAddress(Ljava/net/InetAddress;I)Lio/netty/bootstrap/Bootstrap;	remoteAddress(Ljava/net/InetAddress;I)Lio/netty/bootstrap/Bootstrap;
-		ma	0	0
-		ma	1	1
-	m	connect()Lio/netty/channel/ChannelFuture;	connect()Lio/netty/channel/ChannelFuture;
-	m	connect(Ljava/lang/String;I)Lio/netty/channel/ChannelFuture;	connect(Ljava/lang/String;I)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-		ma	1	1
-	m	connect(Ljava/net/InetAddress;I)Lio/netty/channel/ChannelFuture;	connect(Ljava/net/InetAddress;I)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-		ma	1	1
-	m	connect(Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;	connect(Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-	m	connect(Ljava/net/SocketAddress;Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;	connect(Ljava/net/SocketAddress;Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-		ma	1	1
-	m	doConnect(Ljava/net/SocketAddress;Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;	doConnect(Ljava/net/SocketAddress;Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-		ma	1	1
-	m	doConnect0(Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V	doConnect0(Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	init(Lio/netty/channel/Channel;)V	init(Lio/netty/channel/Channel;)V
-		ma	0	0
-	m	validate()Lio/netty/bootstrap/Bootstrap;	validate()Lio/netty/bootstrap/Bootstrap;
-	m	clone()Lio/netty/bootstrap/Bootstrap;	clone()Lio/netty/bootstrap/Bootstrap;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
-	m	checkAddress(Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;	checkAddress(Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-	m	clone()Lio/netty/bootstrap/AbstractBootstrap;	clone()Lio/netty/bootstrap/AbstractBootstrap;
-	m	validate()Lio/netty/bootstrap/AbstractBootstrap;	validate()Lio/netty/bootstrap/AbstractBootstrap;
-	m	clone()Ljava/lang/Object;	clone()Ljava/lang/Object;
-	m	access$000(Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V	access$000(Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	<clinit>()V	<clinit>()V
-	f	logger;;Lio/netty/util/internal/logging/InternalLogger;	logger;;Lio/netty/util/internal/logging/InternalLogger;
-	f	remoteAddress;;Ljava/net/SocketAddress;	remoteAddress;;Ljava/net/SocketAddress;
 c	Lio;	Lir;
 	m	<init>()V	<init>()V
 	m	<init>(Lqn;Lip;)V	<init>(Lqq;Lis;)V
@@ -40661,7 +40576,6 @@ c	Lorg/lwjgl/input/Mouse;	Lorg/lwjgl/input/Mouse;
 	m	<init>()V	<init>()V
 	m	isCreated()Z	isCreated()Z
 	m	getImplementation()Lorg/lwjgl/opengl/InputImplementation;	getImplementation()Lorg/lwjgl/opengl/InputImplementation;
-	m	getNativeCursor()Lorg/lwjgl/input/Cursor;	getNativeCursor()Lorg/lwjgl/input/Cursor;
 	m	setNativeCursor(Lorg/lwjgl/input/Cursor;)Lorg/lwjgl/input/Cursor;	setNativeCursor(Lorg/lwjgl/input/Cursor;)Lorg/lwjgl/input/Cursor;
 		ma	0	0
 	m	getNativeCursor()Lorg/lwjgl/input/Cursor;	getNativeCursor()Lorg/lwjgl/input/Cursor;
@@ -41929,502 +41843,10 @@ c	Lorg/lwjgl/opengl/ContextCapabilities;	Lorg/lwjgl/opengl/ContextCapabilities;
 		ma	0	0
 	f	DEBUG;;Z	DEBUG;;Z
 	f	util;;Lorg/lwjgl/opengl/APIUtil;	util;;Lorg/lwjgl/opengl/APIUtil;
-	f	util;;Lorg/lwjgl/opengl/APIUtil;	util;;Lorg/lwjgl/opengl/APIUtil;
 	f	OpenGL20;;Z	OpenGL20;;Z
 	f	GL_ARB_vertex_shader;;Z	GL_ARB_vertex_shader;;Z
-	f	glAccum;;J	glAccum;;J
-	f	glAlphaFunc;;J	glAlphaFunc;;J
-	f	glClearColor;;J	glClearColor;;J
-	f	glClearAccum;;J	glClearAccum;;J
-	f	glClear;;J	glClear;;J
-	f	glCallLists;;J	glCallLists;;J
-	f	glCallList;;J	glCallList;;J
-	f	glBlendFunc;;J	glBlendFunc;;J
-	f	glBitmap;;J	glBitmap;;J
-	f	glBindBuffer;;J	glBindBuffer;;J
-	f	glDeleteBuffers;;J	glDeleteBuffers;;J
-	f	glGenBuffers;;J	glGenBuffers;;J
-	f	glIsBuffer;;J	glIsBuffer;;J
-	f	glBufferData;;J	glBufferData;;J
-	f	glBufferSubData;;J	glBufferSubData;;J
-	f	glGetBufferSubData;;J	glGetBufferSubData;;J
-	f	glMapBuffer;;J	glMapBuffer;;J
-	f	glUnmapBuffer;;J	glUnmapBuffer;;J
-	f	glGetBufferParameteriv;;J	glGetBufferParameteriv;;J
-	f	glGetBufferPointerv;;J	glGetBufferPointerv;;J
-	f	glGenQueries;;J	glGenQueries;;J
-	f	glDeleteQueries;;J	glDeleteQueries;;J
-	f	glIsQuery;;J	glIsQuery;;J
-	f	glBeginQuery;;J	glBeginQuery;;J
-	f	glEndQuery;;J	glEndQuery;;J
-	f	glGetQueryiv;;J	glGetQueryiv;;J
-	f	glGetQueryObjectiv;;J	glGetQueryObjectiv;;J
-	f	glGetQueryObjectuiv;;J	glGetQueryObjectuiv;;J
-	f	glBindBufferARB;;J	glBindBufferARB;;J
-	f	glDeleteBuffersARB;;J	glDeleteBuffersARB;;J
-	f	glGenBuffersARB;;J	glGenBuffersARB;;J
-	f	glIsBufferARB;;J	glIsBufferARB;;J
-	f	glBufferDataARB;;J	glBufferDataARB;;J
-	f	glBufferSubDataARB;;J	glBufferSubDataARB;;J
-	f	glGetBufferSubDataARB;;J	glGetBufferSubDataARB;;J
-	f	glMapBufferARB;;J	glMapBufferARB;;J
-	f	glUnmapBufferARB;;J	glUnmapBufferARB;;J
-	f	glGetBufferParameterivARB;;J	glGetBufferParameterivARB;;J
-	f	glGetBufferPointervARB;;J	glGetBufferPointervARB;;J
-	f	glNewObjectBufferATI;;J	glNewObjectBufferATI;;J
-	f	glIsObjectBufferATI;;J	glIsObjectBufferATI;;J
-	f	glUpdateObjectBufferATI;;J	glUpdateObjectBufferATI;;J
-	f	glGetObjectBufferfvATI;;J	glGetObjectBufferfvATI;;J
-	f	glGetObjectBufferivATI;;J	glGetObjectBufferivATI;;J
-	f	glFreeObjectBufferATI;;J	glFreeObjectBufferATI;;J
-	f	glArrayObjectATI;;J	glArrayObjectATI;;J
-	f	glGetArrayObjectfvATI;;J	glGetArrayObjectfvATI;;J
-	f	glGetArrayObjectivATI;;J	glGetArrayObjectivATI;;J
-	f	glVariantArrayObjectATI;;J	glVariantArrayObjectATI;;J
-	f	glGetVariantArrayObjectfvATI;;J	glGetVariantArrayObjectfvATI;;J
-	f	glGetVariantArrayObjectivATI;;J	glGetVariantArrayObjectivATI;;J
-	f	glClientAttribDefaultEXT;;J	glClientAttribDefaultEXT;;J
-	f	glPushClientAttribDefaultEXT;;J	glPushClientAttribDefaultEXT;;J
-	f	glMatrixLoadfEXT;;J	glMatrixLoadfEXT;;J
-	f	glMatrixLoaddEXT;;J	glMatrixLoaddEXT;;J
-	f	glMatrixMultfEXT;;J	glMatrixMultfEXT;;J
-	f	glMatrixMultdEXT;;J	glMatrixMultdEXT;;J
-	f	glMatrixLoadIdentityEXT;;J	glMatrixLoadIdentityEXT;;J
-	f	glMatrixRotatefEXT;;J	glMatrixRotatefEXT;;J
-	f	glMatrixRotatedEXT;;J	glMatrixRotatedEXT;;J
-	f	glMatrixScalefEXT;;J	glMatrixScalefEXT;;J
-	f	glMatrixScaledEXT;;J	glMatrixScaledEXT;;J
-	f	glMatrixTranslatefEXT;;J	glMatrixTranslatefEXT;;J
-	f	glMatrixTranslatedEXT;;J	glMatrixTranslatedEXT;;J
-	f	glMatrixOrthoEXT;;J	glMatrixOrthoEXT;;J
-	f	glMatrixFrustumEXT;;J	glMatrixFrustumEXT;;J
-	f	glMatrixPushEXT;;J	glMatrixPushEXT;;J
-	f	glMatrixPopEXT;;J	glMatrixPopEXT;;J
-	f	glTextureParameteriEXT;;J	glTextureParameteriEXT;;J
-	f	glTextureParameterivEXT;;J	glTextureParameterivEXT;;J
-	f	glTextureParameterfEXT;;J	glTextureParameterfEXT;;J
-	f	glTextureParameterfvEXT;;J	glTextureParameterfvEXT;;J
-	f	glTextureImage1DEXT;;J	glTextureImage1DEXT;;J
-	f	glTextureImage2DEXT;;J	glTextureImage2DEXT;;J
-	f	glTextureSubImage1DEXT;;J	glTextureSubImage1DEXT;;J
-	f	glTextureSubImage2DEXT;;J	glTextureSubImage2DEXT;;J
-	f	glCopyTextureImage1DEXT;;J	glCopyTextureImage1DEXT;;J
-	f	glCopyTextureImage2DEXT;;J	glCopyTextureImage2DEXT;;J
-	f	glCopyTextureSubImage1DEXT;;J	glCopyTextureSubImage1DEXT;;J
-	f	glCopyTextureSubImage2DEXT;;J	glCopyTextureSubImage2DEXT;;J
-	f	glGetTextureImageEXT;;J	glGetTextureImageEXT;;J
-	f	glGetTextureParameterfvEXT;;J	glGetTextureParameterfvEXT;;J
-	f	glGetTextureParameterivEXT;;J	glGetTextureParameterivEXT;;J
-	f	glGetTextureLevelParameterfvEXT;;J	glGetTextureLevelParameterfvEXT;;J
-	f	glGetTextureLevelParameterivEXT;;J	glGetTextureLevelParameterivEXT;;J
-	f	glTextureImage3DEXT;;J	glTextureImage3DEXT;;J
-	f	glTextureSubImage3DEXT;;J	glTextureSubImage3DEXT;;J
-	f	glCopyTextureSubImage3DEXT;;J	glCopyTextureSubImage3DEXT;;J
-	f	glBindMultiTextureEXT;;J	glBindMultiTextureEXT;;J
-	f	glMultiTexCoordPointerEXT;;J	glMultiTexCoordPointerEXT;;J
-	f	glMultiTexEnvfEXT;;J	glMultiTexEnvfEXT;;J
-	f	glMultiTexEnvfvEXT;;J	glMultiTexEnvfvEXT;;J
-	f	glMultiTexEnviEXT;;J	glMultiTexEnviEXT;;J
-	f	glMultiTexEnvivEXT;;J	glMultiTexEnvivEXT;;J
-	f	glMultiTexGendEXT;;J	glMultiTexGendEXT;;J
-	f	glMultiTexGendvEXT;;J	glMultiTexGendvEXT;;J
-	f	glMultiTexGenfEXT;;J	glMultiTexGenfEXT;;J
-	f	glMultiTexGenfvEXT;;J	glMultiTexGenfvEXT;;J
-	f	glMultiTexGeniEXT;;J	glMultiTexGeniEXT;;J
-	f	glMultiTexGenivEXT;;J	glMultiTexGenivEXT;;J
-	f	glGetMultiTexEnvfvEXT;;J	glGetMultiTexEnvfvEXT;;J
-	f	glGetMultiTexEnvivEXT;;J	glGetMultiTexEnvivEXT;;J
-	f	glGetMultiTexGendvEXT;;J	glGetMultiTexGendvEXT;;J
-	f	glGetMultiTexGenfvEXT;;J	glGetMultiTexGenfvEXT;;J
-	f	glGetMultiTexGenivEXT;;J	glGetMultiTexGenivEXT;;J
-	f	glMultiTexParameteriEXT;;J	glMultiTexParameteriEXT;;J
-	f	glMultiTexParameterivEXT;;J	glMultiTexParameterivEXT;;J
-	f	glMultiTexParameterfEXT;;J	glMultiTexParameterfEXT;;J
-	f	glMultiTexParameterfvEXT;;J	glMultiTexParameterfvEXT;;J
-	f	glMultiTexImage1DEXT;;J	glMultiTexImage1DEXT;;J
-	f	glMultiTexImage2DEXT;;J	glMultiTexImage2DEXT;;J
-	f	glMultiTexSubImage1DEXT;;J	glMultiTexSubImage1DEXT;;J
-	f	glMultiTexSubImage2DEXT;;J	glMultiTexSubImage2DEXT;;J
-	f	glCopyMultiTexImage1DEXT;;J	glCopyMultiTexImage1DEXT;;J
-	f	glCopyMultiTexImage2DEXT;;J	glCopyMultiTexImage2DEXT;;J
-	f	glCopyMultiTexSubImage1DEXT;;J	glCopyMultiTexSubImage1DEXT;;J
-	f	glCopyMultiTexSubImage2DEXT;;J	glCopyMultiTexSubImage2DEXT;;J
-	f	glGetMultiTexImageEXT;;J	glGetMultiTexImageEXT;;J
-	f	glGetMultiTexParameterfvEXT;;J	glGetMultiTexParameterfvEXT;;J
-	f	glGetMultiTexParameterivEXT;;J	glGetMultiTexParameterivEXT;;J
-	f	glGetMultiTexLevelParameterfvEXT;;J	glGetMultiTexLevelParameterfvEXT;;J
-	f	glGetMultiTexLevelParameterivEXT;;J	glGetMultiTexLevelParameterivEXT;;J
-	f	glMultiTexImage3DEXT;;J	glMultiTexImage3DEXT;;J
-	f	glMultiTexSubImage3DEXT;;J	glMultiTexSubImage3DEXT;;J
-	f	glCopyMultiTexSubImage3DEXT;;J	glCopyMultiTexSubImage3DEXT;;J
-	f	glEnableClientStateIndexedEXT;;J	glEnableClientStateIndexedEXT;;J
-	f	glDisableClientStateIndexedEXT;;J	glDisableClientStateIndexedEXT;;J
-	f	glEnableClientStateiEXT;;J	glEnableClientStateiEXT;;J
-	f	glDisableClientStateiEXT;;J	glDisableClientStateiEXT;;J
-	f	glGetFloatIndexedvEXT;;J	glGetFloatIndexedvEXT;;J
-	f	glGetDoubleIndexedvEXT;;J	glGetDoubleIndexedvEXT;;J
-	f	glGetPointerIndexedvEXT;;J	glGetPointerIndexedvEXT;;J
-	f	glGetFloati_vEXT;;J	glGetFloati_vEXT;;J
-	f	glGetDoublei_vEXT;;J	glGetDoublei_vEXT;;J
-	f	glGetPointeri_vEXT;;J	glGetPointeri_vEXT;;J
-	f	glColorMaskIndexedEXT;;J	glColorMaskIndexedEXT;;J
-	f	glGetBooleanIndexedvEXT;;J	glGetBooleanIndexedvEXT;;J
-	f	glGetIntegerIndexedvEXT;;J	glGetIntegerIndexedvEXT;;J
-	f	glEnableIndexedEXT;;J	glEnableIndexedEXT;;J
-	f	glDisableIndexedEXT;;J	glDisableIndexedEXT;;J
-	f	glIsEnabledIndexedEXT;;J	glIsEnabledIndexedEXT;;J
-	f	glNamedProgramStringEXT;;J	glNamedProgramStringEXT;;J
-	f	glNamedProgramLocalParameter4dEXT;;J	glNamedProgramLocalParameter4dEXT;;J
-	f	glNamedProgramLocalParameter4dvEXT;;J	glNamedProgramLocalParameter4dvEXT;;J
-	f	glNamedProgramLocalParameter4fEXT;;J	glNamedProgramLocalParameter4fEXT;;J
-	f	glNamedProgramLocalParameter4fvEXT;;J	glNamedProgramLocalParameter4fvEXT;;J
-	f	glGetNamedProgramLocalParameterdvEXT;;J	glGetNamedProgramLocalParameterdvEXT;;J
-	f	glGetNamedProgramLocalParameterfvEXT;;J	glGetNamedProgramLocalParameterfvEXT;;J
-	f	glGetNamedProgramivEXT;;J	glGetNamedProgramivEXT;;J
-	f	glGetNamedProgramStringEXT;;J	glGetNamedProgramStringEXT;;J
-	f	glCompressedTextureImage3DEXT;;J	glCompressedTextureImage3DEXT;;J
-	f	glCompressedTextureImage2DEXT;;J	glCompressedTextureImage2DEXT;;J
-	f	glCompressedTextureImage1DEXT;;J	glCompressedTextureImage1DEXT;;J
-	f	glCompressedTextureSubImage3DEXT;;J	glCompressedTextureSubImage3DEXT;;J
-	f	glCompressedTextureSubImage2DEXT;;J	glCompressedTextureSubImage2DEXT;;J
-	f	glCompressedTextureSubImage1DEXT;;J	glCompressedTextureSubImage1DEXT;;J
-	f	glGetCompressedTextureImageEXT;;J	glGetCompressedTextureImageEXT;;J
-	f	glCompressedMultiTexImage3DEXT;;J	glCompressedMultiTexImage3DEXT;;J
-	f	glCompressedMultiTexImage2DEXT;;J	glCompressedMultiTexImage2DEXT;;J
-	f	glCompressedMultiTexImage1DEXT;;J	glCompressedMultiTexImage1DEXT;;J
-	f	glCompressedMultiTexSubImage3DEXT;;J	glCompressedMultiTexSubImage3DEXT;;J
-	f	glCompressedMultiTexSubImage2DEXT;;J	glCompressedMultiTexSubImage2DEXT;;J
-	f	glCompressedMultiTexSubImage1DEXT;;J	glCompressedMultiTexSubImage1DEXT;;J
-	f	glGetCompressedMultiTexImageEXT;;J	glGetCompressedMultiTexImageEXT;;J
-	f	glMatrixLoadTransposefEXT;;J	glMatrixLoadTransposefEXT;;J
-	f	glMatrixLoadTransposedEXT;;J	glMatrixLoadTransposedEXT;;J
-	f	glMatrixMultTransposefEXT;;J	glMatrixMultTransposefEXT;;J
-	f	glMatrixMultTransposedEXT;;J	glMatrixMultTransposedEXT;;J
-	f	glNamedBufferDataEXT;;J	glNamedBufferDataEXT;;J
-	f	glNamedBufferSubDataEXT;;J	glNamedBufferSubDataEXT;;J
-	f	glMapNamedBufferEXT;;J	glMapNamedBufferEXT;;J
-	f	glUnmapNamedBufferEXT;;J	glUnmapNamedBufferEXT;;J
-	f	glGetNamedBufferParameterivEXT;;J	glGetNamedBufferParameterivEXT;;J
-	f	glGetNamedBufferPointervEXT;;J	glGetNamedBufferPointervEXT;;J
-	f	glGetNamedBufferSubDataEXT;;J	glGetNamedBufferSubDataEXT;;J
-	f	glProgramUniform1fEXT;;J	glProgramUniform1fEXT;;J
-	f	glProgramUniform2fEXT;;J	glProgramUniform2fEXT;;J
-	f	glProgramUniform3fEXT;;J	glProgramUniform3fEXT;;J
-	f	glProgramUniform4fEXT;;J	glProgramUniform4fEXT;;J
-	f	glProgramUniform1iEXT;;J	glProgramUniform1iEXT;;J
-	f	glProgramUniform2iEXT;;J	glProgramUniform2iEXT;;J
-	f	glProgramUniform3iEXT;;J	glProgramUniform3iEXT;;J
-	f	glProgramUniform4iEXT;;J	glProgramUniform4iEXT;;J
-	f	glProgramUniform1fvEXT;;J	glProgramUniform1fvEXT;;J
-	f	glProgramUniform2fvEXT;;J	glProgramUniform2fvEXT;;J
-	f	glProgramUniform3fvEXT;;J	glProgramUniform3fvEXT;;J
-	f	glProgramUniform4fvEXT;;J	glProgramUniform4fvEXT;;J
-	f	glProgramUniform1ivEXT;;J	glProgramUniform1ivEXT;;J
-	f	glProgramUniform2ivEXT;;J	glProgramUniform2ivEXT;;J
-	f	glProgramUniform3ivEXT;;J	glProgramUniform3ivEXT;;J
-	f	glProgramUniform4ivEXT;;J	glProgramUniform4ivEXT;;J
-	f	glProgramUniformMatrix2fvEXT;;J	glProgramUniformMatrix2fvEXT;;J
-	f	glProgramUniformMatrix3fvEXT;;J	glProgramUniformMatrix3fvEXT;;J
-	f	glProgramUniformMatrix4fvEXT;;J	glProgramUniformMatrix4fvEXT;;J
-	f	glProgramUniformMatrix2x3fvEXT;;J	glProgramUniformMatrix2x3fvEXT;;J
-	f	glProgramUniformMatrix3x2fvEXT;;J	glProgramUniformMatrix3x2fvEXT;;J
-	f	glProgramUniformMatrix2x4fvEXT;;J	glProgramUniformMatrix2x4fvEXT;;J
-	f	glProgramUniformMatrix4x2fvEXT;;J	glProgramUniformMatrix4x2fvEXT;;J
-	f	glProgramUniformMatrix3x4fvEXT;;J	glProgramUniformMatrix3x4fvEXT;;J
-	f	glProgramUniformMatrix4x3fvEXT;;J	glProgramUniformMatrix4x3fvEXT;;J
-	f	glTextureBufferEXT;;J	glTextureBufferEXT;;J
-	f	glMultiTexBufferEXT;;J	glMultiTexBufferEXT;;J
-	f	glTextureParameterIivEXT;;J	glTextureParameterIivEXT;;J
-	f	glTextureParameterIuivEXT;;J	glTextureParameterIuivEXT;;J
-	f	glGetTextureParameterIivEXT;;J	glGetTextureParameterIivEXT;;J
-	f	glGetTextureParameterIuivEXT;;J	glGetTextureParameterIuivEXT;;J
-	f	glMultiTexParameterIivEXT;;J	glMultiTexParameterIivEXT;;J
-	f	glMultiTexParameterIuivEXT;;J	glMultiTexParameterIuivEXT;;J
-	f	glGetMultiTexParameterIivEXT;;J	glGetMultiTexParameterIivEXT;;J
-	f	glGetMultiTexParameterIuivEXT;;J	glGetMultiTexParameterIuivEXT;;J
-	f	glProgramUniform1uiEXT;;J	glProgramUniform1uiEXT;;J
-	f	glProgramUniform2uiEXT;;J	glProgramUniform2uiEXT;;J
-	f	glProgramUniform3uiEXT;;J	glProgramUniform3uiEXT;;J
-	f	glProgramUniform4uiEXT;;J	glProgramUniform4uiEXT;;J
-	f	glProgramUniform1uivEXT;;J	glProgramUniform1uivEXT;;J
-	f	glProgramUniform2uivEXT;;J	glProgramUniform2uivEXT;;J
-	f	glProgramUniform3uivEXT;;J	glProgramUniform3uivEXT;;J
-	f	glProgramUniform4uivEXT;;J	glProgramUniform4uivEXT;;J
-	f	glNamedProgramLocalParameters4fvEXT;;J	glNamedProgramLocalParameters4fvEXT;;J
-	f	glNamedProgramLocalParameterI4iEXT;;J	glNamedProgramLocalParameterI4iEXT;;J
-	f	glNamedProgramLocalParameterI4ivEXT;;J	glNamedProgramLocalParameterI4ivEXT;;J
-	f	glNamedProgramLocalParametersI4ivEXT;;J	glNamedProgramLocalParametersI4ivEXT;;J
-	f	glNamedProgramLocalParameterI4uiEXT;;J	glNamedProgramLocalParameterI4uiEXT;;J
-	f	glNamedProgramLocalParameterI4uivEXT;;J	glNamedProgramLocalParameterI4uivEXT;;J
-	f	glNamedProgramLocalParametersI4uivEXT;;J	glNamedProgramLocalParametersI4uivEXT;;J
-	f	glGetNamedProgramLocalParameterIivEXT;;J	glGetNamedProgramLocalParameterIivEXT;;J
-	f	glGetNamedProgramLocalParameterIuivEXT;;J	glGetNamedProgramLocalParameterIuivEXT;;J
-	f	glNamedRenderbufferStorageEXT;;J	glNamedRenderbufferStorageEXT;;J
-	f	glGetNamedRenderbufferParameterivEXT;;J	glGetNamedRenderbufferParameterivEXT;;J
-	f	glNamedRenderbufferStorageMultisampleEXT;;J	glNamedRenderbufferStorageMultisampleEXT;;J
-	f	glNamedRenderbufferStorageMultisampleCoverageEXT;;J	glNamedRenderbufferStorageMultisampleCoverageEXT;;J
-	f	glCheckNamedFramebufferStatusEXT;;J	glCheckNamedFramebufferStatusEXT;;J
-	f	glNamedFramebufferTexture1DEXT;;J	glNamedFramebufferTexture1DEXT;;J
-	f	glNamedFramebufferTexture2DEXT;;J	glNamedFramebufferTexture2DEXT;;J
-	f	glNamedFramebufferTexture3DEXT;;J	glNamedFramebufferTexture3DEXT;;J
-	f	glNamedFramebufferRenderbufferEXT;;J	glNamedFramebufferRenderbufferEXT;;J
-	f	glGetNamedFramebufferAttachmentParameterivEXT;;J	glGetNamedFramebufferAttachmentParameterivEXT;;J
-	f	glGenerateTextureMipmapEXT;;J	glGenerateTextureMipmapEXT;;J
-	f	glGenerateMultiTexMipmapEXT;;J	glGenerateMultiTexMipmapEXT;;J
-	f	glFramebufferDrawBufferEXT;;J	glFramebufferDrawBufferEXT;;J
-	f	glFramebufferDrawBuffersEXT;;J	glFramebufferDrawBuffersEXT;;J
-	f	glFramebufferReadBufferEXT;;J	glFramebufferReadBufferEXT;;J
-	f	glGetFramebufferParameterivEXT;;J	glGetFramebufferParameterivEXT;;J
-	f	glNamedCopyBufferSubDataEXT;;J	glNamedCopyBufferSubDataEXT;;J
-	f	glNamedFramebufferTextureEXT;;J	glNamedFramebufferTextureEXT;;J
-	f	glNamedFramebufferTextureLayerEXT;;J	glNamedFramebufferTextureLayerEXT;;J
-	f	glNamedFramebufferTextureFaceEXT;;J	glNamedFramebufferTextureFaceEXT;;J
-	f	glTextureRenderbufferEXT;;J	glTextureRenderbufferEXT;;J
-	f	glMultiTexRenderbufferEXT;;J	glMultiTexRenderbufferEXT;;J
-	f	glVertexArrayVertexOffsetEXT;;J	glVertexArrayVertexOffsetEXT;;J
-	f	glVertexArrayColorOffsetEXT;;J	glVertexArrayColorOffsetEXT;;J
-	f	glVertexArrayEdgeFlagOffsetEXT;;J	glVertexArrayEdgeFlagOffsetEXT;;J
-	f	glVertexArrayIndexOffsetEXT;;J	glVertexArrayIndexOffsetEXT;;J
-	f	glVertexArrayNormalOffsetEXT;;J	glVertexArrayNormalOffsetEXT;;J
-	f	glVertexArrayTexCoordOffsetEXT;;J	glVertexArrayTexCoordOffsetEXT;;J
-	f	glVertexArrayMultiTexCoordOffsetEXT;;J	glVertexArrayMultiTexCoordOffsetEXT;;J
-	f	glVertexArrayFogCoordOffsetEXT;;J	glVertexArrayFogCoordOffsetEXT;;J
-	f	glVertexArraySecondaryColorOffsetEXT;;J	glVertexArraySecondaryColorOffsetEXT;;J
-	f	glVertexArrayVertexAttribOffsetEXT;;J	glVertexArrayVertexAttribOffsetEXT;;J
-	f	glVertexArrayVertexAttribIOffsetEXT;;J	glVertexArrayVertexAttribIOffsetEXT;;J
-	f	glEnableVertexArrayEXT;;J	glEnableVertexArrayEXT;;J
-	f	glDisableVertexArrayEXT;;J	glDisableVertexArrayEXT;;J
-	f	glEnableVertexArrayAttribEXT;;J	glEnableVertexArrayAttribEXT;;J
-	f	glDisableVertexArrayAttribEXT;;J	glDisableVertexArrayAttribEXT;;J
-	f	glGetVertexArrayIntegervEXT;;J	glGetVertexArrayIntegervEXT;;J
-	f	glGetVertexArrayPointervEXT;;J	glGetVertexArrayPointervEXT;;J
-	f	glGetVertexArrayIntegeri_vEXT;;J	glGetVertexArrayIntegeri_vEXT;;J
-	f	glGetVertexArrayPointeri_vEXT;;J	glGetVertexArrayPointeri_vEXT;;J
-	f	glMapNamedBufferRangeEXT;;J	glMapNamedBufferRangeEXT;;J
-	f	glFlushMappedNamedBufferRangeEXT;;J	glFlushMappedNamedBufferRangeEXT;;J
-	f	glBindTexture;;J	glBindTexture;;J
-	f	glPrioritizeTextures;;J	glPrioritizeTextures;;J
-	f	glAreTexturesResident;;J	glAreTexturesResident;;J
-	f	glBegin;;J	glBegin;;J
-	f	glEnd;;J	glEnd;;J
-	f	glArrayElement;;J	glArrayElement;;J
-	f	glClearDepth;;J	glClearDepth;;J
-	f	glDeleteLists;;J	glDeleteLists;;J
-	f	glDeleteTextures;;J	glDeleteTextures;;J
-	f	glCullFace;;J	glCullFace;;J
-	f	glCopyTexSubImage2D;;J	glCopyTexSubImage2D;;J
-	f	glCopyTexSubImage1D;;J	glCopyTexSubImage1D;;J
-	f	glCopyTexImage2D;;J	glCopyTexImage2D;;J
-	f	glCopyTexImage1D;;J	glCopyTexImage1D;;J
-	f	glCopyPixels;;J	glCopyPixels;;J
-	f	glColorPointer;;J	glColorPointer;;J
-	f	glColorMaterial;;J	glColorMaterial;;J
-	f	glColorMask;;J	glColorMask;;J
-	f	glColor3b;;J	glColor3b;;J
-	f	glColor3f;;J	glColor3f;;J
-	f	glColor3d;;J	glColor3d;;J
-	f	glColor3ub;;J	glColor3ub;;J
-	f	glColor4b;;J	glColor4b;;J
-	f	glColor4f;;J	glColor4f;;J
-	f	glColor4d;;J	glColor4d;;J
-	f	glColor4ub;;J	glColor4ub;;J
-	f	glClipPlane;;J	glClipPlane;;J
-	f	glClearStencil;;J	glClearStencil;;J
-	f	glEvalPoint1;;J	glEvalPoint1;;J
-	f	glEvalPoint2;;J	glEvalPoint2;;J
-	f	glEvalMesh1;;J	glEvalMesh1;;J
-	f	glEvalMesh2;;J	glEvalMesh2;;J
-	f	glEvalCoord1f;;J	glEvalCoord1f;;J
-	f	glEvalCoord1d;;J	glEvalCoord1d;;J
-	f	glEvalCoord2f;;J	glEvalCoord2f;;J
-	f	glEvalCoord2d;;J	glEvalCoord2d;;J
-	f	glEnableClientState;;J	glEnableClientState;;J
-	f	glDisableClientState;;J	glDisableClientState;;J
-	f	glEnable;;J	glEnable;;J
-	f	glDisable;;J	glDisable;;J
-	f	glEdgeFlagPointer;;J	glEdgeFlagPointer;;J
-	f	glEdgeFlag;;J	glEdgeFlag;;J
-	f	glDrawPixels;;J	glDrawPixels;;J
-	f	glDrawElements;;J	glDrawElements;;J
-	f	glDrawBuffer;;J	glDrawBuffer;;J
-	f	glDrawArrays;;J	glDrawArrays;;J
-	f	glDepthRange;;J	glDepthRange;;J
-	f	glDepthMask;;J	glDepthMask;;J
-	f	glDepthFunc;;J	glDepthFunc;;J
-	f	glFeedbackBuffer;;J	glFeedbackBuffer;;J
-	f	glGetPixelMapfv;;J	glGetPixelMapfv;;J
-	f	glGetPixelMapuiv;;J	glGetPixelMapuiv;;J
-	f	glGetPixelMapusv;;J	glGetPixelMapusv;;J
-	f	glGetMaterialfv;;J	glGetMaterialfv;;J
-	f	glGetMaterialiv;;J	glGetMaterialiv;;J
-	f	glGetMapfv;;J	glGetMapfv;;J
-	f	glGetMapdv;;J	glGetMapdv;;J
-	f	glGetMapiv;;J	glGetMapiv;;J
-	f	glGetLightfv;;J	glGetLightfv;;J
-	f	glGetLightiv;;J	glGetLightiv;;J
-	f	glGetError;;J	glGetError;;J
-	f	glGetClipPlane;;J	glGetClipPlane;;J
-	f	glGetBooleanv;;J	glGetBooleanv;;J
-	f	glGetDoublev;;J	glGetDoublev;;J
-	f	glGetFloatv;;J	glGetFloatv;;J
-	f	glGetIntegerv;;J	glGetIntegerv;;J
-	f	glGenTextures;;J	glGenTextures;;J
-	f	glGenLists;;J	glGenLists;;J
-	f	glFrustum;;J	glFrustum;;J
-	f	glFrontFace;;J	glFrontFace;;J
-	f	glFogf;;J	glFogf;;J
-	f	glFogi;;J	glFogi;;J
-	f	glFogfv;;J	glFogfv;;J
-	f	glFogiv;;J	glFogiv;;J
-	f	glFlush;;J	glFlush;;J
-	f	glFinish;;J	glFinish;;J
-	f	glGetPointerv;;J	glGetPointerv;;J
-	f	glIsEnabled;;J	glIsEnabled;;J
-	f	glInterleavedArrays;;J	glInterleavedArrays;;J
-	f	glInitNames;;J	glInitNames;;J
-	f	glHint;;J	glHint;;J
-	f	glGetTexParameterfv;;J	glGetTexParameterfv;;J
-	f	glGetTexParameteriv;;J	glGetTexParameteriv;;J
-	f	glGetTexLevelParameterfv;;J	glGetTexLevelParameterfv;;J
-	f	glGetTexLevelParameteriv;;J	glGetTexLevelParameteriv;;J
-	f	glGetTexImage;;J	glGetTexImage;;J
-	f	glGetTexGeniv;;J	glGetTexGeniv;;J
-	f	glGetTexGenfv;;J	glGetTexGenfv;;J
-	f	glGetTexGendv;;J	glGetTexGendv;;J
-	f	glGetTexEnviv;;J	glGetTexEnviv;;J
-	f	glGetTexEnvfv;;J	glGetTexEnvfv;;J
-	f	glGetString;;J	glGetString;;J
-	f	glGetPolygonStipple;;J	glGetPolygonStipple;;J
-	f	glIsList;;J	glIsList;;J
-	f	glMaterialf;;J	glMaterialf;;J
-	f	glMateriali;;J	glMateriali;;J
-	f	glMaterialfv;;J	glMaterialfv;;J
-	f	glMaterialiv;;J	glMaterialiv;;J
-	f	glMapGrid1f;;J	glMapGrid1f;;J
-	f	glMapGrid1d;;J	glMapGrid1d;;J
-	f	glMapGrid2f;;J	glMapGrid2f;;J
-	f	glMapGrid2d;;J	glMapGrid2d;;J
-	f	glMap2f;;J	glMap2f;;J
-	f	glMap2d;;J	glMap2d;;J
-	f	glMap1f;;J	glMap1f;;J
-	f	glMap1d;;J	glMap1d;;J
-	f	glLogicOp;;J	glLogicOp;;J
-	f	glLoadName;;J	glLoadName;;J
-	f	glLoadMatrixf;;J	glLoadMatrixf;;J
-	f	glLoadMatrixd;;J	glLoadMatrixd;;J
-	f	glLoadIdentity;;J	glLoadIdentity;;J
-	f	glListBase;;J	glListBase;;J
-	f	glLineWidth;;J	glLineWidth;;J
-	f	glLineStipple;;J	glLineStipple;;J
-	f	glLightModelf;;J	glLightModelf;;J
-	f	glLightModeli;;J	glLightModeli;;J
-	f	glLightModelfv;;J	glLightModelfv;;J
-	f	glLightModeliv;;J	glLightModeliv;;J
-	f	glLightf;;J	glLightf;;J
-	f	glLighti;;J	glLighti;;J
-	f	glLightfv;;J	glLightfv;;J
-	f	glLightiv;;J	glLightiv;;J
-	f	glIsTexture;;J	glIsTexture;;J
-	f	glMatrixMode;;J	glMatrixMode;;J
-	f	glPolygonStipple;;J	glPolygonStipple;;J
-	f	glPolygonOffset;;J	glPolygonOffset;;J
-	f	glPolygonMode;;J	glPolygonMode;;J
-	f	glPointSize;;J	glPointSize;;J
-	f	glPixelZoom;;J	glPixelZoom;;J
-	f	glPixelTransferf;;J	glPixelTransferf;;J
-	f	glPixelTransferi;;J	glPixelTransferi;;J
-	f	glPixelStoref;;J	glPixelStoref;;J
-	f	glPixelStorei;;J	glPixelStorei;;J
-	f	glPixelMapfv;;J	glPixelMapfv;;J
-	f	glPixelMapuiv;;J	glPixelMapuiv;;J
-	f	glPixelMapusv;;J	glPixelMapusv;;J
-	f	glPassThrough;;J	glPassThrough;;J
-	f	glOrtho;;J	glOrtho;;J
-	f	glNormalPointer;;J	glNormalPointer;;J
-	f	glNormal3b;;J	glNormal3b;;J
-	f	glNormal3f;;J	glNormal3f;;J
-	f	glNormal3d;;J	glNormal3d;;J
-	f	glNormal3i;;J	glNormal3i;;J
-	f	glNewList;;J	glNewList;;J
-	f	glEndList;;J	glEndList;;J
-	f	glMultMatrixf;;J	glMultMatrixf;;J
-	f	glMultMatrixd;;J	glMultMatrixd;;J
-	f	glShadeModel;;J	glShadeModel;;J
-	f	glSelectBuffer;;J	glSelectBuffer;;J
-	f	glScissor;;J	glScissor;;J
-	f	glScalef;;J	glScalef;;J
-	f	glScaled;;J	glScaled;;J
-	f	glRotatef;;J	glRotatef;;J
-	f	glRotated;;J	glRotated;;J
-	f	glRenderMode;;J	glRenderMode;;J
-	f	glRectf;;J	glRectf;;J
-	f	glRectd;;J	glRectd;;J
-	f	glRecti;;J	glRecti;;J
-	f	glReadPixels;;J	glReadPixels;;J
-	f	glReadBuffer;;J	glReadBuffer;;J
-	f	glRasterPos2f;;J	glRasterPos2f;;J
-	f	glRasterPos2d;;J	glRasterPos2d;;J
-	f	glRasterPos2i;;J	glRasterPos2i;;J
-	f	glRasterPos3f;;J	glRasterPos3f;;J
-	f	glRasterPos3d;;J	glRasterPos3d;;J
-	f	glRasterPos3i;;J	glRasterPos3i;;J
-	f	glRasterPos4f;;J	glRasterPos4f;;J
-	f	glRasterPos4d;;J	glRasterPos4d;;J
-	f	glRasterPos4i;;J	glRasterPos4i;;J
-	f	glPushName;;J	glPushName;;J
-	f	glPopName;;J	glPopName;;J
-	f	glPushMatrix;;J	glPushMatrix;;J
-	f	glPopMatrix;;J	glPopMatrix;;J
-	f	glPushClientAttrib;;J	glPushClientAttrib;;J
-	f	glPopClientAttrib;;J	glPopClientAttrib;;J
-	f	glPushAttrib;;J	glPushAttrib;;J
-	f	glPopAttrib;;J	glPopAttrib;;J
-	f	glStencilFunc;;J	glStencilFunc;;J
-	f	glVertexPointer;;J	glVertexPointer;;J
-	f	glVertex2f;;J	glVertex2f;;J
-	f	glVertex2d;;J	glVertex2d;;J
-	f	glVertex2i;;J	glVertex2i;;J
-	f	glVertex3f;;J	glVertex3f;;J
-	f	glVertex3d;;J	glVertex3d;;J
-	f	glVertex3i;;J	glVertex3i;;J
-	f	glVertex4f;;J	glVertex4f;;J
-	f	glVertex4d;;J	glVertex4d;;J
-	f	glVertex4i;;J	glVertex4i;;J
-	f	glTranslatef;;J	glTranslatef;;J
-	f	glTranslated;;J	glTranslated;;J
-	f	glTexImage1D;;J	glTexImage1D;;J
-	f	glTexImage2D;;J	glTexImage2D;;J
-	f	glTexSubImage1D;;J	glTexSubImage1D;;J
-	f	glTexSubImage2D;;J	glTexSubImage2D;;J
-	f	glTexParameterf;;J	glTexParameterf;;J
-	f	glTexParameteri;;J	glTexParameteri;;J
-	f	glTexParameterfv;;J	glTexParameterfv;;J
-	f	glTexParameteriv;;J	glTexParameteriv;;J
-	f	glTexGenf;;J	glTexGenf;;J
-	f	glTexGend;;J	glTexGend;;J
-	f	glTexGenfv;;J	glTexGenfv;;J
-	f	glTexGendv;;J	glTexGendv;;J
-	f	glTexGeni;;J	glTexGeni;;J
-	f	glTexGeniv;;J	glTexGeniv;;J
-	f	glTexEnvf;;J	glTexEnvf;;J
-	f	glTexEnvi;;J	glTexEnvi;;J
-	f	glTexEnvfv;;J	glTexEnvfv;;J
-	f	glTexEnviv;;J	glTexEnviv;;J
-	f	glTexCoordPointer;;J	glTexCoordPointer;;J
-	f	glTexCoord1f;;J	glTexCoord1f;;J
-	f	glTexCoord1d;;J	glTexCoord1d;;J
-	f	glTexCoord2f;;J	glTexCoord2f;;J
-	f	glTexCoord2d;;J	glTexCoord2d;;J
-	f	glTexCoord3f;;J	glTexCoord3f;;J
-	f	glTexCoord3d;;J	glTexCoord3d;;J
-	f	glTexCoord4f;;J	glTexCoord4f;;J
-	f	glTexCoord4d;;J	glTexCoord4d;;J
-	f	glStencilOp;;J	glStencilOp;;J
-	f	glStencilMask;;J	glStencilMask;;J
-	f	glViewport;;J	glViewport;;J
 	f	OpenGL13;;Z	OpenGL13;;Z
 	f	GL_ARB_multitexture;;Z	GL_ARB_multitexture;;Z
-	f	tracker;;Lorg/lwjgl/opengl/StateTracker;	tracker;;Lorg/lwjgl/opengl/StateTracker;
 	f	tracker;;Lorg/lwjgl/opengl/StateTracker;	tracker;;Lorg/lwjgl/opengl/StateTracker;
 	f	GL_AMD_blend_minmax_factor;;Z	GL_AMD_blend_minmax_factor;;Z
 	f	GL_AMD_conservative_depth;;Z	GL_AMD_conservative_depth;;Z
@@ -42827,6 +42249,17 @@ c	Lorg/lwjgl/opengl/ContextCapabilities;	Lorg/lwjgl/opengl/ContextCapabilities;
 	f	glMapVertexAttrib1fAPPLE;;J	glMapVertexAttrib1fAPPLE;;J
 	f	glMapVertexAttrib2dAPPLE;;J	glMapVertexAttrib2dAPPLE;;J
 	f	glMapVertexAttrib2fAPPLE;;J	glMapVertexAttrib2fAPPLE;;J
+	f	glBindBufferARB;;J	glBindBufferARB;;J
+	f	glDeleteBuffersARB;;J	glDeleteBuffersARB;;J
+	f	glGenBuffersARB;;J	glGenBuffersARB;;J
+	f	glIsBufferARB;;J	glIsBufferARB;;J
+	f	glBufferDataARB;;J	glBufferDataARB;;J
+	f	glBufferSubDataARB;;J	glBufferSubDataARB;;J
+	f	glGetBufferSubDataARB;;J	glGetBufferSubDataARB;;J
+	f	glMapBufferARB;;J	glMapBufferARB;;J
+	f	glUnmapBufferARB;;J	glUnmapBufferARB;;J
+	f	glGetBufferParameterivARB;;J	glGetBufferParameterivARB;;J
+	f	glGetBufferPointervARB;;J	glGetBufferPointervARB;;J
 	f	glCreateSyncFromCLeventARB;;J	glCreateSyncFromCLeventARB;;J
 	f	glClearNamedBufferDataEXT;;J	glClearNamedBufferDataEXT;;J
 	f	glClearNamedBufferSubDataEXT;;J	glClearNamedBufferSubDataEXT;;J
@@ -43103,6 +42536,18 @@ c	Lorg/lwjgl/opengl/ContextCapabilities;	Lorg/lwjgl/opengl/ContextCapabilities;
 	f	glPNTrianglesiATI;;J	glPNTrianglesiATI;;J
 	f	glStencilOpSeparateATI;;J	glStencilOpSeparateATI;;J
 	f	glStencilFuncSeparateATI;;J	glStencilFuncSeparateATI;;J
+	f	glNewObjectBufferATI;;J	glNewObjectBufferATI;;J
+	f	glIsObjectBufferATI;;J	glIsObjectBufferATI;;J
+	f	glUpdateObjectBufferATI;;J	glUpdateObjectBufferATI;;J
+	f	glGetObjectBufferfvATI;;J	glGetObjectBufferfvATI;;J
+	f	glGetObjectBufferivATI;;J	glGetObjectBufferivATI;;J
+	f	glFreeObjectBufferATI;;J	glFreeObjectBufferATI;;J
+	f	glArrayObjectATI;;J	glArrayObjectATI;;J
+	f	glGetArrayObjectfvATI;;J	glGetArrayObjectfvATI;;J
+	f	glGetArrayObjectivATI;;J	glGetArrayObjectivATI;;J
+	f	glVariantArrayObjectATI;;J	glVariantArrayObjectATI;;J
+	f	glGetVariantArrayObjectfvATI;;J	glGetVariantArrayObjectfvATI;;J
+	f	glGetVariantArrayObjectivATI;;J	glGetVariantArrayObjectivATI;;J
 	f	glVertexAttribArrayObjectATI;;J	glVertexAttribArrayObjectATI;;J
 	f	glGetVertexAttribArrayObjectfvATI;;J	glGetVertexAttribArrayObjectfvATI;;J
 	f	glGetVertexAttribArrayObjectivATI;;J	glGetVertexAttribArrayObjectivATI;;J
@@ -43136,6 +42581,225 @@ c	Lorg/lwjgl/opengl/ContextCapabilities;	Lorg/lwjgl/opengl/ContextCapabilities;
 	f	glLockArraysEXT;;J	glLockArraysEXT;;J
 	f	glUnlockArraysEXT;;J	glUnlockArraysEXT;;J
 	f	glDepthBoundsEXT;;J	glDepthBoundsEXT;;J
+	f	glClientAttribDefaultEXT;;J	glClientAttribDefaultEXT;;J
+	f	glPushClientAttribDefaultEXT;;J	glPushClientAttribDefaultEXT;;J
+	f	glMatrixLoadfEXT;;J	glMatrixLoadfEXT;;J
+	f	glMatrixLoaddEXT;;J	glMatrixLoaddEXT;;J
+	f	glMatrixMultfEXT;;J	glMatrixMultfEXT;;J
+	f	glMatrixMultdEXT;;J	glMatrixMultdEXT;;J
+	f	glMatrixLoadIdentityEXT;;J	glMatrixLoadIdentityEXT;;J
+	f	glMatrixRotatefEXT;;J	glMatrixRotatefEXT;;J
+	f	glMatrixRotatedEXT;;J	glMatrixRotatedEXT;;J
+	f	glMatrixScalefEXT;;J	glMatrixScalefEXT;;J
+	f	glMatrixScaledEXT;;J	glMatrixScaledEXT;;J
+	f	glMatrixTranslatefEXT;;J	glMatrixTranslatefEXT;;J
+	f	glMatrixTranslatedEXT;;J	glMatrixTranslatedEXT;;J
+	f	glMatrixOrthoEXT;;J	glMatrixOrthoEXT;;J
+	f	glMatrixFrustumEXT;;J	glMatrixFrustumEXT;;J
+	f	glMatrixPushEXT;;J	glMatrixPushEXT;;J
+	f	glMatrixPopEXT;;J	glMatrixPopEXT;;J
+	f	glTextureParameteriEXT;;J	glTextureParameteriEXT;;J
+	f	glTextureParameterivEXT;;J	glTextureParameterivEXT;;J
+	f	glTextureParameterfEXT;;J	glTextureParameterfEXT;;J
+	f	glTextureParameterfvEXT;;J	glTextureParameterfvEXT;;J
+	f	glTextureImage1DEXT;;J	glTextureImage1DEXT;;J
+	f	glTextureImage2DEXT;;J	glTextureImage2DEXT;;J
+	f	glTextureSubImage1DEXT;;J	glTextureSubImage1DEXT;;J
+	f	glTextureSubImage2DEXT;;J	glTextureSubImage2DEXT;;J
+	f	glCopyTextureImage1DEXT;;J	glCopyTextureImage1DEXT;;J
+	f	glCopyTextureImage2DEXT;;J	glCopyTextureImage2DEXT;;J
+	f	glCopyTextureSubImage1DEXT;;J	glCopyTextureSubImage1DEXT;;J
+	f	glCopyTextureSubImage2DEXT;;J	glCopyTextureSubImage2DEXT;;J
+	f	glGetTextureImageEXT;;J	glGetTextureImageEXT;;J
+	f	glGetTextureParameterfvEXT;;J	glGetTextureParameterfvEXT;;J
+	f	glGetTextureParameterivEXT;;J	glGetTextureParameterivEXT;;J
+	f	glGetTextureLevelParameterfvEXT;;J	glGetTextureLevelParameterfvEXT;;J
+	f	glGetTextureLevelParameterivEXT;;J	glGetTextureLevelParameterivEXT;;J
+	f	glTextureImage3DEXT;;J	glTextureImage3DEXT;;J
+	f	glTextureSubImage3DEXT;;J	glTextureSubImage3DEXT;;J
+	f	glCopyTextureSubImage3DEXT;;J	glCopyTextureSubImage3DEXT;;J
+	f	glBindMultiTextureEXT;;J	glBindMultiTextureEXT;;J
+	f	glMultiTexCoordPointerEXT;;J	glMultiTexCoordPointerEXT;;J
+	f	glMultiTexEnvfEXT;;J	glMultiTexEnvfEXT;;J
+	f	glMultiTexEnvfvEXT;;J	glMultiTexEnvfvEXT;;J
+	f	glMultiTexEnviEXT;;J	glMultiTexEnviEXT;;J
+	f	glMultiTexEnvivEXT;;J	glMultiTexEnvivEXT;;J
+	f	glMultiTexGendEXT;;J	glMultiTexGendEXT;;J
+	f	glMultiTexGendvEXT;;J	glMultiTexGendvEXT;;J
+	f	glMultiTexGenfEXT;;J	glMultiTexGenfEXT;;J
+	f	glMultiTexGenfvEXT;;J	glMultiTexGenfvEXT;;J
+	f	glMultiTexGeniEXT;;J	glMultiTexGeniEXT;;J
+	f	glMultiTexGenivEXT;;J	glMultiTexGenivEXT;;J
+	f	glGetMultiTexEnvfvEXT;;J	glGetMultiTexEnvfvEXT;;J
+	f	glGetMultiTexEnvivEXT;;J	glGetMultiTexEnvivEXT;;J
+	f	glGetMultiTexGendvEXT;;J	glGetMultiTexGendvEXT;;J
+	f	glGetMultiTexGenfvEXT;;J	glGetMultiTexGenfvEXT;;J
+	f	glGetMultiTexGenivEXT;;J	glGetMultiTexGenivEXT;;J
+	f	glMultiTexParameteriEXT;;J	glMultiTexParameteriEXT;;J
+	f	glMultiTexParameterivEXT;;J	glMultiTexParameterivEXT;;J
+	f	glMultiTexParameterfEXT;;J	glMultiTexParameterfEXT;;J
+	f	glMultiTexParameterfvEXT;;J	glMultiTexParameterfvEXT;;J
+	f	glMultiTexImage1DEXT;;J	glMultiTexImage1DEXT;;J
+	f	glMultiTexImage2DEXT;;J	glMultiTexImage2DEXT;;J
+	f	glMultiTexSubImage1DEXT;;J	glMultiTexSubImage1DEXT;;J
+	f	glMultiTexSubImage2DEXT;;J	glMultiTexSubImage2DEXT;;J
+	f	glCopyMultiTexImage1DEXT;;J	glCopyMultiTexImage1DEXT;;J
+	f	glCopyMultiTexImage2DEXT;;J	glCopyMultiTexImage2DEXT;;J
+	f	glCopyMultiTexSubImage1DEXT;;J	glCopyMultiTexSubImage1DEXT;;J
+	f	glCopyMultiTexSubImage2DEXT;;J	glCopyMultiTexSubImage2DEXT;;J
+	f	glGetMultiTexImageEXT;;J	glGetMultiTexImageEXT;;J
+	f	glGetMultiTexParameterfvEXT;;J	glGetMultiTexParameterfvEXT;;J
+	f	glGetMultiTexParameterivEXT;;J	glGetMultiTexParameterivEXT;;J
+	f	glGetMultiTexLevelParameterfvEXT;;J	glGetMultiTexLevelParameterfvEXT;;J
+	f	glGetMultiTexLevelParameterivEXT;;J	glGetMultiTexLevelParameterivEXT;;J
+	f	glMultiTexImage3DEXT;;J	glMultiTexImage3DEXT;;J
+	f	glMultiTexSubImage3DEXT;;J	glMultiTexSubImage3DEXT;;J
+	f	glCopyMultiTexSubImage3DEXT;;J	glCopyMultiTexSubImage3DEXT;;J
+	f	glEnableClientStateIndexedEXT;;J	glEnableClientStateIndexedEXT;;J
+	f	glDisableClientStateIndexedEXT;;J	glDisableClientStateIndexedEXT;;J
+	f	glEnableClientStateiEXT;;J	glEnableClientStateiEXT;;J
+	f	glDisableClientStateiEXT;;J	glDisableClientStateiEXT;;J
+	f	glGetFloatIndexedvEXT;;J	glGetFloatIndexedvEXT;;J
+	f	glGetDoubleIndexedvEXT;;J	glGetDoubleIndexedvEXT;;J
+	f	glGetPointerIndexedvEXT;;J	glGetPointerIndexedvEXT;;J
+	f	glGetFloati_vEXT;;J	glGetFloati_vEXT;;J
+	f	glGetDoublei_vEXT;;J	glGetDoublei_vEXT;;J
+	f	glGetPointeri_vEXT;;J	glGetPointeri_vEXT;;J
+	f	glNamedProgramStringEXT;;J	glNamedProgramStringEXT;;J
+	f	glNamedProgramLocalParameter4dEXT;;J	glNamedProgramLocalParameter4dEXT;;J
+	f	glNamedProgramLocalParameter4dvEXT;;J	glNamedProgramLocalParameter4dvEXT;;J
+	f	glNamedProgramLocalParameter4fEXT;;J	glNamedProgramLocalParameter4fEXT;;J
+	f	glNamedProgramLocalParameter4fvEXT;;J	glNamedProgramLocalParameter4fvEXT;;J
+	f	glGetNamedProgramLocalParameterdvEXT;;J	glGetNamedProgramLocalParameterdvEXT;;J
+	f	glGetNamedProgramLocalParameterfvEXT;;J	glGetNamedProgramLocalParameterfvEXT;;J
+	f	glGetNamedProgramivEXT;;J	glGetNamedProgramivEXT;;J
+	f	glGetNamedProgramStringEXT;;J	glGetNamedProgramStringEXT;;J
+	f	glCompressedTextureImage3DEXT;;J	glCompressedTextureImage3DEXT;;J
+	f	glCompressedTextureImage2DEXT;;J	glCompressedTextureImage2DEXT;;J
+	f	glCompressedTextureImage1DEXT;;J	glCompressedTextureImage1DEXT;;J
+	f	glCompressedTextureSubImage3DEXT;;J	glCompressedTextureSubImage3DEXT;;J
+	f	glCompressedTextureSubImage2DEXT;;J	glCompressedTextureSubImage2DEXT;;J
+	f	glCompressedTextureSubImage1DEXT;;J	glCompressedTextureSubImage1DEXT;;J
+	f	glGetCompressedTextureImageEXT;;J	glGetCompressedTextureImageEXT;;J
+	f	glCompressedMultiTexImage3DEXT;;J	glCompressedMultiTexImage3DEXT;;J
+	f	glCompressedMultiTexImage2DEXT;;J	glCompressedMultiTexImage2DEXT;;J
+	f	glCompressedMultiTexImage1DEXT;;J	glCompressedMultiTexImage1DEXT;;J
+	f	glCompressedMultiTexSubImage3DEXT;;J	glCompressedMultiTexSubImage3DEXT;;J
+	f	glCompressedMultiTexSubImage2DEXT;;J	glCompressedMultiTexSubImage2DEXT;;J
+	f	glCompressedMultiTexSubImage1DEXT;;J	glCompressedMultiTexSubImage1DEXT;;J
+	f	glGetCompressedMultiTexImageEXT;;J	glGetCompressedMultiTexImageEXT;;J
+	f	glMatrixLoadTransposefEXT;;J	glMatrixLoadTransposefEXT;;J
+	f	glMatrixLoadTransposedEXT;;J	glMatrixLoadTransposedEXT;;J
+	f	glMatrixMultTransposefEXT;;J	glMatrixMultTransposefEXT;;J
+	f	glMatrixMultTransposedEXT;;J	glMatrixMultTransposedEXT;;J
+	f	glNamedBufferDataEXT;;J	glNamedBufferDataEXT;;J
+	f	glNamedBufferSubDataEXT;;J	glNamedBufferSubDataEXT;;J
+	f	glMapNamedBufferEXT;;J	glMapNamedBufferEXT;;J
+	f	glUnmapNamedBufferEXT;;J	glUnmapNamedBufferEXT;;J
+	f	glGetNamedBufferParameterivEXT;;J	glGetNamedBufferParameterivEXT;;J
+	f	glGetNamedBufferPointervEXT;;J	glGetNamedBufferPointervEXT;;J
+	f	glGetNamedBufferSubDataEXT;;J	glGetNamedBufferSubDataEXT;;J
+	f	glProgramUniform1fEXT;;J	glProgramUniform1fEXT;;J
+	f	glProgramUniform2fEXT;;J	glProgramUniform2fEXT;;J
+	f	glProgramUniform3fEXT;;J	glProgramUniform3fEXT;;J
+	f	glProgramUniform4fEXT;;J	glProgramUniform4fEXT;;J
+	f	glProgramUniform1iEXT;;J	glProgramUniform1iEXT;;J
+	f	glProgramUniform2iEXT;;J	glProgramUniform2iEXT;;J
+	f	glProgramUniform3iEXT;;J	glProgramUniform3iEXT;;J
+	f	glProgramUniform4iEXT;;J	glProgramUniform4iEXT;;J
+	f	glProgramUniform1fvEXT;;J	glProgramUniform1fvEXT;;J
+	f	glProgramUniform2fvEXT;;J	glProgramUniform2fvEXT;;J
+	f	glProgramUniform3fvEXT;;J	glProgramUniform3fvEXT;;J
+	f	glProgramUniform4fvEXT;;J	glProgramUniform4fvEXT;;J
+	f	glProgramUniform1ivEXT;;J	glProgramUniform1ivEXT;;J
+	f	glProgramUniform2ivEXT;;J	glProgramUniform2ivEXT;;J
+	f	glProgramUniform3ivEXT;;J	glProgramUniform3ivEXT;;J
+	f	glProgramUniform4ivEXT;;J	glProgramUniform4ivEXT;;J
+	f	glProgramUniformMatrix2fvEXT;;J	glProgramUniformMatrix2fvEXT;;J
+	f	glProgramUniformMatrix3fvEXT;;J	glProgramUniformMatrix3fvEXT;;J
+	f	glProgramUniformMatrix4fvEXT;;J	glProgramUniformMatrix4fvEXT;;J
+	f	glProgramUniformMatrix2x3fvEXT;;J	glProgramUniformMatrix2x3fvEXT;;J
+	f	glProgramUniformMatrix3x2fvEXT;;J	glProgramUniformMatrix3x2fvEXT;;J
+	f	glProgramUniformMatrix2x4fvEXT;;J	glProgramUniformMatrix2x4fvEXT;;J
+	f	glProgramUniformMatrix4x2fvEXT;;J	glProgramUniformMatrix4x2fvEXT;;J
+	f	glProgramUniformMatrix3x4fvEXT;;J	glProgramUniformMatrix3x4fvEXT;;J
+	f	glProgramUniformMatrix4x3fvEXT;;J	glProgramUniformMatrix4x3fvEXT;;J
+	f	glTextureBufferEXT;;J	glTextureBufferEXT;;J
+	f	glMultiTexBufferEXT;;J	glMultiTexBufferEXT;;J
+	f	glTextureParameterIivEXT;;J	glTextureParameterIivEXT;;J
+	f	glTextureParameterIuivEXT;;J	glTextureParameterIuivEXT;;J
+	f	glGetTextureParameterIivEXT;;J	glGetTextureParameterIivEXT;;J
+	f	glGetTextureParameterIuivEXT;;J	glGetTextureParameterIuivEXT;;J
+	f	glMultiTexParameterIivEXT;;J	glMultiTexParameterIivEXT;;J
+	f	glMultiTexParameterIuivEXT;;J	glMultiTexParameterIuivEXT;;J
+	f	glGetMultiTexParameterIivEXT;;J	glGetMultiTexParameterIivEXT;;J
+	f	glGetMultiTexParameterIuivEXT;;J	glGetMultiTexParameterIuivEXT;;J
+	f	glProgramUniform1uiEXT;;J	glProgramUniform1uiEXT;;J
+	f	glProgramUniform2uiEXT;;J	glProgramUniform2uiEXT;;J
+	f	glProgramUniform3uiEXT;;J	glProgramUniform3uiEXT;;J
+	f	glProgramUniform4uiEXT;;J	glProgramUniform4uiEXT;;J
+	f	glProgramUniform1uivEXT;;J	glProgramUniform1uivEXT;;J
+	f	glProgramUniform2uivEXT;;J	glProgramUniform2uivEXT;;J
+	f	glProgramUniform3uivEXT;;J	glProgramUniform3uivEXT;;J
+	f	glProgramUniform4uivEXT;;J	glProgramUniform4uivEXT;;J
+	f	glNamedProgramLocalParameters4fvEXT;;J	glNamedProgramLocalParameters4fvEXT;;J
+	f	glNamedProgramLocalParameterI4iEXT;;J	glNamedProgramLocalParameterI4iEXT;;J
+	f	glNamedProgramLocalParameterI4ivEXT;;J	glNamedProgramLocalParameterI4ivEXT;;J
+	f	glNamedProgramLocalParametersI4ivEXT;;J	glNamedProgramLocalParametersI4ivEXT;;J
+	f	glNamedProgramLocalParameterI4uiEXT;;J	glNamedProgramLocalParameterI4uiEXT;;J
+	f	glNamedProgramLocalParameterI4uivEXT;;J	glNamedProgramLocalParameterI4uivEXT;;J
+	f	glNamedProgramLocalParametersI4uivEXT;;J	glNamedProgramLocalParametersI4uivEXT;;J
+	f	glGetNamedProgramLocalParameterIivEXT;;J	glGetNamedProgramLocalParameterIivEXT;;J
+	f	glGetNamedProgramLocalParameterIuivEXT;;J	glGetNamedProgramLocalParameterIuivEXT;;J
+	f	glNamedRenderbufferStorageEXT;;J	glNamedRenderbufferStorageEXT;;J
+	f	glGetNamedRenderbufferParameterivEXT;;J	glGetNamedRenderbufferParameterivEXT;;J
+	f	glNamedRenderbufferStorageMultisampleEXT;;J	glNamedRenderbufferStorageMultisampleEXT;;J
+	f	glNamedRenderbufferStorageMultisampleCoverageEXT;;J	glNamedRenderbufferStorageMultisampleCoverageEXT;;J
+	f	glCheckNamedFramebufferStatusEXT;;J	glCheckNamedFramebufferStatusEXT;;J
+	f	glNamedFramebufferTexture1DEXT;;J	glNamedFramebufferTexture1DEXT;;J
+	f	glNamedFramebufferTexture2DEXT;;J	glNamedFramebufferTexture2DEXT;;J
+	f	glNamedFramebufferTexture3DEXT;;J	glNamedFramebufferTexture3DEXT;;J
+	f	glNamedFramebufferRenderbufferEXT;;J	glNamedFramebufferRenderbufferEXT;;J
+	f	glGetNamedFramebufferAttachmentParameterivEXT;;J	glGetNamedFramebufferAttachmentParameterivEXT;;J
+	f	glGenerateTextureMipmapEXT;;J	glGenerateTextureMipmapEXT;;J
+	f	glGenerateMultiTexMipmapEXT;;J	glGenerateMultiTexMipmapEXT;;J
+	f	glFramebufferDrawBufferEXT;;J	glFramebufferDrawBufferEXT;;J
+	f	glFramebufferDrawBuffersEXT;;J	glFramebufferDrawBuffersEXT;;J
+	f	glFramebufferReadBufferEXT;;J	glFramebufferReadBufferEXT;;J
+	f	glGetFramebufferParameterivEXT;;J	glGetFramebufferParameterivEXT;;J
+	f	glNamedCopyBufferSubDataEXT;;J	glNamedCopyBufferSubDataEXT;;J
+	f	glNamedFramebufferTextureEXT;;J	glNamedFramebufferTextureEXT;;J
+	f	glNamedFramebufferTextureLayerEXT;;J	glNamedFramebufferTextureLayerEXT;;J
+	f	glNamedFramebufferTextureFaceEXT;;J	glNamedFramebufferTextureFaceEXT;;J
+	f	glTextureRenderbufferEXT;;J	glTextureRenderbufferEXT;;J
+	f	glMultiTexRenderbufferEXT;;J	glMultiTexRenderbufferEXT;;J
+	f	glVertexArrayVertexOffsetEXT;;J	glVertexArrayVertexOffsetEXT;;J
+	f	glVertexArrayColorOffsetEXT;;J	glVertexArrayColorOffsetEXT;;J
+	f	glVertexArrayEdgeFlagOffsetEXT;;J	glVertexArrayEdgeFlagOffsetEXT;;J
+	f	glVertexArrayIndexOffsetEXT;;J	glVertexArrayIndexOffsetEXT;;J
+	f	glVertexArrayNormalOffsetEXT;;J	glVertexArrayNormalOffsetEXT;;J
+	f	glVertexArrayTexCoordOffsetEXT;;J	glVertexArrayTexCoordOffsetEXT;;J
+	f	glVertexArrayMultiTexCoordOffsetEXT;;J	glVertexArrayMultiTexCoordOffsetEXT;;J
+	f	glVertexArrayFogCoordOffsetEXT;;J	glVertexArrayFogCoordOffsetEXT;;J
+	f	glVertexArraySecondaryColorOffsetEXT;;J	glVertexArraySecondaryColorOffsetEXT;;J
+	f	glVertexArrayVertexAttribOffsetEXT;;J	glVertexArrayVertexAttribOffsetEXT;;J
+	f	glVertexArrayVertexAttribIOffsetEXT;;J	glVertexArrayVertexAttribIOffsetEXT;;J
+	f	glEnableVertexArrayEXT;;J	glEnableVertexArrayEXT;;J
+	f	glDisableVertexArrayEXT;;J	glDisableVertexArrayEXT;;J
+	f	glEnableVertexArrayAttribEXT;;J	glEnableVertexArrayAttribEXT;;J
+	f	glDisableVertexArrayAttribEXT;;J	glDisableVertexArrayAttribEXT;;J
+	f	glGetVertexArrayIntegervEXT;;J	glGetVertexArrayIntegervEXT;;J
+	f	glGetVertexArrayPointervEXT;;J	glGetVertexArrayPointervEXT;;J
+	f	glGetVertexArrayIntegeri_vEXT;;J	glGetVertexArrayIntegeri_vEXT;;J
+	f	glGetVertexArrayPointeri_vEXT;;J	glGetVertexArrayPointeri_vEXT;;J
+	f	glMapNamedBufferRangeEXT;;J	glMapNamedBufferRangeEXT;;J
+	f	glFlushMappedNamedBufferRangeEXT;;J	glFlushMappedNamedBufferRangeEXT;;J
+	f	glColorMaskIndexedEXT;;J	glColorMaskIndexedEXT;;J
+	f	glGetBooleanIndexedvEXT;;J	glGetBooleanIndexedvEXT;;J
+	f	glGetIntegerIndexedvEXT;;J	glGetIntegerIndexedvEXT;;J
+	f	glEnableIndexedEXT;;J	glEnableIndexedEXT;;J
+	f	glDisableIndexedEXT;;J	glDisableIndexedEXT;;J
+	f	glIsEnabledIndexedEXT;;J	glIsEnabledIndexedEXT;;J
 	f	glDrawArraysInstancedEXT;;J	glDrawArraysInstancedEXT;;J
 	f	glDrawElementsInstancedEXT;;J	glDrawElementsInstancedEXT;;J
 	f	glDrawRangeElementsEXT;;J	glDrawRangeElementsEXT;;J
@@ -43292,6 +42956,235 @@ c	Lorg/lwjgl/opengl/ContextCapabilities;	Lorg/lwjgl/opengl/ContextCapabilities;
 	f	glGetLocalConstantFloatvEXT;;J	glGetLocalConstantFloatvEXT;;J
 	f	glVertexWeightfEXT;;J	glVertexWeightfEXT;;J
 	f	glVertexWeightPointerEXT;;J	glVertexWeightPointerEXT;;J
+	f	glAccum;;J	glAccum;;J
+	f	glAlphaFunc;;J	glAlphaFunc;;J
+	f	glClearColor;;J	glClearColor;;J
+	f	glClearAccum;;J	glClearAccum;;J
+	f	glClear;;J	glClear;;J
+	f	glCallLists;;J	glCallLists;;J
+	f	glCallList;;J	glCallList;;J
+	f	glBlendFunc;;J	glBlendFunc;;J
+	f	glBitmap;;J	glBitmap;;J
+	f	glBindTexture;;J	glBindTexture;;J
+	f	glPrioritizeTextures;;J	glPrioritizeTextures;;J
+	f	glAreTexturesResident;;J	glAreTexturesResident;;J
+	f	glBegin;;J	glBegin;;J
+	f	glEnd;;J	glEnd;;J
+	f	glArrayElement;;J	glArrayElement;;J
+	f	glClearDepth;;J	glClearDepth;;J
+	f	glDeleteLists;;J	glDeleteLists;;J
+	f	glDeleteTextures;;J	glDeleteTextures;;J
+	f	glCullFace;;J	glCullFace;;J
+	f	glCopyTexSubImage2D;;J	glCopyTexSubImage2D;;J
+	f	glCopyTexSubImage1D;;J	glCopyTexSubImage1D;;J
+	f	glCopyTexImage2D;;J	glCopyTexImage2D;;J
+	f	glCopyTexImage1D;;J	glCopyTexImage1D;;J
+	f	glCopyPixels;;J	glCopyPixels;;J
+	f	glColorPointer;;J	glColorPointer;;J
+	f	glColorMaterial;;J	glColorMaterial;;J
+	f	glColorMask;;J	glColorMask;;J
+	f	glColor3b;;J	glColor3b;;J
+	f	glColor3f;;J	glColor3f;;J
+	f	glColor3d;;J	glColor3d;;J
+	f	glColor3ub;;J	glColor3ub;;J
+	f	glColor4b;;J	glColor4b;;J
+	f	glColor4f;;J	glColor4f;;J
+	f	glColor4d;;J	glColor4d;;J
+	f	glColor4ub;;J	glColor4ub;;J
+	f	glClipPlane;;J	glClipPlane;;J
+	f	glClearStencil;;J	glClearStencil;;J
+	f	glEvalPoint1;;J	glEvalPoint1;;J
+	f	glEvalPoint2;;J	glEvalPoint2;;J
+	f	glEvalMesh1;;J	glEvalMesh1;;J
+	f	glEvalMesh2;;J	glEvalMesh2;;J
+	f	glEvalCoord1f;;J	glEvalCoord1f;;J
+	f	glEvalCoord1d;;J	glEvalCoord1d;;J
+	f	glEvalCoord2f;;J	glEvalCoord2f;;J
+	f	glEvalCoord2d;;J	glEvalCoord2d;;J
+	f	glEnableClientState;;J	glEnableClientState;;J
+	f	glDisableClientState;;J	glDisableClientState;;J
+	f	glEnable;;J	glEnable;;J
+	f	glDisable;;J	glDisable;;J
+	f	glEdgeFlagPointer;;J	glEdgeFlagPointer;;J
+	f	glEdgeFlag;;J	glEdgeFlag;;J
+	f	glDrawPixels;;J	glDrawPixels;;J
+	f	glDrawElements;;J	glDrawElements;;J
+	f	glDrawBuffer;;J	glDrawBuffer;;J
+	f	glDrawArrays;;J	glDrawArrays;;J
+	f	glDepthRange;;J	glDepthRange;;J
+	f	glDepthMask;;J	glDepthMask;;J
+	f	glDepthFunc;;J	glDepthFunc;;J
+	f	glFeedbackBuffer;;J	glFeedbackBuffer;;J
+	f	glGetPixelMapfv;;J	glGetPixelMapfv;;J
+	f	glGetPixelMapuiv;;J	glGetPixelMapuiv;;J
+	f	glGetPixelMapusv;;J	glGetPixelMapusv;;J
+	f	glGetMaterialfv;;J	glGetMaterialfv;;J
+	f	glGetMaterialiv;;J	glGetMaterialiv;;J
+	f	glGetMapfv;;J	glGetMapfv;;J
+	f	glGetMapdv;;J	glGetMapdv;;J
+	f	glGetMapiv;;J	glGetMapiv;;J
+	f	glGetLightfv;;J	glGetLightfv;;J
+	f	glGetLightiv;;J	glGetLightiv;;J
+	f	glGetError;;J	glGetError;;J
+	f	glGetClipPlane;;J	glGetClipPlane;;J
+	f	glGetBooleanv;;J	glGetBooleanv;;J
+	f	glGetDoublev;;J	glGetDoublev;;J
+	f	glGetFloatv;;J	glGetFloatv;;J
+	f	glGetIntegerv;;J	glGetIntegerv;;J
+	f	glGenTextures;;J	glGenTextures;;J
+	f	glGenLists;;J	glGenLists;;J
+	f	glFrustum;;J	glFrustum;;J
+	f	glFrontFace;;J	glFrontFace;;J
+	f	glFogf;;J	glFogf;;J
+	f	glFogi;;J	glFogi;;J
+	f	glFogfv;;J	glFogfv;;J
+	f	glFogiv;;J	glFogiv;;J
+	f	glFlush;;J	glFlush;;J
+	f	glFinish;;J	glFinish;;J
+	f	glGetPointerv;;J	glGetPointerv;;J
+	f	glIsEnabled;;J	glIsEnabled;;J
+	f	glInterleavedArrays;;J	glInterleavedArrays;;J
+	f	glInitNames;;J	glInitNames;;J
+	f	glHint;;J	glHint;;J
+	f	glGetTexParameterfv;;J	glGetTexParameterfv;;J
+	f	glGetTexParameteriv;;J	glGetTexParameteriv;;J
+	f	glGetTexLevelParameterfv;;J	glGetTexLevelParameterfv;;J
+	f	glGetTexLevelParameteriv;;J	glGetTexLevelParameteriv;;J
+	f	glGetTexImage;;J	glGetTexImage;;J
+	f	glGetTexGeniv;;J	glGetTexGeniv;;J
+	f	glGetTexGenfv;;J	glGetTexGenfv;;J
+	f	glGetTexGendv;;J	glGetTexGendv;;J
+	f	glGetTexEnviv;;J	glGetTexEnviv;;J
+	f	glGetTexEnvfv;;J	glGetTexEnvfv;;J
+	f	glGetString;;J	glGetString;;J
+	f	glGetPolygonStipple;;J	glGetPolygonStipple;;J
+	f	glIsList;;J	glIsList;;J
+	f	glMaterialf;;J	glMaterialf;;J
+	f	glMateriali;;J	glMateriali;;J
+	f	glMaterialfv;;J	glMaterialfv;;J
+	f	glMaterialiv;;J	glMaterialiv;;J
+	f	glMapGrid1f;;J	glMapGrid1f;;J
+	f	glMapGrid1d;;J	glMapGrid1d;;J
+	f	glMapGrid2f;;J	glMapGrid2f;;J
+	f	glMapGrid2d;;J	glMapGrid2d;;J
+	f	glMap2f;;J	glMap2f;;J
+	f	glMap2d;;J	glMap2d;;J
+	f	glMap1f;;J	glMap1f;;J
+	f	glMap1d;;J	glMap1d;;J
+	f	glLogicOp;;J	glLogicOp;;J
+	f	glLoadName;;J	glLoadName;;J
+	f	glLoadMatrixf;;J	glLoadMatrixf;;J
+	f	glLoadMatrixd;;J	glLoadMatrixd;;J
+	f	glLoadIdentity;;J	glLoadIdentity;;J
+	f	glListBase;;J	glListBase;;J
+	f	glLineWidth;;J	glLineWidth;;J
+	f	glLineStipple;;J	glLineStipple;;J
+	f	glLightModelf;;J	glLightModelf;;J
+	f	glLightModeli;;J	glLightModeli;;J
+	f	glLightModelfv;;J	glLightModelfv;;J
+	f	glLightModeliv;;J	glLightModeliv;;J
+	f	glLightf;;J	glLightf;;J
+	f	glLighti;;J	glLighti;;J
+	f	glLightfv;;J	glLightfv;;J
+	f	glLightiv;;J	glLightiv;;J
+	f	glIsTexture;;J	glIsTexture;;J
+	f	glMatrixMode;;J	glMatrixMode;;J
+	f	glPolygonStipple;;J	glPolygonStipple;;J
+	f	glPolygonOffset;;J	glPolygonOffset;;J
+	f	glPolygonMode;;J	glPolygonMode;;J
+	f	glPointSize;;J	glPointSize;;J
+	f	glPixelZoom;;J	glPixelZoom;;J
+	f	glPixelTransferf;;J	glPixelTransferf;;J
+	f	glPixelTransferi;;J	glPixelTransferi;;J
+	f	glPixelStoref;;J	glPixelStoref;;J
+	f	glPixelStorei;;J	glPixelStorei;;J
+	f	glPixelMapfv;;J	glPixelMapfv;;J
+	f	glPixelMapuiv;;J	glPixelMapuiv;;J
+	f	glPixelMapusv;;J	glPixelMapusv;;J
+	f	glPassThrough;;J	glPassThrough;;J
+	f	glOrtho;;J	glOrtho;;J
+	f	glNormalPointer;;J	glNormalPointer;;J
+	f	glNormal3b;;J	glNormal3b;;J
+	f	glNormal3f;;J	glNormal3f;;J
+	f	glNormal3d;;J	glNormal3d;;J
+	f	glNormal3i;;J	glNormal3i;;J
+	f	glNewList;;J	glNewList;;J
+	f	glEndList;;J	glEndList;;J
+	f	glMultMatrixf;;J	glMultMatrixf;;J
+	f	glMultMatrixd;;J	glMultMatrixd;;J
+	f	glShadeModel;;J	glShadeModel;;J
+	f	glSelectBuffer;;J	glSelectBuffer;;J
+	f	glScissor;;J	glScissor;;J
+	f	glScalef;;J	glScalef;;J
+	f	glScaled;;J	glScaled;;J
+	f	glRotatef;;J	glRotatef;;J
+	f	glRotated;;J	glRotated;;J
+	f	glRenderMode;;J	glRenderMode;;J
+	f	glRectf;;J	glRectf;;J
+	f	glRectd;;J	glRectd;;J
+	f	glRecti;;J	glRecti;;J
+	f	glReadPixels;;J	glReadPixels;;J
+	f	glReadBuffer;;J	glReadBuffer;;J
+	f	glRasterPos2f;;J	glRasterPos2f;;J
+	f	glRasterPos2d;;J	glRasterPos2d;;J
+	f	glRasterPos2i;;J	glRasterPos2i;;J
+	f	glRasterPos3f;;J	glRasterPos3f;;J
+	f	glRasterPos3d;;J	glRasterPos3d;;J
+	f	glRasterPos3i;;J	glRasterPos3i;;J
+	f	glRasterPos4f;;J	glRasterPos4f;;J
+	f	glRasterPos4d;;J	glRasterPos4d;;J
+	f	glRasterPos4i;;J	glRasterPos4i;;J
+	f	glPushName;;J	glPushName;;J
+	f	glPopName;;J	glPopName;;J
+	f	glPushMatrix;;J	glPushMatrix;;J
+	f	glPopMatrix;;J	glPopMatrix;;J
+	f	glPushClientAttrib;;J	glPushClientAttrib;;J
+	f	glPopClientAttrib;;J	glPopClientAttrib;;J
+	f	glPushAttrib;;J	glPushAttrib;;J
+	f	glPopAttrib;;J	glPopAttrib;;J
+	f	glStencilFunc;;J	glStencilFunc;;J
+	f	glVertexPointer;;J	glVertexPointer;;J
+	f	glVertex2f;;J	glVertex2f;;J
+	f	glVertex2d;;J	glVertex2d;;J
+	f	glVertex2i;;J	glVertex2i;;J
+	f	glVertex3f;;J	glVertex3f;;J
+	f	glVertex3d;;J	glVertex3d;;J
+	f	glVertex3i;;J	glVertex3i;;J
+	f	glVertex4f;;J	glVertex4f;;J
+	f	glVertex4d;;J	glVertex4d;;J
+	f	glVertex4i;;J	glVertex4i;;J
+	f	glTranslatef;;J	glTranslatef;;J
+	f	glTranslated;;J	glTranslated;;J
+	f	glTexImage1D;;J	glTexImage1D;;J
+	f	glTexImage2D;;J	glTexImage2D;;J
+	f	glTexSubImage1D;;J	glTexSubImage1D;;J
+	f	glTexSubImage2D;;J	glTexSubImage2D;;J
+	f	glTexParameterf;;J	glTexParameterf;;J
+	f	glTexParameteri;;J	glTexParameteri;;J
+	f	glTexParameterfv;;J	glTexParameterfv;;J
+	f	glTexParameteriv;;J	glTexParameteriv;;J
+	f	glTexGenf;;J	glTexGenf;;J
+	f	glTexGend;;J	glTexGend;;J
+	f	glTexGenfv;;J	glTexGenfv;;J
+	f	glTexGendv;;J	glTexGendv;;J
+	f	glTexGeni;;J	glTexGeni;;J
+	f	glTexGeniv;;J	glTexGeniv;;J
+	f	glTexEnvf;;J	glTexEnvf;;J
+	f	glTexEnvi;;J	glTexEnvi;;J
+	f	glTexEnvfv;;J	glTexEnvfv;;J
+	f	glTexEnviv;;J	glTexEnviv;;J
+	f	glTexCoordPointer;;J	glTexCoordPointer;;J
+	f	glTexCoord1f;;J	glTexCoord1f;;J
+	f	glTexCoord1d;;J	glTexCoord1d;;J
+	f	glTexCoord2f;;J	glTexCoord2f;;J
+	f	glTexCoord2d;;J	glTexCoord2d;;J
+	f	glTexCoord3f;;J	glTexCoord3f;;J
+	f	glTexCoord3d;;J	glTexCoord3d;;J
+	f	glTexCoord4f;;J	glTexCoord4f;;J
+	f	glTexCoord4d;;J	glTexCoord4d;;J
+	f	glStencilOp;;J	glStencilOp;;J
+	f	glStencilMask;;J	glStencilMask;;J
+	f	glViewport;;J	glViewport;;J
 	f	glDrawRangeElements;;J	glDrawRangeElements;;J
 	f	glTexImage3D;;J	glTexImage3D;;J
 	f	glTexSubImage3D;;J	glTexSubImage3D;;J
@@ -43340,6 +43233,25 @@ c	Lorg/lwjgl/opengl/ContextCapabilities;	Lorg/lwjgl/opengl/ContextCapabilities;
 	f	glWindowPos3f;;J	glWindowPos3f;;J
 	f	glWindowPos3d;;J	glWindowPos3d;;J
 	f	glWindowPos3i;;J	glWindowPos3i;;J
+	f	glBindBuffer;;J	glBindBuffer;;J
+	f	glDeleteBuffers;;J	glDeleteBuffers;;J
+	f	glGenBuffers;;J	glGenBuffers;;J
+	f	glIsBuffer;;J	glIsBuffer;;J
+	f	glBufferData;;J	glBufferData;;J
+	f	glBufferSubData;;J	glBufferSubData;;J
+	f	glGetBufferSubData;;J	glGetBufferSubData;;J
+	f	glMapBuffer;;J	glMapBuffer;;J
+	f	glUnmapBuffer;;J	glUnmapBuffer;;J
+	f	glGetBufferParameteriv;;J	glGetBufferParameteriv;;J
+	f	glGetBufferPointerv;;J	glGetBufferPointerv;;J
+	f	glGenQueries;;J	glGenQueries;;J
+	f	glDeleteQueries;;J	glDeleteQueries;;J
+	f	glIsQuery;;J	glIsQuery;;J
+	f	glBeginQuery;;J	glBeginQuery;;J
+	f	glEndQuery;;J	glEndQuery;;J
+	f	glGetQueryiv;;J	glGetQueryiv;;J
+	f	glGetQueryObjectiv;;J	glGetQueryObjectiv;;J
+	f	glGetQueryObjectuiv;;J	glGetQueryObjectuiv;;J
 	f	glShaderSource;;J	glShaderSource;;J
 	f	glCreateShader;;J	glCreateShader;;J
 	f	glIsShader;;J	glIsShader;;J
@@ -54085,7 +53997,6 @@ c	Lorg/lwjgl/opengl/GLContext$CapabilitiesCacheEntry;	Lorg/lwjgl/opengl/GLContex
 	f	capabilities;;Lorg/lwjgl/opengl/ContextCapabilities;	capabilities;;Lorg/lwjgl/opengl/ContextCapabilities;
 c	Lorg/lwjgl/opengl/GLContext;	Lorg/lwjgl/opengl/GLContext;
 	m	<init>()V	<init>()V
-	m	getCapabilities()Lorg/lwjgl/opengl/ContextCapabilities;	getCapabilities()Lorg/lwjgl/opengl/ContextCapabilities;
 	m	getFunctionAddress([Ljava/lang/String;)J	getFunctionAddress([Ljava/lang/String;)J
 		ma	0	0
 	m	getFunctionAddress(Ljava/lang/String;)J	getFunctionAddress(Ljava/lang/String;)J
@@ -56354,12 +56265,6 @@ c	Lorg/lwjgl/opengl/References;	Lorg/lwjgl/opengl/References;
 	f	GL11_glNormalPointer_pointer;;Ljava/nio/Buffer;	GL11_glNormalPointer_pointer;;Ljava/nio/Buffer;
 	f	GL11_glVertexPointer_pointer;;Ljava/nio/Buffer;	GL11_glVertexPointer_pointer;;Ljava/nio/Buffer;
 	f	GL14_glFogCoordPointer_data;;Ljava/nio/Buffer;	GL14_glFogCoordPointer_data;;Ljava/nio/Buffer;
-	f	arrayBuffer;;I	arrayBuffer;;I
-	f	indirectBuffer;;I	indirectBuffer;;I
-	f	pixelPackBuffer;;I	pixelPackBuffer;;I
-	f	pixelUnpackBuffer;;I	pixelUnpackBuffer;;I
-	f	glTexCoordPointer_buffer;;[Ljava/nio/Buffer;	glTexCoordPointer_buffer;;[Ljava/nio/Buffer;
-	f	glClientActiveTexture;;I	glClientActiveTexture;;I
 c	Lorg/lwjgl/opengl/ReferencesStack;	Lorg/lwjgl/opengl/ReferencesStack;
 	m	getReferences()Lorg/lwjgl/opengl/References;	getReferences()Lorg/lwjgl/opengl/References;
 	m	pushState()V	pushState()V
@@ -56400,16 +56305,12 @@ c	Lorg/lwjgl/opengl/StateTracker;	Lorg/lwjgl/opengl/StateTracker;
 		ma	1	1
 	m	doPushAttrib(I)V	doPushAttrib(I)V
 		ma	0	0
+	m	getReferences(Lorg/lwjgl/opengl/ContextCapabilities;)Lorg/lwjgl/opengl/References;	getReferences(Lorg/lwjgl/opengl/ContextCapabilities;)Lorg/lwjgl/opengl/References;
+		ma	0	0
 	m	bindBuffer(Lorg/lwjgl/opengl/ContextCapabilities;II)V	bindBuffer(Lorg/lwjgl/opengl/ContextCapabilities;II)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	getReferences(Lorg/lwjgl/opengl/ContextCapabilities;)Lorg/lwjgl/opengl/References;	getReferences(Lorg/lwjgl/opengl/ContextCapabilities;)Lorg/lwjgl/opengl/References;
-		ma	0	0
-	m	getElementArrayBufferBound(Lorg/lwjgl/opengl/ContextCapabilities;)I	getElementArrayBufferBound(Lorg/lwjgl/opengl/ContextCapabilities;)I
-		ma	0	0
-	m	getReferences(Lorg/lwjgl/opengl/ContextCapabilities;)Lorg/lwjgl/opengl/References;	getReferences(Lorg/lwjgl/opengl/ContextCapabilities;)Lorg/lwjgl/opengl/References;
-		ma	0	0
 	m	bindVAO(Lorg/lwjgl/opengl/ContextCapabilities;I)V	bindVAO(Lorg/lwjgl/opengl/ContextCapabilities;I)V
 		ma	0	0
 		ma	1	1
@@ -56419,6 +56320,8 @@ c	Lorg/lwjgl/opengl/StateTracker;	Lorg/lwjgl/opengl/StateTracker;
 	m	deleteVAO(Lorg/lwjgl/opengl/ContextCapabilities;I)V	deleteVAO(Lorg/lwjgl/opengl/ContextCapabilities;I)V
 		ma	0	0
 		ma	1	1
+	m	getElementArrayBufferBound(Lorg/lwjgl/opengl/ContextCapabilities;)I	getElementArrayBufferBound(Lorg/lwjgl/opengl/ContextCapabilities;)I
+		ma	0	0
 	f	references_stack;;Lorg/lwjgl/opengl/ReferencesStack;	references_stack;;Lorg/lwjgl/opengl/ReferencesStack;
 	f	attrib_stack;;Lorg/lwjgl/opengl/StateStack;	attrib_stack;;Lorg/lwjgl/opengl/StateStack;
 	f	insideBeginEnd;;Z	insideBeginEnd;;Z
@@ -57438,12 +57341,6 @@ c	Lorg/lwjgl/opengl/XRandR$Screen;	Lorg/lwjgl/opengl/XRandR$Screen;
 		ma	0	0
 		ma	1	1
 	m	<init>(Ljava/lang/String;IIIILorg/lwjgl/opengl/XRandR$1;)V	<init>(Ljava/lang/String;IIIILorg/lwjgl/opengl/XRandR$1;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
 	m	<init>(Ljava/lang/String;IIIILorg/lwjgl/opengl/XRandR$1;)V	<init>(Ljava/lang/String;IIIILorg/lwjgl/opengl/XRandR$1;)V
 		ma	0	0
 		ma	1	1
