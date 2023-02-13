@@ -1,36 +1,36 @@
-Matches saved 2022-01-11, status: c:2135/2149 m:17476/17568 f:7714/7768 ma:22432/22593, input files:
+Matches saved 2023-02-13, status: c:2137/2149 m:17479/17568 f:7715/7768 ma:22435/22593, input files:
 	a:
-		5945790	6fyXUTOtMMNFYYDtjBv8JCf364I4VGpSbsZu/h2Cefc=	minecraft-merged-14w11b.jar
+		5945790	SHA256	ivLoFwptZeVRPiOVvGHRlx1RHFAm5OSrniLN96lYGps=	minecraft-merged-14w11b.jar
 	b:
-		7022443	wE00fVsRes9Anhol5XUDWsgj3N/+FCSyw0kK6gxlDKo=	minecraft-merged-14w17a.jar
+		7022443	SHA256	E0YVsT/5rGTHe7k5yeYUsaXKgTbJyfGhhAgBesrfYsI=	minecraft-merged-14w17a.jar
 	cp:
-		15966	yuPeFp52le8wB5NJxeqBeQvRDATEA3GW/U/cB7bUOTQ=	netty-1.8.8.jar
-		318956	Ca33lVuqa931ekvb+akc9pAmExSWm1mhgIXs4eBezPk=	vecmath-1.5.2.jar
-		2523218	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
-		1634692	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
-		62477	P8++MgPC6lIb92QEhP011jAxhuouCOcvAy1kDKBn/9o=	jopt-simple-4.6.jar
-		103871	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
-		5618	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
-		21679	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
-		18981	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
-		65020	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
-		1501009	i8K3GhftG1xjKbzGH6mi9/4HEHRUj6E366/sKiPUnYk=	netty-all-4.0.15.Final.jar
-		2225441	+pF/Tz9qdjdRNLqJpA06HOgHlFqRu9vjnDH3bgMDCGg=	guava-16.0.jar
-		385091	gCTCUDv4Pvp9/xU/4CTBYk9fdWvg7F/BHIVv5CCGTSY=	commons-lang3-3.2.1.jar
-		185140	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
-		263965	rRnSYBw6vwuUa1w6QRPiJqjB4zBeOVuQATt43ZSnI84=	commons-codec-1.9.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		190432	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
-		108161	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
-		681134	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
-		1014790	wRj42EMTmA954ef3rksUsQwvIMd+pKHCn28LArwTkHc=	lwjgl-2.9.1.jar
-		173909	MtfnMAWi3AzMPGJHDENbNR9lAd6OhxjiaWBTR1RXCnc=	lwjgl_util-2.9.1.jar
-		55977	O5D5962Wi5WISC46Cbbn0NgcbPfCFMXOzYEg4+5Qmuk=	twitch-6.5.jar
+		15966	SHA256	yuPeFp52le8wB5NJxeqBeQvRDATEA3GW/U/cB7bUOTQ=	netty-1.8.8.jar
+		318956	SHA256	Ca33lVuqa931ekvb+akc9pAmExSWm1mhgIXs4eBezPk=	vecmath-1.5.2.jar
+		2523218	SHA256	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
+		1634692	SHA256	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
+		62477	SHA256	P8++MgPC6lIb92QEhP011jAxhuouCOcvAy1kDKBn/9o=	jopt-simple-4.6.jar
+		103871	SHA256	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
+		5618	SHA256	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
+		21679	SHA256	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
+		18981	SHA256	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
+		65020	SHA256	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
+		1501009	SHA256	i8K3GhftG1xjKbzGH6mi9/4HEHRUj6E366/sKiPUnYk=	netty-all-4.0.15.Final.jar
+		2225441	SHA256	+pF/Tz9qdjdRNLqJpA06HOgHlFqRu9vjnDH3bgMDCGg=	guava-16.0.jar
+		385091	SHA256	gCTCUDv4Pvp9/xU/4CTBYk9fdWvg7F/BHIVv5CCGTSY=	commons-lang3-3.2.1.jar
+		185140	SHA256	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
+		263965	SHA256	rRnSYBw6vwuUa1w6QRPiJqjB4zBeOVuQATt43ZSnI84=	commons-codec-1.9.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		190432	SHA256	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
+		108161	SHA256	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
+		681134	SHA256	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
+		1014790	SHA256	wRj42EMTmA954ef3rksUsQwvIMd+pKHCn28LArwTkHc=	lwjgl-2.9.1.jar
+		173909	SHA256	MtfnMAWi3AzMPGJHDENbNR9lAd6OhxjiaWBTR1RXCnc=	lwjgl_util-2.9.1.jar
+		55977	SHA256	O5D5962Wi5WISC46Cbbn0NgcbPfCFMXOzYEg4+5Qmuk=	twitch-6.5.jar
 	cp a:
-		59341	k5MteUPVa4TQLIDP2bVHMuZEywVWwYh21ts8INUGkDY=	authlib-1.5.5.jar
+		59341	SHA256	k5MteUPVa4TQLIDP2bVHMuZEywVWwYh21ts8INUGkDY=	authlib-1.5.5.jar
 	cp b:
-		61452	XSlkEUvgSbQwtkI8qgP8RKNFRuxJgUtE255DTIpjpSk=	authlib-1.5.13.jar
+		61452	SHA256	XSlkEUvgSbQwtkI8qgP8RKNFRuxJgUtE255DTIpjpSk=	authlib-1.5.13.jar
 c	La;	La;
 	m	values()[La;	values()[La;
 	m	valueOf(Ljava/lang/String;)La;	valueOf(Ljava/lang/String;)La;
@@ -101,7 +101,6 @@ c	La;	La;
 	f	B;;Ljava/lang/String;	B;;Ljava/lang/String;
 	f	C;;I	C;;I
 	f	D;;[La;	D;;[La;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Laa;	Laa;
 	m	c()Ljava/lang/String;	c()Ljava/lang/String;
 	m	c(Lac;)Ljava/lang/String;	c(Lac;)Ljava/lang/String;
@@ -292,7 +291,12 @@ c	Laak;	Laar;
 	f	bk;;Lur;	bj;;Lux;
 	f	bl;;I	bk;;I
 	f	bm;;I	bl;;I
-cu	a	Laal;
+c	Laal;	Laas;
+	m	<init>(Laak;)V	<init>(Laar;)V
+		ma	0	0
+	m	a(Lul;Lud;)V	a(Lur;Luj;)V
+		ma	0	0
+		ma	1	1
 c	Laam;	Laat;
 	m	a(Lud;F)V	a(Luj;F)V
 		ma	0	0
@@ -3758,7 +3762,6 @@ c	Lagh;	Lagy;
 	f	i;;Z	i;;Z
 	f	j;;Lamq;	j;;Lanj;
 	f	k;;Z	k;;Z
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lagi;	Lagz;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Laga;	a;;Lagi;
@@ -5412,7 +5415,6 @@ c	Lajy;	Lakp;
 	f	b;;Lamq;	b;;Lanj;
 	f	c;;I	c;;I
 	f	d;;I	d;;I
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lajz;	Lakq;
 	m	values()[Lajz;	values()[Lakq;
 	m	valueOf(Ljava/lang/String;)Lajz;	valueOf(Ljava/lang/String;)Lakq;
@@ -5453,7 +5455,6 @@ c	Laka;	Lakr;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	f	a;;I	a;;I
 	f	b;;I	b;;I
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lakc;	Lakt;
 	m	<init>(Lakh;Ltj;DDDFLjava/util/List;)V	<init>(Laky;Ltp;DDDFLjava/util/List;)V
 		ma	0	0
@@ -6461,7 +6462,6 @@ c	Lakx;	Lalo;
 	f	b;;J	b;;J
 	f	c;;I	c;;I
 	f	f;;J	f;;J
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Laky;	Lalp;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
@@ -6670,7 +6670,6 @@ c	Lald;	Lalu;
 	f	b;;Ljava/lang/Class;	b;;Ljava/lang/Class;
 	f	c;;I	c;;I
 	f	d;;I	d;;I
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lale;	Lalv;
 	m	<init>(Lalh;)V	<init>(Laly;)V
 		ma	0	0
@@ -8605,7 +8604,6 @@ c	Lanj;	Laod;
 	m	a(Ldp;I)Lsj;	a(Ldq;I)Lsp;
 		ma	0	0
 		ma	1	1
-	mu	a	f(Lakq;Lde;Ldp;)Lsj;
 	m	e()Ljava/util/List;	e()Ljava/util/List;
 	m	b(Lakh;Lde;Ljava/util/Random;)V	b(Laky;Ldf;Ljava/util/Random;)V
 		ma	0	0
@@ -9184,7 +9182,6 @@ c	Laoa;	Laox;
 	f	e;;I	e;;I
 	f	f;;Ljava/lang/String;	f;;Ljava/lang/String;
 	f	g;;[Laoa;	g;;[Laox;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Laob;	Laoy;
 	m	<init>()V	<init>()V
 	m	a(Lakh;)I	a(Laky;)I
@@ -9369,7 +9366,6 @@ c	Laod;	Lapa;
 	f	a;;Laod;	a;;Lapa;
 	f	b;;Laod;	b;;Lapa;
 	f	c;;[Laod;	c;;[Lapa;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Laoe;	Lapb;
 	m	values()[Laoe;	values()[Lapb;
 	m	valueOf(Ljava/lang/String;)Laoe;	valueOf(Ljava/lang/String;)Lapb;
@@ -9382,7 +9378,6 @@ c	Laoe;	Lapb;
 	f	a;;Laoe;	a;;Lapb;
 	f	b;;Laoe;	b;;Lapb;
 	f	c;;[Laoe;	c;;[Lapb;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Laof;	Lapc;
 	m	<init>()V	<init>()V
 	m	b()I	b()I
@@ -11476,7 +11471,6 @@ c	Laqv;	Last;
 	f	b;;Laqv;	b;;Last;
 	f	c;;Laqv;	c;;Last;
 	f	d;;[Laqv;	d;;[Last;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Laqw;	Lasu;
 	m	<init>(Z)V	<init>(Z)V
 		ma	0	0
@@ -11686,7 +11680,9 @@ c	Larc;	Lata;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Ljava/util/List;	a;;Ljava/util/List;
 	f	N;;Lsj;	Q;;Lsp;
-cu	a	Lard;
+c	Lard;	Latb;
+	m	<clinit>()V	<clinit>()V
+	f	a;;[I	a;;[I
 c	Lare;	Latc;
 	m	<init>()V	<init>()V
 	m	a(Ldp;I)Lsj;	a(Ldq;I)Lsp;
@@ -11738,7 +11734,6 @@ c	Larf;	Latd;
 	f	f;;Ljava/lang/String;	f;;Ljava/lang/String;
 	f	g;;Lbbu;	g;;Lbfd;
 	f	h;;[Larf;	h;;[Latd;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Larg;	Late;
 	m	<init>()V	<init>()V
 	m	a(Ldp;I)Lsj;	a(Ldq;I)Lsp;
@@ -12311,7 +12306,6 @@ c	Larx;	Lauc;
 	f	j;;Ljava/lang/String;	j;;Ljava/lang/String;
 	f	k;;Ljava/lang/String;	k;;Ljava/lang/String;
 	f	l;;[Larx;	l;;[Lauc;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lary;	Laud;
 	m	<init>()V	<init>()V
 	m	a(Ldp;I)Lsj;	a(Ldq;I)Lsp;
@@ -13006,7 +13000,6 @@ c	Lasq;	Lavm;
 	f	j;;Ljava/lang/String;	j;;Ljava/lang/String;
 	f	k;;Ljava/lang/String;	k;;Ljava/lang/String;
 	f	l;;[Lasq;	l;;[Lavm;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lasr;	Lavn;
 	m	<init>()V	<init>()V
 	m	a(Ldp;I)Lsj;	a(Ldq;I)Lsp;
@@ -14084,7 +14077,6 @@ c	Laue;	Laxd;
 	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
 		ma	0	0
 	m	hashCode()I	hashCode()I
-	mu	a	toString()Ljava/lang/String;
 	m	a(Laue;)Ljava/util/Map;	a(Laxd;)Ljava/util/Map;
 		ma	0	0
 	m	a(Laue;Lauk;Ljava/lang/Object;Laub;)V	a(Laxd;Laxj;Ljava/lang/Object;Laxa;)V
@@ -14109,7 +14101,6 @@ c	Lauf;	Laxe;
 	m	hashCode()I	hashCode()I
 	f	a;;Ljava/lang/Class;	a;;Ljava/lang/Class;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Laug;	Laxf;
 	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
 		ma	0	0
@@ -15760,7 +15751,6 @@ c	Laxm;	Lbav;
 	f	a;;Ljava/util/List;	a;;Ljava/util/List;
 	f	b;;Ljava/util/Map;	b;;Ljava/util/Map;
 	f	c;;I	c;;I
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Laxn;	Lbaw;
 	m	<init>(ILamq;)V	<init>(ILanj;)V
 		ma	0	0
@@ -15786,7 +15776,6 @@ c	Laxn;	Lbaw;
 	f	c;;I	c;;I
 	f	d;;I	d;;I
 	f	e;;I	e;;I
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Laxq;	Lbaz;
 	m	<init>()V	<init>()V
 	m	<init>([I)V	<init>([I)V
@@ -15848,7 +15837,6 @@ c	Laxq;	Lbaz;
 	f	d;;I	d;;I
 	f	e;;I	e;;I
 	f	f;;I	f;;I
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Laxr;	Lbba;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[I	a;;[I
@@ -18679,7 +18667,6 @@ c	Lbdd;	Lbgm;
 	f	g;;F	g;;F
 	f	h;;Lbdd;	h;;Lbgm;
 	f	i;;Z	i;;Z
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lbde;	Lbgn;
 	m	<init>([Lbdd;)V	<init>([Lbgm;)V
 		ma	0	0
@@ -19433,7 +19420,6 @@ c	Lbet;	Lbic;
 	f	d;;D	d;;D
 	f	e;;D	e;;D
 	f	f;;D	f;;D
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lbeu;	Lbid;
 	m	<init>(Lbew;Ldp;Lde;)V	<init>(Lbif;Ldq;Ldf;)V
 		ma	0	0
@@ -19459,7 +19445,6 @@ c	Lbeu;	Lbid;
 	f	b;;Ldp;	b;;Ldq;
 	f	c;;Lbew;	c;;Lbif;
 	f	d;;Ltj;	d;;Ltp;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lbev;	Lbie;
 	m	values()[Lbev;	values()[Lbie;
 	m	valueOf(Ljava/lang/String;)Lbev;	valueOf(Ljava/lang/String;)Lbie;
@@ -19518,7 +19503,6 @@ c	Lbew;	Lbif;
 	f	a;;D	a;;D
 	f	b;;D	b;;D
 	f	c;;D	c;;D
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lbex;	Lbig;
 	m	<init>(Lbfc;Ljava/lang/String;Lbfj;)V	<init>(Lbil;Ljava/lang/String;Lbis;)V
 		ma	0	0
@@ -27985,7 +27969,6 @@ c	Lbrx;	Lbvy;
 	f	au;;D	at;;D
 	f	av;;D	au;;D
 	f	aw;;D	av;;D
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lbry;	Lbvz;
 	m	<init>(Lakh;Lcbl;)V	<init>(Laky;Lcfn;)V
 		ma	0	0
@@ -33406,7 +33389,6 @@ c	Lcbc;	Lcfd;
 	f	d;;I	d;;I
 	f	e;;Z	e;;Z
 	f	f;;F	f;;F
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lcbd;	Lcfe;
 	m	<init>(IIII)V	<init>(IIII)V
 		ma	0	0
@@ -33427,7 +33409,6 @@ c	Lcbd;	Lcfe;
 	f	d;;I	d;;I
 	f	e;;Ljava/util/List;	e;;Ljava/util/List;
 	f	f;;Lcbc;	f;;Lcfd;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lcbe;	Lcff;
 	m	<init>(Lcbc;Ljava/lang/String;)V	<init>(Lcfd;Ljava/lang/String;)V
 		ma	0	0
@@ -33564,7 +33545,6 @@ c	Lcbj;	Lcfl;
 	f	o;;F	o;;F
 	f	g;;I	g;;I
 	f	h;;I	h;;I
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lcbk;	Lcfm;
 	m	<init>(Lcbj;[[I)V	<init>(Lcfl;[[I)V
 		ma	0	0
@@ -33800,7 +33780,6 @@ c	Lcbu;	Lcfw;
 	f	d;;I	d;;I
 	f	e;;I	e;;I
 	f	f;;I	f;;I
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lcbv;	Lcfx;
 	m	<init>(Lcbv;)V	<init>(Lcfx;)V
 		ma	0	0
@@ -33825,7 +33804,6 @@ c	Lcbv;	Lcfx;
 	f	b;;Ljava/util/List;	b;;Ljava/util/List;
 	f	c;;Ljava/util/List;	c;;Ljava/util/List;
 	f	d;;I	d;;I
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lcbw;	Lcfy;
 	m	<init>(Ljava/io/File;)V	<init>(Ljava/io/File;)V
 		ma	0	0
@@ -34053,7 +34031,6 @@ c	Lccg;	Lcgi;
 	m	hashCode()I	hashCode()I
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lcch;	Lcgj;
 	m	a()Ljava/util/Set;	a()Ljava/util/Set;
 	m	a(Lccg;)Lccf;	a(Lcgi;)Lcgh;
@@ -34153,7 +34130,6 @@ c	Lcco;	Lcgq;
 	f	e;;Ljava/awt/image/BufferedImage;	e;;Ljava/awt/image/BufferedImage;
 	f	f;;Lccg;	f;;Lcgi;
 	f	a;;Lccl;	a;;Lcgn;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lccp;	Lcgr;
 	m	<init>(Lcdf;)V	<init>(Lchh;)V
 		ma	0	0
@@ -34304,7 +34280,6 @@ c	Lccz;	Lchb;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
 	f	c;;Ljava/lang/String;	c;;Ljava/lang/String;
 	f	d;;Z	d;;Z
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lcd;	Lcd;
 	m	<init>()V	<init>()V
 	m	a(Lac;Laa;ILjava/lang/String;[Ljava/lang/Object;)V	a(Lac;Laa;ILjava/lang/String;[Ljava/lang/Object;)V
@@ -34592,7 +34567,6 @@ c	Lcdv;	Lchx;
 	m	hashCode()I	hashCode()I
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	f	c;;Ljava/lang/String;	c;;Ljava/lang/String;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lcdw;	Lchy;
 	m	<init>(Lccg;)V	<init>(Lcgi;)V
 		ma	0	0
@@ -35197,7 +35171,6 @@ c	Lcfm;	Lcjo;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
 	f	c;;Ljava/lang/String;	c;;Ljava/lang/String;
 	f	d;;Ljava/util/Map;	d;;Ljava/util/Map;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lcfn;	Lcjp;
 	m	a(Lcfs;)V	a(Lcju;)V
 		ma	0	0
@@ -36252,7 +36225,6 @@ c	Lche;	Lclg;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	m	a(Ljava/lang/reflect/Field;)Z	a(Ljava/lang/reflect/Field;)Z
 		ma	0	0
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lchf;	Lclh;
 	m	<init>()V	<init>()V
 	m	a(Lcom/google/gson/JsonObject;)Lchf;	a(Lcom/google/gson/JsonObject;)Lclh;
@@ -36281,7 +36253,6 @@ c	Lchi;	Lclk;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
 	f	c;;I	c;;I
 	f	d;;Ljava/lang/String;	d;;Ljava/lang/String;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lchj;	Lcll;
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
@@ -36588,7 +36559,6 @@ c	Lcom/mojang/authlib/Agent;	Lcom/mojang/authlib/Agent;
 	f	SCROLLS;;Lcom/mojang/authlib/Agent;	SCROLLS;;Lcom/mojang/authlib/Agent;
 	f	name;;Ljava/lang/String;	name;;Ljava/lang/String;
 	f	version;;I	version;;I
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lcom/mojang/authlib/AuthenticationService;	Lcom/mojang/authlib/AuthenticationService;
 	m	createUserAuthentication(Lcom/mojang/authlib/Agent;)Lcom/mojang/authlib/UserAuthentication;	createUserAuthentication(Lcom/mojang/authlib/Agent;)Lcom/mojang/authlib/UserAuthentication;
 		ma	0	0
@@ -36639,7 +36609,6 @@ c	Lcom/mojang/authlib/BaseUserAuthentication;	Lcom/mojang/authlib/BaseUserAuthen
 	f	password;;Ljava/lang/String;	password;;Ljava/lang/String;
 	f	selectedProfile;;Lcom/mojang/authlib/GameProfile;	selectedProfile;;Lcom/mojang/authlib/GameProfile;
 	f	userType;;Lcom/mojang/authlib/UserType;	userType;;Lcom/mojang/authlib/UserType;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lcom/mojang/authlib/GameProfile;	Lcom/mojang/authlib/GameProfile;
 	m	<init>(Ljava/util/UUID;Ljava/lang/String;)V	<init>(Ljava/util/UUID;Ljava/lang/String;)V
 		ma	0	0
@@ -36657,7 +36626,6 @@ c	Lcom/mojang/authlib/GameProfile;	Lcom/mojang/authlib/GameProfile;
 	f	name;;Ljava/lang/String;	name;;Ljava/lang/String;
 	f	properties;;Lcom/mojang/authlib/properties/PropertyMap;	properties;;Lcom/mojang/authlib/properties/PropertyMap;
 	f	legacy;;Z	legacy;;Z
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lcom/mojang/authlib/GameProfileRepository;	Lcom/mojang/authlib/GameProfileRepository;
 	m	findProfilesByNames([Ljava/lang/String;Lcom/mojang/authlib/Agent;Lcom/mojang/authlib/ProfileLookupCallback;)V	findProfilesByNames([Ljava/lang/String;Lcom/mojang/authlib/Agent;Lcom/mojang/authlib/ProfileLookupCallback;)V
 		ma	0	0
@@ -36798,7 +36766,6 @@ c	Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;	Lcom/mojang/authlib/min
 	m	getHash()Ljava/lang/String;	getHash()Ljava/lang/String;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	f	url;;Ljava/lang/String;	url;;Ljava/lang/String;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lcom/mojang/authlib/minecraft/MinecraftSessionService;	Lcom/mojang/authlib/minecraft/MinecraftSessionService;
 	m	joinServer(Lcom/mojang/authlib/GameProfile;Ljava/lang/String;Ljava/lang/String;)V	joinServer(Lcom/mojang/authlib/GameProfile;Ljava/lang/String;Ljava/lang/String;)V
 		ma	0	0
@@ -36975,7 +36942,6 @@ c	Lcom/mojang/authlib/yggdrasil/YggdrasilUserAuthentication;	Lcom/mojang/authlib
 	f	profiles;;[Lcom/mojang/authlib/GameProfile;	profiles;;[Lcom/mojang/authlib/GameProfile;
 	f	accessToken;;Ljava/lang/String;	accessToken;;Ljava/lang/String;
 	f	isOnline;;Z	isOnline;;Z
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lcom/mojang/authlib/yggdrasil/request/AuthenticationRequest;	Lcom/mojang/authlib/yggdrasil/request/AuthenticationRequest;
 	m	<init>(Lcom/mojang/authlib/yggdrasil/YggdrasilUserAuthentication;Ljava/lang/String;Ljava/lang/String;)V	<init>(Lcom/mojang/authlib/yggdrasil/YggdrasilUserAuthentication;Ljava/lang/String;Ljava/lang/String;)V
 		ma	0	0
@@ -37463,7 +37429,6 @@ c	Ldp;	Ldq;
 	f	o;;[Ldp;	o;;[Ldq;
 	f	p;;Ljava/util/Map;	p;;Ljava/util/Map;
 	f	q;;[Ldp;	q;;[Ldq;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Ldq;	Ldr;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[I	a;;[I
@@ -37488,7 +37453,6 @@ c	Ldr;	Lds;
 	f	d;;Ljava/lang/String;	d;;Ljava/lang/String;
 	f	e;;Ldt;	e;;Ldu;
 	f	f;;[Ldr;	f;;[Lds;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lds;	Ldt;
 	m	values()[Lds;	values()[Ldt;
 	m	valueOf(Ljava/lang/String;)Lds;	valueOf(Ljava/lang/String;)Ldt;
@@ -37506,7 +37470,6 @@ c	Lds;	Ldt;
 	f	c;;I	c;;I
 	f	d;;Ljava/lang/String;	d;;Ljava/lang/String;
 	f	e;;[Lds;	e;;[Ldt;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Ldt;	Ldu;
 	m	values()[Ldt;	values()[Ldu;
 	m	valueOf(Ljava/lang/String;)Ldt;	valueOf(Ljava/lang/String;)Ldu;
@@ -37640,7 +37603,6 @@ c	Lee;	Lef;
 	f	c;;I	c;;I
 	f	d;;I	d;;I
 	f	e;;I	e;;I
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lei;	Lej;
 	m	a(Ljava/lang/String;)Ljava/lang/String;	a(Ljava/lang/String;)Ljava/lang/String;
 		ma	0	0
@@ -37694,7 +37656,6 @@ c	Lek;	Lel;
 	m	hashCode()I	hashCode()I
 	m	c()[B	c()[B
 	f	b;;[B	b;;[B
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lel;	Lem;
 	m	<init>()V	<init>()V
 	m	<init>(B)V	<init>(B)V
@@ -37718,7 +37679,6 @@ c	Lel;	Lem;
 	m	g()D	g()D
 	m	h()F	h()F
 	f	b;;B	b;;B
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lem;	Len;
 	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
@@ -37831,7 +37791,6 @@ c	Lem;	Len;
 	m	<clinit>()V	<clinit>()V
 	f	b;;Lorg/apache/logging/log4j/Logger;	b;;Lorg/apache/logging/log4j/Logger;
 	f	c;;Ljava/util/Map;	c;;Ljava/util/Map;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Len;	Leo;
 	m	<init>(Lem;Ljava/lang/String;)V	<init>(Len;Ljava/lang/String;)V
 		ma	0	0
@@ -37871,7 +37830,6 @@ c	Lep;	Leq;
 	m	g()D	g()D
 	m	h()F	h()F
 	f	b;;D	b;;D
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Leq;	Ler;
 	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataInput;ILew;)V	a(Ljava/io/DataInput;ILex;)V
@@ -37883,7 +37841,6 @@ c	Leq;	Ler;
 	m	a()B	a()B
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	m	b()Lfc;	b()Lfd;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Ler;	Les;
 	m	<init>()V	<init>()V
 	m	<init>(F)V	<init>(F)V
@@ -37907,7 +37864,6 @@ c	Ler;	Les;
 	m	g()D	g()D
 	m	h()F	h()F
 	f	b;;F	b;;F
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Les;	Let;
 	m	<init>()V	<init>()V
 	m	<init>([I)V	<init>([I)V
@@ -37926,7 +37882,6 @@ c	Les;	Let;
 	m	hashCode()I	hashCode()I
 	m	c()[I	c()[I
 	f	b;;[I	b;;[I
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Let;	Leu;
 	m	<init>()V	<init>()V
 	m	<init>(I)V	<init>(I)V
@@ -37950,7 +37905,6 @@ c	Let;	Leu;
 	m	g()D	g()D
 	m	h()F	h()F
 	f	b;;I	b;;I
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Leu;	Lev;
 	m	<init>()V	<init>()V
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
@@ -37988,7 +37942,6 @@ c	Leu;	Lev;
 	m	d()I	d()I
 	f	b;;Ljava/util/List;	b;;Ljava/util/List;
 	f	c;;B	c;;B
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lev;	Lew;
 	m	<init>()V	<init>()V
 	m	<init>(J)V	<init>(J)V
@@ -38012,7 +37965,6 @@ c	Lev;	Lew;
 	m	g()D	g()D
 	m	h()F	h()F
 	f	b;;J	b;;J
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lew;	Lex;
 	m	<init>(J)V	<init>(J)V
 		ma	0	0
@@ -38096,7 +38048,6 @@ c	Lfa;	Lfb;
 	m	g()D	g()D
 	m	h()F	h()F
 	f	b;;S	b;;S
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lfb;	Lfc;
 	m	<init>()V	<init>()V
 	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
@@ -38115,7 +38066,6 @@ c	Lfb;	Lfc;
 	m	hashCode()I	hashCode()I
 	m	a_()Ljava/lang/String;	a_()Ljava/lang/String;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lfc;	Lfd;
 	m	a(Ljava/io/DataOutput;)V	a(Ljava/io/DataOutput;)V
 		ma	0	0
@@ -38135,7 +38085,6 @@ c	Lfc;	Lfd;
 	m	a_()Ljava/lang/String;	a_()Ljava/lang/String;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[Ljava/lang/String;	a;;[Ljava/lang/String;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lfd;	Lfe;
 	m	<init>()V	<init>()V
 	m	c()J	c()J
@@ -38730,7 +38679,6 @@ c	Lfx;	Lfy;
 	m	compareTo(Ljava/lang/Object;)I	compareTo(Ljava/lang/Object;)I
 		ma	0	0
 	f	a;;Lio/netty/buffer/ByteBuf;	a;;Lio/netty/buffer/ByteBuf;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lfy;	Lfz;
 	m	<init>()V	<init>()V
 	m	decode(Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V	decode(Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V
@@ -38803,7 +38751,6 @@ c	Lgd;	Lge;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	f	a;;Ljava/util/List;	a;;Ljava/util/List;
 	f	b;;Lgn;	b;;Lgo;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lge;	Lgf;
 	m	<init>()V	<init>()V
 	m	a(Lgi;)Ljava/util/Iterator;	a(Lgj;)Ljava/util/Iterator;
@@ -38828,7 +38775,6 @@ c	Lgg;	Lgh;
 	m	hashCode()I	hashCode()I
 	f	a;;Lgh;	a;;Lgi;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lgh;	Lgi;
 	m	values()[Lgh;	values()[Lgi;
 	m	valueOf(Ljava/lang/String;)Lgh;	valueOf(Ljava/lang/String;)Lgi;
@@ -38905,7 +38851,6 @@ c	Lgk;	Lgl;
 	m	hashCode()I	hashCode()I
 	f	a;;Lgl;	a;;Lgm;
 	f	b;;Lgi;	b;;Lgj;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lgl;	Lgm;
 	m	values()[Lgl;	values()[Lgm;
 	m	valueOf(Ljava/lang/String;)Lgl;	valueOf(Ljava/lang/String;)Lgm;
@@ -38945,7 +38890,6 @@ c	Lgm;	Lgn;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
 	f	c;;Ljava/lang/String;	c;;Ljava/lang/String;
 	f	d;;Ljava/lang/String;	d;;Ljava/lang/String;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lgn;	Lgo;
 	m	<init>()V	<init>()V
 	m	a()La;	a()La;
@@ -39043,7 +38987,6 @@ c	Lgn;	Lgo;
 	f	i;;Lgk;	i;;Lgl;
 	f	j;;Ljava/lang/String;	j;;Ljava/lang/String;
 	f	k;;Lgn;	k;;Lgo;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lgo;	Lgp;
 	m	<init>()V	<init>()V
 	m	a()La;	a()La;
@@ -39077,7 +39020,6 @@ c	Lgo;	Lgp;
 	m	m()Lgn;	m()Lgo;
 	m	n()Lgn;	n()Lgo;
 	m	k()Ljava/lang/String;	k()Ljava/lang/String;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lgp;	Lgq;
 	m	<init>()V	<init>()V
 	m	a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lgn;	a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lgo;
@@ -39107,7 +39049,6 @@ c	Lgq;	Lgr;
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	m	f()Lgi;	f()Lgj;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lgr;	Lgs;
 	m	<init>(Ljava/lang/String;[Ljava/lang/Object;)V	<init>(Ljava/lang/String;[Ljava/lang/Object;)V
 		ma	0	0
@@ -39136,7 +39077,6 @@ c	Lgr;	Lgs;
 	f	g;;J	g;;J
 	f	b;;Ljava/util/List;	b;;Ljava/util/List;
 	f	c;;Ljava/util/regex/Pattern;	c;;Ljava/util/regex/Pattern;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lgs;	Lgt;
 	m	<init>(Lgr;Ljava/lang/String;)V	<init>(Lgs;Ljava/lang/String;)V
 		ma	0	0
@@ -39168,7 +39108,6 @@ c	Lgt;	Lgu;
 	m	b()Ljava/lang/String;	b()Ljava/lang/String;
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lorg/apache/logging/log4j/Logger;	a;;Lorg/apache/logging/log4j/Logger;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lgu;	Lgv;
 	m	<init>()V	<init>()V
 	m	<init>(DDDFFLjava/util/Set;)V	<init>(DDDFFLjava/util/Set;)V
@@ -40238,7 +40177,6 @@ c	Lii;	Lij;
 	f	e;;B	e;;B
 	f	f;;B	f;;B
 	f	g;;Z	g;;Z
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lij;	Lik;
 	m	<init>()V	<init>()V
 	m	<init>(IBBB)V	<init>(IBBB)V
@@ -41998,7 +41936,6 @@ c	Lml;	Lmp;
 		ma	1	1
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;Ljava/util/List;	b;;Ljava/util/List;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lmm;	Lmq;
 	m	<init>(Ljava/lang/String;Lac;)V	<init>(Ljava/lang/String;Lac;)V
 		ma	0	0
@@ -44551,7 +44488,6 @@ c	Lqm;	Lqs;
 	f	h;;Lqr;	h;;Lqx;
 	f	i;;Lqr;	i;;Lqx;
 	f	j;;Lqr;	j;;Lqx;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lqn;	Lqt;
 	m	<init>()V	<init>()V
 	m	a(I)Ljava/lang/String;	a(I)Ljava/lang/String;
@@ -44908,7 +44844,6 @@ c	Lrf;	Lrl;
 	f	b;;Ljava/lang/Object;	b;;Ljava/lang/Object;
 	f	c;;Lrf;	c;;Lrl;
 	f	d;;I	d;;I
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lrh;	Lrn;
 	m	<init>(Ljava/lang/Class;I)V	<init>(Ljava/lang/Class;I)V
 		ma	0	0
@@ -44977,7 +44912,6 @@ c	Lrj;	Lrp;
 	f	b;;Ljava/lang/Object;	b;;Ljava/lang/Object;
 	f	c;;Lrj;	c;;Lrp;
 	f	d;;I	d;;I
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lrk;	Lrq;
 	m	<init>()V	<init>()V
 	m	create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;	create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;
@@ -45845,7 +45779,6 @@ c	Ltf;	Ltl;
 	f	e;;Z	e;;Z
 	f	f;;Z	f;;Z
 	f	g;;Z	g;;Z
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Ltg;	Ltm;
 	m	<init>(Lakh;)V	<init>(Laky;)V
 		ma	0	0
@@ -46243,7 +46176,6 @@ c	Ltj;	Ltp;
 	f	an;;I	am;;I
 	f	ap;;Z	ao;;Z
 	f	ao;;Ljava/util/UUID;	an;;Ljava/util/UUID;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Ltk;	Ltq;
 	m	<init>(Ltj;)V	<init>(Ltp;)V
 		ma	0	0
@@ -47240,7 +47172,6 @@ c	Lur;	Lux;
 	f	c;;Ljava/lang/String;	c;;Ljava/lang/String;
 	f	d;;Ljava/util/UUID;	d;;Ljava/util/UUID;
 	f	e;;Z	e;;Z
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 c	Lus;	Luy;
 	m	<init>(Lup;Ljava/lang/String;D)V	<init>(Luv;Ljava/lang/String;D)V
 		ma	0	0
