@@ -1,36 +1,36 @@
-Matches saved 2021-11-27, status: c:1688/1705 m:13984/14418 f:6467/6598 ma:21534/22045, input files:
+Matches saved 2023-02-13, status: c:1689/1705 m:14061/14418 f:6468/6598 ma:21560/22045, input files:
 	a:
-		5098747	smTd8ef6cZRs3vgR651LpdszE8OhmPzolmWW2swnQzc=	minecraft-merged-13w39b.jar
+		5098747	SHA256	j1OXlxCMzhSMIGryEK5L5P6UioBkNQp/RAtg+weF7yc=	minecraft-merged-13w39b.jar
 	b:
-		5246130	bOpknzsm5awaMQstrOYjiIBE4xDuL20IkD5b/SeqwxQ=	minecraft-merged-13w41a.jar
+		5246130	SHA256	NzdcsODgUF6S+F1fsL6ncboe3AkGZLVrzc4ioYs/KGM=	minecraft-merged-13w41a.jar
 	cp:
-		289881	26oIhpCiOpVO/2aamdJFKiTdnxDYZnJf9dKf9HQKiX4=	vecmath-1.3.1.jar
-		2523218	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
-		1634692	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		103871	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
-		5618	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
-		21679	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
-		18981	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
-		65020	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
-		2189111	wBJ7B24wVvWClOSubAGpZZm49YIANF62+FkZKi2bKWI=	guava-14.0.jar
-		315805	Ex8FGajkYC5HzwJL/X4INLz1WSpyB/mi/bcR1PWvwWY=	commons-lang3-3.1.jar
-		185140	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		189285	DytfcVpVBswU7TUuX/QGtMSAoGNEpHlim4XnbCquf6o=	gson-2.2.2.jar
-		32437	fPIBW2avyJbNg70chAaFihlOJ9zgNX/r6BY4pgtEofE=	authlib-1.1.jar
-		108161	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
-		681134	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
-		994633	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		289881	SHA256	26oIhpCiOpVO/2aamdJFKiTdnxDYZnJf9dKf9HQKiX4=	vecmath-1.3.1.jar
+		2523218	SHA256	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
+		1634692	SHA256	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		103871	SHA256	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
+		5618	SHA256	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
+		21679	SHA256	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
+		18981	SHA256	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
+		65020	SHA256	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
+		2189111	SHA256	wBJ7B24wVvWClOSubAGpZZm49YIANF62+FkZKi2bKWI=	guava-14.0.jar
+		315805	SHA256	Ex8FGajkYC5HzwJL/X4INLz1WSpyB/mi/bcR1PWvwWY=	commons-lang3-3.1.jar
+		185140	SHA256	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		189285	SHA256	DytfcVpVBswU7TUuX/QGtMSAoGNEpHlim4XnbCquf6o=	gson-2.2.2.jar
+		32437	SHA256	fPIBW2avyJbNg70chAaFihlOJ9zgNX/r6BY4pgtEofE=	authlib-1.1.jar
+		108161	SHA256	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
+		681134	SHA256	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
+		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
+		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
+		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
+		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
 	cp a:
-		1997327	f7EtCfBBwpTwigpRooCEOAkic7UWKO7K8uDQAwt1VvU=	bcprov-jdk15on-1.47.jar
+		1997327	SHA256	f7EtCfBBwpTwigpRooCEOAkic7UWKO7K8uDQAwt1VvU=	bcprov-jdk15on-1.47.jar
 	cp b:
-		14725	iSInjK8Ubmy2v5Vsa/8QJJbg1y2Jr7GplIGMoRnK6Xo=	netty-1.7.7.jar
-		1448983	NBoFfGqfNu+Zs5FETPo0Momgm032BRXkcNfRATC9UD0=	netty-all-4.0.9.Final.jar
+		15966	SHA256	yuPeFp52le8wB5NJxeqBeQvRDATEA3GW/U/cB7bUOTQ=	netty-1.8.8.jar
+		1448983	SHA256	NBoFfGqfNu+Zs5FETPo0Momgm032BRXkcNfRATC9UD0=	netty-all-4.0.9.Final.jar
 c	La;	La;
 	m	values()[La;	values()[La;
 	m	valueOf(Ljava/lang/String;)La;	valueOf(Ljava/lang/String;)La;
@@ -16866,7 +16866,6 @@ c	Laxh;	Lazk;
 	f	ax;;Lcom/google/gson/Gson;	ax;;Lcom/google/gson/Gson;
 	f	ay;;Ljava/lang/reflect/ParameterizedType;	ay;;Ljava/lang/reflect/ParameterizedType;
 	f	az;;[Ljava/lang/String;	az;;[Ljava/lang/String;
-	fu	a	aA;;[Ljava/lang/String;
 	f	aB;;[Ljava/lang/String;	aA;;[Ljava/lang/String;
 	fu	a	aC;;[Ljava/lang/String;
 	f	aD;;[Ljava/lang/String;	aB;;[Ljava/lang/String;
@@ -18399,7 +18398,7 @@ c	Lazb;	Lbfl;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(I)V	h()V
+	mu	a	a(I)V
 	m	b(Lbgl;)V	a(Lbis;)V
 		ma	0	0
 	mu	a	c(Lbgl;)V
@@ -18447,12 +18446,8 @@ c	Lazc;	Lbfq;
 	m	<init>(Lazb;)V	<init>(Lbfl;Lays;IIIII)V
 		ma	0	0
 	m	b()I	b()I
-	mu	a	a(IZII)V
 	m	a(I)Z	a(I)Z
 		ma	0	0
-	mu	a	e()I
-	mu	a	a()V
-	mu	a	a(IIIILbix;II)V
 	mu	a	a(IIIILbix;)V
 	mu	a	b(IIIILbix;)V
 	mu	a	c(IIIILbix;)V
@@ -22652,9 +22647,7 @@ c	Lbfx;	Lbie;
 		ma	0	0
 	m	a(Lfz;)V	a(Lgi;)V
 		ma	0	0
-	m	a(Ljava/lang/String;[Ljava/lang/Object;)V	a(Ley;)V
-		mau	a	0
-		mau	a	1
+	mu	a	a(Ljava/lang/String;[Ljava/lang/Object;)V
 	mu	a	b(Lgw;)V
 	m	c(Lgw;)V	a(Lfi;)V
 		ma	0	0
@@ -29252,7 +29245,7 @@ c	Lbou;	Lbrh;
 	m	t()V	t()V
 	m	h()Z	h()Z
 	m	i()Ladp;	i()Lafq;
-	mu	a	j()I
+	m	j()I	j()Lpk;
 	m	k()Z	k()Z
 	m	r()Ljava/io/File;	r()Ljava/io/File;
 	m	V()Z	V()Z
@@ -29273,7 +29266,6 @@ c	Lbou;	Lbrh;
 		ma	0	0
 	m	ab()Z	ab()Z
 	m	l()I	l()I
-	m	ag()Lky;	j()Lpk;
 	m	<clinit>()V	<clinit>()V
 	f	l;;Lorg/apache/logging/log4j/Logger;	h;;Lorg/apache/logging/log4j/Logger;
 	f	m;;Lawq;	i;;Lays;
@@ -31198,7 +31190,8 @@ c	Lew;	Lfk;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;I	b;;I
@@ -31219,7 +31212,7 @@ c	Lex;	Lfl;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;I	b;;I
@@ -31234,7 +31227,7 @@ c	Ley;	Lfm;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;I	b;;I
@@ -31249,7 +31242,7 @@ c	Lez;	Lfn;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	c()Ljava/util/List;	c()Ljava/util/List;
 	f	a;;I	a;;I
@@ -31279,7 +31272,7 @@ c	Lfa;	Lfo;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;I	b;;I
@@ -31295,7 +31288,7 @@ c	Lfb;	Lfp;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	c()Ljava/util/List;	c()Ljava/util/List;
 	f	a;;I	a;;I
@@ -31317,7 +31310,7 @@ c	Lfc;	Lfq;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;I	b;;I
@@ -31325,7 +31318,7 @@ c	Lfd;	Lfr;
 	m	<init>()V	<init>()V
 	m	<init>(Lln;)V	<init>(Lno;)V
 		ma	0	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	m	a(Ljava/io/DataInput;)V	a(Lej;)V
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
@@ -31345,7 +31338,7 @@ c	Lfe;	Lfs;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	d()I	c()I
 	m	e()I	d()I
@@ -31366,7 +31359,7 @@ c	Lff;	Lft;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	m	a(Ljava/io/DataInput;)V	a(Lej;)V
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
@@ -31388,7 +31381,7 @@ c	Lfg;	Lfu;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;I	b;;I
@@ -31408,7 +31401,7 @@ c	Lfh;	Lfv;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	d()Lafo;	c()Lahp;
 	f	a;;I	a;;I
@@ -31428,7 +31421,7 @@ c	Lfi;	Lfw;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	d()Lafo;	c()Lahp;
 	f	a;;I	a;;I
@@ -31444,7 +31437,7 @@ c	Lfj;	Lfx;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	d()Ljava/lang/String;	c()Ljava/lang/String;
 	mu	a	i()Z
@@ -31465,7 +31458,7 @@ c	Lfk;	Lfy;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	d()Z	d()Z
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
@@ -31482,7 +31475,7 @@ c	Lfl;	Lfz;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	<clinit>()V	<clinit>()V
 	f	e;;Lorg/apache/logging/log4j/Logger;	e;;Lorg/apache/logging/log4j/Logger;
@@ -31491,7 +31484,18 @@ c	Lfl;	Lfz;
 	f	c;;[B	c;;[B
 	f	d;;I	d;;I
 	f	f;;[B	f;;[B
-cu	a	Lfm;
+c	Lfm;	Lih;
+	m	<init>()V	<init>()V
+	m	<init>(I)V	<init>(Lii;)V
+		ma	0	0
+	m	a(Ljava/io/DataInput;)V	a(Lej;)V
+		ma	0	0
+	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
+		ma	0	0
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
+	mu	a	a()I
+	f	a;;I	a;;Lii;
 c	Lfn;	Lij;
 	m	<init>()V	<init>()V
 	m	<init>(Ljava/lang/String;IIZIZ)V	<init>(Ljava/lang/String;ILxh;ZLpk;Z)V
@@ -31505,7 +31509,8 @@ c	Lfn;	Lij;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	m	d()Ljava/lang/String;	c()Ljava/lang/String;
 	m	e()I	d()I
@@ -31532,7 +31537,7 @@ c	Lfo;	Lje;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	d()I	d()I
 	m	e()Ljava/lang/String;	c()Lee;
@@ -31550,7 +31555,7 @@ c	Lfp;	Lga;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	f	a;;S	a;;S
 	f	b;;S	b;;S
@@ -31561,7 +31566,7 @@ c	Lfq;	Lgb;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	m	a(Ljava/io/DataInput;)V	a(Lej;)V
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
@@ -31580,7 +31585,7 @@ c	Lfs;	Lim;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	m	a(Ljava/io/DataInput;)V	a(Lej;)V
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
@@ -31596,7 +31601,7 @@ c	Lft;	Lgc;
 	m	<init>()V	<init>()V
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	m	a(Ljava/io/DataInput;)V	a(Lej;)V
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
@@ -31618,7 +31623,7 @@ c	Lfu;	Lgd;
 		ma	3	3
 		ma	4	4
 		ma	5	5
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	m	a(Ljava/io/DataInput;)V	a(Lej;)V
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
@@ -31639,7 +31644,7 @@ c	Lfv;	Lge;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;[Lzi;	b;;[Labj;
@@ -31649,7 +31654,7 @@ c	Lfw;	Lgf;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	m	a(Ljava/io/DataInput;)V	a(Lej;)V
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
@@ -31664,7 +31669,7 @@ c	Lfx;	Lgg;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	m	a(Ljava/io/DataInput;)V	a(Lej;)V
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
@@ -31682,7 +31687,7 @@ c	Lfy;	Lgh;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;I	b;;I
@@ -31695,7 +31700,7 @@ c	Lfz;	Lgi;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
@@ -31718,7 +31723,7 @@ c	Lga;	Lgj;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;I	b;;I
@@ -31734,7 +31739,7 @@ c	Lgb;	Lgk;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;B	b;;B
@@ -31751,7 +31756,7 @@ c	Lgc;	Lgl;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	d()F	c()F
 	m	e()F	d()F
@@ -31773,7 +31778,7 @@ c	Lgd;	Lgm;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	<clinit>()V	<clinit>()V
 	f	a;;[Ljava/lang/String;	a;;[Ljava/lang/String;
@@ -31790,16 +31795,17 @@ c	Lgf;	Lip;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	fu	a	a;;I
 	f	b;;I	a;;I
 	f	c;;I	b;;Liq;
-c	Lgg;	Lir;
+c	Lgg;	Lgn;
 	m	<init>()V	<init>()V
 	m	<init>(I)V	<init>(I)V
 		ma	0	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Lfj;)V
+		ma	0	0
 	m	a(Ljava/io/DataInput;)V	a(Lej;)V
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
@@ -31819,7 +31825,7 @@ c	Lgh;	Lgo;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	d()[B	c()[B
 	m	a(Lalw;ZI)Lgi;	a(Lany;ZI)Lgp;
@@ -31849,7 +31855,8 @@ c	Lgj;	Lgq;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	m	a(I)I	a(I)I
 		ma	0	0
@@ -31881,7 +31888,8 @@ c	Lgk;	Lgr;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	m	d()Z	c()Z
 	f	a;;I	a;;I
@@ -31915,7 +31923,8 @@ c	Lgl;	Lgs;
 	m	k()F	i()F
 	m	l()F	j()F
 	m	m()I	k()I
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;F	b;;F
@@ -31947,7 +31956,8 @@ c	Lgm;	Lgt;
 	m	h()F	g()F
 	m	j()F	h()F
 	m	k()Ladx;	i()Lafy;
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;I	b;;I
@@ -31971,7 +31981,8 @@ c	Lgn;	Lgu;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;Ladr;	b;;Lafs;
@@ -31989,7 +32000,8 @@ c	Lgo;	Lgv;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	mu	a	i()Z
@@ -32042,7 +32054,8 @@ c	Lgs;	Lis;
 	m	<init>()V	<init>()V
 	m	<init>(Z)V	<init>(Z)V
 		ma	0	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	m	a(Ljava/io/DataInput;)V	a(Lej;)V
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
@@ -32113,7 +32126,8 @@ c	Lgw;	Lfi;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
@@ -32140,6 +32154,7 @@ c	Lgx;	Lfj;
 	m	a(Lgh;)V	a(Lgo;)V
 		ma	0	0
 	mu	a	a(Lgw;)V
+	mu	a	a(Ljava/lang/String;[Ljava/lang/Object;)V
 	m	a(Lfz;)V	a(Lgi;)V
 		ma	0	0
 	m	a(Lgn;)V	a(Lgu;)V
@@ -32250,7 +32265,6 @@ c	Lgx;	Lfj;
 		ma	0	0
 	m	a(Lfe;)V	a(Lfs;)V
 		ma	0	0
-	mu	a	a(Lfm;)V
 	m	a(Lgj;)V	a(Lgq;)V
 		ma	0	0
 	mu	a	b()Z
@@ -32277,7 +32291,8 @@ c	Lgy;	Lhd;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	m	d()Z	c()Z
 	m	a(Z)V	a(Z)V
@@ -32317,7 +32332,8 @@ c	Lgz;	Lix;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;I	b;;I
@@ -32343,7 +32359,8 @@ c	Lha;	Liy;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;I	b;;I
@@ -32358,7 +32375,8 @@ c	Lhb;	Lhe;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;Z	b;;Z
@@ -32374,7 +32392,8 @@ c	Lhc;	Liz;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	m	d()F	c()F
 	m	e()F	d()F
@@ -32392,7 +32411,8 @@ c	Lhd;	Lhf;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	f	a;;[I	a;;[I
 c	Lhe;	Lhg;
@@ -32404,7 +32424,8 @@ c	Lhe;	Lhg;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;B	b;;B
@@ -32416,7 +32437,8 @@ c	Lhf;	Lhh;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	m	a(Ljava/io/DataInput;)V	a(Lej;)V
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
@@ -32436,7 +32458,8 @@ c	Lhg;	Lhi;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
@@ -32453,7 +32476,8 @@ c	Lhh;	Lji;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
+		ma	0	0
 	mu	a	a()I
 	m	d()Ljava/lang/String;	c()Ljava/lang/String;
 	m	e()Ljava/security/PublicKey;	d()Ljava/security/PublicKey;
@@ -32469,7 +32493,7 @@ c	Lhi;	Lhj;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
@@ -32479,7 +32503,7 @@ c	Lhj;	Ljb;
 	m	<init>(ILzi;)V	<init>(ILabj;)V
 		ma	0	0
 		ma	1	1
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	m	a(Ljava/io/DataInput;)V	a(Lej;)V
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
@@ -32496,7 +32520,7 @@ c	Lhk;	Lhk;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
@@ -32510,7 +32534,7 @@ c	Lhl;	Lhl;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	d()Ljava/util/List;	c()Ljava/util/List;
 	f	a;;I	a;;I
@@ -32526,7 +32550,7 @@ c	Lhm;	Lhm;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
 	f	a;;I	a;;I
@@ -32545,7 +32569,7 @@ c	Lhn;	Lhn;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
@@ -32563,7 +32587,7 @@ c	Lho;	Lho;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	d()Lzi;	c()Labj;
 	mu	a	i()Z
@@ -32581,7 +32605,7 @@ c	Lhp;	Lhp;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
@@ -32598,7 +32622,7 @@ c	Lhq;	Lhq;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
@@ -32614,7 +32638,7 @@ c	Lhr;	Lhr;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
@@ -32632,7 +32656,7 @@ c	Lhs;	Lhs;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
@@ -32652,7 +32676,7 @@ c	Lht;	Lht;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
@@ -32668,7 +32692,7 @@ c	Lhu;	Lhu;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
@@ -32686,7 +32710,7 @@ c	Lhv;	Lhv;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
@@ -32703,7 +32727,7 @@ c	Lhw;	Ljm;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	a(Ljava/security/PrivateKey;)Ljavax/crypto/SecretKey;	a(Ljava/security/PrivateKey;)Ljavax/crypto/SecretKey;
 		ma	0	0
@@ -32724,7 +32748,7 @@ c	Lhx;	Lhw;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;I	b;;I
@@ -32739,7 +32763,7 @@ c	Lhy;	Lhx;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	f	a;;I	a;;I
 	f	b;;I	b;;I
@@ -32758,7 +32782,7 @@ c	Lhz;	Lhy;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
@@ -32783,7 +32807,7 @@ c	Lia;	Lhz;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	d()I	c()I
 	m	e()Ljava/util/List;	d()Ljava/util/List;
@@ -32812,7 +32836,7 @@ c	Lic;	Lib;
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
 	m	d()Z	c()Z
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	mu	a	i()Z
 	mu	a	a(Lgw;)Z
@@ -32835,7 +32859,7 @@ c	Lid;	Ljd;
 		mau	a	0
 	m	a(Ljava/io/DataOutput;)V	b(Lej;)V
 		mau	a	0
-	mu	a	a(Lgx;)V
+	m	a(Lgx;)V	a(Leq;)V
 	mu	a	a()I
 	m	d()I	c()I
 	m	e()I	d()I
@@ -33367,7 +33391,7 @@ c	Ljn;	Llh;
 	m	e()Z	e()Z
 	m	h()Z	h()Z
 	m	i()Ladp;	i()Lafq;
-	mu	a	j()I
+	m	j()I	j()Lpk;
 	m	k()Z	k()Z
 	m	a(Lb;)V	a(Lb;)V
 		ma	0	0
@@ -33386,7 +33410,6 @@ c	Ljn;	Llh;
 	m	au()V	av()V
 	m	V()Z	V()Z
 	m	av()Ljm;	aw()Llg;
-	m	ag()Lky;	j()Lpk;
 	m	a(Ljava/lang/String;I)I	a(Ljava/lang/String;I)I
 		ma	0	0
 		ma	1	1
@@ -34346,12 +34369,10 @@ c	Lkt;	Lmx;
 		ma	0	0
 	mu	a	a(Lfo;)V
 	mu	a	a(Lhw;)V
-	mu	a	a(Lfm;)V
-	mu	a	a(Lgn;)V
+	m	a(Lfm;)V	a(Ljm;)V
+		ma	0	0
 	m	e()V	c()V
-	m	a(Ljava/lang/String;[Ljava/lang/Object;)V	a(Ley;)V
-		mau	a	0
-		mau	a	1
+	mu	a	a(Ljava/lang/String;[Ljava/lang/Object;)V
 	mu	a	a(Lge;)V
 	mu	a	a(Lgw;)V
 	m	f()Ljava/lang/String;	d()Ljava/lang/String;
@@ -34400,7 +34421,6 @@ c	Lkv;	Lms;
 		ma	0	0
 	m	a(Lhc;)V	a(Liz;)V
 		ma	0	0
-	mu	a	a(Lgs;)V
 	m	a(DDDFF)V	a(DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -34411,42 +34431,27 @@ c	Lkv;	Lms;
 		ma	0	0
 	m	a(Lid;)V	a(Ljd;)V
 		ma	0	0
-	m	a(Ljava/lang/String;[Ljava/lang/Object;)V	a(Ley;)V
-		mau	a	0
-		mau	a	1
+	mu	a	a(Ljava/lang/String;[Ljava/lang/Object;)V
 	mu	a	a(Lgw;)V
 	m	b(Lgw;)V	a(Lfi;)V
 		ma	0	0
-	mu	a	a(Lhi;)V
-	mu	a	a(Lfk;)V
 	m	d(Ljava/lang/String;)V	d(Ljava/lang/String;)V
 		ma	0	0
-	mu	a	a(Lfc;)V
 	m	a(Lha;)V	a(Liy;)V
 		ma	0	0
-	mu	a	a(Lfz;)V
 	mu	a	f()I
 	m	a(Lgf;)V	a(Lip;)V
 		ma	0	0
-	mu	a	a(Lfm;)V
 	mu	a	b()Z
-	mu	a	a(Lhf;)V
-	mu	a	a(Lft;)V
 	m	a(Lfs;)V	a(Lim;)V
 		ma	0	0
 	m	a(Lfr;)V	a(Lil;)V
 		ma	0	0
 	m	a(Lhj;)V	a(Ljb;)V
 		ma	0	0
-	mu	a	a(Lfq;)V
-	mu	a	a(Lhx;)V
-	mu	a	a(Lgg;)V
 	mu	a	a()Z
-	mu	a	a(Lgy;)V
-	mu	a	a(Lfj;)V
 	m	a(Lfn;)V	a(Lij;)V
 		ma	0	0
-	mu	a	a(Lfy;)V
 	mu	a	c()Z
 	m	<clinit>()V	<clinit>()V
 	f	d;;Lorg/apache/logging/log4j/Logger;	c;;Lorg/apache/logging/log4j/Logger;
@@ -35428,7 +35433,7 @@ c	Lnet/minecraft/server/MinecraftServer;	Lnet/minecraft/server/MinecraftServer;
 	m	g()V	g()V
 	m	h()Z	h()Z
 	m	i()Ladp;	i()Lafq;
-	mu	a	j()I
+	m	j()I	j()Lpk;
 	m	k()Z	k()Z
 	m	l()I	l()I
 	m	a_(Ljava/lang/String;I)V	a_(Ljava/lang/String;I)V
@@ -35556,7 +35561,7 @@ c	Lnet/minecraft/server/MinecraftServer;	Lnet/minecraft/server/MinecraftServer;
 		ma	0	0
 	m	a(Ladp;)V	a(Lafq;)V
 		ma	0	0
-	m	ag()Lky;	j()Lpk;
+	m	ag()Lky;	ag()Lmo;
 	m	ah()Z	ah()Z
 	m	ai()Z	ai()Z
 	m	a(Ladp;Z)Ljava/lang/String;	a(Lafq;Z)Ljava/lang/String;
