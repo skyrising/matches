@@ -1,36 +1,35 @@
-Matches saved 2022-01-10, status: c:1988/1988 m:16395/16522 f:7130/7174 ma:21072/21544, input files:
+Matches saved 2023-02-13, status: c:1988/1988 m:16364/16522 f:7130/7174 ma:20960/21544, input files:
 	a:
-		5610257	RVnEHV8cJB1b3PL0O3v/b/cmQEw3alIlWC7qXeb9dRQ=	minecraft-merged-14w04b-1554.jar
+		5610257	SHA256	UeVzxJqZNDLsmkyz8sEaSs82i/RP4UXV/JNzF5Ybhxs=	minecraft-merged-14w04b-1554.jar
 	b:
-		5640750	THqwsh7/H+l9DMGwph3UtaCfyZnsqIqj6I+MDjHLaGA=	minecraft-merged-14w05a.jar
+		5640750	SHA256	9Hp/T8u7g9J4eT6DVBvvMQruM17fiQKGAJ7355K7bvQ=	minecraft-merged-14w05a.jar
 	cp:
-		289881	26oIhpCiOpVO/2aamdJFKiTdnxDYZnJf9dKf9HQKiX4=	vecmath-1.3.1.jar
-		2523218	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
-		1634692	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		103871	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
-		5618	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
-		21679	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
-		18981	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
-		65020	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
-		1452995	luqjIjK1pbD5r8EhoOGyQW49ylBlezHlQxwKBK5lBVI=	netty-all-4.0.10.Final.jar
-		2172168	ejRXV3DuvGClR2YW42dqbLbyl1x4xBXipgFKxyS6V4M=	guava-15.0.jar
-		315805	Ex8FGajkYC5HzwJL/X4INLz1WSpyB/mi/bcR1PWvwWY=	commons-lang3-3.1.jar
-		185140	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
-		263965	rRnSYBw6vwuUa1w6QRPiJqjB4zBeOVuQATt43ZSnI84=	commons-codec-1.9.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		190432	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
-		44006	zzW6SHbTDn4SsRNvScCZdgjte5Y1u/jX6m5xCPHEbwA=	authlib-1.4.2.jar
-		108161	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
-		681134	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
-		1014790	wRj42EMTmA954ef3rksUsQwvIMd+pKHCn28LArwTkHc=	lwjgl-2.9.1.jar
-		173909	MtfnMAWi3AzMPGJHDENbNR9lAd6OhxjiaWBTR1RXCnc=	lwjgl_util-2.9.1.jar
-		52315	+SGryceS9ZT3/G/Aa0p+ozC2Rupe03heNYn5CxayqtE=	twitch-5.16.jar
+		15966	SHA256	yuPeFp52le8wB5NJxeqBeQvRDATEA3GW/U/cB7bUOTQ=	netty-1.8.8.jar
+		289881	SHA256	26oIhpCiOpVO/2aamdJFKiTdnxDYZnJf9dKf9HQKiX4=	vecmath-1.3.1.jar
+		2523218	SHA256	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
+		1634692	SHA256	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		103871	SHA256	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
+		5618	SHA256	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
+		21679	SHA256	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
+		18981	SHA256	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
+		65020	SHA256	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
+		1452995	SHA256	luqjIjK1pbD5r8EhoOGyQW49ylBlezHlQxwKBK5lBVI=	netty-all-4.0.10.Final.jar
+		2172168	SHA256	ejRXV3DuvGClR2YW42dqbLbyl1x4xBXipgFKxyS6V4M=	guava-15.0.jar
+		315805	SHA256	Ex8FGajkYC5HzwJL/X4INLz1WSpyB/mi/bcR1PWvwWY=	commons-lang3-3.1.jar
+		185140	SHA256	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
+		263965	SHA256	rRnSYBw6vwuUa1w6QRPiJqjB4zBeOVuQATt43ZSnI84=	commons-codec-1.9.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		190432	SHA256	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
+		44006	SHA256	zzW6SHbTDn4SsRNvScCZdgjte5Y1u/jX6m5xCPHEbwA=	authlib-1.4.2.jar
+		108161	SHA256	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
+		681134	SHA256	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
+		1014790	SHA256	wRj42EMTmA954ef3rksUsQwvIMd+pKHCn28LArwTkHc=	lwjgl-2.9.1.jar
+		173909	SHA256	MtfnMAWi3AzMPGJHDENbNR9lAd6OhxjiaWBTR1RXCnc=	lwjgl_util-2.9.1.jar
+		52315	SHA256	+SGryceS9ZT3/G/Aa0p+ozC2Rupe03heNYn5CxayqtE=	twitch-5.16.jar
 	cp a:
-		15966	yuPeFp52le8wB5NJxeqBeQvRDATEA3GW/U/cB7bUOTQ=	netty-1.8.8.jar
 	cp b:
-		14725	iSInjK8Ubmy2v5Vsa/8QJJbg1y2Jr7GplIGMoRnK6Xo=	netty-1.7.7.jar
 c	La;	La;
 	m	values()[La;	values()[La;
 	m	valueOf(Ljava/lang/String;)La;	valueOf(Ljava/lang/String;)La;
@@ -4802,7 +4801,7 @@ c	Laif;	Lail;
 		ma	4	4
 		ma	5	5
 		ma	6	6
-	m	k()Laif;	d(I)Lail;
+	m	k()Laif;	k()Lail;
 	m	l()Ljava/lang/Class;	l()Ljava/lang/Class;
 	m	a(Laif;)Z	a(Lail;)Z
 		ma	0	0
@@ -5102,7 +5101,6 @@ c	Laio;	Laiu;
 		ma	6	6
 	m	b(Laif;)Laio;	b(Lail;)Laiu;
 		ma	0	0
-	m	k()Laif;	d(I)Lail;
 	f	aD;;Lasr;	aE;;Lasy;
 	f	aE;;Latq;	aF;;Latx;
 	f	aF;;I	aG;;I
@@ -5171,7 +5169,6 @@ c	Laiq;	Laiw;
 		ma	2	2
 	m	b(Lcw;)I	b(Lcw;)I
 		ma	0	0
-	m	k()Laif;	d(I)Lail;
 	m	<clinit>()V	<clinit>()V
 	f	aG;;I	aH;;I
 	f	aD;;Lasi;	aE;;Lasp;
@@ -5208,7 +5205,6 @@ c	Laiu;	Laja;
 		ma	2	2
 	m	a(Ljava/util/Random;)Lasf;	a(Ljava/util/Random;)Lasm;
 		ma	0	0
-	m	k()Laif;	d(I)Lail;
 	f	aD;;Z	aE;;Z
 	f	aE;;Lasz;	aF;;Latg;
 	f	aF;;Lasy;	aG;;Latf;
@@ -5254,7 +5250,6 @@ c	Laiw;	Lajc;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	k()Laif;	d(I)Lail;
 	f	aD;;[B	aE;;[B
 	f	aE;;J	aF;;J
 	f	aF;;Laxu;	aG;;Layb;
@@ -5329,7 +5324,6 @@ c	Laja;	Lajg;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	k()Laif;	d(I)Lail;
 	f	aD;;Z	aE;;Z
 c	Lajc;	Laji;
 	m	<init>(I)V	<init>(I)V
@@ -5339,7 +5333,6 @@ c	Lajd;	Lajj;
 		ma	0	0
 	m	a(Ljava/util/Random;)Lasf;	a(Ljava/util/Random;)Lasm;
 		ma	0	0
-	m	k()Laif;	d(I)Lail;
 	m	a(Lahn;Ljava/util/Random;Lcw;)V	a(Laht;Ljava/util/Random;Lcw;)V
 		ma	0	0
 		ma	1	1
@@ -5405,7 +5398,6 @@ c	Lajh;	Lajn;
 		ma	4	4
 		ma	5	5
 		ma	6	6
-	m	k()Laif;	d(I)Lail;
 	m	<clinit>()V	<clinit>()V
 	f	aD;;Lati;	aE;;Latp;
 	f	aE;;Latq;	aF;;Latx;
@@ -6452,9 +6444,7 @@ c	Lakd;	Lakk;
 	m	l(Lahn;Lcw;)V	k(Laht;Lcw;)V
 		ma	0	0
 		ma	1	1
-	m	i(Lahn;Lcw;)Z	l(Laht;Lcw;)Z
-		ma	0	0
-		ma	1	1
+	mu	a	i(Lahn;Lcw;)Z
 	m	a(Lahn;Lcw;)Lbbd;	a(Laht;Lcw;)Lbbk;
 		ma	0	0
 		ma	1	1
@@ -7492,9 +7482,7 @@ c	Lalf;	Lalm;
 	m	l(Lahn;Lcw;)V	k(Laht;Lcw;)V
 		ma	0	0
 		ma	1	1
-	m	i(Lahn;Lcw;)Z	l(Laht;Lcw;)Z
-		ma	0	0
-		ma	1	1
+	mu	a	i(Lahn;Lcw;)Z
 	m	a(ILjava/util/Random;I)Ladm;	a(ILjava/util/Random;I)Lads;
 		ma	0	0
 		ma	1	1
@@ -8871,9 +8859,7 @@ c	Lamu;	Lanb;
 		ma	1	1
 	m	a(Laju;)Z	a(Lakb;)Z
 		ma	0	0
-	m	i(Lahn;Lcw;)Z	l(Laht;Lcw;)Z
-		ma	0	0
-		ma	1	1
+	mu	a	i(Lahn;Lcw;)Z
 	m	c(Lahn;Lcw;Ljava/util/Random;)Z	c(Laht;Lcw;Ljava/util/Random;)Z
 		ma	0	0
 		ma	1	1
@@ -8919,9 +8905,7 @@ c	Lamx;	Lane;
 	m	<init>()V	<init>()V
 	m	a(Laju;)Z	a(Lakb;)Z
 		ma	0	0
-	m	i(Lahn;Lcw;)Z	l(Laht;Lcw;)Z
-		ma	0	0
-		ma	1	1
+	mu	a	i(Lahn;Lcw;)Z
 	m	b(Lahn;Lcw;Ljava/util/Random;)V	b(Laht;Lcw;Ljava/util/Random;)V
 		ma	0	0
 		ma	1	1
@@ -10256,9 +10240,7 @@ c	Laow;	Lapd;
 		ma	0	0
 		ma	1	1
 	m	D()I	E()I
-	m	i(Lahn;Lcw;)Z	l(Laht;Lcw;)Z
-		ma	0	0
-		ma	1	1
+	mu	a	i(Lahn;Lcw;)Z
 	m	h(I)I	h(I)I
 		ma	0	0
 	m	d(Lahw;Lcw;)I	d(Laic;Lcw;)I
@@ -10775,9 +10757,7 @@ c	Laph;	Lapo;
 		ma	1	1
 	m	a(Laju;)Z	a(Lakb;)Z
 		ma	0	0
-	m	i(Lahn;Lcw;)Z	l(Laht;Lcw;)Z
-		ma	0	0
-		ma	1	1
+	mu	a	i(Lahn;Lcw;)Z
 c	Lapi;	Lapp;
 	m	<init>()V	<init>()V
 	m	a(Lahn;Lcw;Lru;)V	a(Laht;Lcw;Lrz;)V
@@ -23853,7 +23833,7 @@ c	Lbln;	Lblv;
 	f	f;;Lbmo;	f;;Lbmw;
 	f	g;;F	g;;F
 	f	h;;F	h;;F
-c	Lblo;	Lblx;
+c	Lblo;	Lblw;
 	m	<init>()V	<init>()V
 	m	a(Lsr;FFF)V	a(Lsx;FFF)V
 		ma	0	0
@@ -23869,7 +23849,7 @@ c	Lblo;	Lblx;
 		ma	5	5
 		ma	6	6
 	f	i;;F	i;;F
-c	Lblp;	Lblw;
+c	Lblp;	Lblx;
 	m	<init>()V	<init>()V
 	m	a(Lsr;FFF)V	a(Lsx;FFF)V
 		ma	0	0
@@ -26901,7 +26881,13 @@ c	Lbqf;	Lbqn;
 		ma	0	0
 	m	a()V	a()V
 	m	b()Z	b()Z
-	mu	a	a(DDDDDD)V
+	m	a(DDDDDD)V	a(DDDDDD)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
 	m	a(Laju;)V	a(Lakb;)V
 		ma	0	0
 	mu	a	b(DDDDDD)V
@@ -26931,7 +26917,12 @@ c	Lbqf;	Lbqn;
 	m	c(Laju;Lcw;)Z	b(Lakb;Lcw;)Z
 		ma	0	0
 		ma	1	1
-	mu	a	a(Laju;Lcw;FFF)Z
+	m	a(Laju;Lcw;FFF)Z	a(Lakb;Lcw;FFFZ)Z
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	mu	a	b(Laju;Lcw;FFF)Z
 	mu	a	a(IIII)I
 	mu	a	a(IIIIDDDD)I
@@ -27803,7 +27794,6 @@ c	Lbss;	Lbtj;
 	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;)Lbwo;	a(Lrz;)Lbyb;
 		ma	0	0
-	mu	a	a(Lru;DDDFF)V
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbwo;	a;;Lbyb;
 c	Lbst;	Lbtk;
@@ -27814,7 +27804,6 @@ c	Lbst;	Lbtk;
 	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;)Lbwo;	a(Lrz;)Lbyb;
 		ma	0	0
-	mu	a	a(Lru;DDDFF)V
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbwo;	a;;Lbyb;
 c	Lbsu;	Lbtl;
@@ -27873,7 +27862,6 @@ c	Lbsw;	Lbtn;
 	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;)Lbwo;	a(Lrz;)Lbyb;
 		ma	0	0
-	mu	a	a(Lru;DDDFF)V
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbwo;	a;;Lbyb;
 c	Lbsx;	Lbto;
@@ -27981,13 +27969,7 @@ c	Lbtb;	Lbts;
 		ma	0	0
 	mu	a	a(Lwz;F)V
 	mu	a	a(Lwz;IF)I
-	m	a(Lss;DDDFF)V	a(Lsy;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lss;DDDFF)V
 	mu	a	a(Lsr;IF)I
 	mu	a	c(Lsr;F)V
 	m	a(Lsr;FFF)V	a(Lsx;FFF)V
@@ -28003,13 +27985,7 @@ c	Lbtb;	Lbts;
 		ma	4	4
 		ma	5	5
 		ma	6	6
-	m	a(Lsr;DDDFF)V	a(Lsx;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;)Lbwo;	a(Lrz;)Lbyb;
 		ma	0	0
 	m	a(Lru;DDDFF)V	a(Lrz;DDDFF)V
@@ -28038,22 +28014,10 @@ c	Lbtc;	Lbtt;
 		ma	0	0
 	mu	a	a(Lyb;F)V
 	mu	a	a(Lyb;IF)I
-	m	a(Lss;DDDFF)V	a(Lsy;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lss;DDDFF)V
 	mu	a	a(Lsr;IF)I
 	mu	a	c(Lsr;F)V
-	m	a(Lsr;DDDFF)V	a(Lsx;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;)Lbwo;	a(Lrz;)Lbyb;
 		ma	0	0
 	m	a(Lru;DDDFF)V	a(Lrz;DDDFF)V
@@ -28365,13 +28329,7 @@ c	Lbtm;	Lbud;
 	mu	a	a(Labm;ILjava/lang/String;)Lbwo;
 	mu	a	a(Lss;IF)I
 	mu	a	b(Lss;IF)V
-	m	a(Lss;DDDFF)V	a(Lsy;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lss;DDDFF)V
 	m	a(Lss;)Lbwo;	a(Lsy;)Lbyb;
 		ma	0	0
 	mu	a	a(Lss;Lado;)V
@@ -28380,13 +28338,7 @@ c	Lbtm;	Lbud;
 	mu	a	c(Lsr;IF)V
 	mu	a	a(Lsr;IF)I
 	mu	a	c(Lsr;F)V
-	m	a(Lsr;DDDFF)V	a(Lsx;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;)Lbwo;	a(Lrz;)Lbyb;
 		ma	0	0
 	m	a(Lru;DDDFF)V	a(Lrz;DDDFF)V
@@ -28416,9 +28368,8 @@ c	Lbtn;	Lbue;
 		ma	5	5
 	m	a(Lsp;)Lbwo;	a(Lsv;)Lbyb;
 		ma	0	0
-	mu	a	b(Lsp;)V
-	m	c(Lsp;)V	a(FFF)V
-		mau	a	0
+	m	b(Lsp;)V	a(FFF)V
+		ma	0	0
 	m	d(Lsp;)V	b(Lsv;)V
 		ma	0	0
 	m	a(Lsp;DDD)V	a(Lsv;DDD)V
@@ -28635,13 +28586,7 @@ c	Lbtx;	Lbuo;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(Lsr;DDDFF)V	a(Lsx;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		mau	a	5
+	mu	a	a(Lsr;DDDFF)V
 	m	a(Lsr;FFFFFFFFFFFF)V	a(Lsx;FFFFFFFFFFF)V
 		ma	0	0
 		mau	a	1
@@ -28778,13 +28723,7 @@ c	Lbua;	Lbur;
 		ma	1	2
 	m	b(Lss;)Z	b(Lsy;)Z
 		ma	0	0
-	m	a(Lss;DDDFF)V	a(Lsy;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lss;DDDFF)V
 	m	a(DDD)D	a(DDD)D
 		ma	0	0
 		ma	1	1
@@ -28798,13 +28737,7 @@ c	Lbua;	Lbur;
 		ma	5	5
 	m	b(Lsr;)Z	b(Lsx;)Z
 		ma	0	0
-	m	a(Lsr;DDDFF)V	a(Lsx;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;DDDFF)V	a(Lrz;DDDFF)V
 		ma	0	0
 		ma	1	1
@@ -28827,7 +28760,6 @@ c	Lbub;	Lbus;
 	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;)Lbwo;	a(Lrz;)Lbyb;
 		ma	0	0
-	mu	a	a(Lru;DDDFF)V
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbwo;	a;;Lbyb;
 c	Lbuc;	Lbut;
@@ -28847,7 +28779,6 @@ c	Lbuc;	Lbut;
 	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;)Lbwo;	a(Lrz;)Lbyb;
 		ma	0	0
-	mu	a	a(Lru;DDDFF)V
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbwo;	a;;Lbyb;
 	f	e;;Lbwo;	e;;Lbyb;
@@ -28971,13 +28902,7 @@ c	Lbug;	Lbux;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	a(Lsr;DDDFF)V	a(Lsx;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;)Lbwo;	a(Lrz;)Lbyb;
 		ma	0	0
 	m	a(Lru;DDDFF)V	a(Lrz;DDDFF)V
@@ -29019,7 +28944,6 @@ c	Lbui;	Lbuz;
 	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;)Lbwo;	a(Lrz;)Lbyb;
 		ma	0	0
-	mu	a	a(Lru;DDDFF)V
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbwo;	a;;Lbyb;
 c	Lbuj;	Lbva;
@@ -29115,7 +29039,6 @@ c	Lbun;	Lbve;
 	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;)Lbwo;	a(Lrz;)Lbyb;
 		ma	0	0
-	mu	a	a(Lru;DDDFF)V
 	m	<clinit>()V	<clinit>()V
 	f	a;;Lbwo;	a;;Lbyb;
 c	Lbuo;	Lbvf;
@@ -29169,26 +29092,14 @@ c	Lbuq;	Lbvh;
 	m	a(Lws;F)V	a(Lwy;FFFFFFF)V
 		ma	0	0
 		ma	1	1
-	m	a(Lss;DDDFF)V	a(Lsy;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lss;DDDFF)V
 	mu	a	c(Lsr;F)V
 	m	a(Lsr;FFF)V	a(Lsx;FFF)V
 		ma	0	0
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	a(Lsr;DDDFF)V	a(Lsx;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;)Lbwo;	a(Lrz;)Lbyb;
 		ma	0	0
 	m	a(Lru;DDDFF)V	a(Lrz;DDDFF)V
@@ -29215,24 +29126,12 @@ c	Lbur;	Lbvi;
 	m	a(Lyw;F)V	a(Lzc;F)V
 		ma	0	0
 		ma	1	1
-	m	a(Lss;DDDFF)V	a(Lsy;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lss;DDDFF)V
 	m	a(Lsr;F)V	a(Lsx;F)V
 		ma	0	0
 		ma	1	1
 	mu	a	a(Lsr;IF)I
-	m	a(Lsr;DDDFF)V	a(Lsx;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;)Lbwo;	a(Lrz;)Lbyb;
 		ma	0	0
 	m	a(Lru;DDDFF)V	a(Lrz;DDDFF)V
@@ -29264,28 +29163,16 @@ c	Lbus;	Lbvj;
 	m	a(Lyq;F)V	a(Lyw;FFFFFFF)V
 		ma	0	0
 		ma	1	1
-	m	d()V	e()V
+	mu	a	d()V
 	m	b(Lyq;F)V	a(Lyw;F)V
 		ma	0	0
 		ma	1	1
-	m	a(Lss;DDDFF)V	a(Lsy;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lss;DDDFF)V
 	m	a(Lsr;F)V	a(Lsx;F)V
 		ma	0	0
 		ma	1	1
 	mu	a	c(Lsr;F)V
-	m	a(Lsr;DDDFF)V	a(Lsx;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;)Lbwo;	a(Lrz;)Lbyb;
 		ma	0	0
 	m	a(Lru;DDDFF)V	a(Lrz;DDDFF)V
@@ -29300,7 +29187,13 @@ c	Lbus;	Lbvj;
 	f	e;;Lbmd;	e;;Lbml;
 c	Lbut;	Lbvk;
 	m	<init>()V	<init>(Lbtu;)V
-	mu	a	a(Lxb;DDDFF)V
+	m	a(Lxb;DDDFF)V	a(Lxh;DDDFF)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
+		ma	5	5
 	m	a(Lxb;)Lbwo;	a(Lxh;)Lbyb;
 		ma	0	0
 	m	a(Lxb;F)V	a(Lxh;F)V
@@ -29308,25 +29201,13 @@ c	Lbut;	Lbvk;
 		ma	1	1
 	mu	a	a(Lxb;IF)I
 	mu	a	b(Lxb;IF)I
-	m	a(Lss;DDDFF)V	a(Lsy;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lss;DDDFF)V
 	m	a(Lsr;F)V	a(Lsx;F)V
 		ma	0	0
 		ma	1	1
 	mu	a	a(Lsr;IF)I
 	mu	a	b(Lsr;IF)I
-	m	a(Lsr;DDDFF)V	a(Lsx;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;)Lbwo;	a(Lrz;)Lbyb;
 		ma	0	0
 	m	a(Lru;DDDFF)V	a(Lrz;DDDFF)V
@@ -29405,7 +29286,9 @@ c	Lbuw;	Lbvn;
 		ma	5	5
 	m	a(Lyr;)Lbwo;	a(Lyx;)Lbyb;
 		ma	0	0
-	mu	a	a(Lyr;F)V
+	m	a(Lyr;F)V	a(Lyx;FFFFFFF)V
+		ma	0	0
+		ma	1	1
 	m	b(Lyr;)V	b(Lyx;)V
 		ma	0	0
 	m	a(Lyr;FFF)V	a(Lyx;FFF)V
@@ -29416,13 +29299,7 @@ c	Lbuw;	Lbvn;
 	mu	a	a(Lss;F)V
 	m	a(Lss;)Lbwo;	a(Lsy;)Lbyb;
 		ma	0	0
-	m	a(Lss;DDDFF)V	a(Lsy;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lss;DDDFF)V
 	mu	a	a(Lss;IF)I
 	mu	a	a(Lsr;IF)I
 	mu	a	c(Lsr;F)V
@@ -29431,13 +29308,7 @@ c	Lbuw;	Lbvn;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	a(Lsr;DDDFF)V	a(Lsx;DDDFF)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
+	mu	a	a(Lsr;DDDFF)V
 	m	a(Lru;)Lbwo;	a(Lrz;)Lbyb;
 		ma	0	0
 	m	a(Lru;DDDFF)V	a(Lrz;DDDFF)V
@@ -32799,197 +32670,6 @@ c	Lco;	Lco;
 		ma	1	1
 	m	a()[Ljava/lang/Object;	a()[Ljava/lang/Object;
 	f	a;;[Ljava/lang/Object;	a;;[Ljava/lang/Object;
-c	Lcom/mojang/patchy/BlockedServers;	Lcom/mojang/patchy/BlockedServers;
-	m	<init>()V	<init>()V
-	m	isBlockedServer(Ljava/lang/String;)Z	isBlockedServer(Ljava/lang/String;)Z
-		ma	0	0
-	m	isIp(Ljava/util/List;)Z	isIp(Ljava/util/List;)Z
-		ma	0	0
-	m	isBlockedServerHostName(Ljava/lang/String;)Z	isBlockedServerHostName(Ljava/lang/String;)Z
-		ma	0	0
-	m	<clinit>()V	<clinit>()V
-	f	BLOCKED_SERVERS;;Ljava/util/Set;	BLOCKED_SERVERS;;Ljava/util/Set;
-	f	SRV_PREFIX;;Ljava/lang/String;	SRV_PREFIX;;Ljava/lang/String;
-	f	DOT_JOINER;;Lcom/google/common/base/Joiner;	DOT_JOINER;;Lcom/google/common/base/Joiner;
-	f	DOT_SPLITTER;;Lcom/google/common/base/Splitter;	DOT_SPLITTER;;Lcom/google/common/base/Splitter;
-	f	HASH_CHARSET;;Ljava/nio/charset/Charset;	HASH_CHARSET;;Ljava/nio/charset/Charset;
-c	Lcom/mojang/patchy/BlockingDC;	Lcom/mojang/patchy/BlockingDC;
-	m	<init>(Lcom/google/common/base/Predicate;Ljavax/naming/directory/DirContext;)V	<init>(Lcom/google/common/base/Predicate;Ljavax/naming/directory/DirContext;)V
-		ma	0	0
-		ma	1	1
-	m	getAttributes(Ljava/lang/String;)Ljavax/naming/directory/Attributes;	getAttributes(Ljava/lang/String;)Ljavax/naming/directory/Attributes;
-		ma	0	0
-	m	getAttributes(Ljava/lang/String;[Ljava/lang/String;)Ljavax/naming/directory/Attributes;	getAttributes(Ljava/lang/String;[Ljava/lang/String;)Ljavax/naming/directory/Attributes;
-		ma	0	0
-		ma	1	1
-	m	getAttributes(Ljavax/naming/Name;)Ljavax/naming/directory/Attributes;	getAttributes(Ljavax/naming/Name;)Ljavax/naming/directory/Attributes;
-		ma	0	0
-	m	getAttributes(Ljavax/naming/Name;[Ljava/lang/String;)Ljavax/naming/directory/Attributes;	getAttributes(Ljavax/naming/Name;[Ljava/lang/String;)Ljavax/naming/directory/Attributes;
-		ma	0	0
-		ma	1	1
-	m	modifyAttributes(Ljavax/naming/Name;ILjavax/naming/directory/Attributes;)V	modifyAttributes(Ljavax/naming/Name;ILjavax/naming/directory/Attributes;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	modifyAttributes(Ljava/lang/String;ILjavax/naming/directory/Attributes;)V	modifyAttributes(Ljava/lang/String;ILjavax/naming/directory/Attributes;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	modifyAttributes(Ljavax/naming/Name;[Ljavax/naming/directory/ModificationItem;)V	modifyAttributes(Ljavax/naming/Name;[Ljavax/naming/directory/ModificationItem;)V
-		ma	0	0
-		ma	1	1
-	m	modifyAttributes(Ljava/lang/String;[Ljavax/naming/directory/ModificationItem;)V	modifyAttributes(Ljava/lang/String;[Ljavax/naming/directory/ModificationItem;)V
-		ma	0	0
-		ma	1	1
-	m	bind(Ljavax/naming/Name;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V	bind(Ljavax/naming/Name;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	bind(Ljava/lang/String;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V	bind(Ljava/lang/String;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	rebind(Ljavax/naming/Name;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V	rebind(Ljavax/naming/Name;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	rebind(Ljava/lang/String;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V	rebind(Ljava/lang/String;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	createSubcontext(Ljavax/naming/Name;Ljavax/naming/directory/Attributes;)Ljavax/naming/directory/DirContext;	createSubcontext(Ljavax/naming/Name;Ljavax/naming/directory/Attributes;)Ljavax/naming/directory/DirContext;
-		ma	0	0
-		ma	1	1
-	m	createSubcontext(Ljava/lang/String;Ljavax/naming/directory/Attributes;)Ljavax/naming/directory/DirContext;	createSubcontext(Ljava/lang/String;Ljavax/naming/directory/Attributes;)Ljavax/naming/directory/DirContext;
-		ma	0	0
-		ma	1	1
-	m	getSchema(Ljavax/naming/Name;)Ljavax/naming/directory/DirContext;	getSchema(Ljavax/naming/Name;)Ljavax/naming/directory/DirContext;
-		ma	0	0
-	m	getSchema(Ljava/lang/String;)Ljavax/naming/directory/DirContext;	getSchema(Ljava/lang/String;)Ljavax/naming/directory/DirContext;
-		ma	0	0
-	m	getSchemaClassDefinition(Ljavax/naming/Name;)Ljavax/naming/directory/DirContext;	getSchemaClassDefinition(Ljavax/naming/Name;)Ljavax/naming/directory/DirContext;
-		ma	0	0
-	m	getSchemaClassDefinition(Ljava/lang/String;)Ljavax/naming/directory/DirContext;	getSchemaClassDefinition(Ljava/lang/String;)Ljavax/naming/directory/DirContext;
-		ma	0	0
-	m	search(Ljavax/naming/Name;Ljavax/naming/directory/Attributes;[Ljava/lang/String;)Ljavax/naming/NamingEnumeration;	search(Ljavax/naming/Name;Ljavax/naming/directory/Attributes;[Ljava/lang/String;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	search(Ljava/lang/String;Ljavax/naming/directory/Attributes;[Ljava/lang/String;)Ljavax/naming/NamingEnumeration;	search(Ljava/lang/String;Ljavax/naming/directory/Attributes;[Ljava/lang/String;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	search(Ljavax/naming/Name;Ljavax/naming/directory/Attributes;)Ljavax/naming/NamingEnumeration;	search(Ljavax/naming/Name;Ljavax/naming/directory/Attributes;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-		ma	1	1
-	m	search(Ljava/lang/String;Ljavax/naming/directory/Attributes;)Ljavax/naming/NamingEnumeration;	search(Ljava/lang/String;Ljavax/naming/directory/Attributes;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-		ma	1	1
-	m	search(Ljavax/naming/Name;Ljava/lang/String;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration;	search(Ljavax/naming/Name;Ljava/lang/String;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	search(Ljava/lang/String;Ljava/lang/String;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration;	search(Ljava/lang/String;Ljava/lang/String;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	search(Ljavax/naming/Name;Ljava/lang/String;[Ljava/lang/Object;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration;	search(Ljavax/naming/Name;Ljava/lang/String;[Ljava/lang/Object;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	search(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration;	search(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	lookup(Ljavax/naming/Name;)Ljava/lang/Object;	lookup(Ljavax/naming/Name;)Ljava/lang/Object;
-		ma	0	0
-	m	lookup(Ljava/lang/String;)Ljava/lang/Object;	lookup(Ljava/lang/String;)Ljava/lang/Object;
-		ma	0	0
-	m	bind(Ljavax/naming/Name;Ljava/lang/Object;)V	bind(Ljavax/naming/Name;Ljava/lang/Object;)V
-		ma	0	0
-		ma	1	1
-	m	bind(Ljava/lang/String;Ljava/lang/Object;)V	bind(Ljava/lang/String;Ljava/lang/Object;)V
-		ma	0	0
-		ma	1	1
-	m	rebind(Ljavax/naming/Name;Ljava/lang/Object;)V	rebind(Ljavax/naming/Name;Ljava/lang/Object;)V
-		ma	0	0
-		ma	1	1
-	m	rebind(Ljava/lang/String;Ljava/lang/Object;)V	rebind(Ljava/lang/String;Ljava/lang/Object;)V
-		ma	0	0
-		ma	1	1
-	m	unbind(Ljavax/naming/Name;)V	unbind(Ljavax/naming/Name;)V
-		ma	0	0
-	m	unbind(Ljava/lang/String;)V	unbind(Ljava/lang/String;)V
-		ma	0	0
-	m	rename(Ljavax/naming/Name;Ljavax/naming/Name;)V	rename(Ljavax/naming/Name;Ljavax/naming/Name;)V
-		ma	0	0
-		ma	1	1
-	m	rename(Ljava/lang/String;Ljava/lang/String;)V	rename(Ljava/lang/String;Ljava/lang/String;)V
-		ma	0	0
-		ma	1	1
-	m	list(Ljavax/naming/Name;)Ljavax/naming/NamingEnumeration;	list(Ljavax/naming/Name;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-	m	list(Ljava/lang/String;)Ljavax/naming/NamingEnumeration;	list(Ljava/lang/String;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-	m	listBindings(Ljavax/naming/Name;)Ljavax/naming/NamingEnumeration;	listBindings(Ljavax/naming/Name;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-	m	listBindings(Ljava/lang/String;)Ljavax/naming/NamingEnumeration;	listBindings(Ljava/lang/String;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-	m	destroySubcontext(Ljavax/naming/Name;)V	destroySubcontext(Ljavax/naming/Name;)V
-		ma	0	0
-	m	destroySubcontext(Ljava/lang/String;)V	destroySubcontext(Ljava/lang/String;)V
-		ma	0	0
-	m	createSubcontext(Ljavax/naming/Name;)Ljavax/naming/Context;	createSubcontext(Ljavax/naming/Name;)Ljavax/naming/Context;
-		ma	0	0
-	m	createSubcontext(Ljava/lang/String;)Ljavax/naming/Context;	createSubcontext(Ljava/lang/String;)Ljavax/naming/Context;
-		ma	0	0
-	m	lookupLink(Ljavax/naming/Name;)Ljava/lang/Object;	lookupLink(Ljavax/naming/Name;)Ljava/lang/Object;
-		ma	0	0
-	m	lookupLink(Ljava/lang/String;)Ljava/lang/Object;	lookupLink(Ljava/lang/String;)Ljava/lang/Object;
-		ma	0	0
-	m	getNameParser(Ljavax/naming/Name;)Ljavax/naming/NameParser;	getNameParser(Ljavax/naming/Name;)Ljavax/naming/NameParser;
-		ma	0	0
-	m	getNameParser(Ljava/lang/String;)Ljavax/naming/NameParser;	getNameParser(Ljava/lang/String;)Ljavax/naming/NameParser;
-		ma	0	0
-	m	composeName(Ljavax/naming/Name;Ljavax/naming/Name;)Ljavax/naming/Name;	composeName(Ljavax/naming/Name;Ljavax/naming/Name;)Ljavax/naming/Name;
-		ma	0	0
-		ma	1	1
-	m	composeName(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	composeName(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-		ma	0	0
-		ma	1	1
-	m	addToEnvironment(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;	addToEnvironment(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
-		ma	0	0
-		ma	1	1
-	m	removeFromEnvironment(Ljava/lang/String;)Ljava/lang/Object;	removeFromEnvironment(Ljava/lang/String;)Ljava/lang/Object;
-		ma	0	0
-	m	getEnvironment()Ljava/util/Hashtable;	getEnvironment()Ljava/util/Hashtable;
-	m	close()V	close()V
-	m	getNameInNamespace()Ljava/lang/String;	getNameInNamespace()Ljava/lang/String;
-	f	blockList;;Lcom/google/common/base/Predicate;	blockList;;Lcom/google/common/base/Predicate;
-	f	parent;;Ljavax/naming/directory/DirContext;	parent;;Ljavax/naming/directory/DirContext;
-c	Lcom/mojang/patchy/BlockingICF;	Lcom/mojang/patchy/BlockingICF;
-	m	<init>(Lcom/google/common/base/Predicate;Ljavax/naming/spi/InitialContextFactory;)V	<init>(Lcom/google/common/base/Predicate;Ljavax/naming/spi/InitialContextFactory;)V
-		ma	0	0
-		ma	1	1
-	m	getInitialContext(Ljava/util/Hashtable;)Ljavax/naming/Context;	getInitialContext(Ljava/util/Hashtable;)Ljavax/naming/Context;
-		ma	0	0
-	f	blockList;;Lcom/google/common/base/Predicate;	blockList;;Lcom/google/common/base/Predicate;
-	f	parent;;Ljavax/naming/spi/InitialContextFactory;	parent;;Ljavax/naming/spi/InitialContextFactory;
-c	Lcom/mojang/patchy/BlockingICFB$1;	Lcom/mojang/patchy/BlockingICFB$1;
-	m	<init>()V	<init>()V
-	m	apply(Ljava/lang/String;)Z	apply(Ljava/lang/String;)Z
-		ma	0	0
-	m	apply(Ljava/lang/Object;)Z	apply(Ljava/lang/Object;)Z
-		ma	0	0
-c	Lcom/mojang/patchy/BlockingICFB;	Lcom/mojang/patchy/BlockingICFB;
-	m	<init>(Lcom/google/common/base/Predicate;)V	<init>(Lcom/google/common/base/Predicate;)V
-		ma	0	0
-	m	install()V	install()V
-	m	createInitialContextFactory(Ljava/util/Hashtable;)Ljavax/naming/spi/InitialContextFactory;	createInitialContextFactory(Ljava/util/Hashtable;)Ljavax/naming/spi/InitialContextFactory;
-		ma	0	0
-	f	blockList;;Lcom/google/common/base/Predicate;	blockList;;Lcom/google/common/base/Predicate;
 c	Lcp;	Lcp;
 	m	<init>()V	<init>()V
 	m	<init>(Ljava/lang/String;[Ljava/lang/Object;)V	<init>(Ljava/lang/String;[Ljava/lang/Object;)V
@@ -36267,89 +35947,6 @@ c	Lin;	Lis;
 	f	b;;I	b;;I
 	f	c;;I	c;;I
 	f	d;;I	d;;I
-c	Lio/netty/bootstrap/Bootstrap$1;	Lio/netty/bootstrap/Bootstrap$1;
-	m	<init>(Lio/netty/bootstrap/Bootstrap;Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V	<init>(Lio/netty/bootstrap/Bootstrap;Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-	m	operationComplete(Lio/netty/channel/ChannelFuture;)V	operationComplete(Lio/netty/channel/ChannelFuture;)V
-		ma	0	0
-	m	operationComplete(Lio/netty/util/concurrent/Future;)V	operationComplete(Lio/netty/util/concurrent/Future;)V
-		ma	0	0
-	f	val$regFuture;;Lio/netty/channel/ChannelFuture;	val$regFuture;;Lio/netty/channel/ChannelFuture;
-	f	val$channel;;Lio/netty/channel/Channel;	val$channel;;Lio/netty/channel/Channel;
-	f	val$remoteAddress;;Ljava/net/SocketAddress;	val$remoteAddress;;Ljava/net/SocketAddress;
-	f	val$localAddress;;Ljava/net/SocketAddress;	val$localAddress;;Ljava/net/SocketAddress;
-	f	val$promise;;Lio/netty/channel/ChannelPromise;	val$promise;;Lio/netty/channel/ChannelPromise;
-	f	this$0;;Lio/netty/bootstrap/Bootstrap;	this$0;;Lio/netty/bootstrap/Bootstrap;
-c	Lio/netty/bootstrap/Bootstrap$2;	Lio/netty/bootstrap/Bootstrap$2;
-	m	<init>(Lio/netty/channel/ChannelFuture;Ljava/net/SocketAddress;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V	<init>(Lio/netty/channel/ChannelFuture;Ljava/net/SocketAddress;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	run()V	run()V
-	f	val$regFuture;;Lio/netty/channel/ChannelFuture;	val$regFuture;;Lio/netty/channel/ChannelFuture;
-	f	val$localAddress;;Ljava/net/SocketAddress;	val$localAddress;;Ljava/net/SocketAddress;
-	f	val$channel;;Lio/netty/channel/Channel;	val$channel;;Lio/netty/channel/Channel;
-	f	val$remoteAddress;;Ljava/net/SocketAddress;	val$remoteAddress;;Ljava/net/SocketAddress;
-	f	val$promise;;Lio/netty/channel/ChannelPromise;	val$promise;;Lio/netty/channel/ChannelPromise;
-c	Lio/netty/bootstrap/Bootstrap;	Lio/netty/bootstrap/Bootstrap;
-	m	<init>()V	<init>()V
-	m	<init>(Lio/netty/bootstrap/Bootstrap;)V	<init>(Lio/netty/bootstrap/Bootstrap;)V
-		ma	0	0
-	m	remoteAddress(Ljava/net/SocketAddress;)Lio/netty/bootstrap/Bootstrap;	remoteAddress(Ljava/net/SocketAddress;)Lio/netty/bootstrap/Bootstrap;
-		ma	0	0
-	m	remoteAddress(Ljava/lang/String;I)Lio/netty/bootstrap/Bootstrap;	remoteAddress(Ljava/lang/String;I)Lio/netty/bootstrap/Bootstrap;
-		ma	0	0
-		ma	1	1
-	m	remoteAddress(Ljava/net/InetAddress;I)Lio/netty/bootstrap/Bootstrap;	remoteAddress(Ljava/net/InetAddress;I)Lio/netty/bootstrap/Bootstrap;
-		ma	0	0
-		ma	1	1
-	m	connect()Lio/netty/channel/ChannelFuture;	connect()Lio/netty/channel/ChannelFuture;
-	m	connect(Ljava/lang/String;I)Lio/netty/channel/ChannelFuture;	connect(Ljava/lang/String;I)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-		ma	1	1
-	m	connect(Ljava/net/InetAddress;I)Lio/netty/channel/ChannelFuture;	connect(Ljava/net/InetAddress;I)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-		ma	1	1
-	m	connect(Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;	connect(Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-	m	connect(Ljava/net/SocketAddress;Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;	connect(Ljava/net/SocketAddress;Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-		ma	1	1
-	m	doConnect(Ljava/net/SocketAddress;Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;	doConnect(Ljava/net/SocketAddress;Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-		ma	1	1
-	m	doConnect0(Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V	doConnect0(Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	init(Lio/netty/channel/Channel;)V	init(Lio/netty/channel/Channel;)V
-		ma	0	0
-	m	validate()Lio/netty/bootstrap/Bootstrap;	validate()Lio/netty/bootstrap/Bootstrap;
-	m	clone()Lio/netty/bootstrap/Bootstrap;	clone()Lio/netty/bootstrap/Bootstrap;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
-	m	checkAddress(Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;	checkAddress(Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-	m	clone()Lio/netty/bootstrap/AbstractBootstrap;	clone()Lio/netty/bootstrap/AbstractBootstrap;
-	m	validate()Lio/netty/bootstrap/AbstractBootstrap;	validate()Lio/netty/bootstrap/AbstractBootstrap;
-	m	clone()Ljava/lang/Object;	clone()Ljava/lang/Object;
-	m	access$000(Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V	access$000(Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	<clinit>()V	<clinit>()V
-	f	logger;;Lio/netty/util/internal/logging/InternalLogger;	logger;;Lio/netty/util/internal/logging/InternalLogger;
-	f	remoteAddress;;Ljava/net/SocketAddress;	remoteAddress;;Ljava/net/SocketAddress;
 c	Lio;	Lit;
 	m	<init>()V	<init>()V
 	m	<init>(IILado;)V	<init>(IILadu;)V
@@ -46372,7 +45969,6 @@ c	Lzh;	Lzn;
 		ma	0	0
 	m	bk()Z	bm()Z
 	m	n()V	n()V
-	mu	a	a(Lru;)V
 	m	ac()V	ae()V
 	m	D()V	F()V
 	m	bt()V	bv()V
@@ -46510,8 +46106,7 @@ c	Lzh;	Lzn;
 	m	b(Lado;I)Lqu;	b(Ladu;I)Lqz;
 		ma	0	0
 		ma	1	1
-	m	q(I)Lado;	q(I)Ladu;
-		ma	0	0
+	mu	a	q(I)Lado;
 	m	v(I)V	v(I)V
 		ma	0	0
 	m	bQ()I	bS()I
