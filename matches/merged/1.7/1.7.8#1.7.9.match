@@ -1,4 +1,4 @@
-Matches saved 2022-01-13, status: c:1900/1901 m:16168/16173 f:7194/7194 ma:23680/23683, input files:
+Matches saved 2022-01-13, status: c:1901/1901 m:16171/16173 f:7194/7194 ma:23682/23683, input files:
 	a:
 		5508366	5dyje4UCaSdJLcsUz5fnjxjbSTFd91ydJ+wJU1rO6EQ=	minecraft-merged-1.7.8.jar
 	b:
@@ -41577,7 +41577,12 @@ c	Lny;	Lny;
 	f	b;;Ljava/io/File;	b;;Ljava/io/File;
 	f	c;;Ljava/io/File;	c;;Ljava/io/File;
 	f	d;;Ljava/io/File;	d;;Ljava/io/File;
-cu	a	Lnz;
+c	Lnz;	Lnz;
+	m	<init>()V	<init>()V
+	m	a(Ljava/lang/String;)Z	a(Ljava/lang/String;)Z
+		ma	0	0
+	m	apply(Ljava/lang/Object;)Z	apply(Ljava/lang/Object;)Z
+		ma	0	0
 c	Lo;	Lo;
 	m	<init>(Ljava/lang/String;Ljava/lang/Object;)V	<init>(Ljava/lang/String;Ljava/lang/Object;)V
 		ma	0	0
