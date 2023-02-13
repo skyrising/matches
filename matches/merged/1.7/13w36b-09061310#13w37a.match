@@ -1,28 +1,28 @@
-Matches saved 2021-10-13, status: c:1670/1670 m:13853/13866 f:6325/6332 ma:21516/21535, input files:
+Matches saved 2023-02-13, status: c:1669/1670 m:13849/13866 f:6324/6332 ma:21513/21535, input files:
 	a:
-		4905803	muJzxxPpJkwnDd/WW8ZS2kWswSKLmL2JdZANZld7OfI=	minecraft-merged-13w36b-09061310.jar
+		4947195	SHA256	/Vlcn4aHi/iEGvcRmMa3u62h86uX+ErpREkf5722nUA=	minecraft-merged-13w36b-09061310.jar
 	b:
-		4919872	LyKhfAiTlXkTXvZJbtvX1yeQAdenxh/zgxi6pqmhZ78=	minecraft-merged-13w37a.jar
+		4961408	SHA256	3xcJZgi3fXb1vv/AaF/l9HOZvgcf24wtEE1FlpHURSM=	minecraft-merged-13w37a.jar
 	cp:
-		2523218	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
-		1634692	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		103871	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
-		5618	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
-		21679	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
-		18981	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
-		65020	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
-		1997327	f7EtCfBBwpTwigpRooCEOAkic7UWKO7K8uDQAwt1VvU=	bcprov-jdk15on-1.47.jar
-		2189111	wBJ7B24wVvWClOSubAGpZZm49YIANF62+FkZKi2bKWI=	guava-14.0.jar
-		315805	Ex8FGajkYC5HzwJL/X4INLz1WSpyB/mi/bcR1PWvwWY=	commons-lang3-3.1.jar
-		185140	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		189285	DytfcVpVBswU7TUuX/QGtMSAoGNEpHlim4XnbCquf6o=	gson-2.2.2.jar
-		994633	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		2523218	SHA256	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
+		1634692	SHA256	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		103871	SHA256	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
+		5618	SHA256	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
+		21679	SHA256	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
+		18981	SHA256	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
+		65020	SHA256	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
+		1997327	SHA256	f7EtCfBBwpTwigpRooCEOAkic7UWKO7K8uDQAwt1VvU=	bcprov-jdk15on-1.47.jar
+		2189111	SHA256	wBJ7B24wVvWClOSubAGpZZm49YIANF62+FkZKi2bKWI=	guava-14.0.jar
+		315805	SHA256	Ex8FGajkYC5HzwJL/X4INLz1WSpyB/mi/bcR1PWvwWY=	commons-lang3-3.1.jar
+		185140	SHA256	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		189285	SHA256	DytfcVpVBswU7TUuX/QGtMSAoGNEpHlim4XnbCquf6o=	gson-2.2.2.jar
+		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
+		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
+		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
+		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
 	cp a:
 	cp b:
 c	La;	La;
@@ -599,10 +599,6 @@ c	Labm;	Labu;
 		ma	0	0
 	m	a(Lyx;)Z	a(Lzf;)Z
 		ma	0	0
-	m	a(Lou;Loc;I)V	a(Lpc;Lok;I)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
 	m	<clinit>()V	<clinit>()V
 	f	E;;[Ljava/lang/String;	E;;[Ljava/lang/String;
 	f	F;;[I	F;;[I
@@ -16937,23 +16933,7 @@ c	Laxc;	Laxm;
 	f	c;;Lbmd;	c;;Lbmm;
 	f	d;;Lbmd;	d;;Lbmm;
 	f	e;;F	e;;F
-c	Laxd;	Lei;
-	m	<init>(Laxa;Lavx;II)V	<init>(Lej;Ljava/lang/String;)V
-		mau	a	0
-		mau	a	1
-		mau	a	2
-		mau	a	3
-	m	f()Ljava/lang/String;	b()Ljava/lang/String;
-	mu	a	g()Ljava/net/URI;
-	mu	a	h()Ljava/lang/String;
-	mu	a	<clinit>()V
-	fu	a	a;;Ljava/util/regex/Pattern;
-	fu	a	b;;Laxa;
-	fu	a	c;;Lavx;
-	fu	a	d;;I
-	fu	a	e;;I
-	fu	a	f;;Ljava/lang/String;
-	f	g;;Ljava/lang/String;	b;;Ljava/lang/String;
+cu	a	Laxd;
 c	Laxe;	Laxn;
 	m	<init>(Lawr;Lblb;)V	<init>(Laxb;Lblk;)V
 		ma	0	0
@@ -29404,7 +29384,7 @@ c	Ldb;	Lef;
 	m	b()Ldf;	b()Leo;
 	m	iterator()Ljava/util/Iterator;	iterator()Ljava/util/Iterator;
 	m	c()Ljava/lang/String;	c()Ljava/lang/String;
-	mu	a	d()Ljava/lang/String;
+	m	d()Ljava/lang/String;	d()Ljava/lang/String;
 	m	a(Ljava/lang/Iterable;)Ljava/util/Iterator;	a(Ljava/lang/Iterable;)Ljava/util/Iterator;
 		ma	0	0
 	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
@@ -29428,7 +29408,7 @@ c	Ldd;	Lek;
 	m	a(Ldd;)Ldd;	a(Lek;)Lek;
 		ma	0	0
 	m	c()Ljava/lang/String;	c()Ljava/lang/String;
-	m	d()Ljava/lang/String;	e()Ljava/lang/String;
+	m	d()Ljava/lang/String;	d()Ljava/lang/String;
 	m	a()Ljava/util/List;	a()Ljava/util/List;
 c	Lde;	Lel;
 	m	<init>()V	<init>()V
@@ -29557,8 +29537,6 @@ c	Ldi;	Ler;
 	m	<init>(Ljava/lang/String;)V	<init>(Ljava/lang/String;)V
 		ma	0	0
 	m	e()Ljava/lang/String;	g()Ljava/lang/String;
-	mu	a	c()Ljava/lang/String;
-	m	d()Ljava/lang/String;	e()Ljava/lang/String;
 	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
 		ma	0	0
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
@@ -29573,8 +29551,6 @@ c	Ldj;	Les;
 	m	a(Ldf;)Ldd;	a(Leo;)Lek;
 		ma	0	0
 	m	iterator()Ljava/util/Iterator;	iterator()Ljava/util/Iterator;
-	mu	a	c()Ljava/lang/String;
-	m	d()Ljava/lang/String;	e()Ljava/lang/String;
 	m	equals(Ljava/lang/Object;)Z	equals(Ljava/lang/Object;)Z
 		ma	0	0
 	m	hashCode()I	hashCode()I
