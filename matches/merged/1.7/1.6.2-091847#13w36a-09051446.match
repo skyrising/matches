@@ -1,4 +1,4 @@
-Matches saved 2023-02-13, status: c:1558/1568 m:12988/13127 f:5609/6021 ma:20069/20474, input files:
+Matches saved 2023-02-13, status: c:1558/1568 m:12977/13127 f:5609/6021 ma:20069/20474, input files:
 	a:
 		4786249	SHA256	uSaXw3F+ynDNje1kTtftk5XGo4/mpsMEHVgVdkJEnt8=	minecraft-merged-1.6.2-091847.jar
 	b:
@@ -39024,22 +39024,18 @@ c	Lww;	Lxn;
 	m	<init>(ILjava/lang/String;)V	<init>(ILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
-	m	e()I	e()Lyv;
 c	Lwx;	Lxo;
 	m	<init>(ILjava/lang/String;)V	<init>(ILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
-	m	e()I	e()Lyv;
 c	Lwy;	Lxp;
 	m	<init>(ILjava/lang/String;)V	<init>(ILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
-	m	e()I	e()Lyv;
 c	Lwz;	Lxq;
 	m	<init>(ILjava/lang/String;)V	<init>(ILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
-	m	e()I	e()Lyv;
 c	Lx;	Lx;
 	m	values()[Lx;	values()[Lx;
 	m	valueOf(Ljava/lang/String;)Lx;	valueOf(Ljava/lang/String;)Lx;
@@ -39058,42 +39054,35 @@ c	Lxa;	Lxr;
 	m	<init>(ILjava/lang/String;)V	<init>(ILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
-	m	e()I	e()Lyv;
+	m	e()I	f()I
 c	Lxb;	Lxs;
 	m	<init>(ILjava/lang/String;)V	<init>(ILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
-	m	e()I	e()Lyv;
 c	Lxc;	Lxt;
 	m	<init>(ILjava/lang/String;)V	<init>(ILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
-	m	e()I	e()Lyv;
 c	Lxd;	Lxu;
 	m	<init>(ILjava/lang/String;)V	<init>(ILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
-	m	e()I	e()Lyv;
 c	Lxe;	Lxv;
 	m	<init>(ILjava/lang/String;)V	<init>(ILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
-	m	e()I	e()Lyv;
 c	Lxf;	Lxw;
 	m	<init>(ILjava/lang/String;)V	<init>(ILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
-	m	e()I	e()Lyv;
 c	Lxg;	Lxx;
 	m	<init>(ILjava/lang/String;)V	<init>(ILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
-	m	e()I	e()Lyv;
 c	Lxh;	Lxy;
 	m	<init>(ILjava/lang/String;)V	<init>(ILjava/lang/String;)V
 		ma	0	0
 		ma	1	1
-	m	e()I	e()Lyv;
 c	Lxi;	Lxz;
 	m	<init>(IFLyc;[Laqw;)V	<init>(FLyw;[Lasz;)V
 		ma	1	0
