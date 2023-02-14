@@ -1,42 +1,36 @@
-Matches saved 2022-01-13, status: c:2400/2475 m:18789/19391 f:8415/8716 ma:24554/25225, input files:
+Matches saved 2023-02-14, status: c:2400/2475 m:18799/19391 f:8415/8716 ma:24554/25225, input files:
 	a:
-		7596843	iGs2L+isB1AkhLvCHH2hFLiYEpWsnjAZ1LtMcM1cmiY=	minecraft-merged-14w28a.jar
+		7596843	SHA256	74qbgJH6SrBAdJf7CVfp0m5LhQJPs7MUjO1kJnisxVo=	minecraft-merged-14w28a.jar
 	b:
-		7528453	OgQ1UgKneiwZFxn59q+snRsU6tVGTSKiEyMvXpHsDNo=	minecraft-merged-14w28b.jar
+		7528453	SHA256	F9+z9w8oGCSaUSrKwORb/AXpmMVYShiKsifp71An61g=	minecraft-merged-14w28b.jar
 	cp:
-		318956	Ca33lVuqa931ekvb+akc9pAmExSWm1mhgIXs4eBezPk=	vecmath-1.5.2.jar
-		2523218	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
-		1634692	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
-		62477	P8++MgPC6lIb92QEhP011jAxhuouCOcvAy1kDKBn/9o=	jopt-simple-4.6.jar
-		103871	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
-		5618	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
-		21679	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
-		18981	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
-		65020	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
-		1501009	i8K3GhftG1xjKbzGH6mi9/4HEHRUj6E366/sKiPUnYk=	netty-all-4.0.15.Final.jar
-		2243036	jDaoDqYT0La4BAoXz4N8W742d7wbBqBYpsF0/beH67w=	guava-17.0.jar
-		412739	a4HRB1Ta3xhNOGARSG5lCcLMDD0zVlztT7RAK5QT1H0=	commons-lang3-3.3.2.jar
-		185140	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
-		263965	rRnSYBw6vwuUa1w6QRPiJqjB4zBeOVuQATt43ZSnI84=	commons-codec-1.9.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		190432	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
-		108161	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
-		681134	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
-		1014790	wRj42EMTmA954ef3rksUsQwvIMd+pKHCn28LArwTkHc=	lwjgl-2.9.1.jar
-		173909	MtfnMAWi3AzMPGJHDENbNR9lAd6OhxjiaWBTR1RXCnc=	lwjgl_util-2.9.1.jar
-		55977	O5D5962Wi5WISC46Cbbn0NgcbPfCFMXOzYEg4+5Qmuk=	twitch-6.5.jar
+		15966	SHA256	yuPeFp52le8wB5NJxeqBeQvRDATEA3GW/U/cB7bUOTQ=	netty-1.8.8.jar
+		318956	SHA256	Ca33lVuqa931ekvb+akc9pAmExSWm1mhgIXs4eBezPk=	vecmath-1.5.2.jar
+		2523218	SHA256	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
+		1634692	SHA256	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
+		62477	SHA256	P8++MgPC6lIb92QEhP011jAxhuouCOcvAy1kDKBn/9o=	jopt-simple-4.6.jar
+		103871	SHA256	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
+		5618	SHA256	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
+		21679	SHA256	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
+		18981	SHA256	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
+		65020	SHA256	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
+		1501009	SHA256	i8K3GhftG1xjKbzGH6mi9/4HEHRUj6E366/sKiPUnYk=	netty-all-4.0.15.Final.jar
+		2243036	SHA256	jDaoDqYT0La4BAoXz4N8W742d7wbBqBYpsF0/beH67w=	guava-17.0.jar
+		412739	SHA256	a4HRB1Ta3xhNOGARSG5lCcLMDD0zVlztT7RAK5QT1H0=	commons-lang3-3.3.2.jar
+		185140	SHA256	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
+		263965	SHA256	rRnSYBw6vwuUa1w6QRPiJqjB4zBeOVuQATt43ZSnI84=	commons-codec-1.9.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		190432	SHA256	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
+		108161	SHA256	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
+		681134	SHA256	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
+		1014790	SHA256	wRj42EMTmA954ef3rksUsQwvIMd+pKHCn28LArwTkHc=	lwjgl-2.9.1.jar
+		173909	SHA256	MtfnMAWi3AzMPGJHDENbNR9lAd6OhxjiaWBTR1RXCnc=	lwjgl_util-2.9.1.jar
+		55977	SHA256	O5D5962Wi5WISC46Cbbn0NgcbPfCFMXOzYEg4+5Qmuk=	twitch-6.5.jar
 	cp a:
-		14725	iSInjK8Ubmy2v5Vsa/8QJJbg1y2Jr7GplIGMoRnK6Xo=	netty-1.7.7.jar
-		62802	i2lvubFvhyKpi5wGUnvEpmRvgP5bdhZw8pgvrSXc6j0=	authlib-1.5.14.jar
+		62802	SHA256	i2lvubFvhyKpi5wGUnvEpmRvgP5bdhZw8pgvrSXc6j0=	authlib-1.5.14.jar
 	cp b:
-		15966	yuPeFp52le8wB5NJxeqBeQvRDATEA3GW/U/cB7bUOTQ=	netty-1.8.8.jar
-		62628	LBSXNaCTtsZaJ9t2CJatXFsG4pEAu4lpk3ZneE/vS6A=	authlib-1.5.16.jar
-		295046	wGrDjtVl92eU03OxMwYAAKl5HH+8DQLBv/bcUlkkLRk=	realms-1.5.jar
-		365552	X8oTZQP4bsxsth+9F7E31Z5WtFx6VJTmuP08q9Rpf70=	commons-compress-1.8.1.jar
-		589512	mETMm1RA1lqI0ovLqddxN00t/auJiEjNoWRhEJFjMBM=	httpclient-4.3.3.jar
-		62050	cJA/b8gumQjI2p8gRD9h2Q8IcKMSZCmR/oRioLk5F4Q=	commons-logging-1.1.3.jar
-		282269	q9AjIOI1b4nQVNrkzwIwa+8gqc94ZbOslOx1UrTxUos=	httpcore-4.3.2.jar
+		62628	SHA256	LBSXNaCTtsZaJ9t2CJatXFsG4pEAu4lpk3ZneE/vS6A=	authlib-1.5.16.jar
 c	La;	La;
 	m	values()[La;	values()[La;
 	m	valueOf(Ljava/lang/String;)La;	valueOf(Ljava/lang/String;)La;
@@ -17116,7 +17110,7 @@ c	Lbac;	Lbaf;
 	m	k()Lauh;	k()Lauj;
 c	Lbad;	Lbag;
 	m	<init>()V	<init>()V
-	mu	a	m()V
+	m	m()V	c()V
 	m	C()V	C()V
 	m	E()V	D()V
 	m	n()F	m()F
@@ -17185,7 +17179,6 @@ c	Lbae;	Lbah;
 		ma	0	0
 	m	b(Lfj;)V	b(Lfj;)V
 		ma	0	0
-	mu	a	m()V
 	m	c(Lfj;)Lbae;	c(Lfj;)Lbah;
 		ma	0	0
 	m	u()I	t()I
@@ -17244,7 +17237,7 @@ c	Lbai;	Lbal;
 	m	a(Ljava/lang/String;)V	a(Ljava/lang/String;)V
 		ma	0	0
 	m	l_()I	l_()I
-	mu	a	m()V
+	m	m()V	c()V
 	m	o()Z	n()Z
 	m	p()V	o()V
 	m	c(ILalg;)I	c(ILali;)I
@@ -17337,7 +17330,7 @@ c	Lbaj;	Lbam;
 	m	n()V	m()V
 	m	b(Ldq;)Z	b(Ldq;)Z
 		ma	0	0
-	mu	a	m()V
+	m	m()V	c()V
 	m	c(II)Z	c(II)Z
 		ma	0	0
 		ma	1	1
@@ -17411,7 +17404,7 @@ c	Lban;	Lbaq;
 	f	a;;I	a;;I
 c	Lbao;	Lbar;
 	m	<init>()V	<init>()V
-	mu	a	m()V
+	m	m()V	c()V
 c	Lbap;	Lbas;
 	m	<init>()V	<init>()V
 	m	l_()I	l_()I
@@ -17470,7 +17463,7 @@ c	Lbar;	Lbau;
 		ma	0	0
 	m	a(Lfj;)V	a(Lfj;)V
 		ma	0	0
-	mu	a	m()V
+	m	m()V	c()V
 	m	b_()Ljava/lang/String;	b_()Ljava/lang/String;
 	m	i_()Z	i_()Z
 	m	a(Ljava/lang/String;)V	a(Ljava/lang/String;)V
@@ -17495,7 +17488,7 @@ c	Lbar;	Lbau;
 	f	p;;Ljava/lang/String;	p;;Ljava/lang/String;
 c	Lbas;	Lbav;
 	m	<init>()V	<init>()V
-	mu	a	m()V
+	m	m()V	c()V
 	m	c(II)Z	c(II)Z
 		ma	0	0
 		ma	1	1
@@ -17550,7 +17543,7 @@ c	Lbau;	Lbax;
 	m	n()Z	m()Z
 	m	a(Luz;)Z	a(Lvb;)Z
 		ma	0	0
-	mu	a	m()V
+	m	m()V	c()V
 	m	a(Lalg;)I	a(Lali;)I
 		ma	0	0
 	m	p()Z	o()Z
@@ -17636,7 +17629,7 @@ c	Lbaw;	Lbaz;
 	m	b(ILalg;)Z	b(ILali;)Z
 		ma	0	0
 		ma	1	1
-	mu	a	m()V
+	m	m()V	c()V
 	m	n()Z	m()Z
 	m	p()Z	o()Z
 	m	q()Z	p()Z
@@ -17730,7 +17723,7 @@ c	Lbay;	Lbbb;
 		ma	0	0
 	m	b(Lfj;)V	b(Lfj;)V
 		ma	0	0
-	mu	a	m()V
+	m	m()V	c()V
 	m	r()Lhz;	q()Lhz;
 	m	c(II)Z	c(II)Z
 		ma	0	0
@@ -18113,7 +18106,7 @@ c	Lbbo;	Lbbr;
 		ma	0	0
 		ma	1	1
 	m	e()V	g()V
-	mu	a	m()V
+	m	m()V	c()V
 	m	a(Lfj;)V	a(Lfj;)V
 		ma	0	0
 	m	b(Lfj;)V	b(Lfj;)V
@@ -29666,10 +29659,6 @@ c	Lbxi;	Lnet/minecraft/realms/DisconnectedOnlineScreen;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	mu	a	a(CI)V
-	mu	a	x_()V
-	mu	a	a(Lbrt;)V
-	mu	a	a(IIF)V
 	f	a;;Ljava/lang/String;	title;;Ljava/lang/String;
 	f	f;;Lhk;	reason;;Lhk;
 	f	g;;Ljava/util/List;	lines;;Ljava/util/List;
@@ -38155,197 +38144,6 @@ c	Lcom/mojang/authlib/yggdrasil/response/User;	Lcom/mojang/authlib/yggdrasil/res
 	m	getProperties()Lcom/mojang/authlib/properties/PropertyMap;	getProperties()Lcom/mojang/authlib/properties/PropertyMap;
 	f	id;;Ljava/lang/String;	id;;Ljava/lang/String;
 	f	properties;;Lcom/mojang/authlib/properties/PropertyMap;	properties;;Lcom/mojang/authlib/properties/PropertyMap;
-c	Lcom/mojang/patchy/BlockedServers;	Lcom/mojang/patchy/BlockedServers;
-	m	<init>()V	<init>()V
-	m	isBlockedServer(Ljava/lang/String;)Z	isBlockedServer(Ljava/lang/String;)Z
-		ma	0	0
-	m	isIp(Ljava/util/List;)Z	isIp(Ljava/util/List;)Z
-		ma	0	0
-	m	isBlockedServerHostName(Ljava/lang/String;)Z	isBlockedServerHostName(Ljava/lang/String;)Z
-		ma	0	0
-	m	<clinit>()V	<clinit>()V
-	f	BLOCKED_SERVERS;;Ljava/util/Set;	BLOCKED_SERVERS;;Ljava/util/Set;
-	f	SRV_PREFIX;;Ljava/lang/String;	SRV_PREFIX;;Ljava/lang/String;
-	f	DOT_JOINER;;Lcom/google/common/base/Joiner;	DOT_JOINER;;Lcom/google/common/base/Joiner;
-	f	DOT_SPLITTER;;Lcom/google/common/base/Splitter;	DOT_SPLITTER;;Lcom/google/common/base/Splitter;
-	f	HASH_CHARSET;;Ljava/nio/charset/Charset;	HASH_CHARSET;;Ljava/nio/charset/Charset;
-c	Lcom/mojang/patchy/BlockingDC;	Lcom/mojang/patchy/BlockingDC;
-	m	<init>(Lcom/google/common/base/Predicate;Ljavax/naming/directory/DirContext;)V	<init>(Lcom/google/common/base/Predicate;Ljavax/naming/directory/DirContext;)V
-		ma	0	0
-		ma	1	1
-	m	getAttributes(Ljava/lang/String;)Ljavax/naming/directory/Attributes;	getAttributes(Ljava/lang/String;)Ljavax/naming/directory/Attributes;
-		ma	0	0
-	m	getAttributes(Ljava/lang/String;[Ljava/lang/String;)Ljavax/naming/directory/Attributes;	getAttributes(Ljava/lang/String;[Ljava/lang/String;)Ljavax/naming/directory/Attributes;
-		ma	0	0
-		ma	1	1
-	m	getAttributes(Ljavax/naming/Name;)Ljavax/naming/directory/Attributes;	getAttributes(Ljavax/naming/Name;)Ljavax/naming/directory/Attributes;
-		ma	0	0
-	m	getAttributes(Ljavax/naming/Name;[Ljava/lang/String;)Ljavax/naming/directory/Attributes;	getAttributes(Ljavax/naming/Name;[Ljava/lang/String;)Ljavax/naming/directory/Attributes;
-		ma	0	0
-		ma	1	1
-	m	modifyAttributes(Ljavax/naming/Name;ILjavax/naming/directory/Attributes;)V	modifyAttributes(Ljavax/naming/Name;ILjavax/naming/directory/Attributes;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	modifyAttributes(Ljava/lang/String;ILjavax/naming/directory/Attributes;)V	modifyAttributes(Ljava/lang/String;ILjavax/naming/directory/Attributes;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	modifyAttributes(Ljavax/naming/Name;[Ljavax/naming/directory/ModificationItem;)V	modifyAttributes(Ljavax/naming/Name;[Ljavax/naming/directory/ModificationItem;)V
-		ma	0	0
-		ma	1	1
-	m	modifyAttributes(Ljava/lang/String;[Ljavax/naming/directory/ModificationItem;)V	modifyAttributes(Ljava/lang/String;[Ljavax/naming/directory/ModificationItem;)V
-		ma	0	0
-		ma	1	1
-	m	bind(Ljavax/naming/Name;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V	bind(Ljavax/naming/Name;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	bind(Ljava/lang/String;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V	bind(Ljava/lang/String;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	rebind(Ljavax/naming/Name;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V	rebind(Ljavax/naming/Name;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	rebind(Ljava/lang/String;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V	rebind(Ljava/lang/String;Ljava/lang/Object;Ljavax/naming/directory/Attributes;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	createSubcontext(Ljavax/naming/Name;Ljavax/naming/directory/Attributes;)Ljavax/naming/directory/DirContext;	createSubcontext(Ljavax/naming/Name;Ljavax/naming/directory/Attributes;)Ljavax/naming/directory/DirContext;
-		ma	0	0
-		ma	1	1
-	m	createSubcontext(Ljava/lang/String;Ljavax/naming/directory/Attributes;)Ljavax/naming/directory/DirContext;	createSubcontext(Ljava/lang/String;Ljavax/naming/directory/Attributes;)Ljavax/naming/directory/DirContext;
-		ma	0	0
-		ma	1	1
-	m	getSchema(Ljavax/naming/Name;)Ljavax/naming/directory/DirContext;	getSchema(Ljavax/naming/Name;)Ljavax/naming/directory/DirContext;
-		ma	0	0
-	m	getSchema(Ljava/lang/String;)Ljavax/naming/directory/DirContext;	getSchema(Ljava/lang/String;)Ljavax/naming/directory/DirContext;
-		ma	0	0
-	m	getSchemaClassDefinition(Ljavax/naming/Name;)Ljavax/naming/directory/DirContext;	getSchemaClassDefinition(Ljavax/naming/Name;)Ljavax/naming/directory/DirContext;
-		ma	0	0
-	m	getSchemaClassDefinition(Ljava/lang/String;)Ljavax/naming/directory/DirContext;	getSchemaClassDefinition(Ljava/lang/String;)Ljavax/naming/directory/DirContext;
-		ma	0	0
-	m	search(Ljavax/naming/Name;Ljavax/naming/directory/Attributes;[Ljava/lang/String;)Ljavax/naming/NamingEnumeration;	search(Ljavax/naming/Name;Ljavax/naming/directory/Attributes;[Ljava/lang/String;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	search(Ljava/lang/String;Ljavax/naming/directory/Attributes;[Ljava/lang/String;)Ljavax/naming/NamingEnumeration;	search(Ljava/lang/String;Ljavax/naming/directory/Attributes;[Ljava/lang/String;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	search(Ljavax/naming/Name;Ljavax/naming/directory/Attributes;)Ljavax/naming/NamingEnumeration;	search(Ljavax/naming/Name;Ljavax/naming/directory/Attributes;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-		ma	1	1
-	m	search(Ljava/lang/String;Ljavax/naming/directory/Attributes;)Ljavax/naming/NamingEnumeration;	search(Ljava/lang/String;Ljavax/naming/directory/Attributes;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-		ma	1	1
-	m	search(Ljavax/naming/Name;Ljava/lang/String;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration;	search(Ljavax/naming/Name;Ljava/lang/String;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	search(Ljava/lang/String;Ljava/lang/String;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration;	search(Ljava/lang/String;Ljava/lang/String;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-	m	search(Ljavax/naming/Name;Ljava/lang/String;[Ljava/lang/Object;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration;	search(Ljavax/naming/Name;Ljava/lang/String;[Ljava/lang/Object;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	search(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration;	search(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljavax/naming/directory/SearchControls;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-	m	lookup(Ljavax/naming/Name;)Ljava/lang/Object;	lookup(Ljavax/naming/Name;)Ljava/lang/Object;
-		ma	0	0
-	m	lookup(Ljava/lang/String;)Ljava/lang/Object;	lookup(Ljava/lang/String;)Ljava/lang/Object;
-		ma	0	0
-	m	bind(Ljavax/naming/Name;Ljava/lang/Object;)V	bind(Ljavax/naming/Name;Ljava/lang/Object;)V
-		ma	0	0
-		ma	1	1
-	m	bind(Ljava/lang/String;Ljava/lang/Object;)V	bind(Ljava/lang/String;Ljava/lang/Object;)V
-		ma	0	0
-		ma	1	1
-	m	rebind(Ljavax/naming/Name;Ljava/lang/Object;)V	rebind(Ljavax/naming/Name;Ljava/lang/Object;)V
-		ma	0	0
-		ma	1	1
-	m	rebind(Ljava/lang/String;Ljava/lang/Object;)V	rebind(Ljava/lang/String;Ljava/lang/Object;)V
-		ma	0	0
-		ma	1	1
-	m	unbind(Ljavax/naming/Name;)V	unbind(Ljavax/naming/Name;)V
-		ma	0	0
-	m	unbind(Ljava/lang/String;)V	unbind(Ljava/lang/String;)V
-		ma	0	0
-	m	rename(Ljavax/naming/Name;Ljavax/naming/Name;)V	rename(Ljavax/naming/Name;Ljavax/naming/Name;)V
-		ma	0	0
-		ma	1	1
-	m	rename(Ljava/lang/String;Ljava/lang/String;)V	rename(Ljava/lang/String;Ljava/lang/String;)V
-		ma	0	0
-		ma	1	1
-	m	list(Ljavax/naming/Name;)Ljavax/naming/NamingEnumeration;	list(Ljavax/naming/Name;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-	m	list(Ljava/lang/String;)Ljavax/naming/NamingEnumeration;	list(Ljava/lang/String;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-	m	listBindings(Ljavax/naming/Name;)Ljavax/naming/NamingEnumeration;	listBindings(Ljavax/naming/Name;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-	m	listBindings(Ljava/lang/String;)Ljavax/naming/NamingEnumeration;	listBindings(Ljava/lang/String;)Ljavax/naming/NamingEnumeration;
-		ma	0	0
-	m	destroySubcontext(Ljavax/naming/Name;)V	destroySubcontext(Ljavax/naming/Name;)V
-		ma	0	0
-	m	destroySubcontext(Ljava/lang/String;)V	destroySubcontext(Ljava/lang/String;)V
-		ma	0	0
-	m	createSubcontext(Ljavax/naming/Name;)Ljavax/naming/Context;	createSubcontext(Ljavax/naming/Name;)Ljavax/naming/Context;
-		ma	0	0
-	m	createSubcontext(Ljava/lang/String;)Ljavax/naming/Context;	createSubcontext(Ljava/lang/String;)Ljavax/naming/Context;
-		ma	0	0
-	m	lookupLink(Ljavax/naming/Name;)Ljava/lang/Object;	lookupLink(Ljavax/naming/Name;)Ljava/lang/Object;
-		ma	0	0
-	m	lookupLink(Ljava/lang/String;)Ljava/lang/Object;	lookupLink(Ljava/lang/String;)Ljava/lang/Object;
-		ma	0	0
-	m	getNameParser(Ljavax/naming/Name;)Ljavax/naming/NameParser;	getNameParser(Ljavax/naming/Name;)Ljavax/naming/NameParser;
-		ma	0	0
-	m	getNameParser(Ljava/lang/String;)Ljavax/naming/NameParser;	getNameParser(Ljava/lang/String;)Ljavax/naming/NameParser;
-		ma	0	0
-	m	composeName(Ljavax/naming/Name;Ljavax/naming/Name;)Ljavax/naming/Name;	composeName(Ljavax/naming/Name;Ljavax/naming/Name;)Ljavax/naming/Name;
-		ma	0	0
-		ma	1	1
-	m	composeName(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	composeName(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-		ma	0	0
-		ma	1	1
-	m	addToEnvironment(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;	addToEnvironment(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
-		ma	0	0
-		ma	1	1
-	m	removeFromEnvironment(Ljava/lang/String;)Ljava/lang/Object;	removeFromEnvironment(Ljava/lang/String;)Ljava/lang/Object;
-		ma	0	0
-	m	getEnvironment()Ljava/util/Hashtable;	getEnvironment()Ljava/util/Hashtable;
-	m	close()V	close()V
-	m	getNameInNamespace()Ljava/lang/String;	getNameInNamespace()Ljava/lang/String;
-	f	blockList;;Lcom/google/common/base/Predicate;	blockList;;Lcom/google/common/base/Predicate;
-	f	parent;;Ljavax/naming/directory/DirContext;	parent;;Ljavax/naming/directory/DirContext;
-c	Lcom/mojang/patchy/BlockingICF;	Lcom/mojang/patchy/BlockingICF;
-	m	<init>(Lcom/google/common/base/Predicate;Ljavax/naming/spi/InitialContextFactory;)V	<init>(Lcom/google/common/base/Predicate;Ljavax/naming/spi/InitialContextFactory;)V
-		ma	0	0
-		ma	1	1
-	m	getInitialContext(Ljava/util/Hashtable;)Ljavax/naming/Context;	getInitialContext(Ljava/util/Hashtable;)Ljavax/naming/Context;
-		ma	0	0
-	f	blockList;;Lcom/google/common/base/Predicate;	blockList;;Lcom/google/common/base/Predicate;
-	f	parent;;Ljavax/naming/spi/InitialContextFactory;	parent;;Ljavax/naming/spi/InitialContextFactory;
-c	Lcom/mojang/patchy/BlockingICFB$1;	Lcom/mojang/patchy/BlockingICFB$1;
-	m	<init>()V	<init>()V
-	m	apply(Ljava/lang/String;)Z	apply(Ljava/lang/String;)Z
-		ma	0	0
-	m	apply(Ljava/lang/Object;)Z	apply(Ljava/lang/Object;)Z
-		ma	0	0
-c	Lcom/mojang/patchy/BlockingICFB;	Lcom/mojang/patchy/BlockingICFB;
-	m	<init>(Lcom/google/common/base/Predicate;)V	<init>(Lcom/google/common/base/Predicate;)V
-		ma	0	0
-	m	install()V	install()V
-	m	createInitialContextFactory(Ljava/util/Hashtable;)Ljavax/naming/spi/InitialContextFactory;	createInitialContextFactory(Ljava/util/Hashtable;)Ljavax/naming/spi/InitialContextFactory;
-		ma	0	0
-	f	blockList;;Lcom/google/common/base/Predicate;	blockList;;Lcom/google/common/base/Predicate;
 c	Lcom/mojang/util/QueueLogAppender;	Lcom/mojang/util/QueueLogAppender;
 	m	<init>(Ljava/lang/String;Lorg/apache/logging/log4j/core/Filter;Lorg/apache/logging/log4j/core/Layout;ZLjava/util/concurrent/BlockingQueue;)V	<init>(Ljava/lang/String;Lorg/apache/logging/log4j/core/Filter;Lorg/apache/logging/log4j/core/Layout;ZLjava/util/concurrent/BlockingQueue;)V
 		ma	0	0
@@ -46066,89 +45864,6 @@ c	Lin;	Lin;
 		ma	0	0
 	f	a;;I	a;;I
 	f	b;;I	b;;I
-c	Lio/netty/bootstrap/Bootstrap$1;	Lio/netty/bootstrap/Bootstrap$1;
-	m	<init>(Lio/netty/bootstrap/Bootstrap;Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V	<init>(Lio/netty/bootstrap/Bootstrap;Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-		ma	5	5
-	m	operationComplete(Lio/netty/channel/ChannelFuture;)V	operationComplete(Lio/netty/channel/ChannelFuture;)V
-		ma	0	0
-	m	operationComplete(Lio/netty/util/concurrent/Future;)V	operationComplete(Lio/netty/util/concurrent/Future;)V
-		ma	0	0
-	f	val$regFuture;;Lio/netty/channel/ChannelFuture;	val$regFuture;;Lio/netty/channel/ChannelFuture;
-	f	val$channel;;Lio/netty/channel/Channel;	val$channel;;Lio/netty/channel/Channel;
-	f	val$remoteAddress;;Ljava/net/SocketAddress;	val$remoteAddress;;Ljava/net/SocketAddress;
-	f	val$localAddress;;Ljava/net/SocketAddress;	val$localAddress;;Ljava/net/SocketAddress;
-	f	val$promise;;Lio/netty/channel/ChannelPromise;	val$promise;;Lio/netty/channel/ChannelPromise;
-	f	this$0;;Lio/netty/bootstrap/Bootstrap;	this$0;;Lio/netty/bootstrap/Bootstrap;
-c	Lio/netty/bootstrap/Bootstrap$2;	Lio/netty/bootstrap/Bootstrap$2;
-	m	<init>(Lio/netty/channel/ChannelFuture;Ljava/net/SocketAddress;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V	<init>(Lio/netty/channel/ChannelFuture;Ljava/net/SocketAddress;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	run()V	run()V
-	f	val$regFuture;;Lio/netty/channel/ChannelFuture;	val$regFuture;;Lio/netty/channel/ChannelFuture;
-	f	val$localAddress;;Ljava/net/SocketAddress;	val$localAddress;;Ljava/net/SocketAddress;
-	f	val$channel;;Lio/netty/channel/Channel;	val$channel;;Lio/netty/channel/Channel;
-	f	val$remoteAddress;;Ljava/net/SocketAddress;	val$remoteAddress;;Ljava/net/SocketAddress;
-	f	val$promise;;Lio/netty/channel/ChannelPromise;	val$promise;;Lio/netty/channel/ChannelPromise;
-c	Lio/netty/bootstrap/Bootstrap;	Lio/netty/bootstrap/Bootstrap;
-	m	<init>()V	<init>()V
-	m	<init>(Lio/netty/bootstrap/Bootstrap;)V	<init>(Lio/netty/bootstrap/Bootstrap;)V
-		ma	0	0
-	m	remoteAddress(Ljava/net/SocketAddress;)Lio/netty/bootstrap/Bootstrap;	remoteAddress(Ljava/net/SocketAddress;)Lio/netty/bootstrap/Bootstrap;
-		ma	0	0
-	m	remoteAddress(Ljava/lang/String;I)Lio/netty/bootstrap/Bootstrap;	remoteAddress(Ljava/lang/String;I)Lio/netty/bootstrap/Bootstrap;
-		ma	0	0
-		ma	1	1
-	m	remoteAddress(Ljava/net/InetAddress;I)Lio/netty/bootstrap/Bootstrap;	remoteAddress(Ljava/net/InetAddress;I)Lio/netty/bootstrap/Bootstrap;
-		ma	0	0
-		ma	1	1
-	m	connect()Lio/netty/channel/ChannelFuture;	connect()Lio/netty/channel/ChannelFuture;
-	m	connect(Ljava/lang/String;I)Lio/netty/channel/ChannelFuture;	connect(Ljava/lang/String;I)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-		ma	1	1
-	m	connect(Ljava/net/InetAddress;I)Lio/netty/channel/ChannelFuture;	connect(Ljava/net/InetAddress;I)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-		ma	1	1
-	m	connect(Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;	connect(Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-	m	connect(Ljava/net/SocketAddress;Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;	connect(Ljava/net/SocketAddress;Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-		ma	1	1
-	m	doConnect(Ljava/net/SocketAddress;Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;	doConnect(Ljava/net/SocketAddress;Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-		ma	1	1
-	m	doConnect0(Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V	doConnect0(Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	init(Lio/netty/channel/Channel;)V	init(Lio/netty/channel/Channel;)V
-		ma	0	0
-	m	validate()Lio/netty/bootstrap/Bootstrap;	validate()Lio/netty/bootstrap/Bootstrap;
-	m	clone()Lio/netty/bootstrap/Bootstrap;	clone()Lio/netty/bootstrap/Bootstrap;
-	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
-	m	checkAddress(Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;	checkAddress(Ljava/net/SocketAddress;)Lio/netty/channel/ChannelFuture;
-		ma	0	0
-	m	clone()Lio/netty/bootstrap/AbstractBootstrap;	clone()Lio/netty/bootstrap/AbstractBootstrap;
-	m	validate()Lio/netty/bootstrap/AbstractBootstrap;	validate()Lio/netty/bootstrap/AbstractBootstrap;
-	m	clone()Ljava/lang/Object;	clone()Ljava/lang/Object;
-	m	access$000(Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V	access$000(Lio/netty/channel/ChannelFuture;Lio/netty/channel/Channel;Ljava/net/SocketAddress;Ljava/net/SocketAddress;Lio/netty/channel/ChannelPromise;)V
-		ma	0	0
-		ma	1	1
-		ma	2	2
-		ma	3	3
-		ma	4	4
-	m	<clinit>()V	<clinit>()V
-	f	logger;;Lio/netty/util/internal/logging/InternalLogger;	logger;;Lio/netty/util/internal/logging/InternalLogger;
-	f	remoteAddress;;Ljava/net/SocketAddress;	remoteAddress;;Ljava/net/SocketAddress;
 c	Lio;	Lio;
 	m	<init>()V	<init>()V
 	m	<init>(Ljava/util/Map;)V	<init>(Ljava/util/Map;)V
