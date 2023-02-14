@@ -1,45 +1,45 @@
-Matches saved 2022-01-13, status: c:2525/2532 m:19752/19778 f:8774/8788 ma:26006/26039, input files:
+Matches saved 2023-02-14, status: c:2525/2532 m:19749/19778 f:8774/8788 ma:26004/26039, input files:
 	a:
-		7832726	r+xpA+uLquarvjP3hz1A1Nh4w32/S/+rQtkIdKyndck=	minecraft-merged-1.8.jar
+		7832726	SHA256	aFpsZmJ9JQlVZT/aqNA4M7Utq5T22dAbbxPEpdqmKfU=	minecraft-merged-1.8.jar
 	b:
-		7843218	gq0YScixnUZshONYhfL+d4imwi9WP96Yni7wPP5yDKI=	minecraft-merged-1.8.1-pre1.jar
+		7843218	SHA256	/xF9xR83AXaomuN2ulbMS+1UwFGMZ89W2Z76uZvfgiQ=	minecraft-merged-1.8.1-pre1.jar
 	cp:
-		7877	MSD9JMCaubwIjLnB6yBlvoZxhghFD9vCe103FymmGcs=	netty-1.6.jar
-		1634692	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
-		62477	P8++MgPC6lIb92QEhP011jAxhuouCOcvAy1kDKBn/9o=	jopt-simple-4.6.jar
-		103871	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
-		5618	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
-		21679	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
-		18981	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
-		65020	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
-		2243036	jDaoDqYT0La4BAoXz4N8W742d7wbBqBYpsF0/beH67w=	guava-17.0.jar
-		412739	a4HRB1Ta3xhNOGARSG5lCcLMDD0zVlztT7RAK5QT1H0=	commons-lang3-3.3.2.jar
-		185140	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
-		263965	rRnSYBw6vwuUa1w6QRPiJqjB4zBeOVuQATt43ZSnI84=	commons-codec-1.9.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		190432	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
-		365552	X8oTZQP4bsxsth+9F7E31Z5WtFx6VJTmuP08q9Rpf70=	commons-compress-1.8.1.jar
-		589512	mETMm1RA1lqI0ovLqddxN00t/auJiEjNoWRhEJFjMBM=	httpclient-4.3.3.jar
-		62050	cJA/b8gumQjI2p8gRD9h2Q8IcKMSZCmR/oRioLk5F4Q=	commons-logging-1.1.3.jar
-		282269	q9AjIOI1b4nQVNrkzwIwa+8gqc94ZbOslOx1UrTxUos=	httpcore-4.3.2.jar
-		108161	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
-		681134	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
-		1014790	wRj42EMTmA954ef3rksUsQwvIMd+pKHCn28LArwTkHc=	lwjgl-2.9.1.jar
-		173909	MtfnMAWi3AzMPGJHDENbNR9lAd6OhxjiaWBTR1RXCnc=	lwjgl_util-2.9.1.jar
-		1045632	yGYsqd0al+x/vc4zgfJID2w7fiqQBgGK7yIegaoaNYg=	lwjgl-2.9.2-nightly-20140822.jar
-		173887	Whe1+DTHxGxPWwcb9vzfv25FLvm/bJA7rP/qgtSKVPw=	lwjgl_util-2.9.2-nightly-20140822.jar
-		55977	O5D5962Wi5WISC46Cbbn0NgcbPfCFMXOzYEg4+5Qmuk=	twitch-6.5.jar
+		15966	SHA256	yuPeFp52le8wB5NJxeqBeQvRDATEA3GW/U/cB7bUOTQ=	netty-1.8.8.jar
+		1634692	SHA256	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
+		62477	SHA256	P8++MgPC6lIb92QEhP011jAxhuouCOcvAy1kDKBn/9o=	jopt-simple-4.6.jar
+		103871	SHA256	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
+		5618	SHA256	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
+		21679	SHA256	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
+		18981	SHA256	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
+		65020	SHA256	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
+		2243036	SHA256	jDaoDqYT0La4BAoXz4N8W742d7wbBqBYpsF0/beH67w=	guava-17.0.jar
+		412739	SHA256	a4HRB1Ta3xhNOGARSG5lCcLMDD0zVlztT7RAK5QT1H0=	commons-lang3-3.3.2.jar
+		185140	SHA256	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
+		263965	SHA256	rRnSYBw6vwuUa1w6QRPiJqjB4zBeOVuQATt43ZSnI84=	commons-codec-1.9.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		190432	SHA256	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
+		365552	SHA256	X8oTZQP4bsxsth+9F7E31Z5WtFx6VJTmuP08q9Rpf70=	commons-compress-1.8.1.jar
+		589512	SHA256	mETMm1RA1lqI0ovLqddxN00t/auJiEjNoWRhEJFjMBM=	httpclient-4.3.3.jar
+		62050	SHA256	cJA/b8gumQjI2p8gRD9h2Q8IcKMSZCmR/oRioLk5F4Q=	commons-logging-1.1.3.jar
+		282269	SHA256	q9AjIOI1b4nQVNrkzwIwa+8gqc94ZbOslOx1UrTxUos=	httpcore-4.3.2.jar
+		108161	SHA256	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
+		681134	SHA256	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
+		1014790	SHA256	wRj42EMTmA954ef3rksUsQwvIMd+pKHCn28LArwTkHc=	lwjgl-2.9.1.jar
+		173909	SHA256	MtfnMAWi3AzMPGJHDENbNR9lAd6OhxjiaWBTR1RXCnc=	lwjgl_util-2.9.1.jar
+		1045632	SHA256	yGYsqd0al+x/vc4zgfJID2w7fiqQBgGK7yIegaoaNYg=	lwjgl-2.9.2-nightly-20140822.jar
+		173887	SHA256	Whe1+DTHxGxPWwcb9vzfv25FLvm/bJA7rP/qgtSKVPw=	lwjgl_util-2.9.2-nightly-20140822.jar
+		55977	SHA256	O5D5962Wi5WISC46Cbbn0NgcbPfCFMXOzYEg4+5Qmuk=	twitch-6.5.jar
 	cp a:
-		318956	Ca33lVuqa931ekvb+akc9pAmExSWm1mhgIXs4eBezPk=	vecmath-1.5.2.jar
-		2523218	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
-		1501009	i8K3GhftG1xjKbzGH6mi9/4HEHRUj6E366/sKiPUnYk=	netty-all-4.0.15.Final.jar
-		64412	znqchuvr8wuJkpAm9KCjxYzg9NR5N9bcCGrk/Qx3VEo=	authlib-1.5.21.jar
-		298229	CtkRkM1ICvFJVNNh17n/xTqzxTRHl+PJ/ZDCm/XShJk=	realms-1.6.1.jar
+		318956	SHA256	Ca33lVuqa931ekvb+akc9pAmExSWm1mhgIXs4eBezPk=	vecmath-1.5.2.jar
+		2523218	SHA256	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
+		1501009	SHA256	i8K3GhftG1xjKbzGH6mi9/4HEHRUj6E366/sKiPUnYk=	netty-all-4.0.15.Final.jar
+		64412	SHA256	znqchuvr8wuJkpAm9KCjxYzg9NR5N9bcCGrk/Qx3VEo=	authlib-1.5.21.jar
+		298229	SHA256	CtkRkM1ICvFJVNNh17n/xTqzxTRHl+PJ/ZDCm/XShJk=	realms-1.6.1.jar
 	cp b:
-		1779991	UFEOnJh0tTm5jvkx/n7usAL2tbGXbqN2ablJNCYpRWE=	netty-all-4.0.23.Final.jar
-		62879	UhUnb0ejXHzmcBMxHyb8nQlvFN+/zfcIps/yLxkn+ZQ=	authlib-1.5.17.jar
-		353868	bLUOZrTiLa/6t0+3Cf025proeFaKrnVGMZpDaFnZeKQ=	realms-1.7.jar
+		1779991	SHA256	UFEOnJh0tTm5jvkx/n7usAL2tbGXbqN2ablJNCYpRWE=	netty-all-4.0.23.Final.jar
+		62879	SHA256	UhUnb0ejXHzmcBMxHyb8nQlvFN+/zfcIps/yLxkn+ZQ=	authlib-1.5.17.jar
+		353868	SHA256	bLUOZrTiLa/6t0+3Cf025proeFaKrnVGMZpDaFnZeKQ=	realms-1.7.jar
 c	La;	La;
 	m	values()[La;	values()[La;
 	m	valueOf(Ljava/lang/String;)La;	valueOf(Ljava/lang/String;)La;
@@ -28993,8 +28993,7 @@ c	Lbwj;	Lbwh;
 	m	b(I)V	b(I)V
 		ma	0	0
 	m	h()V	h()V
-	m	a(Z)V	a(Z)V
-		ma	0	0
+	mu	a	a(Z)V
 	m	i()V	i()V
 	m	a(CI)V	a(CI)V
 		ma	0	0
@@ -37619,8 +37618,7 @@ c	Lcmp;	Lcmp;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	m	a(Ljavax/vecmath/AxisAngle4d;)Ljavax/vecmath/Matrix4d;	a()Lorg/lwjgl/util/vector/Matrix4f;
-	mu	a	a()Ljavax/vecmath/Matrix4d;
+	m	a()Ljavax/vecmath/Matrix4d;	a()Lorg/lwjgl/util/vector/Matrix4f;
 	m	a([I)Lej;	a([I)Lej;
 		ma	0	0
 	m	a([ILej;Lcma;Lcue;)V	a([ILej;Lcma;Lcue;)V
@@ -53802,8 +53800,6 @@ c	Lio/netty/channel/local/LocalChannel$LocalUnsafe;	Lio/netty/channel/local/Loca
 c	Lio/netty/channel/local/LocalChannel;	Lio/netty/channel/local/LocalChannel;
 	m	<init>()V	<init>()V
 	m	<init>(Lio/netty/channel/local/LocalServerChannel;Lio/netty/channel/local/LocalChannel;)V	<init>(Lio/netty/channel/local/LocalServerChannel;Lio/netty/channel/local/LocalChannel;)V
-		ma	0	0
-		ma	1	1
 	m	<init>(Lio/netty/channel/local/LocalServerChannel;Lio/netty/channel/local/LocalChannel;)V	<init>(Lio/netty/channel/local/LocalServerChannel;Lio/netty/channel/local/LocalChannel;)V
 		ma	0	0
 		ma	1	1
@@ -55878,8 +55874,6 @@ c	Lio/netty/util/internal/RecyclableArrayList;	Lio/netty/util/internal/Recyclabl
 		ma	1	1
 	m	recycle()Z	recycle()Z
 	m	<init>(Lio/netty/util/Recycler$Handle;Lio/netty/util/internal/RecyclableArrayList$1;)V	<init>(Lio/netty/util/Recycler$Handle;Lio/netty/util/internal/RecyclableArrayList$1;)V
-		ma	0	0
-		ma	1	1
 	m	<init>(Lio/netty/util/Recycler$Handle;Lio/netty/util/internal/RecyclableArrayList$1;)V	<init>(Lio/netty/util/Recycler$Handle;Lio/netty/util/internal/RecyclableArrayList$1;)V
 		ma	0	0
 		ma	1	1
@@ -57272,7 +57266,6 @@ c	Lio/netty/util/internal/chmv8/ForkJoinPool$WorkQueue;	Lio/netty/util/internal/
 	m	tryUnpush(Lio/netty/util/internal/chmv8/ForkJoinTask;)Z	tryUnpush(Lio/netty/util/internal/chmv8/ForkJoinTask;)Z
 		ma	0	0
 	m	push(Lio/netty/util/internal/chmv8/ForkJoinTask;)V	push(Lio/netty/util/internal/chmv8/ForkJoinTask;)V
-		ma	0	0
 	m	peek()Lio/netty/util/internal/chmv8/ForkJoinTask;	peek()Lio/netty/util/internal/chmv8/ForkJoinTask;
 	m	nextLocalTask()Lio/netty/util/internal/chmv8/ForkJoinTask;	nextLocalTask()Lio/netty/util/internal/chmv8/ForkJoinTask;
 	m	push(Lio/netty/util/internal/chmv8/ForkJoinTask;)V	push(Lio/netty/util/internal/chmv8/ForkJoinTask;)V
@@ -57373,7 +57366,6 @@ c	Lio/netty/util/internal/chmv8/ForkJoinPool;	Lio/netty/util/internal/chmv8/Fork
 		ma	1	1
 	m	access$000()Lsun/misc/Unsafe;	access$000()Lsun/misc/Unsafe;
 	m	registerWorker(Lio/netty/util/internal/chmv8/ForkJoinWorkerThread;)Lio/netty/util/internal/chmv8/ForkJoinPool$WorkQueue;	registerWorker(Lio/netty/util/internal/chmv8/ForkJoinWorkerThread;)Lio/netty/util/internal/chmv8/ForkJoinPool$WorkQueue;
-		ma	0	0
 	m	runWorker(Lio/netty/util/internal/chmv8/ForkJoinPool$WorkQueue;)V	runWorker(Lio/netty/util/internal/chmv8/ForkJoinPool$WorkQueue;)V
 		ma	0	0
 	m	deregisterWorker(Lio/netty/util/internal/chmv8/ForkJoinWorkerThread;Ljava/lang/Throwable;)V	deregisterWorker(Lio/netty/util/internal/chmv8/ForkJoinWorkerThread;Ljava/lang/Throwable;)V
@@ -57744,7 +57736,6 @@ c	Lio/netty/util/internal/chmv8/ForkJoinWorkerThread;	Lio/netty/util/internal/ch
 		ma	0	0
 	m	run()V	run()V
 	f	pool;;Lio/netty/util/internal/chmv8/ForkJoinPool;	pool;;Lio/netty/util/internal/chmv8/ForkJoinPool;
-	f	workQueue;;Lio/netty/util/internal/chmv8/ForkJoinPool$WorkQueue;	workQueue;;Lio/netty/util/internal/chmv8/ForkJoinPool$WorkQueue;
 	f	workQueue;;Lio/netty/util/internal/chmv8/ForkJoinPool$WorkQueue;	workQueue;;Lio/netty/util/internal/chmv8/ForkJoinPool$WorkQueue;
 c	Lio/netty/util/internal/logging/AbstractInternalLogger$1;	Lio/netty/util/internal/logging/AbstractInternalLogger$1;
 	m	<clinit>()V	<clinit>()V
@@ -62174,9 +62165,8 @@ c	Lpj;	Lpk;
 	m	H()I	I()I
 	m	I()[Ljava/lang/String;	J()[Ljava/lang/String;
 	m	T()Ljava/lang/String;	T()Ljava/lang/String;
-	m	K()Ljava/lang/String;	d_()Ljava/lang/String;
-	m	g(Ljava/lang/String;)Ljava/lang/String;	a_(Ljava/lang/String;)Ljava/lang/String;
-		ma	0	0
+	mu	a	K()Ljava/lang/String;
+	mu	a	g(Ljava/lang/String;)Ljava/lang/String;
 	m	L()Z	L()Z
 	m	e(Ljava/lang/String;)V	e(Ljava/lang/String;)V
 		ma	0	0
