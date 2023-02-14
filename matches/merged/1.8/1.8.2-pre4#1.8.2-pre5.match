@@ -1,47 +1,47 @@
-Matches saved 2022-01-14, status: c:2528/2534 m:19888/19925 f:8836/8863 ma:26124/26178, input files:
+Matches saved 2023-02-14, status: c:2534/2534 m:19896/19925 f:8848/8863 ma:26129/26178, input files:
 	a:
-		7855272	PymTmTm4013rMHqzSEiioIgMhXQZRYfQmqY+z/cF624=	minecraft-merged-1.8.2-pre4.jar
+		7855272	SHA256	8mlH5lcYbLYR20bXfxg7NczsuVhV4bgoEf9cSeo96J4=	minecraft-merged-1.8.2-pre4.jar
 	b:
-		9384881	3Kz4bzOeruqrwcBbnn7IY01Aqz+gEbKPILJaoPig9J8=	minecraft-merged-1.8.2-pre5.jar
+		9384881	SHA256	Z5AWE+Qxy6mxDuvH2Ar5quHhjieswCw2FPK4Ze7Qc6w=	minecraft-merged-1.8.2-pre5.jar
 	cp:
-		15966	yuPeFp52le8wB5NJxeqBeQvRDATEA3GW/U/cB7bUOTQ=	netty-1.8.8.jar
-		1634692	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
-		62477	P8++MgPC6lIb92QEhP011jAxhuouCOcvAy1kDKBn/9o=	jopt-simple-4.6.jar
-		103871	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
-		5618	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
-		21679	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
-		18981	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
-		65020	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
-		1779991	UFEOnJh0tTm5jvkx/n7usAL2tbGXbqN2ablJNCYpRWE=	netty-all-4.0.23.Final.jar
-		2243036	jDaoDqYT0La4BAoXz4N8W742d7wbBqBYpsF0/beH67w=	guava-17.0.jar
-		412739	a4HRB1Ta3xhNOGARSG5lCcLMDD0zVlztT7RAK5QT1H0=	commons-lang3-3.3.2.jar
-		185140	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
-		263965	rRnSYBw6vwuUa1w6QRPiJqjB4zBeOVuQATt43ZSnI84=	commons-codec-1.9.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		190432	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
-		62879	UhUnb0ejXHzmcBMxHyb8nQlvFN+/zfcIps/yLxkn+ZQ=	authlib-1.5.17.jar
-		365552	X8oTZQP4bsxsth+9F7E31Z5WtFx6VJTmuP08q9Rpf70=	commons-compress-1.8.1.jar
-		589512	mETMm1RA1lqI0ovLqddxN00t/auJiEjNoWRhEJFjMBM=	httpclient-4.3.3.jar
-		62050	cJA/b8gumQjI2p8gRD9h2Q8IcKMSZCmR/oRioLk5F4Q=	commons-logging-1.1.3.jar
-		282269	q9AjIOI1b4nQVNrkzwIwa+8gqc94ZbOslOx1UrTxUos=	httpcore-4.3.2.jar
-		108161	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
-		681134	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
-		1045632	yGYsqd0al+x/vc4zgfJID2w7fiqQBgGK7yIegaoaNYg=	lwjgl-2.9.2-nightly-20140822.jar
-		173887	Whe1+DTHxGxPWwcb9vzfv25FLvm/bJA7rP/qgtSKVPw=	lwjgl_util-2.9.2-nightly-20140822.jar
-		55977	O5D5962Wi5WISC46Cbbn0NgcbPfCFMXOzYEg4+5Qmuk=	twitch-6.5.jar
+		15966	SHA256	yuPeFp52le8wB5NJxeqBeQvRDATEA3GW/U/cB7bUOTQ=	netty-1.8.8.jar
+		1634692	SHA256	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
+		62477	SHA256	P8++MgPC6lIb92QEhP011jAxhuouCOcvAy1kDKBn/9o=	jopt-simple-4.6.jar
+		103871	SHA256	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
+		5618	SHA256	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
+		21679	SHA256	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
+		18981	SHA256	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
+		65020	SHA256	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
+		1779991	SHA256	UFEOnJh0tTm5jvkx/n7usAL2tbGXbqN2ablJNCYpRWE=	netty-all-4.0.23.Final.jar
+		2243036	SHA256	jDaoDqYT0La4BAoXz4N8W742d7wbBqBYpsF0/beH67w=	guava-17.0.jar
+		412739	SHA256	a4HRB1Ta3xhNOGARSG5lCcLMDD0zVlztT7RAK5QT1H0=	commons-lang3-3.3.2.jar
+		185140	SHA256	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
+		263965	SHA256	rRnSYBw6vwuUa1w6QRPiJqjB4zBeOVuQATt43ZSnI84=	commons-codec-1.9.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		190432	SHA256	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
+		62879	SHA256	UhUnb0ejXHzmcBMxHyb8nQlvFN+/zfcIps/yLxkn+ZQ=	authlib-1.5.17.jar
+		365552	SHA256	X8oTZQP4bsxsth+9F7E31Z5WtFx6VJTmuP08q9Rpf70=	commons-compress-1.8.1.jar
+		589512	SHA256	mETMm1RA1lqI0ovLqddxN00t/auJiEjNoWRhEJFjMBM=	httpclient-4.3.3.jar
+		62050	SHA256	cJA/b8gumQjI2p8gRD9h2Q8IcKMSZCmR/oRioLk5F4Q=	commons-logging-1.1.3.jar
+		282269	SHA256	q9AjIOI1b4nQVNrkzwIwa+8gqc94ZbOslOx1UrTxUos=	httpcore-4.3.2.jar
+		108161	SHA256	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
+		681134	SHA256	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
+		1045632	SHA256	yGYsqd0al+x/vc4zgfJID2w7fiqQBgGK7yIegaoaNYg=	lwjgl-2.9.2-nightly-20140822.jar
+		173887	SHA256	Whe1+DTHxGxPWwcb9vzfv25FLvm/bJA7rP/qgtSKVPw=	lwjgl_util-2.9.2-nightly-20140822.jar
+		55977	SHA256	O5D5962Wi5WISC46Cbbn0NgcbPfCFMXOzYEg4+5Qmuk=	twitch-6.5.jar
 	cp a:
-		513592	nXjvm8xfkiq64zCeImB1ByJ+iNWATHnl1WORB/1FQjo=	realms-1.7.7-pre2.jar
-		1014790	wRj42EMTmA954ef3rksUsQwvIMd+pKHCn28LArwTkHc=	lwjgl-2.9.1.jar
-		173909	MtfnMAWi3AzMPGJHDENbNR9lAd6OhxjiaWBTR1RXCnc=	lwjgl_util-2.9.1.jar
+		513592	SHA256	nXjvm8xfkiq64zCeImB1ByJ+iNWATHnl1WORB/1FQjo=	realms-1.7.7-pre2.jar
+		1014790	SHA256	wRj42EMTmA954ef3rksUsQwvIMd+pKHCn28LArwTkHc=	lwjgl-2.9.1.jar
+		173909	SHA256	MtfnMAWi3AzMPGJHDENbNR9lAd6OhxjiaWBTR1RXCnc=	lwjgl_util-2.9.1.jar
 	cp b:
-		30973	J5AeXU1g01AlcdXmNY/Inj/Ph0E4tp1JXRObzD4WlAQ=	oshi-core-1.1.jar
-		1008730	O/9qFIm45UzxMDRLxeh0TbMxBFrS/HNmElduHYDrH0g=	jna-3.4.0.jar
-		913436	6onVCQyDA7pOmgBW5tiiBCnz4CFBHpUL/Z66O25s8Vw=	platform-3.4.0.jar
-		514901	VUYz5yEvKuVae/p9c8Tx9ejsb7t7iwAXREu8cJLzjKg=	realms-1.7.8-pre.jar
-		1053471	Un1Qn2ATLlsmU8f8D4zymdb2mPSoATNCvvR3BdxX7T8=	lwjgl-2.9.3.jar
-		173911	b0omE4ThaIozWUIO/OUnXIaTuCKoxuqh4g1cwSalFXE=	lwjgl_util-2.9.3.jar
-		22	hznHbmgfkAkjuQDJ3w73XPQh05yrtUZQxLmtGbanbYU=	lwjgl-platform-2.9.3.jar
+		30973	SHA256	J5AeXU1g01AlcdXmNY/Inj/Ph0E4tp1JXRObzD4WlAQ=	oshi-core-1.1.jar
+		1008730	SHA256	O/9qFIm45UzxMDRLxeh0TbMxBFrS/HNmElduHYDrH0g=	jna-3.4.0.jar
+		913436	SHA256	6onVCQyDA7pOmgBW5tiiBCnz4CFBHpUL/Z66O25s8Vw=	platform-3.4.0.jar
+		514901	SHA256	VUYz5yEvKuVae/p9c8Tx9ejsb7t7iwAXREu8cJLzjKg=	realms-1.7.8-pre.jar
+		1053471	SHA256	Un1Qn2ATLlsmU8f8D4zymdb2mPSoATNCvvR3BdxX7T8=	lwjgl-2.9.3.jar
+		173911	SHA256	b0omE4ThaIozWUIO/OUnXIaTuCKoxuqh4g1cwSalFXE=	lwjgl_util-2.9.3.jar
+		22	SHA256	hznHbmgfkAkjuQDJ3w73XPQh05yrtUZQxLmtGbanbYU=	lwjgl-platform-2.9.3.jar
 c	La;	La;
 	m	values()[La;	values()[La;
 	m	valueOf(Ljava/lang/String;)La;	valueOf(Ljava/lang/String;)La;
@@ -28447,7 +28447,7 @@ c	Lbvg;	Lawi;
 	f	i;;Lhp;	i;;Lev;
 	f	j;;J	j;;J
 	f	k;;Z	k;;Z
-cu	a	Lbvh;
+c	Lbvh;	Lawi$1;
 c	Lbvi;	Lawi$a;
 	m	<init>()V	<init>()V
 	m	a(Lces;Lces;)I	a(Lbdd;Lbdd;)I
@@ -35934,9 +35934,7 @@ c	Lciv;	Lbfe;
 		ma	3	3
 	mu	a	a(III)V
 	mu	a	b(IIII)V
-	m	a(DDDDD)V	a(DD)Lbfe;
-		ma	0	0
-		ma	1	1
+	mu	a	a(DDDDD)V
 	mu	a	a(Lcus;)V
 	m	a([I)V	a([I)V
 		ma	0	0
@@ -35993,7 +35991,9 @@ c	Lciw;	Lbfe$1;
 		ma	1	1
 	f	a;;[F	a;;[F
 	f	b;;Lciv;	b;;Lbfe;
-cu	a	Lcix;
+c	Lcix;	Lbfe$2;
+	m	<clinit>()V	<clinit>()V
+	f	a;;[I	a;;[I
 c	Lciy;	Lbfe$a;
 	m	<init>(Lciv;[ILcus;)V	<init>(Lbfe;[ILbmv;)V
 		ma	0	0
@@ -38064,7 +38064,18 @@ c	Lcmw;	Lbgr$a;
 	f	a;;Lorg/lwjgl/util/vector/Vector3f;	a;;Lorg/lwjgl/util/vector/Vector3f;
 	f	b;;Lorg/lwjgl/util/vector/Vector3f;	b;;Lorg/lwjgl/util/vector/Vector3f;
 	f	c;;Lorg/lwjgl/util/vector/Vector3f;	c;;Lorg/lwjgl/util/vector/Vector3f;
-cu	a	Lcmx;
+c	Lcmx;	Lbgs;
+	m	<init>(Lcmv;Lcmv;Lcmv;Lcmv;)V	<init>(Lbgr;Lbgr;Lbgr;Lbgr;Lbgr;Lbgr;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+	m	<clinit>()V	<clinit>()V
+	f	a;;Lcmx;	a;;Lbgs;
+	f	b;;Lcmv;	k;;Lbgr;
+	f	c;;Lcmv;	l;;Lbgr;
+	f	d;;Lcmv;	m;;Lbgr;
+	f	e;;Lcmv;	n;;Lbgr;
 c	Lcmy;	Lbgs$a;
 	m	<init>()V	<init>()V
 	m	a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcmx;	a(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lbgs;
@@ -39852,7 +39863,9 @@ c	Lcqi;	Lbji$1;
 	m	call()Ljava/lang/Object;	call()Ljava/lang/Object;
 	f	a;;Lamh;	a;;Lzy;
 	f	b;;Lcqh;	b;;Lbji;
-cu	a	Lcqj;
+c	Lcqj;	Lbgs$1;
+	m	<clinit>()V	<clinit>()V
+	f	a;;[I	a;;[I
 c	Lcqk;	Lbji$2;
 	m	<init>(Lcqh;Lamh;)V	<init>(Lbji;Lzy;)V
 		ma	0	0
@@ -42358,7 +42371,9 @@ c	Lcus;	Lbmv;
 	f	e;;I	e;;I
 	f	f;;Ljava/util/List;	f;;Ljava/util/List;
 	f	g;;I	g;;I
-cu	a	Lcut;
+c	Lcut;	Lbmv$1;
+	m	<clinit>()V	<clinit>()V
+	f	a;;[I	a;;[I
 c	Lcuu;	Lbmw;
 	m	<init>(ILcuv;Lcuw;I)V	<init>(ILbmw$a;Lbmw$b;I)V
 		ma	0	0
@@ -43952,7 +43967,18 @@ c	Lczi;	Lbqa$1;
 	m	getActualTypeArguments()[Ljava/lang/reflect/Type;	getActualTypeArguments()[Ljava/lang/reflect/Type;
 	m	getRawType()Ljava/lang/reflect/Type;	getRawType()Ljava/lang/reflect/Type;
 	m	getOwnerType()Ljava/lang/reflect/Type;	getOwnerType()Ljava/lang/reflect/Type;
-cu	a	Lczj;
+c	Lczj;	Lbqa$2;
+	m	<init>(Lczh;Ljava/lang/String;Lcyb;)V	<init>(Lbqa;Ljava/lang/String;Lbpi$a;)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+	m	a()I	a()I
+	m	b()Lcyz;	b()Lbpx;
+	m	g()Ljava/lang/Object;	g()Ljava/lang/Object;
+	f	a;;Lob;	a;;Ljz;
+	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
+	f	c;;Lcyb;	c;;Lbpi$a;
+	f	d;;Lczh;	d;;Lbqa;
 c	Lczk;	Lbqa$3;
 	m	<clinit>()V	<clinit>()V
 	f	a;;[I	a;;[I
@@ -52474,7 +52500,6 @@ c	Lorg/lwjgl/input/Mouse;	Lorg/lwjgl/input/Mouse;
 	m	<init>()V	<init>()V
 	m	isCreated()Z	isCreated()Z
 	m	getImplementation()Lorg/lwjgl/opengl/InputImplementation;	getImplementation()Lorg/lwjgl/opengl/InputImplementation;
-	m	getNativeCursor()Lorg/lwjgl/input/Cursor;	getNativeCursor()Lorg/lwjgl/input/Cursor;
 	m	setNativeCursor(Lorg/lwjgl/input/Cursor;)Lorg/lwjgl/input/Cursor;	setNativeCursor(Lorg/lwjgl/input/Cursor;)Lorg/lwjgl/input/Cursor;
 		ma	0	0
 	m	getNativeCursor()Lorg/lwjgl/input/Cursor;	getNativeCursor()Lorg/lwjgl/input/Cursor;
