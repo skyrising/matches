@@ -1,38 +1,38 @@
-Matches saved 2022-01-13, status: c:2520/2521 m:19675/19689 f:8788/8794 ma:25868/25882, input files:
+Matches saved 2023-02-14, status: c:2520/2521 m:19674/19689 f:8788/8794 ma:25868/25882, input files:
 	a:
-		7819346	ojNez7KxoDqQGyaCOI1HrzqoH+1QJLzlEsSGOUvrMmw=	minecraft-merged-14w33c.jar
+		7819346	SHA256	BqdFqGMh9fa9lfG7UxcoH495o61UDrKfoDHBtb6T46Y=	minecraft-merged-14w33c.jar
 	b:
-		7826462	9H4wv4Z2N3eljZ/qbGU9L9nqXPcc3e+/RM2uI/MjO38=	minecraft-merged-14w34a.jar
+		7826462	SHA256	kQKoN6CauEDh/h/TPDxn3b3AcA51PZ7y/qybrzdtkzE=	minecraft-merged-14w34a.jar
 	cp:
-		14725	iSInjK8Ubmy2v5Vsa/8QJJbg1y2Jr7GplIGMoRnK6Xo=	netty-1.7.7.jar
-		318956	Ca33lVuqa931ekvb+akc9pAmExSWm1mhgIXs4eBezPk=	vecmath-1.5.2.jar
-		2523218	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
-		1634692	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
-		62477	P8++MgPC6lIb92QEhP011jAxhuouCOcvAy1kDKBn/9o=	jopt-simple-4.6.jar
-		103871	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
-		5618	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
-		21679	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
-		18981	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
-		65020	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
-		1501009	i8K3GhftG1xjKbzGH6mi9/4HEHRUj6E366/sKiPUnYk=	netty-all-4.0.15.Final.jar
-		2243036	jDaoDqYT0La4BAoXz4N8W742d7wbBqBYpsF0/beH67w=	guava-17.0.jar
-		412739	a4HRB1Ta3xhNOGARSG5lCcLMDD0zVlztT7RAK5QT1H0=	commons-lang3-3.3.2.jar
-		185140	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
-		263965	rRnSYBw6vwuUa1w6QRPiJqjB4zBeOVuQATt43ZSnI84=	commons-codec-1.9.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		190432	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
-		62628	LBSXNaCTtsZaJ9t2CJatXFsG4pEAu4lpk3ZneE/vS6A=	authlib-1.5.16.jar
-		295046	wGrDjtVl92eU03OxMwYAAKl5HH+8DQLBv/bcUlkkLRk=	realms-1.5.jar
-		365552	X8oTZQP4bsxsth+9F7E31Z5WtFx6VJTmuP08q9Rpf70=	commons-compress-1.8.1.jar
-		589512	mETMm1RA1lqI0ovLqddxN00t/auJiEjNoWRhEJFjMBM=	httpclient-4.3.3.jar
-		62050	cJA/b8gumQjI2p8gRD9h2Q8IcKMSZCmR/oRioLk5F4Q=	commons-logging-1.1.3.jar
-		282269	q9AjIOI1b4nQVNrkzwIwa+8gqc94ZbOslOx1UrTxUos=	httpcore-4.3.2.jar
-		108161	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
-		681134	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
-		1014790	wRj42EMTmA954ef3rksUsQwvIMd+pKHCn28LArwTkHc=	lwjgl-2.9.1.jar
-		173909	MtfnMAWi3AzMPGJHDENbNR9lAd6OhxjiaWBTR1RXCnc=	lwjgl_util-2.9.1.jar
-		55977	O5D5962Wi5WISC46Cbbn0NgcbPfCFMXOzYEg4+5Qmuk=	twitch-6.5.jar
+		15966	SHA256	yuPeFp52le8wB5NJxeqBeQvRDATEA3GW/U/cB7bUOTQ=	netty-1.8.8.jar
+		318956	SHA256	Ca33lVuqa931ekvb+akc9pAmExSWm1mhgIXs4eBezPk=	vecmath-1.5.2.jar
+		2523218	SHA256	PIYWID1hoSp+NIfos088GYwrW6npDaDH6jLZnNSVgBI=	trove4j-3.0.3.jar
+		1634692	SHA256	FHWSxeuOEfyDlBJZVPh3rPJZGLrhOqIQwoJa78MDDtg=	icu4j-core-mojang-51.2.jar
+		62477	SHA256	P8++MgPC6lIb92QEhP011jAxhuouCOcvAy1kDKBn/9o=	jopt-simple-4.6.jar
+		103871	SHA256	bEtOUOYIdjVkr6G94tJezp3XFefJEpVA+qH63tSJZQY=	codecjorbis-20101023.jar
+		5618	SHA256	u30Xs0Cv5qvfv9qgNoO85K7zmmSIfbqwY26v888tWbo=	codecwav-20101023.jar
+		21679	SHA256	Mzu+/v9esXItybjS4mw4vGnB76B9DKhwSA8p2IWKozY=	libraryjavasound-20101123.jar
+		18981	SHA256	EH0RUJ9q9ZuMK6I9+Ci8XTxOBntY89hYx965DKUwj4Q=	librarylwjglopenal-20100824.jar
+		65020	SHA256	KILWRVAkDdDAJnJNpmTZ+X7yBckdaoUnPRB5DYhgjzQ=	soundsystem-20120107.jar
+		1501009	SHA256	i8K3GhftG1xjKbzGH6mi9/4HEHRUj6E366/sKiPUnYk=	netty-all-4.0.15.Final.jar
+		2243036	SHA256	jDaoDqYT0La4BAoXz4N8W742d7wbBqBYpsF0/beH67w=	guava-17.0.jar
+		412739	SHA256	a4HRB1Ta3xhNOGARSG5lCcLMDD0zVlztT7RAK5QT1H0=	commons-lang3-3.3.2.jar
+		185140	SHA256	zGpB3D6qzJ5ECmvQ0okLINNrTuQI/i1nEi8yi7bgFYE=	commons-io-2.4.jar
+		263965	SHA256	rRnSYBw6vwuUa1w6QRPiJqjB4zBeOVuQATt43ZSnI84=	commons-codec-1.9.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		190432	SHA256	wDKM0Hyp42OlrNAMHPSv6M9VS9bTc4NJgboFzr7Gh/s=	gson-2.2.4.jar
+		62628	SHA256	LBSXNaCTtsZaJ9t2CJatXFsG4pEAu4lpk3ZneE/vS6A=	authlib-1.5.16.jar
+		295046	SHA256	wGrDjtVl92eU03OxMwYAAKl5HH+8DQLBv/bcUlkkLRk=	realms-1.5.jar
+		365552	SHA256	X8oTZQP4bsxsth+9F7E31Z5WtFx6VJTmuP08q9Rpf70=	commons-compress-1.8.1.jar
+		589512	SHA256	mETMm1RA1lqI0ovLqddxN00t/auJiEjNoWRhEJFjMBM=	httpclient-4.3.3.jar
+		62050	SHA256	cJA/b8gumQjI2p8gRD9h2Q8IcKMSZCmR/oRioLk5F4Q=	commons-logging-1.1.3.jar
+		282269	SHA256	q9AjIOI1b4nQVNrkzwIwa+8gqc94ZbOslOx1UrTxUos=	httpcore-4.3.2.jar
+		108161	SHA256	6wypvdk4+AcRFSp1jWvDMaiw12kZnUVylNxn7QP3NJg=	log4j-api-2.0-beta9.jar
+		681134	SHA256	3N5gM7IFQz1umFXJN0D3mJUfo6PyUgNado2fNW/egG0=	log4j-core-2.0-beta9.jar
+		1014790	SHA256	wRj42EMTmA954ef3rksUsQwvIMd+pKHCn28LArwTkHc=	lwjgl-2.9.1.jar
+		173909	SHA256	MtfnMAWi3AzMPGJHDENbNR9lAd6OhxjiaWBTR1RXCnc=	lwjgl_util-2.9.1.jar
+		55977	SHA256	O5D5962Wi5WISC46Cbbn0NgcbPfCFMXOzYEg4+5Qmuk=	twitch-6.5.jar
 	cp a:
 	cp b:
 c	La;	La;
@@ -1222,7 +1222,7 @@ c	Labz;	Laca;
 	m	bB()F	bD()F
 	m	a(Lacc;)V	a(Lacd;)V
 		ma	0	0
-	m	cq()F	o(F)F
+	mu	a	cq()F
 	mu	a	o(F)V
 	m	b(D)V	b(D)V
 		ma	0	0
@@ -1262,19 +1262,13 @@ c	Labz;	Laca;
 		ma	1	1
 	m	a(Lalk;)Z	a(Laln;)Z
 		ma	0	0
-	mu	a	d(Lagx;)V
-	mu	a	a(Lagx;)Z
 	m	b(Lwr;)Labz;	b(Lws;)Laca;
 		ma	0	0
 	m	d(Lamd;)Z	d(Lamg;)Z
 		ma	0	0
-	mu	a	a(Labo;)Z
 	m	ct()I	cm()I
 	m	r(I)V	r(I)V
 		ma	0	0
-	mu	a	d_()Ljava/lang/String;
-	mu	a	m(Z)V
-	mu	a	cj()V
 	m	a(Lvt;Lxp;)Lxp;	a(Lvu;Lxq;)Lxq;
 		ma	0	0
 		ma	1	1
