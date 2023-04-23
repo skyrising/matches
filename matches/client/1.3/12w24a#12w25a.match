@@ -1,18 +1,18 @@
-Matches saved 2021-10-09, status: c:1307/1314 m:10453/10495 f:5438/5454 ma:16873/16893, input files:
+Matches saved 2023-04-24, status: c:1309/1314 m:10470/10495 f:5448/5454 ma:16879/16893, input files:
 	a:
-		4540049	pxvUUYTEszivDGDZUmgYT5Gr8MgVVhml0WxsPyNe2/4=	minecraft-client-12w24a.jar
+		4540049	SHA256	pxvUUYTEszivDGDZUmgYT5Gr8MgVVhml0WxsPyNe2/4=	minecraft-client-12w24a.jar
 	b:
-		4556548	hJYKgell03OP5LO6RJ4LeJKj3E1iKyoXO3do5bV8Qrs=	minecraft-client-12w25a.jar
+		4556548	SHA256	hJYKgell03OP5LO6RJ4LeJKj3E1iKyoXO3do5bV8Qrs=	minecraft-client-12w25a.jar
 	cp:
-		27787	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
-		61311	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
-		214592	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
-		208338	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
-		7508	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
-		994633	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
-		173360	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
-		996625	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
-		173338	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
+		27787	SHA256	yfoJ9YFfHYzlt9WaUxaLmhsKuWY+Q7JEAxE5HfenjVI=	launchwrapper-1.5.jar
+		61311	SHA256	ZDNaSL5rFCp9DBPsXIKnB4V6pYwCNObto+rKDpbupRs=	jopt-simple-4.5.jar
+		214592	SHA256	FltYOwtUhAXdlwGWZvlKhu4dHjryJ65NyCxuJ9aIW7E=	asm-all-4.1.jar
+		208338	SHA256	ebWk9YKeGkmkFXEff7jrW5rSLe+nKSn9otqW7DDT8Bg=	jinput-2.0.5.jar
+		7508	SHA256	wzNP85zwqztUklYZEBBUyQCYt8czseeDTHt15MQehKU=	jutils-1.0.0.jar
+		994633	SHA256	xftFOJb7URp/lJCQeVx5dz9tbJLk0T0fMQD0suMxRxo=	lwjgl-2.9.0.jar
+		173360	SHA256	R0wspiD0FHxy25+lgpk2iNPJvKWu2dnpN+xPqJs8L60=	lwjgl_util-2.9.0.jar
+		996625	SHA256	vL3m1bE6cVFr5C/6BAXL9D9eMqkTbqKrIbhFVEP/MHQ=	lwjgl-2.9.1-nightly-20130708-debug3.jar
+		173338	SHA256	v4+IVHKW33Q5RGEWVKFYb1U9EU2rWLjof46JgSC1dO8=	lwjgl_util-2.9.1-nightly-20130708-debug3.jar
 	cp a:
 	cp b:
 	non-obf cls a	paulscode|jcraft
@@ -1147,6 +1147,8 @@ c	Labc;	Labi;
 	f	g;;I	g;;I
 	f	h;;Z	h;;Z
 	f	i;;Z	i;;Z
+c	Labd;	Labj;
+	m	<init>()V	<init>()V
 c	Labe;	Labk;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
@@ -1714,6 +1716,9 @@ c	Lacj;	Lacp;
 		ma	3	3
 		ma	4	4
 		ma	5	5
+	mu	a	a()V
+	mu	a	b()V
+	mu	a	b(DDDDDD)Lacj;
 	m	<init>(DDDDDD)V	<init>(DDDDDD)V
 		ma	0	0
 		ma	1	1
@@ -2668,6 +2673,21 @@ c	Lacv;	Ladb;
 	f	G;;[I	F;;[I
 	f	N;;Ljava/util/List;	M;;Ljava/util/List;
 	f	H;;Z	G;;Z
+c	Lacw;	Ladc;
+	m	<init>(Lga;)V	<init>(Lga;)V
+		ma	0	0
+	m	a()Z	a()Z
+	m	c()V	c()V
+	m	d()V	d()V
+	m	b()Z	b()Z
+	m	e()V	e()V
+	m	h()Z	h()Z
+	m	i()V	i()V
+	f	b;;Lga;	b;;Lga;
+	f	c;;Lga;	c;;Lga;
+	f	d;;Lacv;	d;;Ladb;
+	f	e;;I	e;;I
+	f	a;;Lnd;	a;;Lng;
 c	Lacx;	Ladd;
 c	Lacy;	Lade;
 	m	<init>()V	<init>()V
@@ -2733,6 +2753,9 @@ c	Lada;	Ladg;
 	m	c()V	c()V
 	m	g()V	g()V
 	m	m()V	m()V
+	m	a(Lmz;Ljava/lang/String;)Ljava/lang/String;	a(Lnc;Ljava/lang/String;)Ljava/lang/String;
+		ma	0	0
+		ma	1	1
 	m	e()V	e()V
 	m	a(Lahu;)V	a(Lahz;)V
 		ma	0	0
@@ -4615,6 +4638,8 @@ c	Lafa;	Lafg;
 		ma	0	0
 	f	a;;Ljava/lang/String;	a;;Ljava/lang/String;
 	f	b;;Ljava/lang/String;	b;;Ljava/lang/String;
+	f	c;;Ljava/lang/String;	c;;Ljava/lang/String;
+	f	d;;Ljava/lang/String;	d;;Ljava/lang/String;
 	f	e;;J	e;;J
 	f	f;;Z	f;;Z
 	f	g;;Z	g;;Z
@@ -5368,6 +5393,8 @@ c	Lagl;	Lagr;
 	f	h;;Ljava/util/List;	h;;Ljava/util/List;
 	f	j;;Ljava/util/Map;	j;;Ljava/util/Map;
 	f	i;;Ljava/util/List;	i;;Ljava/util/List;
+cu	a	Lagm;
+cu	a	Lagn;
 c	Lago;	Lagt;
 	m	<init>(Laeu;)V	<init>(Lafa;)V
 		ma	0	0
@@ -8057,6 +8084,8 @@ c	Lajm;	Lajs;
 	m	a(Lase;[Ljava/lang/String;)V	a(Lasj;[Ljava/lang/String;)V
 		ma	0	0
 		ma	1	1
+	m	a(Lvs;)V	a(Lvw;)V
+		ma	0	0
 c	Lajn;	Lajt;
 	m	<init>(Lahs;)V	<init>(Lahx;)V
 		ma	0	0
@@ -9927,6 +9956,7 @@ c	Lams;	Lamy;
 	m	c(Ljava/lang/Object;)Z	c(Ljava/lang/Object;)Z
 		ma	0	0
 	f	a;;I	a;;I
+cu	a	Lamt;
 c	Lamu;	Lamz;
 	m	<init>(Lpb;)V	<init>(Lpe;)V
 		ma	0	0
@@ -10306,6 +10336,7 @@ c	Lann;	Lans;
 		ma	1	1
 		ma	2	2
 		ma	3	3
+		ma	4	4
 		ma	5	5
 	m	a(Ljava/io/DataInputStream;)V	a(Ljava/io/DataInputStream;)V
 		ma	0	0
@@ -10321,6 +10352,7 @@ c	Lann;	Lans;
 	f	b;;D	b;;D
 	f	c;;D	c;;D
 	f	d;;F	d;;F
+	f	e;;Ljava/util/Set;	e;;Ljava/util/List;
 	f	f;;F	f;;F
 	f	g;;F	g;;F
 	f	h;;F	h;;F
@@ -10639,6 +10671,8 @@ c	Lanv;	Laoa;
 		ma	3	3
 		ma	4	4
 		ma	5	5
+cu	a	Lanw;
+cu	a	Lanx;
 c	Lany;	Laoc;
 	m	<init>()V	<init>()V
 	m	a()Ljava/lang/String;	a()Ljava/lang/String;
@@ -12322,6 +12356,7 @@ c	Laqx;	Larb;
 	m	ae()Lald;	ae()Lalj;
 	m	a(Lnt;)V	a(Lnw;)V
 		ma	0	0
+	m	ad()Ljava/lang/String;	a(Lvw;Z)Ljava/lang/String;
 	m	af()Z	af()Z
 	m	aa()Lfd;	ab()Lfd;
 	f	k;;Lnet/minecraft/client/Minecraft;	k;;Lnet/minecraft/client/Minecraft;
@@ -15334,6 +15369,9 @@ c	Lco;	Lco;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	mu	a	a()V
+	mu	a	b()V
+	mu	a	b(DDD)Lco;
 	m	<init>(DDD)V	<init>(DDD)V
 		ma	0	0
 		ma	1	1
@@ -21687,6 +21725,8 @@ c	Llc;	Lle;
 	f	j;;I	j;;I
 	f	f;;I	f;;I
 	f	g;;I	g;;I
+	f	k;;I	k;;I
+	f	l;;I	l;;I
 	f	m;;F	m;;F
 	f	n;;F	n;;F
 	f	o;;F	o;;F
@@ -26121,6 +26161,7 @@ c	Lpj;	Lpm;
 		ma	0	0
 		ma	1	1
 	m	g()V	h()V
+	m	h()V	a(Z)V
 	m	ae()V	i()V
 	m	i()Ljava/lang/String;	j()Ljava/lang/String;
 	m	d(Ljava/lang/String;)V	e(Ljava/lang/String;)V
@@ -26236,6 +26277,7 @@ c	Lpj;	Lpm;
 	m	aa()Lfd;	ab()Lfd;
 	m	ab()Z	ac()Z
 	m	ac()Z	ad()Z
+	m	ad()Ljava/lang/String;	a(Lvw;Z)Ljava/lang/String;
 	m	a(Lpj;)Lhw;	a(Lpm;)Lhx;
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
@@ -27495,6 +27537,7 @@ c	Lra;	Lrd;
 	f	g;;I	g;;I
 	f	h;;I	h;;I
 	f	i;;Z	i;;Z
+	fu	a	a;;Z
 	f	b;;I	b;;I
 	f	c;;Lrb;	c;;Lre;
 	f	ar;;I	ar;;I
@@ -29306,6 +29349,7 @@ c	Ltc;	Ltf;
 	m	c(F)Ltc;	c(F)Ltf;
 		ma	0	0
 	m	m()Ltc;	m()Ltf;
+	m	n()F	i(Ladb;III)F
 	m	a(Z)Ltc;	a(Z)Ltf;
 		ma	0	0
 	m	o()Z	n()Z
@@ -29416,6 +29460,8 @@ c	Ltc;	Ltf;
 		ma	0	0
 		ma	1	1
 		ma	2	2
+	m	a(Laeu;)F	a(Lafa;Ladb;III)F
+		ma	0	0
 	m	b(Lacv;IIIII)V	b(Ladb;IIIII)V
 		ma	0	0
 		ma	1	1
@@ -31656,6 +31702,7 @@ c	Lwb;	Lwf;
 	f	b;;I	b;;I
 	f	c;;I	c;;I
 	f	d;;I	d;;I
+	fu	a	e;;I
 	f	f;;I	f;;I
 c	Lwc;	Lwg;
 	m	<init>(I)V	<init>(I)V
@@ -33497,6 +33544,7 @@ c	Lzd;	Lzj;
 	m	ag()V	ag()V
 	m	ah()Ljava/lang/String;	ah()Ljava/lang/String;
 	m	ac()Z	ad()Z
+	m	ad()Ljava/lang/String;	a(Lvw;Z)Ljava/lang/String;
 	m	Z()Lhw;	aa()Lhx;
 	f	k;;Ljava/util/List;	k;;Ljava/util/List;
 	f	l;;Lsj;	l;;Lsm;
