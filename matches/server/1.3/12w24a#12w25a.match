@@ -1,4 +1,4 @@
-Matches saved 2022-02-24, status: c:887/891 m:6671/6688 f:3216/3220 ma:10428/10438, input files:
+Matches saved 2023-04-24, status: c:887/891 m:6671/6688 f:3213/3220 ma:10428/10438, input files:
 	a:
 		1770012	SHA256	AjDmV9whWAPt4A3HlEooo+ip9BnpwBRE0ZKR2bR4cJ4=	minecraft-server-12w24a.jar
 	b:
@@ -4902,7 +4902,8 @@ c	Lbx;	Lbx;
 	m	b(F)V	b(F)V
 		ma	0	0
 	m	<clinit>()V	<clinit>()V
-	f	d;;Ljava/lang/ThreadLocal;	d;;Ljava/lang/ThreadLocal;
+	fu	a	d;;Ljava/lang/ThreadLocal;
+	fu	a	e;;Ljava/lang/ThreadLocal;
 	f	a;;D	a;;D
 	f	b;;D	b;;D
 	f	c;;D	c;;D
@@ -13648,7 +13649,7 @@ c	Lpr;	Lpt;
 	f	b;;I	b;;I
 	f	c;;I	c;;I
 	f	d;;I	d;;I
-	f	e;;I	e;;F
+	fu	a	e;;I
 	f	f;;I	f;;I
 c	Lps;	Lpu;
 	m	<init>()V	<init>()V
@@ -16080,7 +16081,8 @@ c	Lue;	Lug;
 		ma	0	0
 	m	toString()Ljava/lang/String;	toString()Ljava/lang/String;
 	m	<clinit>()V	<clinit>()V
-	f	g;;Ljava/lang/ThreadLocal;	g;;Ljava/lang/ThreadLocal;
+	fu	a	g;;Ljava/lang/ThreadLocal;
+	fu	a	h;;Ljava/lang/ThreadLocal;
 	f	a;;D	a;;D
 	f	b;;D	b;;D
 	f	c;;D	c;;D
