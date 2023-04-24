@@ -1,4 +1,4 @@
-Matches saved 2023-04-24, status: c:542/542 m:4135/4161 f:2604/2604 ma:7073/7204, input files:
+Matches saved 2023-04-24, status: c:542/542 m:4158/4161 f:2604/2604 ma:7188/7204, input files:
 	a:
 		1129183	SHA256	guKNJbSTrelozAAV5bHC6RRbu+JH1/HqfWA+fd/gVr0=	minecraft-client-b1.0.2.jar
 	b:
@@ -282,7 +282,6 @@ c	Lan;	Lan;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Ldd;IIII)V
 	mu	a	g(Ldd;IIII)Z
 	mu	a	a(Ldd;IIIII)Z
 	m	a(Ldd;IIILjava/util/Random;)V	a(Ldd;IIILjava/util/Random;)V
@@ -480,7 +479,12 @@ c	Las;	Las;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	a(Ldd;IIILjava/util/Random;)V	a(Ldd;IIILjava/util/Random;)V
 		ma	0	0
 		ma	1	1
@@ -1133,7 +1137,12 @@ c	Lbq;	Lbq;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	c(Ldd;IIII)Z	c(Ldd;IIII)Z
 		ma	0	0
 		ma	1	1
@@ -1472,7 +1481,12 @@ c	Lcd;	Lcd;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	a(Ljava/util/Random;)I	a(Ljava/util/Random;)I
 		ma	0	0
 c	Lce;	Lce;
@@ -4098,7 +4112,12 @@ c	Lec;	Led;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	a(Ldd;IIILjava/util/Random;)V	a(Ldd;IIILjava/util/Random;)V
 		ma	0	0
 		ma	1	1
@@ -5639,7 +5658,12 @@ c	Lgi;	Lgj;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	h(Ldd;III)Z	h(Ldd;III)Z
 		ma	0	0
 		ma	1	1
@@ -6143,7 +6167,12 @@ c	Lhf;	Lhg;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	a(ILjava/util/Random;)I	a(ILjava/util/Random;)I
 		ma	0	0
 		ma	1	1
@@ -7377,7 +7406,12 @@ c	Lje;	Ljf;
 	m	<init>(ILhl;)V	<init>(ILhm;)V
 		ma	0	0
 		ma	1	1
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	j(Ldd;III)V	j(Ldd;III)V
 		ma	0	0
 		ma	1	1
@@ -7627,7 +7661,12 @@ c	Ljl;	Ljm;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	h(Ldd;III)Z	h(Ldd;III)Z
 		ma	0	0
 		ma	1	1
@@ -7838,7 +7877,12 @@ c	Ljs;	Ljt;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	g(Ldd;III)Z	g(Ldd;III)Z
 		ma	0	0
 		ma	1	1
@@ -8011,7 +8055,12 @@ c	Lkb;	Lkc;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	h(Ldd;III)V	h(Ldd;III)V
 		ma	0	0
 		ma	1	1
@@ -8806,7 +8855,12 @@ c	Llp;	Llq;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	h(Ldd;III)V	h(Ldd;III)V
 		ma	0	0
 		ma	1	1
@@ -8950,7 +9004,12 @@ c	Llt;	Llu;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	j(Ldd;III)V	j(Ldd;III)V
 		ma	0	0
 		ma	1	1
@@ -9283,7 +9342,12 @@ c	Lml;	Lmm;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	a(ILjava/util/Random;)I	a(ILjava/util/Random;)I
 		ma	0	0
 		ma	1	1
@@ -10574,7 +10638,12 @@ c	Lnx;	Lny;
 	m	a(ILjava/util/Random;)I	a(ILjava/util/Random;)I
 		ma	0	0
 		ma	1	1
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	f	a;;Ljava/lang/Class;	a;;Ljava/lang/Class;
 	f	b;;Z	b;;Z
 c	Lny;	Lnz;
@@ -10787,7 +10856,12 @@ c	Lof;	Log;
 		ma	2	2
 		ma	3	3
 		ma	4	4
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	d()I	d()I
 	m	e(Ldd;III)V	e(Ldd;III)V
 		ma	0	0
@@ -11223,7 +11297,12 @@ c	Lop;	Loq;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	a(ILjava/util/Random;)I	a(ILjava/util/Random;)I
 		ma	0	0
 		ma	1	1
@@ -11261,7 +11340,12 @@ c	Loq;	Lor;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	h(Ldd;III)Z	h(Ldd;III)Z
 		ma	0	0
 		ma	1	1
@@ -11472,7 +11556,12 @@ c	Loz;	Lpa;
 		ma	3	3
 	m	b(I)Z	b(I)Z
 		ma	0	0
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	a(Ldd;IIILjava/util/Random;)V	a(Ldd;IIILjava/util/Random;)V
 		ma	0	0
 		ma	1	1
@@ -13614,7 +13703,12 @@ c	Lqa;	Lqb;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	h(Ldd;III)Z	h(Ldd;III)Z
 		ma	0	0
 		ma	1	1
@@ -14154,7 +14248,12 @@ c	Lqv;	Lqw;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	e(Ldd;III)V	e(Ldd;III)V
 		ma	0	0
 		ma	1	1
@@ -14187,7 +14286,12 @@ c	Lqx;	Lqy;
 	m	a(I)I	a(I)I
 		ma	0	0
 	m	a()Z	a()Z
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	e(Ldd;III)V	e(Ldd;III)V
 		ma	0	0
 		ma	1	1
@@ -14330,7 +14434,12 @@ c	Lw;	Lw;
 		ma	1	1
 	m	a(I)I	a(I)I
 		ma	0	0
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	a(Ljava/util/Random;)I	a(Ljava/util/Random;)I
 		ma	0	0
 	m	c(Ldd;III)V	c(Ldd;III)V
@@ -14371,7 +14480,12 @@ c	Ly;	Ly;
 		ma	1	1
 		ma	2	2
 		ma	3	3
-	mu	a	a(Ldd;IIII)V
+	m	a(Ldd;IIII)V	a(Ldd;IIII)V
+		ma	0	0
+		ma	1	1
+		ma	2	2
+		ma	3	3
+		ma	4	4
 	m	b(Lpz;IIII)Z	b(Lqa;IIII)Z
 		ma	0	0
 		ma	1	1
