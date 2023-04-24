@@ -1,8 +1,8 @@
-Matches saved auto-generated
+Matches saved 2023-04-24, status: c:358/359 m:2619/2639 f:1391/1410 ma:4369/4407, input files:
 	a:
-		minecraft-server-b1.2_01.jar
+		382946	SHA256	PyZUSfWkSg4HQPaIh6JBEk7/zmwaRtkihIvcCBzLOOU=	minecraft-server-b1.2_01.jar
 	b:
-		minecraft-server-b1.3-1731.jar
+		410516	SHA256	TKwgcgC9BYtu7p2rb/xQzitkzaM60qZSMbKmjq71Nvg=	minecraft-server-b1.3-1731.jar
 	cp:
 	cp a:
 	cp b:
