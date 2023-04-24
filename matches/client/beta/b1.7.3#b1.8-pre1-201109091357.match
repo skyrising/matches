@@ -1,4 +1,4 @@
-Matches saved 2023-04-24, status: c:737/747 m:5794/5868 f:3295/3345 ma:9499/9688, input files:
+Matches saved 2023-04-24, status: c:737/747 m:5793/5868 f:3295/3345 ma:9496/9688, input files:
 	a:
 		1465375	SHA256	rx+gS4AG0+94x+JPjeSqVvQ5p01/MUgnUpBi1bq220w=	minecraft-client-b1.7.3.jar
 	b:
@@ -1155,10 +1155,6 @@ c	Lbz;	Lay;
 	m	<init>(II)V	<init>(II)V
 		ma	0	0
 		ma	1	1
-	m	a(Liz;Lfd;Lgs;)Liz;	b(Lul;Lru;Lsz;)Lul;
-		ma	0	0
-		ma	1	1
-		ma	2	2
 c	Lc;	Lc;
 	m	<init>(Lfd;DDD)V	<init>(Lru;DDD)V
 		ma	0	0
@@ -19380,7 +19376,7 @@ c	Lyw;	Ladz;
 		ma	0	0
 		ma	1	1
 		ma	2	2
-	m	a(Liz;Lfd;Lgs;)Liz;	b(Lul;Lru;Lsz;)Lul;
+	m	a(Liz;Lfd;Lgs;)Liz;	a(Lul;Lru;Lsz;)Lul;
 		ma	0	0
 		ma	1	1
 		ma	2	2
